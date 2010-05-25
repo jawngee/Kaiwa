@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		FC59806411A5FBB000453F68 /* ThreadPoolServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59802F11A5FBB000453F68 /* ThreadPoolServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59806511A5FBB000453F68 /* ThreadPoolServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59803011A5FBB000453F68 /* ThreadPoolServer.m */; };
+		FC59806611A5FBB000453F68 /* ThreadPerConnectionServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59803111A5FBB000453F68 /* ThreadPerConnectionServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59806711A5FBB000453F68 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59803211A5FBB000453F68 /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59806811A5FBB000453F68 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59803311A5FBB000453F68 /* HTTPAuthenticationRequest.m */; };
+		FC59806911A5FBB000453F68 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59803411A5FBB000453F68 /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59806A11A5FBB000453F68 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59803511A5FBB000453F68 /* HTTPServer.m */; };
+		FC59806B11A5FBB000453F68 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59803611A5FBB000453F68 /* HTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59806C11A5FBB000453F68 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59803711A5FBB000453F68 /* HTTPConnection.m */; };
+		FC59806D11A5FBB000453F68 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59803811A5FBB000453F68 /* HTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59806E11A5FBB000453F68 /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59803911A5FBB000453F68 /* HTTPResponse.m */; };
+		FC59806F11A5FBB000453F68 /* ThreadPerConnectionServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59803A11A5FBB000453F68 /* ThreadPerConnectionServer.m */; };
+		FC59807011A5FBB000453F68 /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59803C11A5FBB000453F68 /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59807111A5FBB000453F68 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59803D11A5FBB000453F68 /* HTTPAsyncFileResponse.m */; };
+		FC59807211A5FBB000453F68 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59803F11A5FBB000453F68 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59807311A5FBB000453F68 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59804011A5FBB000453F68 /* AsyncSocket.m */; };
+		FC59807411A5FBB000453F68 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59804211A5FBB000453F68 /* DDNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59807511A5FBB000453F68 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59804311A5FBB000453F68 /* DDNumber.m */; };
+		FC59807611A5FBB000453F68 /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59804411A5FBB000453F68 /* DDRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59807711A5FBB000453F68 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59804511A5FBB000453F68 /* DDRange.m */; };
+		FC59807811A5FBB000453F68 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59804611A5FBB000453F68 /* DDData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59807911A5FBB000453F68 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59804711A5FBB000453F68 /* DDData.m */; };
+		FC59807A11A5FBB000453F68 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59804811A5FBB000453F68 /* NSString+URLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59807B11A5FBB000453F68 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59804911A5FBB000453F68 /* NSString+URLEncode.m */; };
+		FC59807C11A5FBB000453F68 /* NSDictionary+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59804A11A5FBB000453F68 /* NSDictionary+URLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59807D11A5FBB000453F68 /* NSDictionary+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59804B11A5FBB000453F68 /* NSDictionary+URLEncode.m */; };
+		FC59807E11A5FBB000453F68 /* SSCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59804D11A5FBB000453F68 /* SSCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59807F11A5FBB000453F68 /* SSCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59804E11A5FBB000453F68 /* SSCrypto.m */; };
+		FC59808011A5FBB000453F68 /* AGRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59805011A5FBB000453F68 /* AGRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59808111A5FBB000453F68 /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59805111A5FBB000453F68 /* AGRegex.m */; };
+		FC59808211A5FBB000453F68 /* Kaiwa.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59805311A5FBB000453F68 /* Kaiwa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59808311A5FBB000453F68 /* KaiwaDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59805411A5FBB000453F68 /* KaiwaDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59808411A5FBB000453F68 /* KaiwaDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59805511A5FBB000453F68 /* KaiwaDispatcher.m */; };
+		FC59808511A5FBB000453F68 /* KaiwaRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59805611A5FBB000453F68 /* KaiwaRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59808611A5FBB000453F68 /* KaiwaRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59805711A5FBB000453F68 /* KaiwaRequest.m */; };
+		FC59808711A5FBB000453F68 /* KaiwaResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59805811A5FBB000453F68 /* KaiwaResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59808811A5FBB000453F68 /* KaiwaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59805911A5FBB000453F68 /* KaiwaResponse.m */; };
+		FC59808911A5FBB000453F68 /* KaiwaRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59805A11A5FBB000453F68 /* KaiwaRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59808A11A5FBB000453F68 /* KaiwaRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59805B11A5FBB000453F68 /* KaiwaRoute.m */; };
+		FC59808B11A5FBB000453F68 /* KaiwaRewrite.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59805C11A5FBB000453F68 /* KaiwaRewrite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59808C11A5FBB000453F68 /* KaiwaRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59805D11A5FBB000453F68 /* KaiwaRewrite.m */; };
+		FC59808D11A5FBB000453F68 /* KaiwaFilePath.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59805E11A5FBB000453F68 /* KaiwaFilePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59808E11A5FBB000453F68 /* KaiwaFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59805F11A5FBB000453F68 /* KaiwaFilePath.m */; };
+		FC59808F11A5FBB000453F68 /* KaiwaConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59806011A5FBB000453F68 /* KaiwaConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59809011A5FBB000453F68 /* KaiwaConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59806111A5FBB000453F68 /* KaiwaConnection.m */; };
+		FC59809111A5FBB000453F68 /* KaiwaController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC59806211A5FBB000453F68 /* KaiwaController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC59809211A5FBB000453F68 /* KaiwaController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59806311A5FBB000453F68 /* KaiwaController.m */; };
+		FC59809F11A5FCD700453F68 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC59809C11A5FCD700453F68 /* libcrypto.dylib */; };
+		FC5980A011A5FCD700453F68 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC59809D11A5FCD700453F68 /* libz.dylib */; };
+		FC5980A111A5FCD700453F68 /* libpcre.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC59809E11A5FCD700453F68 /* libpcre.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* Kaiwa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kaiwa_Prefix.pch; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* Kaiwa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kaiwa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		FC59802F11A5FBB000453F68 /* ThreadPoolServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPoolServer.h; sourceTree = "<group>"; };
+		FC59803011A5FBB000453F68 /* ThreadPoolServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPoolServer.m; sourceTree = "<group>"; };
+		FC59803111A5FBB000453F68 /* ThreadPerConnectionServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPerConnectionServer.h; sourceTree = "<group>"; };
+		FC59803211A5FBB000453F68 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		FC59803311A5FBB000453F68 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		FC59803411A5FBB000453F68 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		FC59803511A5FBB000453F68 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		FC59803611A5FBB000453F68 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		FC59803711A5FBB000453F68 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		FC59803811A5FBB000453F68 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		FC59803911A5FBB000453F68 /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponse.m; sourceTree = "<group>"; };
+		FC59803A11A5FBB000453F68 /* ThreadPerConnectionServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPerConnectionServer.m; sourceTree = "<group>"; };
+		FC59803C11A5FBB000453F68 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		FC59803D11A5FBB000453F68 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		FC59803F11A5FBB000453F68 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		FC59804011A5FBB000453F68 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		FC59804211A5FBB000453F68 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		FC59804311A5FBB000453F68 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		FC59804411A5FBB000453F68 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		FC59804511A5FBB000453F68 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		FC59804611A5FBB000453F68 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		FC59804711A5FBB000453F68 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		FC59804811A5FBB000453F68 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		FC59804911A5FBB000453F68 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		FC59804A11A5FBB000453F68 /* NSDictionary+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLEncode.h"; sourceTree = "<group>"; };
+		FC59804B11A5FBB000453F68 /* NSDictionary+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncode.m"; sourceTree = "<group>"; };
+		FC59804D11A5FBB000453F68 /* SSCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCrypto.h; sourceTree = "<group>"; };
+		FC59804E11A5FBB000453F68 /* SSCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCrypto.m; sourceTree = "<group>"; };
+		FC59805011A5FBB000453F68 /* AGRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGRegex.h; sourceTree = "<group>"; };
+		FC59805111A5FBB000453F68 /* AGRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGRegex.m; sourceTree = "<group>"; };
+		FC59805311A5FBB000453F68 /* Kaiwa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kaiwa.h; sourceTree = "<group>"; };
+		FC59805411A5FBB000453F68 /* KaiwaDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaDispatcher.h; sourceTree = "<group>"; };
+		FC59805511A5FBB000453F68 /* KaiwaDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaDispatcher.m; sourceTree = "<group>"; };
+		FC59805611A5FBB000453F68 /* KaiwaRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRequest.h; sourceTree = "<group>"; };
+		FC59805711A5FBB000453F68 /* KaiwaRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRequest.m; sourceTree = "<group>"; };
+		FC59805811A5FBB000453F68 /* KaiwaResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaResponse.h; sourceTree = "<group>"; };
+		FC59805911A5FBB000453F68 /* KaiwaResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaResponse.m; sourceTree = "<group>"; };
+		FC59805A11A5FBB000453F68 /* KaiwaRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRoute.h; sourceTree = "<group>"; };
+		FC59805B11A5FBB000453F68 /* KaiwaRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRoute.m; sourceTree = "<group>"; };
+		FC59805C11A5FBB000453F68 /* KaiwaRewrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRewrite.h; sourceTree = "<group>"; };
+		FC59805D11A5FBB000453F68 /* KaiwaRewrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRewrite.m; sourceTree = "<group>"; };
+		FC59805E11A5FBB000453F68 /* KaiwaFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaFilePath.h; sourceTree = "<group>"; };
+		FC59805F11A5FBB000453F68 /* KaiwaFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaFilePath.m; sourceTree = "<group>"; };
+		FC59806011A5FBB000453F68 /* KaiwaConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaConnection.h; sourceTree = "<group>"; };
+		FC59806111A5FBB000453F68 /* KaiwaConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaConnection.m; sourceTree = "<group>"; };
+		FC59806211A5FBB000453F68 /* KaiwaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaController.h; sourceTree = "<group>"; };
+		FC59806311A5FBB000453F68 /* KaiwaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaController.m; sourceTree = "<group>"; };
+		FC59809C11A5FCD700453F68 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		FC59809D11A5FCD700453F68 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FC59809E11A5FCD700453F68 /* libpcre.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpcre.dylib; path = /usr/local/lib/libpcre.dylib; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				FC59809F11A5FCD700453F68 /* libcrypto.dylib in Frameworks */,
+				FC5980A011A5FCD700453F68 /* libz.dylib in Frameworks */,
+				FC5980A111A5FCD700453F68 /* libpcre.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* Kaiwa.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Kaiwa */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Sources */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = Kaiwa;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FC59805211A5FBB000453F68 /* Kaiwa */,
+				FC59804F11A5FBB000453F68 /* AGRegex */,
+				FC59802D11A5FBB000453F68 /* HTTP */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC59809C11A5FCD700453F68 /* libcrypto.dylib */,
+				FC59809D11A5FCD700453F68 /* libz.dylib */,
+				FC59809E11A5FCD700453F68 /* libpcre.dylib */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* Kaiwa_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FC59802D11A5FBB000453F68 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FC59804C11A5FBB000453F68 /* SSCrypto */,
+				FC59804111A5FBB000453F68 /* Categories */,
+				FC59803E11A5FBB000453F68 /* TCP */,
+				FC59802E11A5FBB000453F68 /* HTTP */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
+		FC59802E11A5FBB000453F68 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FC59803B11A5FBB000453F68 /* Advanced */,
+				FC59802F11A5FBB000453F68 /* ThreadPoolServer.h */,
+				FC59803011A5FBB000453F68 /* ThreadPoolServer.m */,
+				FC59803111A5FBB000453F68 /* ThreadPerConnectionServer.h */,
+				FC59803211A5FBB000453F68 /* HTTPAuthenticationRequest.h */,
+				FC59803311A5FBB000453F68 /* HTTPAuthenticationRequest.m */,
+				FC59803411A5FBB000453F68 /* HTTPServer.h */,
+				FC59803511A5FBB000453F68 /* HTTPServer.m */,
+				FC59803611A5FBB000453F68 /* HTTPConnection.h */,
+				FC59803711A5FBB000453F68 /* HTTPConnection.m */,
+				FC59803811A5FBB000453F68 /* HTTPResponse.h */,
+				FC59803911A5FBB000453F68 /* HTTPResponse.m */,
+				FC59803A11A5FBB000453F68 /* ThreadPerConnectionServer.m */,
+			);
+			name = HTTP;
+			sourceTree = "<group>";
+		};
+		FC59803B11A5FBB000453F68 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				FC59803C11A5FBB000453F68 /* HTTPAsyncFileResponse.h */,
+				FC59803D11A5FBB000453F68 /* HTTPAsyncFileResponse.m */,
+			);
+			name = Advanced;
+			sourceTree = "<group>";
+		};
+		FC59803E11A5FBB000453F68 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				FC59803F11A5FBB000453F68 /* AsyncSocket.h */,
+				FC59804011A5FBB000453F68 /* AsyncSocket.m */,
+			);
+			name = TCP;
+			sourceTree = "<group>";
+		};
+		FC59804111A5FBB000453F68 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FC59804211A5FBB000453F68 /* DDNumber.h */,
+				FC59804311A5FBB000453F68 /* DDNumber.m */,
+				FC59804411A5FBB000453F68 /* DDRange.h */,
+				FC59804511A5FBB000453F68 /* DDRange.m */,
+				FC59804611A5FBB000453F68 /* DDData.h */,
+				FC59804711A5FBB000453F68 /* DDData.m */,
+				FC59804811A5FBB000453F68 /* NSString+URLEncode.h */,
+				FC59804911A5FBB000453F68 /* NSString+URLEncode.m */,
+				FC59804A11A5FBB000453F68 /* NSDictionary+URLEncode.h */,
+				FC59804B11A5FBB000453F68 /* NSDictionary+URLEncode.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FC59804C11A5FBB000453F68 /* SSCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				FC59804D11A5FBB000453F68 /* SSCrypto.h */,
+				FC59804E11A5FBB000453F68 /* SSCrypto.m */,
+			);
+			name = SSCrypto;
+			sourceTree = "<group>";
+		};
+		FC59804F11A5FBB000453F68 /* AGRegex */ = {
+			isa = PBXGroup;
+			children = (
+				FC59805011A5FBB000453F68 /* AGRegex.h */,
+				FC59805111A5FBB000453F68 /* AGRegex.m */,
+			);
+			name = AGRegex;
+			sourceTree = "<group>";
+		};
+		FC59805211A5FBB000453F68 /* Kaiwa */ = {
+			isa = PBXGroup;
+			children = (
+				FC59805311A5FBB000453F68 /* Kaiwa.h */,
+				FC59805411A5FBB000453F68 /* KaiwaDispatcher.h */,
+				FC59805511A5FBB000453F68 /* KaiwaDispatcher.m */,
+				FC59805611A5FBB000453F68 /* KaiwaRequest.h */,
+				FC59805711A5FBB000453F68 /* KaiwaRequest.m */,
+				FC59805811A5FBB000453F68 /* KaiwaResponse.h */,
+				FC59805911A5FBB000453F68 /* KaiwaResponse.m */,
+				FC59805A11A5FBB000453F68 /* KaiwaRoute.h */,
+				FC59805B11A5FBB000453F68 /* KaiwaRoute.m */,
+				FC59805C11A5FBB000453F68 /* KaiwaRewrite.h */,
+				FC59805D11A5FBB000453F68 /* KaiwaRewrite.m */,
+				FC59805E11A5FBB000453F68 /* KaiwaFilePath.h */,
+				FC59805F11A5FBB000453F68 /* KaiwaFilePath.m */,
+				FC59806011A5FBB000453F68 /* KaiwaConnection.h */,
+				FC59806111A5FBB000453F68 /* KaiwaConnection.m */,
+				FC59806211A5FBB000453F68 /* KaiwaController.h */,
+				FC59806311A5FBB000453F68 /* KaiwaController.m */,
+			);
+			name = Kaiwa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC59806411A5FBB000453F68 /* ThreadPoolServer.h in Headers */,
+				FC59806611A5FBB000453F68 /* ThreadPerConnectionServer.h in Headers */,
+				FC59806711A5FBB000453F68 /* HTTPAuthenticationRequest.h in Headers */,
+				FC59806911A5FBB000453F68 /* HTTPServer.h in Headers */,
+				FC59806B11A5FBB000453F68 /* HTTPConnection.h in Headers */,
+				FC59806D11A5FBB000453F68 /* HTTPResponse.h in Headers */,
+				FC59807011A5FBB000453F68 /* HTTPAsyncFileResponse.h in Headers */,
+				FC59807211A5FBB000453F68 /* AsyncSocket.h in Headers */,
+				FC59807411A5FBB000453F68 /* DDNumber.h in Headers */,
+				FC59807611A5FBB000453F68 /* DDRange.h in Headers */,
+				FC59807811A5FBB000453F68 /* DDData.h in Headers */,
+				FC59807A11A5FBB000453F68 /* NSString+URLEncode.h in Headers */,
+				FC59807C11A5FBB000453F68 /* NSDictionary+URLEncode.h in Headers */,
+				FC59807E11A5FBB000453F68 /* SSCrypto.h in Headers */,
+				FC59808011A5FBB000453F68 /* AGRegex.h in Headers */,
+				FC59808211A5FBB000453F68 /* Kaiwa.h in Headers */,
+				FC59808311A5FBB000453F68 /* KaiwaDispatcher.h in Headers */,
+				FC59808511A5FBB000453F68 /* KaiwaRequest.h in Headers */,
+				FC59808711A5FBB000453F68 /* KaiwaResponse.h in Headers */,
+				FC59808911A5FBB000453F68 /* KaiwaRoute.h in Headers */,
+				FC59808B11A5FBB000453F68 /* KaiwaRewrite.h in Headers */,
+				FC59808D11A5FBB000453F68 /* KaiwaFilePath.h in Headers */,
+				FC59808F11A5FBB000453F68 /* KaiwaConnection.h in Headers */,
+				FC59809111A5FBB000453F68 /* KaiwaController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* Kaiwa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Kaiwa" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaiwa;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = Kaiwa;
+			productReference = 8DC2EF5B0486A6940098B216 /* Kaiwa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Kaiwa" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* Kaiwa */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* Kaiwa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC59806511A5FBB000453F68 /* ThreadPoolServer.m in Sources */,
+				FC59806811A5FBB000453F68 /* HTTPAuthenticationRequest.m in Sources */,
+				FC59806A11A5FBB000453F68 /* HTTPServer.m in Sources */,
+				FC59806C11A5FBB000453F68 /* HTTPConnection.m in Sources */,
+				FC59806E11A5FBB000453F68 /* HTTPResponse.m in Sources */,
+				FC59806F11A5FBB000453F68 /* ThreadPerConnectionServer.m in Sources */,
+				FC59807111A5FBB000453F68 /* HTTPAsyncFileResponse.m in Sources */,
+				FC59807311A5FBB000453F68 /* AsyncSocket.m in Sources */,
+				FC59807511A5FBB000453F68 /* DDNumber.m in Sources */,
+				FC59807711A5FBB000453F68 /* DDRange.m in Sources */,
+				FC59807911A5FBB000453F68 /* DDData.m in Sources */,
+				FC59807B11A5FBB000453F68 /* NSString+URLEncode.m in Sources */,
+				FC59807D11A5FBB000453F68 /* NSDictionary+URLEncode.m in Sources */,
+				FC59807F11A5FBB000453F68 /* SSCrypto.m in Sources */,
+				FC59808111A5FBB000453F68 /* AGRegex.m in Sources */,
+				FC59808411A5FBB000453F68 /* KaiwaDispatcher.m in Sources */,
+				FC59808611A5FBB000453F68 /* KaiwaRequest.m in Sources */,
+				FC59808811A5FBB000453F68 /* KaiwaResponse.m in Sources */,
+				FC59808A11A5FBB000453F68 /* KaiwaRoute.m in Sources */,
+				FC59808C11A5FBB000453F68 /* KaiwaRewrite.m in Sources */,
+				FC59808E11A5FBB000453F68 /* KaiwaFilePath.m in Sources */,
+				FC59809011A5FBB000453F68 /* KaiwaConnection.m in Sources */,
+				FC59809211A5FBB000453F68 /* KaiwaController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kaiwa_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_MODE_FLAG = "go-w,a+rX";
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				PRODUCT_NAME = Kaiwa;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kaiwa_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = Kaiwa;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "Kaiwa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Kaiwa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

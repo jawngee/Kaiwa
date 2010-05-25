@@ -1,0 +1,1604 @@
+TKaiwa
+v7
+r0
+t296164627.871217
+cCheck dependencies
+cSymLink /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/Current A
+cSymLink /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Resources Versions/Current/Resources
+cSymLink /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Headers Versions/Current/Headers
+cSymLink /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Kaiwa Versions/Current/Kaiwa
+cProcessInfoPlistFile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/Info.plist Info.plist
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/ThreadPoolServer.h ThreadPoolServer.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/ThreadPerConnectionServer.h ThreadPerConnectionServer.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPAuthenticationRequest.h HTTPAuthenticationRequest.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPServer.h HTTPServer.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPConnection.h HTTPConnection.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPResponse.h HTTPResponse.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPAsyncFileResponse.h HTTPAsyncFileResponse.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/AsyncSocket.h AsyncSocket.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/DDNumber.h DDNumber.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/DDRange.h DDRange.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/DDData.h DDData.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/NSString+URLEncode.h NSString+URLEncode.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/NSDictionary+URLEncode.h NSDictionary+URLEncode.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/SSCrypto.h SSCrypto.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/AGRegex.h AGRegex.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/Kaiwa.h Kaiwa.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaDispatcher.h KaiwaDispatcher.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRequest.h KaiwaRequest.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaResponse.h KaiwaResponse.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRoute.h KaiwaRoute.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRewrite.h KaiwaRewrite.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaFilePath.h KaiwaFilePath.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaConnection.h KaiwaConnection.h
+cCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaController.h KaiwaController.h
+cCopyStringsFile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cProcessPCH /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch.gch Kaiwa_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPoolServer.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPServer.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPConnection.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPResponse.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPerConnectionServer.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AsyncSocket.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDNumber.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDRange.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDData.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSString+URLEncode.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSDictionary+URLEncode.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/SSCrypto.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AGRegex.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaDispatcher.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRequest.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaResponse.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRoute.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRewrite.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaFilePath.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaConnection.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaController.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Kaiwa normal x86_64
+cTouch /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BA713D600000000000000EE
+t1269240790
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004B90FBB90000000000002016
+t1267792825
+s8214
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004B90FBB90000000000000EDE
+t1267792825
+s3806
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004B90FBB9000000000000049D
+t1267792825
+s1181
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSValue.h
+c000000004B90FBB90000000000000BDA
+t1267792825
+s3034
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004AC59A040000000000002407
+t1254464004
+s9223
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004AC598620000000000001533
+t1254463586
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h
+c000000004AC598B10000000000003057
+t1254463665
+s12375
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004B90BBA5000000000000539D
+t1267776421
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/bio.h
+c000000004B90E7720000000000007866
+t1267787634
+s30822
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/engine.h
+c000000004B90E7720000000000009687
+t1267787634
+s38535
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/err.h
+c000000004B90E7720000000000003299
+t1267787634
+s12953
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/evp.h
+c000000004B90E77200000000000096EA
+t1267787634
+s38634
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/md5.h
+c000000004B90E7720000000000001272
+t1267787634
+s4722
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/pem.h
+c000000004B90E7720000000000006E59
+t1267787634
+s28249
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/rand.h
+c000000004B90E7720000000000001862
+t1267787634
+s6242
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/rsa.h
+c000000004B90E7720000000000004C73
+t1267787634
+s19571
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/sha.h
+c000000004B90E7720000000000001CDE
+t1267787634
+s7390
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/ssl.h
+c000000004B90E7A40000000000014965
+t1267787684
+s84325
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004B90BBAA00000000000059BC
+t1267776426
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libcrypto.dylib
+c000000004BA713CD000000000007E1FC
+t1269240781
+s516604
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libz.dylib
+c000000004BA713D60000000000005D2C
+t1269240790
+s23852
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.h
+c000000004040F671000000000000313D
+t1077999217
+s12605
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.m
+c000000004BF2DDD40000000000004332
+t1274207700
+s17202
+i<pcre.h>
+i"AGRegex.h"
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.h
+c0000000049F6401D000000000000435C
+t1240875037
+s17244
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m
+c000000004A0896FF0000000000015CC7
+t1242076927
+s89287
+i"AsyncSocket.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<netdb.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.h
+c0000000048E1DDC700000000000000CD
+t1222761927
+s205
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.m
+c0000000049089AF200000000000010BC
+t1225300722
+s4284
+i"DDData.h"
+i<CommonCrypto/CommonDigest.h>
+i"SSCrypto.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.h
+c0000000048B0880E0000000000000155
+t1219528718
+s341
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.m
+c0000000049FB4D48000000000000052F
+t1241206088
+s1327
+i"DDNumber.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.h
+c0000000049F13CB9000000000000066A
+t1240546489
+s1642
+i<Foundation/NSValue.h>
+i<Foundation/NSObjCRuntime.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.m
+c0000000049F13CB700000000000009E3
+t1240546487
+s2531
+i"DDRange.h"
+i"DDNumber.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/English.lproj/InfoPlist.strings
+c000000004BF5C3FD0000000000000030
+t1274397693
+s48
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.h
+c0000000049F904BE0000000000000233
+t1241056446
+s563
+i<Foundation/Foundation.h>
+i"HTTPResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m
+c000000004A089D6C0000000000001155
+t1242078572
+s4437
+i"HTTPAsyncFileResponse.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.h
+c0000000048E26E0B00000000000002E4
+t1222798859
+s740
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.m
+c000000004A089A32000000000000196D
+t1242077746
+s6509
+i"HTTPAuthenticationRequest.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.h
+c000000004BF5A6A10000000000000792
+t1274390177
+s1938
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.m
+c000000004BF5BAE200000000000104F3
+t1274395362
+s66803
+i"AsyncSocket.h"
+i"HTTPServer.h"
+i"HTTPConnection.h"
+i"HTTPResponse.h"
+i"HTTPAuthenticationRequest.h"
+i"DDNumber.h"
+i"DDRange.h"
+i"DDData.h"
+i"HTTPAsyncFileResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.h
+c0000000049F913ED00000000000016D1
+t1241060333
+s5841
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m
+c000000004A089DB40000000000000868
+t1242078644
+s2152
+i"HTTPResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.h
+c0000000049362BE1000000000000044C
+t1228286945
+s1100
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m
+c000000004A089A3200000000000024BD
+t1242077746
+s9405
+i"AsyncSocket.h"
+i"HTTPServer.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/Kaiwa.h
+c000000004BF5C5300000000000000152
+t1274398000
+s338
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.h
+c000000004BF6BE16000000000000014C
+t1274461718
+s332
+i<Foundation/Foundation.h>
+i"ThreadPerConnectionServer.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.m
+c000000004BF6BE20000000000000028A
+t1274461728
+s650
+i"KaiwaConnection.h"
+i"KaiwaDispatcher.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.h
+c000000004BF6C0C90000000000000449
+t1274462409
+s1097
+i<Foundation/Foundation.h>
+i"KaiwaRequest.h"
+i"KaiwaResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.m
+c000000004BF5EE75000000000000029C
+t1274408565
+s668
+i"KaiwaController.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.h
+c000000004BF6C079000000000000104D
+t1274462329
+s4173
+i<Foundation/Foundation.h>
+i"HTTPServer.h"
+i"HTTPResponse.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.m
+c000000004BF619620000000000001CF0
+t1274419554
+s7408
+i"KaiwaDispatcher.h"
+i"KaiwaRoute.h"
+i"KaiwaRewrite.h"
+i"KaiwaFilePath.h"
+i"KaiwaConnection.h"
+i"ThreadPoolServer.h"
+i"ThreadPerConnectionServer.h"
+i"HTTPAsyncFileResponse.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.h
+c000000004BF6BDFC00000000000002B1
+t1274461692
+s689
+i<Foundation/Foundation.h>
+i"KaiwaRewrite.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.m
+c000000004BF6E5920000000000000381
+t1274471826
+s897
+i"KaiwaFilePath.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.h
+c000000004BF6C0A60000000000000519
+t1274462374
+s1305
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.m
+c000000004BF616C00000000000000523
+t1274418880
+s1315
+i"KaiwaRequest.h"
+i"KaiwaConnection.h"
+i"NSString+URLEncode.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.h
+c000000004BF6C0AE00000000000006BA
+t1274462382
+s1722
+i<Foundation/Foundation.h>
+i"HTTPResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.m
+c000000004BF5EDE9000000000000061F
+t1274408425
+s1567
+i"KaiwaResponse.h"
+i"KaiwaConnection.h"
+i"HTTPAsyncFileResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.h
+c000000004BF6E57F00000000000002FF
+t1274471807
+s767
+i<Foundation/Foundation.h>
+i"AGRegex.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.m
+c000000004BF6E58800000000000002DD
+t1274471816
+s733
+i"KaiwaRewrite.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.h
+c000000004BF6C0B400000000000008A3
+t1274462388
+s2211
+i<Foundation/Foundation.h>
+i"KaiwaRequest.h"
+i"KaiwaResponse.h"
+i"AGRegex.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.m
+c000000004BF6B75A0000000000000EA4
+t1274459994
+s3748
+i"KaiwaRoute.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/Kaiwa_Prefix.pch
+c000000004BF5C3FD000000000000008E
+t1274397693
+s142
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.h
+c000000004BF5C5350000000000000126
+t1274398005
+s294
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.m
+c000000004BF5C5350000000000000409
+t1274398005
+s1033
+i"NSDictionary+URLEncode.h"
+i"NSString+URLEncode.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.h
+c000000004BF5C535000000000000014C
+t1274398005
+s332
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.m
+c000000004BF5C53600000000000002BE
+t1274398006
+s702
+i"NSString+URLEncode.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.h
+c000000004BBF67940000000000000DC8
+t1270835092
+s3528
+i<Foundation/Foundation.h>
+i<openssl/evp.h>
+i<openssl/rand.h>
+i<openssl/rsa.h>
+i<openssl/engine.h>
+i<openssl/sha.h>
+i<openssl/pem.h>
+i<openssl/bio.h>
+i<openssl/err.h>
+i<openssl/ssl.h>
+i<openssl/md5.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m
+c00000000492C7DEB00000000000082FB
+t1227652587
+s33531
+i"SSCrypto.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaConnection.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+i"ThreadPerConnectionServer.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaConnection.m
+c000000004BF5C464000000000000024F
+t1274397796
+s591
+i"TaiwaConnection.h"
+i"KaiwaDispatcher.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaController.h
+c00000000000000000000000000000000
+t2
+s0
+i<Cocoa/Cocoa.h>
+i"KaiwaRequest.h"
+i"KaiwaResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaController.m
+c000000004BF5C4800000000000000250
+t1274397824
+s592
+i"TaiwaController.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaDispatcher.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+i"HTTPServer.h"
+i"HTTPResponse.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaDispatcher.m
+c000000004BF5C1510000000000001B03
+t1274397009
+s6915
+i"TaiwaDispatcher.h"
+i"TaiwaRoute.h"
+i"TaiwaRewrite.h"
+i"TaiwaFilePath.h"
+i"TaiwaConnection.h"
+i"ThreadPoolServer.h"
+i"ThreadPerConnectionServer.h"
+i"HTTPAsyncFileResponse.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaFilePath.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+i"KaiwaRewrite.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaFilePath.m
+c000000004BF57CF7000000000000025F
+t1274379511
+s607
+i"TaiwaFilePath.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaRequest.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaRequest.m
+c000000004BF5BA6300000000000004E8
+t1274395235
+s1256
+i"TaiwaRequest.h"
+i"TaiwaConnection.h"
+i"NSString+URLEncode.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaResponse.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+i"HTTPResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaResponse.m
+c000000004BF5BA1700000000000005DC
+t1274395159
+s1500
+i"TaiwaResponse.h"
+i"TaiwaConnection.h"
+i"HTTPAsyncFileResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaRewrite.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+i"AGRegex.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaRewrite.m
+c000000004BF5B3920000000000000282
+t1274393490
+s642
+i"TaiwaRewrite.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaRoute.h
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+i"KaiwaRequest.h"
+i"KaiwaResponse.h"
+i"AGRegex.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaRoute.m
+c000000004BF5C48000000000000008AC
+t1274397824
+s2220
+i"TaiwaRoute.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.h
+c0000000049321495000000000000021F
+t1228018837
+s543
+i"HTTPServer.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.m
+c00000000493215F9000000000000065C
+t1228019193
+s1628
+i"ThreadPerConnectionServer.h"
+i"AsyncSocket.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.h
+c00000000493207EB000000000000026F
+t1228015595
+s623
+i"HTTPServer.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m
+c0000000049321CAC0000000000000D07
+t1228020908
+s3335
+i"ThreadPoolServer.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework
+t1274471827
+s204
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Headers
+t3
+s24
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Kaiwa
+t3
+s22
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Resources
+t3
+s26
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/AGRegex.h
+t1274398466
+s12605
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/AsyncSocket.h
+t1274398466
+s17244
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/DDData.h
+t1274398466
+s205
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/DDNumber.h
+t1274398466
+s341
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/DDRange.h
+t1274398466
+s1642
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPAsyncFileResponse.h
+t1274398466
+s563
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPAuthenticationRequest.h
+t1274398466
+s740
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPConnection.h
+t1274398466
+s1938
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPResponse.h
+t1274398466
+s5841
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPServer.h
+t1274398466
+s1100
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/Kaiwa.h
+t1274398466
+s338
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaConnection.h
+t1274462895
+s332
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaController.h
+t1274462895
+s1097
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaDispatcher.h
+t1274462895
+s4173
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaFilePath.h
+t1274462895
+s689
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRequest.h
+t1274462895
+s1305
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaResponse.h
+t1274462895
+s1722
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRewrite.h
+t1274471827
+s767
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRoute.h
+t1274462895
+s2211
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/NSDictionary+URLEncode.h
+t1274398466
+s294
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/NSString+URLEncode.h
+t1274398466
+s332
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/SSCrypto.h
+t1274398466
+s3528
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/ThreadPerConnectionServer.h
+t1274398466
+s543
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers/ThreadPoolServer.h
+t1274398466
+s623
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Kaiwa
+t1274471827
+s314560
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+t1274398466
+s92
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/Info.plist
+t1274398466
+s708
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/Current
+t3
+s1
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AGRegex.o
+t1274398471
+s55304
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AsyncSocket.o
+t1274398471
+s186332
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDData.o
+t1274398471
+s9672
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDNumber.o
+t1274398470
+s9776
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDRange.o
+t1274398470
+s15460
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o
+t1274398470
+s26984
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o
+t1274398470
+s27188
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPConnection.o
+t1274398470
+s98932
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPResponse.o
+t1274398470
+s23200
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPServer.o
+t1274398470
+s37708
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/Kaiwa.LinkFileList
+c000000004BF5C7020000000000000A4E
+t1274398466
+s2638
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaConnection.o
+t1274462900
+s10844
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaController.o
+t1274462900
+s11816
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaDispatcher.o
+t1274471827
+s45244
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaFilePath.o
+t1274471827
+s10196
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRequest.o
+t1274462900
+s21640
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaResponse.o
+t1274462900
+s20260
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRewrite.o
+t1274471827
+s10952
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRoute.o
+t1274462900
+s22472
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSDictionary+URLEncode.o
+t1274398470
+s11436
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSString+URLEncode.o
+t1274398470
+s8444
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/SSCrypto.o
+t1274398471
+s68004
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaConnection.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaController.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaDispatcher.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaFilePath.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaRequest.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaResponse.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaRewrite.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaRoute.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPerConnectionServer.o
+t1274398470
+s18732
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPoolServer.o
+t1274398470
+s18088
+
+N/usr/local/include/pcre.h
+c000000004BF2DD81000000000000324A
+t1274207617
+s12874
+
+N/usr/local/lib/libpcre.dylib
+c000000004BF2DD7F0000000000019FE8
+t1274207615
+s106472
+
+N/var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch.gch
+t1274398470
+s54265616
+
+N/var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-cclvpweyewmlaefvpobpbkfhwnxa/Kaiwa_Prefix.pch.gch
+t1274398128
+s54265616
+
+NInfo.plist
+c000000004BF5C3FD0000000000000357
+t1274397693
+s855
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies296164627#296164627#0(0"0(0#1#0"4300739032#0"0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AGRegex.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.778314
+e296091271.367163
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AGRegex.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.m296091270#296091271#0(0"0(0#0#49"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.m4300739032#1448"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AGRegex.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AsyncSocket.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.232162
+e296091271.086358
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AsyncSocket.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m:968: warning: format not a string literal and no format arguments
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m:974: warning: format not a string literal and no format arguments
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m:1021: warning: format not a string literal and no format arguments
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m:1027: warning: format not a string literal and no format arguments
+lSLF07#2@61"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m296091270#296091271#0(728"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m:968: warning: format not a string literal and no format arguments/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m:974: warning: format not a string literal and no format arguments/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m:1021: warning: format not a string literal and no format arguments/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m:1027: warning: format not a string literal and no format arguments4(22@51"Format not a string literal and no format arguments296091270#125#120#0(6@53"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m263769727#968#0#968#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments296091270#245#120#0(6@53"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m263769727#974#0#974#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments296091270#486#121#0(6@53"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m263769727#1021#0#1021#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments296091270#607#121#0(6@53"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m263769727#1027#0#1027#0#51"format not a string literal and no format arguments0(0#0#53"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m4300739032#1456"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/AsyncSocket.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDData.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.586380
+e296091271.124556
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDData.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.m296091270#296091271#0(0"0(0#0#48"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.m4300739032#1446"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDData.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDNumber.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.565726
+e296091270.892978
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDNumber.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.m296091270#296091270#0(0"0(0#0#50"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.m4300739032#1450"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDNumber.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDRange.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.580087
+e296091270.908656
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDRange.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.m296091270#296091270#0(0"0(0#0#49"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.m4300739032#1448"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/DDRange.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.231342
+e296091270.610043
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m: In function '-[HTTPAsyncFileResponse initWithFilePath:forConnection:runLoopModes:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m:58: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+lSLF07#2@71"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m296091270#296091270#0(398"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m: In function '-[HTTPAsyncFileResponse initWithFilePath:forConnection:runLoopModes:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m:58: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)1(22@170"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)296091270#150#248#0(6@63"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m263771372#58#0#58#0#33"'*' is deprecated (declared at *)0(0#0#63"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m4300739032#1476"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.227516
+e296091270.619137
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.m296091270#296091270#0(0"0(0#0#67"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.m4300739032#1484"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPConnection.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.228980
+e296091270.778157
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPConnection.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.m296091270#296091270#0(0"0(0#0#56"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.m4300739032#1462"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPConnection.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPResponse.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.229739
+e296091270.586238
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPResponse.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m: In function '-[HTTPFileResponse initWithFilePath:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m:19: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+lSLF07#2@62"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m296091270#296091270#0(348"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m: In function '-[HTTPFileResponse initWithFilePath:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m:19: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)1(22@170"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)296091270#109#239#0(6@54"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m263771444#19#0#19#0#33"'*' is deprecated (declared at *)0(0#0#54"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m4300739032#1458"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPResponse.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPServer.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.228283
+e296091270.613076
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPServer.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m: In function '-[HTTPServer start:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m:232: warning: class 'HTTPServer' does not implement the 'NSNetServiceDelegate' protocol
+lSLF07#2@60"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m296091270#296091270#0(231"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m: In function '-[HTTPServer start:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m:232: warning: class 'HTTPServer' does not implement the 'NSNetServiceDelegate' protocol1(22@73"Class 'HTTPServer' does not implement the 'NSNetServiceDelegate' protocol296091270#90#141#0(6@52"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m263770546#232#0#232#0#45"class '*' does not implement the '*' protocol0(0#0#52"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m4300739032#1454"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/HTTPServer.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaConnection.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296155695.276578
+e296155700.330902
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaConnection.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.m296155695#296155700#0(0"0(0#0#57"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.m4300739032#1464"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaConnection.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaController.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296155695.277300
+e296155700.330218
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaController.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.m296155695#296155700#0(0"0(0#0#57"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.m4300739032#1464"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaController.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaDispatcher.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296164627.233669
+e296164627.692437
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaDispatcher.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.m296164627#296164627#0(0"0(0#0#57"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.m4300739032#1464"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaDispatcher.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaFilePath.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296164627.470324
+e296164627.808937
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaFilePath.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.m296164627#296164627#0(0"0(0#0#55"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.m4300739032#1460"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaFilePath.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRequest.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296155695.272902
+e296155700.330466
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRequest.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.m296155695#296155700#0(0"0(0#0#54"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.m4300739032#1458"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRequest.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaResponse.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296155695.273589
+e296155700.341049
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaResponse.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.m296155695#296155700#0(0"0(0#0#55"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.m4300739032#1460"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaResponse.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRewrite.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296164627.234733
+e296164627.692586
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRewrite.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.m296164627#296164627#0(0"0(0#0#54"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.m4300739032#1458"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRewrite.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRoute.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296155695.274368
+e296155700.340684
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRoute.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.m296155695#296155700#0(0"0(0#0#52"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.m4300739032#1454"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/KaiwaRoute.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSDictionary+URLEncode.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.613171
+e296091270.913137
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSDictionary+URLEncode.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.m296091270#296091270#0(0"0(0#0#64"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.m4300739032#1478"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSDictionary+URLEncode.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSString+URLEncode.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.610215
+e296091270.906453
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSString+URLEncode.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.m296091270#296091270#0(0"0(0#0#60"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.m4300739032#1470"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/NSString+URLEncode.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/SSCrypto.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.619287
+e296091271.368775
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/SSCrypto.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m: In function '-[NSData(HexDump) encodeBase64WithNewlines:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m:78: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:385)
+lSLF07#2@58"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m296091270#296091271#0(333"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m: In function '-[NSData(HexDump) encodeBase64WithNewlines:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m:78: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:385)1(22@156"'stringWithCString:length:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:385)296091270#112#221#0(6@50"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m249345387#78#0#78#0#33"'*' is deprecated (declared at *)0(0#0#50"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m4300739032#1450"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/SSCrypto.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaConnection.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaConnection.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaController.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaDispatcher.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaDispatcher.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaFilePath.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaFilePath.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaRequest.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaRequest.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaResponse.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaResponse.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaRewrite.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaRewrite.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/TaiwaRoute.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/TaiwaRoute.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPerConnectionServer.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.230494
+e296091270.579926
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPerConnectionServer.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.m296091270#296091270#0(0"0(0#0#67"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.m4300739032#1484"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPerConnectionServer.o0#
+
+CCompileC build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPoolServer.o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091270.226550
+e296091270.565343
+r1
+xCompileC
+xbuild/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPoolServer.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m: In function '-[ThreadPoolServer connectionDidDie:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m:116: warning: 'HTTPServer' may not respond to '-connectionDidDie:'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m:116: warning: (Messages without a matching method signature
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m:116: warning: will be assumed to return 'id' and accept
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m:116: warning: '...' as arguments.)
+lSLF07#2@66"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m296091270#296091270#0(567"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m: In function '-[ThreadPoolServer connectionDidDie:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m:116: warning: 'HTTPServer' may not respond to '-connectionDidDie:'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m:116: warning: (Messages without a matching method signature/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m:116: warning: will be assumed to return 'id' and accept/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m:116: warning: '...' as arguments.)2(22@52"'HTTPServer' may not respond to '-connectionDidDie:'296091270#113#126#0(6@58"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m249713708#116#0#116#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)296091270#239#119#0(6@58"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m249713708#116#0#116#0#0"0(0#0#58"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m4300739032#1466"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.m -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/ThreadPoolServer.o0#
+
+CCopyStringsFile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s296091266.678696
+e296091266.755833
+r1
+xCopyStringsFile
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings296091266#296091266#0(0"0(0#0#71"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/English.lproj/InfoPlist.strings4300739032#373"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/English.lproj0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/AGRegex.h AGRegex.h
+s296091266.659703
+e296091266.670346
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/AGRegex.h
+xAGRegex.h
+lSLF07#2@14"Copy AGRegex.h296091266#296091266#0(0"0(0#0#49"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.h4300739032#332"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/AsyncSocket.h AsyncSocket.h
+s296091266.623317
+e296091266.661528
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/AsyncSocket.h
+xAsyncSocket.h
+lSLF07#2@18"Copy AsyncSocket.h296091266#296091266#0(0"0(0#0#53"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.h4300739032#336"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/DDData.h DDData.h
+s296091266.629269
+e296091266.661012
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/DDData.h
+xDDData.h
+lSLF07#2@13"Copy DDData.h296091266#296091266#0(0"0(0#0#48"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.h4300739032#331"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/DDNumber.h DDNumber.h
+s296091266.625655
+e296091266.661637
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/DDNumber.h
+xDDNumber.h
+lSLF07#2@15"Copy DDNumber.h296091266#296091266#0(0"0(0#0#50"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.h4300739032#333"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/DDRange.h DDRange.h
+s296091266.626530
+e296091266.661746
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/DDRange.h
+xDDRange.h
+lSLF07#2@14"Copy DDRange.h296091266#296091266#0(0"0(0#0#49"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.h4300739032#332"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPAsyncFileResponse.h HTTPAsyncFileResponse.h
+s296091266.620219
+e296091266.661410
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/HTTPAsyncFileResponse.h
+xHTTPAsyncFileResponse.h
+lSLF07#2@28"Copy HTTPAsyncFileResponse.h296091266#296091266#0(0"0(0#0#63"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.h4300739032#346"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPAuthenticationRequest.h HTTPAuthenticationRequest.h
+s296091266.616229
+e296091266.627887
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/HTTPAuthenticationRequest.h
+xHTTPAuthenticationRequest.h
+lSLF07#2@32"Copy HTTPAuthenticationRequest.h296091266#296091266#0(0"0(0#0#67"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.h4300739032#350"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPConnection.h HTTPConnection.h
+s296091266.617750
+e296091266.628791
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/HTTPConnection.h
+xHTTPConnection.h
+lSLF07#2@21"Copy HTTPConnection.h296091266#296091266#0(0"0(0#0#56"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.h4300739032#339"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPResponse.h HTTPResponse.h
+s296091266.618489
+e296091266.628935
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/HTTPResponse.h
+xHTTPResponse.h
+lSLF07#2@19"Copy HTTPResponse.h296091266#296091266#0(0"0(0#0#54"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.h4300739032#337"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/HTTPServer.h HTTPServer.h
+s296091266.616979
+e296091266.628568
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/HTTPServer.h
+xHTTPServer.h
+lSLF07#2@17"Copy HTTPServer.h296091266#296091266#0(0"0(0#0#52"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.h4300739032#335"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/Kaiwa.h Kaiwa.h
+s296091266.660268
+e296091266.670473
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/Kaiwa.h
+xKaiwa.h
+lSLF07#2@12"Copy Kaiwa.h296091266#296091266#0(0"0(0#0#47"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/Kaiwa.h4300739032#330"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/Kaiwa.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaConnection.h KaiwaConnection.h
+s296155695.229189
+e296155695.269777
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaConnection.h
+xKaiwaConnection.h
+lSLF07#2@22"Copy KaiwaConnection.h296155695#296155695#0(0"0(0#0#57"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.h4300739032#340"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaController.h KaiwaController.h
+s296155695.229771
+e296155695.270410
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaController.h
+xKaiwaController.h
+lSLF07#2@22"Copy KaiwaController.h296155695#296155695#0(0"0(0#0#57"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.h4300739032#340"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaDispatcher.h KaiwaDispatcher.h
+s296155695.191642
+e296155695.270125
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaDispatcher.h
+xKaiwaDispatcher.h
+lSLF07#2@22"Copy KaiwaDispatcher.h296155695#296155695#0(0"0(0#0#57"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.h4300739032#340"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaFilePath.h KaiwaFilePath.h
+s296155695.228693
+e296155695.264298
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaFilePath.h
+xKaiwaFilePath.h
+lSLF07#2@20"Copy KaiwaFilePath.h296155695#296155695#0(0"0(0#0#55"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.h4300739032#338"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRequest.h KaiwaRequest.h
+s296155695.226258
+e296155695.264494
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRequest.h
+xKaiwaRequest.h
+lSLF07#2@19"Copy KaiwaRequest.h296155695#296155695#0(0"0(0#0#54"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.h4300739032#337"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaResponse.h KaiwaResponse.h
+s296155695.227028
+e296155695.264605
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaResponse.h
+xKaiwaResponse.h
+lSLF07#2@20"Copy KaiwaResponse.h296155695#296155695#0(0"0(0#0#55"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.h4300739032#338"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRewrite.h KaiwaRewrite.h
+s296164627.227520
+e296164627.232388
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRewrite.h
+xKaiwaRewrite.h
+lSLF07#2@19"Copy KaiwaRewrite.h296164627#296164627#0(0"0(0#0#54"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.h4300739032#337"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRoute.h KaiwaRoute.h
+s296155695.227582
+e296155695.264711
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/KaiwaRoute.h
+xKaiwaRoute.h
+lSLF07#2@17"Copy KaiwaRoute.h296155695#296155695#0(0"0(0#0#52"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.h4300739032#335"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/NSDictionary+URLEncode.h NSDictionary+URLEncode.h
+s296091266.630990
+e296091266.661293
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/NSDictionary+URLEncode.h
+xNSDictionary+URLEncode.h
+lSLF07#2@29"Copy NSDictionary+URLEncode.h296091266#296091266#0(0"0(0#0#64"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.h4300739032#347"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/NSString+URLEncode.h NSString+URLEncode.h
+s296091266.630078
+e296091266.661141
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/NSString+URLEncode.h
+xNSString+URLEncode.h
+lSLF07#2@25"Copy NSString+URLEncode.h296091266#296091266#0(0"0(0#0#60"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.h4300739032#343"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/SSCrypto.h SSCrypto.h
+s296091266.633053
+e296091266.670229
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/SSCrypto.h
+xSSCrypto.h
+lSLF07#2@15"Copy SSCrypto.h296091266#296091266#0(0"0(0#0#50"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.h4300739032#333"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/ThreadPerConnectionServer.h ThreadPerConnectionServer.h
+s296091266.615481
+e296091266.627626
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/ThreadPerConnectionServer.h
+xThreadPerConnectionServer.h
+lSLF07#2@32"Copy ThreadPerConnectionServer.h296091266#296091266#0(0"0(0#0#67"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.h4300739032#350"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CCpHeader build/Debug/Kaiwa.framework/Versions/A/Headers/ThreadPoolServer.h ThreadPoolServer.h
+s296091266.614282
+e296091266.627493
+r1
+xCpHeader
+xbuild/Debug/Kaiwa.framework/Versions/A/Headers/ThreadPoolServer.h
+xThreadPoolServer.h
+lSLF07#2@23"Copy ThreadPoolServer.h296091266#296091266#0(0"0(0#0#58"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.h4300739032#341"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.h /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Headers0#
+
+CLd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Kaiwa normal x86_64
+s296164627.808996
+e296164627.868652
+r1
+xLd
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Kaiwa
+xnormal
+xx86_64
+lSLF07#2@89"Link /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Kaiwa296164627#296164627#0(0"0(0#0#0"4300739032#704"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -filelist /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Objects-normal/x86_64/Kaiwa.LinkFileList -install_name @loader_path/../Frameworks/Kaiwa.framework/Versions/A/Kaiwa -mmacosx-version-min=10.6 -framework Cocoa -lcrypto -lz -lpcre -single_module -compatibility_version 1 -current_version 1 -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Kaiwa0#
+
+CProcessInfoPlistFile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/Info.plist Info.plist
+s296091266.609589
+e296091266.614170
+r1
+xProcessInfoPlistFile
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist296091266#296091266#0(0"0(0#0#50"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/Info.plist4300739032#228"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/A/Resources/Info.plist0#
+
+CProcessPCH /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch.gch Kaiwa_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091266.756011
+e296091270.226226
+r1
+xProcessPCH
+x/var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch.gch
+xKaiwa_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Kaiwa_Prefix.pch296091266#296091270#0(0"0(0#0#56"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/Kaiwa_Prefix.pch4300739032#1349"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/usr/local/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/Kaiwa_Prefix.pch -o /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-aiywbsyeqjeadobtecxustacevsv/Kaiwa_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-cclvpweyewmlaefvpobpbkfhwnxa/Kaiwa_Prefix.pch.gch Kaiwa_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296090924.717348
+e296090928.251976
+r1
+xProcessPCH
+x/var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-cclvpweyewmlaefvpobpbkfhwnxa/Kaiwa_Prefix.pch.gch
+xKaiwa_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Kaiwa_Prefix.pch296090924#296090928#0(0"0(0#0#56"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/Kaiwa_Prefix.pch4300739032#1328"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-generated-files.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-own-target-headers.hmap -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-all-target-headers.hmap -iquote /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/Kaiwa-project-headers.hmap -F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/include -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources/x86_64 -I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Kaiwa.build/Debug/Kaiwa.build/DerivedSources -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/Kaiwa_Prefix.pch -o /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Prefix-cclvpweyewmlaefvpobpbkfhwnxa/Kaiwa_Prefix.pch.gch0#
+
+CSymLink /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Headers Versions/Current/Headers
+s296091266.605622
+e296091266.609493
+r1
+xSymLink
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Headers
+xVersions/Current/Headers
+lSLF07#2@83"Process /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Headers296091266#296091266#0(0"0(0#0#0"4300739032#164"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /bin/ln -sf Versions/Current/Headers /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Headers0#
+
+CSymLink /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Kaiwa Versions/Current/Kaiwa
+s296091266.603137
+e296091266.607241
+r1
+xSymLink
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Kaiwa
+xVersions/Current/Kaiwa
+lSLF07#2@81"Process /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Kaiwa296091266#296091266#0(0"0(0#0#0"4300739032#160"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /bin/ln -sf Versions/Current/Kaiwa /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Kaiwa0#
+
+CSymLink /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Resources Versions/Current/Resources
+s296091266.602499
+e296091266.607096
+r1
+xSymLink
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Resources
+xVersions/Current/Resources
+lSLF07#2@85"Process /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Resources296091266#296091266#0(0"0(0#0#0"4300739032#168"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /bin/ln -sf Versions/Current/Resources /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Resources0#
+
+CSymLink /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/Current A
+s296091266.601621
+e296091266.605470
+r1
+xSymLink
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/Current
+xA
+lSLF07#2@92"Process /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/Current296091266#296091266#0(0"0(0#0#0"4300739032#150"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /bin/ln -sf A /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Versions/Current0#
+
+CTouch /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework
+s296164627.868733
+e296164627.871188
+r1
+xTouch
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework
+lSLF07#2@73"Touch /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework296164627#296164627#0(0"0(0#0#0"4300739032#137"    cd /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa    /usr/bin/touch -c /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework0#
+

@@ -1,0 +1,221 @@
+TKaiwa Testing
+v7
+r0
+t296091275.689515
+cCheck dependencies
+cProcessInfoPlistFile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Info.plist" Kaiwa_Testing-Info.plist
+cCopyStringsFile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/English.lproj/MainMenu.xib"
+cProcessPCH /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Testing_Prefix-dbjifpzmugckspaoygewtgxhyntz/Kaiwa_Testing_Prefix.pch.gch Kaiwa_Testing_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/main.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/Kaiwa_TestingAppDelegate.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cPBXCp "build/Debug/Kaiwa Testing.app/Contents/Frameworks/Kaiwa.framework" /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BA713D600000000000000EE
+t1269240790
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/English.lproj/InfoPlist.strings
+c000000004BF5C5F8000000000000002D
+t1274398200
+s45
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/English.lproj/MainMenu.xib
+c000000004BF5C5F8000000000002BBAD
+t1274398200
+s179117
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.h
+c000000004BF5C65F0000000000000166
+t1274398303
+s358
+i<Cocoa/Cocoa.h>
+i<Kaiwa/Kaiwa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m
+c000000004BF5C5F80000000000000188
+t1274398200
+s392
+i"Kaiwa_TestingAppDelegate.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_Testing_Prefix.pch
+c000000004BF5C5F8000000000000009D
+t1274398200
+s157
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Frameworks/Kaiwa.framework
+t1274398475
+s204
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Info.plist
+t1274398471
+s904
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/MacOS/Kaiwa Testing
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/PkgInfo
+t1274398471
+s8
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1274398471
+s92
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Resources/English.lproj/MainMenu.nib
+t1274398472
+s34475
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/Kaiwa Testing.LinkFileList
+c000000004BF5C7070000000000000116
+t1274398471
+s278
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/Kaiwa_TestingAppDelegate.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/main.o
+t1274398475
+s5008
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/main.m
+c000000004BF5C5F80000000000000103
+t1274398200
+s259
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework
+c000000004BF5C70700000000000000CC
+t1274398471
+s204
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Kaiwa
+c000000004BF5C707000000000004B7B8
+t1274398471
+s309176
+
+N/var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Testing_Prefix-dbjifpzmugckspaoygewtgxhyntz/Kaiwa_Testing_Prefix.pch.gch
+t1274398475
+s54265616
+
+NKaiwa_Testing-Info.plist
+c000000004BF5C5F800000000000003EA
+t1274398200
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies296091271#296091271#0(0"0(0#1#0"4300739032#0"0#
+
+CCompileC "build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/Kaiwa_TestingAppDelegate.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091275.449956
+e296091275.595921
+r0
+xCompileC
+xbuild/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/Kaiwa_TestingAppDelegate.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m:9:
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.h:10:24: error: Kaiwa/Kaiwa.h: No such file or directory
+lSLF07#2@82"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m296091275#296091275#0(230"In file included from /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m:9:/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.h:10:24: error: Kaiwa/Kaiwa.h: No such file or directory1(4@40"Kaiwa/Kaiwa.h: No such file or directory296091275#100#130#2(7@96"In file included from /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m296091275#18446744073709551615#0#0(6@74"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m296091000#9#0#9#0#0"0(13@118"Kaiwa/Kaiwa.h: No such file or directory in /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.h296091275#18446744073709551615#0#0(6@74"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.h296091103#10#0#10#0#0"0(6@74"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.h296091103#10#0#10#0#28"*: No such file or directory0(0#0#74"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m4300739032#1731"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Testing_Prefix-dbjifpzmugckspaoygewtgxhyntz/Kaiwa_Testing_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_TestingAppDelegate.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/Kaiwa_TestingAppDelegate.o"1#
+
+CCompileC "build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/main.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091275.448971
+e296091275.614931
+r1
+xCompileC
+xbuild/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/main.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/main.m296091275#296091275#0(0"0(0#0#54"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/main.m4300739032#1691"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Testing_Prefix-dbjifpzmugckspaoygewtgxhyntz/Kaiwa_Testing_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/main.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/English.lproj/MainMenu.xib"
+s296091271.668261
+e296091272.352223
+r1
+xCompileXIB
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib296091271#296091272#0(0"0(0#0#74"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/English.lproj/MainMenu.xib4300739032#366"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/English.lproj/MainMenu.xib"0#
+
+CCopyStringsFile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s296091271.667262
+e296091271.714916
+r1
+xCopyStringsFile
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings296091271#296091271#0(0"0(0#0#79"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/English.lproj/InfoPlist.strings4300739032#393"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Resources/English.lproj"0#
+
+CLd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/MacOS/Kaiwa Testing" normal x86_64
+s296091066.255600
+e296091066.316346
+r1
+xLd
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/MacOS/Kaiwa Testing
+xnormal
+xx86_64
+lSLF07#2@111"Link /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/MacOS/Kaiwa Testing296091066#296091066#0(0"0(0#0#0"4300739032#701"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug" -filelist "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Objects-normal/x86_64/Kaiwa Testing.LinkFileList" -mmacosx-version-min=10.6 /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework/Kaiwa -framework Cocoa -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/MacOS/Kaiwa Testing"0#
+
+CPBXCp "build/Debug/Kaiwa Testing.app/Contents/Frameworks/Kaiwa.framework" /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework
+s296091275.615027
+e296091275.689452
+r1
+xPBXCp
+xbuild/Debug/Kaiwa Testing.app/Contents/Frameworks/Kaiwa.framework
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework
+lSLF07#2@72"Copy /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework296091275#296091275#0(0"0(0#0#67"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework4300739032#373"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/build/Debug/Kaiwa.framework "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Frameworks"0#
+
+CProcessInfoPlistFile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Info.plist" Kaiwa_Testing-Info.plist
+s296091271.650602
+e296091271.667140
+r1
+xProcessInfoPlistFile
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Info.plist
+xKaiwa_Testing-Info.plist
+lSLF07#2@32"Process Kaiwa_Testing-Info.plist296091271#296091271#0(0"0(0#0#72"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_Testing-Info.plist4300739032#361"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing"    builtin-infoPlistUtility Kaiwa_Testing-Info.plist -genpkginfo "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Testing_Prefix-dbjifpzmugckspaoygewtgxhyntz/Kaiwa_Testing_Prefix.pch.gch Kaiwa_Testing_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296091272.352566
+e296091275.448640
+r1
+xProcessPCH
+x/var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Testing_Prefix-dbjifpzmugckspaoygewtgxhyntz/Kaiwa_Testing_Prefix.pch.gch
+xKaiwa_Testing_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Kaiwa_Testing_Prefix.pch296091272#296091275#0(0"0(0#0#72"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_Testing_Prefix.pch4300739032#1580"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/Kaiwa Testing-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Kaiwa Testing.build/Debug/Kaiwa Testing.build/DerivedSources" -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/Kaiwa_Testing_Prefix.pch" -o /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Testing_Prefix-dbjifpzmugckspaoygewtgxhyntz/Kaiwa_Testing_Prefix.pch.gch0#
+
+CTouch "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app"
+s296091066.333672
+e296091066.336426
+r1
+xTouch
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app
+lSLF07#2@83"Touch /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app296091066#296091066#0(0"0(0#0#0"4300739032#159"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing"    /usr/bin/touch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Testing/build/Debug/Kaiwa Testing.app"0#
+

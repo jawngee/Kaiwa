@@ -1,0 +1,44 @@
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m: In function '-[KaiwaDispatcher doFindFriends]':
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:166: warning: class 'KaiwaDispatcher' does not implement the 'NSNetServiceBrowserDelegate' protocol
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m: In function '-[KaiwaDispatcher netServiceBrowser:didFindService:moreComing:]':
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:174: warning: class 'KaiwaDispatcher' does not implement the 'NSNetServiceDelegate' protocol
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m: In function '-[KaiwaDispatcher netServiceBrowser:didRemoveService:moreComing:]':
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:180: warning: 'NSNetServiceBrowser' may not respond to '-removeObject:'
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:180: warning: (Messages without a matching method signature
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:180: warning: will be assumed to return 'id' and accept
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:180: warning: '...' as arguments.)
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:183: error: request for member 'service' in something not a structure or union
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m: In function '-[KaiwaDispatcher netServiceDidResolveAddress:]':
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:196: warning: receiver 'KaiwaFriend' is a forward class and corresponding @interface may not exist
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:196: warning: no '-initWithService:' method found
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m: At top level:
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:340: warning: incomplete implementation of class 'KaiwaDispatcher'
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:340: warning: method definition for '+broadcastToFriends:' not found
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:340: warning: method definition for '+friends' not found
+/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m:340: warning: method definition for '+searchForFriends:' not found
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_1
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_6
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18

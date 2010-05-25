@@ -1,0 +1,1104 @@
+TKaiwa Raw Tester
+v7
+r0
+t296092731.161486
+cCheck dependencies
+cProcessInfoPlistFile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Info.plist" Kaiwa_Raw_Tester-Info.plist
+cCopyStringsFile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/English.lproj/MainMenu.xib"
+cProcessPCH /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch.gch Kaiwa_Raw_Tester_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/main.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/Kaiwa_Raw_TesterAppDelegate.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_TesterAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaDispatcher.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRequest.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRequest.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaResponse.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaResponse.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRoute.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRoute.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRewrite.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRewrite.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaFilePath.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaFilePath.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaConnection.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaConnection.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaController.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AGRegex.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/SSCrypto.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDNumber.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDNumber.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDRange.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDRange.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDData.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDData.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSString+URLEncode.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSString+URLEncode.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSDictionary+URLEncode.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSDictionary+URLEncode.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AsyncSocket.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPoolServer.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAuthenticationRequest.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPServer.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPConnection.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPConnection.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPResponse.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPerConnectionServer.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPerConnectionServer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BA713D600000000000000EE
+t1269240790
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h
+c000000004B90FBB90000000000002016
+t1267792825
+s8214
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004B90FBB90000000000000EDE
+t1267792825
+s3806
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004B90FBB9000000000000049D
+t1267792825
+s1181
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSValue.h
+c000000004B90FBB90000000000000BDA
+t1267792825
+s3034
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004AC59A040000000000002407
+t1254464004
+s9223
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
+c000000004AC598620000000000001533
+t1254463586
+s5427
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netdb.h
+c000000004AC598B10000000000003057
+t1254463665
+s12375
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/netinet/in.h
+c000000004B90BBA5000000000000539D
+t1267776421
+s21405
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/bio.h
+c000000004B90E7720000000000007866
+t1267787634
+s30822
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/engine.h
+c000000004B90E7720000000000009687
+t1267787634
+s38535
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/err.h
+c000000004B90E7720000000000003299
+t1267787634
+s12953
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/evp.h
+c000000004B90E77200000000000096EA
+t1267787634
+s38634
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/md5.h
+c000000004B90E7720000000000001272
+t1267787634
+s4722
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/pem.h
+c000000004B90E7720000000000006E59
+t1267787634
+s28249
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/rand.h
+c000000004B90E7720000000000001862
+t1267787634
+s6242
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/rsa.h
+c000000004B90E7720000000000004C73
+t1267787634
+s19571
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/sha.h
+c000000004B90E7720000000000001CDE
+t1267787634
+s7390
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/openssl/ssl.h
+c000000004B90E7A40000000000014965
+t1267787684
+s84325
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/socket.h
+c000000004B90BBAA00000000000059BC
+t1267776426
+s22972
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libcrypto.dylib
+c000000004BA713CD000000000007E1FC
+t1269240781
+s516604
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libz.dylib
+c000000004BA713D60000000000005D2C
+t1269240790
+s23852
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m
+c000000004BF2DDD40000000000004332
+t1274207700
+s17202
+i<pcre.h>
+i"AGRegex.h"
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m
+c000000004A0896FF0000000000015CC7
+t1242076927
+s89287
+i"AsyncSocket.h"
+i<sys/socket.h>
+i<netinet/in.h>
+i<arpa/inet.h>
+i<netdb.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDData.m
+c0000000049089AF200000000000010BC
+t1225300722
+s4284
+i"DDData.h"
+i<CommonCrypto/CommonDigest.h>
+i"SSCrypto.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDNumber.m
+c0000000049FB4D48000000000000052F
+t1241206088
+s1327
+i"DDNumber.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDRange.m
+c0000000049F13CB700000000000009E3
+t1240546487
+s2531
+i"DDRange.h"
+i"DDNumber.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m
+c000000004A089D6C0000000000001155
+t1242078572
+s4437
+i"HTTPAsyncFileResponse.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAuthenticationRequest.m
+c000000004A089A32000000000000196D
+t1242077746
+s6509
+i"HTTPAuthenticationRequest.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPConnection.m
+c000000004BF5BAE200000000000104F3
+t1274395362
+s66803
+i"AsyncSocket.h"
+i"HTTPServer.h"
+i"HTTPConnection.h"
+i"HTTPResponse.h"
+i"HTTPAuthenticationRequest.h"
+i"DDNumber.h"
+i"DDRange.h"
+i"DDData.h"
+i"HTTPAsyncFileResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m
+c000000004A089DB40000000000000868
+t1242078644
+s2152
+i"HTTPResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m
+c000000004A089A3200000000000024BD
+t1242077746
+s9405
+i"AsyncSocket.h"
+i"HTTPServer.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaConnection.m
+c000000004BF5C535000000000000024E
+t1274398005
+s590
+i"KaiwaConnection.h"
+i"KaiwaDispatcher.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaController.m
+c000000004BF5C535000000000000024F
+t1274398005
+s591
+i"KaiwaController.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m
+c000000004BF5CBEB0000000000001BB4
+t1274399723
+s7092
+i"KaiwaDispatcher.h"
+i"KaiwaRoute.h"
+i"KaiwaRewrite.h"
+i"KaiwaFilePath.h"
+i"KaiwaConnection.h"
+i"ThreadPoolServer.h"
+i"ThreadPerConnectionServer.h"
+i"HTTPAsyncFileResponse.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaFilePath.m
+c000000004BF5C529000000000000025E
+t1274397993
+s606
+i"KaiwaFilePath.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRequest.m
+c000000004BF5C53500000000000004F1
+t1274398005
+s1265
+i"KaiwaRequest.h"
+i"KaiwaConnection.h"
+i"NSString+URLEncode.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaResponse.m
+c000000004BF5C53500000000000005E5
+t1274398005
+s1509
+i"KaiwaResponse.h"
+i"KaiwaConnection.h"
+i"HTTPAsyncFileResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRewrite.m
+c000000004BF5C5350000000000000281
+t1274398005
+s641
+i"KaiwaRewrite.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRoute.m
+c000000004BF5C53500000000000008B5
+t1274398005
+s2229
+i"KaiwaRoute.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSDictionary+URLEncode.m
+c000000004BF5C5350000000000000409
+t1274398005
+s1033
+i"NSDictionary+URLEncode.h"
+i"NSString+URLEncode.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSString+URLEncode.m
+c000000004BF5C53600000000000002BE
+t1274398006
+s702
+i"NSString+URLEncode.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m
+c00000000492C7DEB00000000000082FB
+t1227652587
+s33531
+i"SSCrypto.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPerConnectionServer.m
+c00000000493215F9000000000000065C
+t1228019193
+s1628
+i"ThreadPerConnectionServer.h"
+i"AsyncSocket.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m
+c0000000049321CAC0000000000000D07
+t1228020908
+s3335
+i"ThreadPoolServer.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/English.lproj/InfoPlist.strings
+c000000004BF5CC91000000000000002D
+t1274399889
+s45
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/English.lproj/MainMenu.xib
+c000000004BF5CC91000000000002BBCE
+t1274399889
+s179150
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_TesterAppDelegate.h
+c000000004BF5CC910000000000000156
+t1274399889
+s342
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_TesterAppDelegate.m
+c000000004BF5CC910000000000000194
+t1274399889
+s404
+i"Kaiwa_Raw_TesterAppDelegate.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_Tester_Prefix.pch
+c000000004BF5CC9100000000000000A3
+t1274399889
+s163
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Info.plist
+t1274399923
+s913
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/MacOS/Kaiwa Raw Tester
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/PkgInfo
+t1274399923
+s8
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1274399924
+s92
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Resources/English.lproj/MainMenu.nib
+t1274399924
+s34519
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AGRegex.o
+t2
+s0
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AsyncSocket.o
+t1274399931
+s186396
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDData.o
+t1274399930
+s9712
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDNumber.o
+t1274399930
+s9816
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDRange.o
+t1274399930
+s15500
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o
+t1274399930
+s27024
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o
+t1274399930
+s27228
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPConnection.o
+t1274399931
+s98972
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPResponse.o
+t1274399931
+s23240
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPServer.o
+t1274399930
+s37748
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/Kaiwa Raw Tester.LinkFileList
+c000000004BF5CCB30000000000000E70
+t1274399923
+s3696
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaConnection.o
+t1274399930
+s10884
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaController.o
+t1274399930
+s11856
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaDispatcher.o
+t1274399930
+s43700
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaFilePath.o
+t1274399930
+s9648
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRequest.o
+t1274399930
+s20180
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaResponse.o
+t1274399930
+s20300
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRewrite.o
+t1274399930
+s10712
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRoute.o
+t1274399930
+s17392
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/Kaiwa_Raw_TesterAppDelegate.o
+t1274399930
+s21352
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSDictionary+URLEncode.o
+t1274399930
+s11476
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSString+URLEncode.o
+t1274399930
+s8484
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/SSCrypto.o
+t1274399930
+s68060
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPerConnectionServer.o
+t1274399931
+s18772
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPoolServer.o
+t1274399930
+s18128
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/main.o
+t1274399930
+s5016
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/main.m
+c000000004BF5CC910000000000000106
+t1274399889
+s262
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AGRegex.h
+c000000004040F671000000000000313D
+t1077999217
+s12605
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/AsyncSocket.h
+c0000000049F6401D000000000000435C
+t1240875037
+s17244
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDData.h
+c0000000048E1DDC700000000000000CD
+t1222761927
+s205
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDNumber.h
+c0000000048B0880E0000000000000155
+t1219528718
+s341
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/DDRange.h
+c0000000049F13CB9000000000000066A
+t1240546489
+s1642
+i<Foundation/NSValue.h>
+i<Foundation/NSObjCRuntime.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAsyncFileResponse.h
+c0000000049F904BE0000000000000233
+t1241056446
+s563
+i<Foundation/Foundation.h>
+i"HTTPResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPAuthenticationRequest.h
+c0000000048E26E0B00000000000002E4
+t1222798859
+s740
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPConnection.h
+c000000004BF5A6A10000000000000792
+t1274390177
+s1938
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPResponse.h
+c0000000049F913ED00000000000016D1
+t1241060333
+s5841
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/HTTPServer.h
+c0000000049362BE1000000000000044C
+t1228286945
+s1100
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaConnection.h
+c000000004BF5C535000000000000010C
+t1274398005
+s268
+i<Foundation/Foundation.h>
+i"ThreadPerConnectionServer.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaController.h
+c000000004BF5C5350000000000000249
+t1274398005
+s585
+i<Foundation/Foundation.h>
+i"KaiwaRequest.h"
+i"KaiwaResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaDispatcher.h
+c000000004BF5CBBE0000000000000524
+t1274399678
+s1316
+i<Foundation/Foundation.h>
+i"HTTPServer.h"
+i"HTTPResponse.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaFilePath.h
+c000000004BF5C5350000000000000164
+t1274398005
+s356
+i<Foundation/Foundation.h>
+i"KaiwaRewrite.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRequest.h
+c000000004BF5C53500000000000002EF
+t1274398005
+s751
+i<Foundation/Foundation.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaResponse.h
+c000000004BF5C53500000000000002B6
+t1274398005
+s694
+i<Foundation/Foundation.h>
+i"HTTPResponse.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRewrite.h
+c000000004BF5C535000000000000018A
+t1274398005
+s394
+i<Foundation/Foundation.h>
+i"AGRegex.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/KaiwaRoute.h
+c000000004BF5C53500000000000003AB
+t1274398005
+s939
+i<Foundation/Foundation.h>
+i"KaiwaRequest.h"
+i"KaiwaResponse.h"
+i"AGRegex.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSDictionary+URLEncode.h
+c000000004BF5C5350000000000000126
+t1274398005
+s294
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/NSString+URLEncode.h
+c000000004BF5C535000000000000014C
+t1274398005
+s332
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/SSCrypto.h
+c000000004BBF67940000000000000DC8
+t1270835092
+s3528
+i<Foundation/Foundation.h>
+i<openssl/evp.h>
+i<openssl/rand.h>
+i<openssl/rsa.h>
+i<openssl/engine.h>
+i<openssl/sha.h>
+i<openssl/pem.h>
+i<openssl/bio.h>
+i<openssl/err.h>
+i<openssl/ssl.h>
+i<openssl/md5.h>
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPerConnectionServer.h
+c0000000049321495000000000000021F
+t1228018837
+s543
+i"HTTPServer.h"
+i"HTTPConnection.h"
+
+N/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa/ThreadPoolServer.h
+c00000000493207EB000000000000026F
+t1228015595
+s623
+i"HTTPServer.h"
+i"HTTPConnection.h"
+
+N/usr/local/lib/libpcre.dylib
+c000000004BF2DD7F0000000000019FE8
+t1274207615
+s106472
+
+N/var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch.gch
+t1274399929
+s54265616
+
+NKaiwa_Raw_Tester-Info.plist
+c000000004BF5CC9100000000000003EA
+t1274399889
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies296092723#296092723#0(0"0(0#1#0"4300739032#0"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AGRegex.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.237264
+e296092730.539663
+r0
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AGRegex.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:13:17: error: pcre.h: No such file or directory
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:56: warning: type defaults to 'int' in declaration of 'type name'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:56: error: expected ')' before 'pcre'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex initWithPattern:options:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:102: error: 'PCRE_CASELESS' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:102: error: (Each undeclared identifier is reported only once
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:102: error: for each function it appears in.)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:103: error: 'PCRE_DOTALL' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:104: error: 'PCRE_EXTENDED' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:105: error: 'PCRE_UNGREEDY' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:106: error: 'PCRE_MULTILINE' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:116: warning: implicit declaration of function 'pcre_compile'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:116: warning: assignment makes pointer from integer without a cast
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:120: warning: implicit declaration of function 'pcre_fullinfo'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:120: error: 'PCRE_INFO_CAPTURECOUNT' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex dealloc]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:130: warning: implicit declaration of function 'pcre_free'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex findInUTF8Data:byteRange:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:145: error: 'PCRE_NOTEOL' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:149: warning: implicit declaration of function 'pcre_exec'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:149: error: 'PCRE_ERROR_NOMATCH' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex replaceWithString:inString:limit:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:228: warning: implicit declaration of function 'pcre_get_stringnumber'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:228: error: 'PCRE_ERROR_NOSUBSTRING' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: At top level:
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:346: warning: type defaults to 'int' in declaration of 'type name'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:346: error: expected ')' before 'pcre'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex pcre]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:346: warning: return makes integer from pointer without a cast
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegexMatch groupNamed:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:386: error: 'PCRE_ERROR_NOSUBSTRING' undeclared (first use in this function)
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegexMatch rangeNamed:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:409: error: 'PCRE_ERROR_NOSUBSTRING' undeclared (first use in this function)
+lSLF07#2@77"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m296092730#296092730#0(4242"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:13:17: error: pcre.h: No such file or directory/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:56: warning: type defaults to 'int' in declaration of 'type name'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:56: error: expected ')' before 'pcre'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex initWithPattern:options:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:102: error: 'PCRE_CASELESS' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:102: error: (Each undeclared identifier is reported only once/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:102: error: for each function it appears in.)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:103: error: 'PCRE_DOTALL' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:104: error: 'PCRE_EXTENDED' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:105: error: 'PCRE_UNGREEDY' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:106: error: 'PCRE_MULTILINE' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:116: warning: implicit declaration of function 'pcre_compile'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:116: warning: assignment makes pointer from integer without a cast/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:120: warning: implicit declaration of function 'pcre_fullinfo'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:120: error: 'PCRE_INFO_CAPTURECOUNT' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex dealloc]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:130: warning: implicit declaration of function 'pcre_free'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex findInUTF8Data:byteRange:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:145: error: 'PCRE_NOTEOL' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:149: warning: implicit declaration of function 'pcre_exec'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:149: error: 'PCRE_ERROR_NOMATCH' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex replaceWithString:inString:limit:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:228: warning: implicit declaration of function 'pcre_get_stringnumber'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:228: error: 'PCRE_ERROR_NOSUBSTRING' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: At top level:/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:346: warning: type defaults to 'int' in declaration of 'type name'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:346: error: expected ')' before 'pcre'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegex pcre]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:346: warning: return makes integer from pointer without a cast/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegexMatch groupNamed:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:386: error: 'PCRE_ERROR_NOSUBSTRING' undeclared (first use in this function)/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m: In function '-[AGRegexMatch rangeNamed:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m:409: error: 'PCRE_ERROR_NOSUBSTRING' undeclared (first use in this function)24(4@33"Pcre.h: No such file or directory296092730#0#118#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#13#0#13#0#28"*: No such file or directory0(22@52"Type defaults to 'int' in declaration of 'type name'296092730#118#136#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#56#0#56#0#42"type defaults to '*' in declaration of '*'0(4@26"Expected ')' before 'pcre'296092730#254#108#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#56#0#56#0#19"expected * before *0(4@55"'PCRE_CASELESS' undeclared (first use in this function)296092730#484#138#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#102#0#102#0#43"'*' undeclared (first use in this function)0(4@53"'PCRE_DOTALL' undeclared (first use in this function)296092730#870#136#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#103#0#103#0#43"'*' undeclared (first use in this function)0(4@55"'PCRE_EXTENDED' undeclared (first use in this function)296092730#1006#138#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#104#0#104#0#43"'*' undeclared (first use in this function)0(4@55"'PCRE_UNGREEDY' undeclared (first use in this function)296092730#1144#138#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#105#0#105#0#43"'*' undeclared (first use in this function)0(4@56"'PCRE_MULTILINE' undeclared (first use in this function)296092730#1282#139#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#106#0#106#0#43"'*' undeclared (first use in this function)0(22@47"Implicit declaration of function 'pcre_compile'296092730#1421#132#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#116#0#116#0#36"implicit declaration of function '*'0(22@52"Assignment makes pointer from integer without a cast296092730#1553#137#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#116#0#116#0#0"0(22@48"Implicit declaration of function 'pcre_fullinfo'296092730#1690#133#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#120#0#120#0#36"implicit declaration of function '*'0(4@64"'PCRE_INFO_CAPTURECOUNT' undeclared (first use in this function)296092730#1823#147#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#120#0#120#0#43"'*' undeclared (first use in this function)0(22@44"Implicit declaration of function 'pcre_free'296092730#2075#129#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#130#0#130#0#36"implicit declaration of function '*'0(4@53"'PCRE_NOTEOL' undeclared (first use in this function)296092730#2327#136#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#145#0#145#0#43"'*' undeclared (first use in this function)0(22@44"Implicit declaration of function 'pcre_exec'296092730#2463#129#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#149#0#149#0#36"implicit declaration of function '*'0(4@60"'PCRE_ERROR_NOMATCH' undeclared (first use in this function)296092730#2592#143#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#149#0#149#0#43"'*' undeclared (first use in this function)0(22@56"Implicit declaration of function 'pcre_get_stringnumber'296092730#2866#141#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#228#0#228#0#36"implicit declaration of function '*'0(4@64"'PCRE_ERROR_NOSUBSTRING' undeclared (first use in this function)296092730#3007#147#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#228#0#228#0#43"'*' undeclared (first use in this function)0(23@13"At top level:296092730#3154#85#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#0#0#0#0#0"0(22@52"Type defaults to 'int' in declaration of 'type name'296092730#3239#137#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#346#0#346#0#42"type defaults to '*' in declaration of '*'0(4@26"Expected ')' before 'pcre'296092730#3376#109#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#346#0#346#0#19"expected * before *0(22@48"Return makes integer from pointer without a cast296092730#3587#133#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#346#0#346#0#0"0(4@64"'PCRE_ERROR_NOSUBSTRING' undeclared (first use in this function)296092730#3834#147#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#386#0#386#0#43"'*' undeclared (first use in this function)0(4@64"'PCRE_ERROR_NOSUBSTRING' undeclared (first use in this function)296092730#4095#147#0(6@69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m295900500#409#0#409#0#43"'*' undeclared (first use in this function)0(0#0#69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m4300739032#1799"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AGRegex.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AGRegex.o"1#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AsyncSocket.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.539845
+e296092731.161436
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AsyncSocket.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m:968: warning: format not a string literal and no format arguments
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m:974: warning: format not a string literal and no format arguments
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m:1021: warning: format not a string literal and no format arguments
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m:1027: warning: format not a string literal and no format arguments
+lSLF07#2@81"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m296092730#296092731#0(848"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m: In function '-[AsyncSocket connectToHost:onPort:withTimeout:error:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m:968: warning: format not a string literal and no format arguments/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m:974: warning: format not a string literal and no format arguments/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m: In function '-[AsyncSocket connectToAddress:withTimeout:error:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m:1021: warning: format not a string literal and no format arguments/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m:1027: warning: format not a string literal and no format arguments4(22@51"Format not a string literal and no format arguments296092730#145#140#0(6@73"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m263769727#968#0#968#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments296092730#285#140#0(6@73"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m263769727#974#0#974#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments296092730#566#141#0(6@73"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m263769727#1021#0#1021#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments296092730#707#141#0(6@73"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m263769727#1027#0#1027#0#51"format not a string literal and no format arguments0(0#0#73"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m4300739032#1807"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/AsyncSocket.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/AsyncSocket.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDData.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDData.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.241013
+e296092730.736734
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDData.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDData.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDData.m296092730#296092730#0(0"0(0#0#68"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDData.m4300739032#1797"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDData.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDData.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDNumber.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDNumber.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.239149
+e296092730.580021
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDNumber.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDNumber.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDNumber.m296092730#296092730#0(0"0(0#0#70"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDNumber.m4300739032#1801"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDNumber.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDNumber.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDRange.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDRange.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.240089
+e296092730.576730
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDRange.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDRange.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDRange.m296092730#296092730#0(0"0(0#0#69"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDRange.m4300739032#1799"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/DDRange.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/DDRange.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.563620
+e296092730.919495
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m: In function '-[HTTPAsyncFileResponse initWithFilePath:forConnection:runLoopModes:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m:58: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+lSLF07#2@91"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m296092730#296092730#0(438"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m: In function '-[HTTPAsyncFileResponse initWithFilePath:forConnection:runLoopModes:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m:58: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)1(22@170"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)296092730#170#268#0(6@83"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m263771372#58#0#58#0#33"'*' is deprecated (declared at *)0(0#0#83"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m4300739032#1827"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAsyncFileResponse.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAsyncFileResponse.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAuthenticationRequest.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.576833
+e296092730.913563
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAuthenticationRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAuthenticationRequest.m296092730#296092730#0(0"0(0#0#87"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAuthenticationRequest.m4300739032#1835"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPAuthenticationRequest.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPAuthenticationRequest.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPConnection.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPConnection.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.736921
+e296092731.156050
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPConnection.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPConnection.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPConnection.m296092730#296092731#0(0"0(0#0#76"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPConnection.m4300739032#1813"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPConnection.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPConnection.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPResponse.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.842911
+e296092731.051674
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPResponse.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m: In function '-[HTTPFileResponse initWithFilePath:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m:19: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)
+lSLF07#2@82"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m296092730#296092731#0(388"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m: In function '-[HTTPFileResponse initWithFilePath:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m:19: warning: 'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)1(22@170"'fileAttributesAtPath:traverseLink:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSFileManager.h:162)296092730#129#259#0(6@74"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m263771444#19#0#19#0#33"'*' is deprecated (declared at *)0(0#0#74"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m4300739032#1809"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPResponse.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPResponse.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPServer.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.580112
+e296092730.927784
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPServer.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m: In function '-[HTTPServer start:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m:232: warning: class 'HTTPServer' does not implement the 'NSNetServiceDelegate' protocol
+lSLF07#2@80"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m296092730#296092730#0(271"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m: In function '-[HTTPServer start:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m:232: warning: class 'HTTPServer' does not implement the 'NSNetServiceDelegate' protocol1(22@73"Class 'HTTPServer' does not implement the 'NSNetServiceDelegate' protocol296092730#110#161#0(6@72"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m263770546#232#0#232#0#45"class '*' does not implement the '*' protocol0(0#0#72"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m4300739032#1805"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/HTTPServer.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/HTTPServer.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaConnection.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaConnection.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.151585
+e296092730.510216
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaConnection.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaConnection.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaConnection.m296092730#296092730#0(0"0(0#0#77"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaConnection.m4300739032#1815"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaConnection.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaConnection.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaController.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.236284
+e296092730.563474
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaController.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaController.m296092730#296092730#0(0"0(0#0#77"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaController.m4300739032#1815"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaController.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaController.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaDispatcher.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092729.525607
+e296092730.235482
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaDispatcher.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m296092729#296092730#0(0"0(0#0#77"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m4300739032#1815"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaDispatcher.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaDispatcher.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaFilePath.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaFilePath.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092729.529817
+e296092730.236186
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaFilePath.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaFilePath.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaFilePath.m296092729#296092730#0(0"0(0#0#75"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaFilePath.m4300739032#1811"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaFilePath.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaFilePath.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRequest.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRequest.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092729.526402
+e296092730.235656
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRequest.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRequest.m296092729#296092730#0(0"0(0#0#74"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRequest.m4300739032#1809"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRequest.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRequest.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaResponse.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaResponse.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092729.527246
+e296092730.235828
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaResponse.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaResponse.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaResponse.m296092729#296092730#0(0"0(0#0#75"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaResponse.m4300739032#1811"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaResponse.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaResponse.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRewrite.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRewrite.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092729.528954
+e296092730.236010
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRewrite.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRewrite.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRewrite.m296092729#296092730#0(0"0(0#0#74"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRewrite.m4300739032#1809"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRewrite.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRewrite.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRoute.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRoute.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092729.528120
+e296092730.151431
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRoute.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRoute.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRoute.m296092729#296092730#0(0"0(0#0#72"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRoute.m4300739032#1805"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/KaiwaRoute.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/KaiwaRoute.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/Kaiwa_Raw_TesterAppDelegate.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_TesterAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092729.524802
+e296092730.235314
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/Kaiwa_Raw_TesterAppDelegate.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_TesterAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_TesterAppDelegate.m296092729#296092730#0(0"0(0#0#80"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_TesterAppDelegate.m4300739032#1830"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_TesterAppDelegate.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/Kaiwa_Raw_TesterAppDelegate.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSDictionary+URLEncode.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSDictionary+URLEncode.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.510397
+e296092730.842586
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSDictionary+URLEncode.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSDictionary+URLEncode.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSDictionary+URLEncode.m296092730#296092730#0(0"0(0#0#84"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSDictionary+URLEncode.m4300739032#1829"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSDictionary+URLEncode.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSDictionary+URLEncode.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSString+URLEncode.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSString+URLEncode.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.241925
+e296092730.572535
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSString+URLEncode.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSString+URLEncode.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSString+URLEncode.m296092730#296092730#0(0"0(0#0#80"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSString+URLEncode.m4300739032#1821"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/NSString+URLEncode.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/NSString+URLEncode.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/SSCrypto.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.238222
+e296092730.892328
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/SSCrypto.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m: In function '-[NSData(HexDump) encodeBase64WithNewlines:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m:78: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:385)
+lSLF07#2@78"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m296092730#296092730#0(373"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m: In function '-[NSData(HexDump) encodeBase64WithNewlines:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m:78: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:385)1(22@156"'stringWithCString:length:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:385)296092730#132#241#0(6@70"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m249345387#78#0#78#0#33"'*' is deprecated (declared at *)0(0#0#70"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m4300739032#1801"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/SSCrypto.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/SSCrypto.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPerConnectionServer.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPerConnectionServer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.892610
+e296092731.103144
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPerConnectionServer.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPerConnectionServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPerConnectionServer.m296092730#296092731#0(0"0(0#0#87"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPerConnectionServer.m4300739032#1835"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPerConnectionServer.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPerConnectionServer.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPoolServer.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092730.572686
+e296092730.908279
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPoolServer.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m: In function '-[ThreadPoolServer connectionDidDie:]':
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m:116: warning: 'HTTPServer' may not respond to '-connectionDidDie:'
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m:116: warning: (Messages without a matching method signature
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m:116: warning: will be assumed to return 'id' and accept
+o/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m:116: warning: '...' as arguments.)
+lSLF07#2@86"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m296092730#296092730#0(667"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m: In function '-[ThreadPoolServer connectionDidDie:]':/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m:116: warning: 'HTTPServer' may not respond to '-connectionDidDie:'/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m:116: warning: (Messages without a matching method signature/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m:116: warning: will be assumed to return 'id' and accept/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m:116: warning: '...' as arguments.)2(22@52"'HTTPServer' may not respond to '-connectionDidDie:'296092730#133#146#0(6@78"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m249713708#116#0#116#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)296092730#279#139#0(6@78"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m249713708#116#0#116#0#0"0(0#0#78"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m4300739032#1817"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/../Kaiwa/ThreadPoolServer.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/ThreadPoolServer.o"0#
+
+CCompileC "build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/main.o" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092729.523721
+e296092730.235122
+r1
+xCompileC
+xbuild/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/main.o
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/main.m296092729#296092730#0(0"0(0#0#57"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/main.m4300739032#1784"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -include /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/main.m" -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Objects-normal/x86_64/main.o"0#
+
+CCompileXIB "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/English.lproj/MainMenu.xib"
+s296092723.951446
+e296092724.283989
+r1
+xCompileXIB
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib296092723#296092724#0(0"0(0#0#77"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/English.lproj/MainMenu.xib4300739032#378"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/English.lproj/MainMenu.xib"0#
+
+CCopyStringsFile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s296092723.950289
+e296092724.104976
+r1
+xCopyStringsFile
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings296092723#296092724#0(0"0(0#0#82"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/English.lproj/InfoPlist.strings4300739032#402"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Resources/English.lproj"0#
+
+CLd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/MacOS/Kaiwa Raw Tester" normal x86_64
+r0
+
+CProcessInfoPlistFile "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Info.plist" Kaiwa_Raw_Tester-Info.plist
+s296092723.946567
+e296092723.950203
+r1
+xProcessInfoPlistFile
+x/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Info.plist
+xKaiwa_Raw_Tester-Info.plist
+lSLF07#2@35"Process Kaiwa_Raw_Tester-Info.plist296092723#296092723#0(0"0(0#0#78"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_Tester-Info.plist4300739032#379"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    builtin-infoPlistUtility Kaiwa_Raw_Tester-Info.plist -genpkginfo "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch.gch Kaiwa_Raw_Tester_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s296092724.284199
+e296092729.523404
+r1
+xProcessPCH
+x/var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch.gch
+xKaiwa_Raw_Tester_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile Kaiwa_Raw_Tester_Prefix.pch296092724#296092729#0(0"0(0#0#78"/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_Tester_Prefix.pch4300739032#1667"    cd "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-generated-files.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-own-target-headers.hmap" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-all-target-headers.hmap" -iquote "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/Kaiwa Raw Tester-project-headers.hmap" "-F/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/include" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources/x86_64" "-I/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Kaiwa Raw Tester.build/Debug/Kaiwa Raw Tester.build/DerivedSources" -c "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/Kaiwa_Raw_Tester_Prefix.pch" -o /var/folders/zp/zpH5DKMVGb0TCq2rDKeOWk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Kaiwa_Raw_Tester_Prefix-aaigobihpocmhxetomnyrfbmrxid/Kaiwa_Raw_Tester_Prefix.pch.gch0#
+
+CTouch "/Users/jon/Dropbox/Projects/Kaiwa/Kaiwa Raw Tester/build/Debug/Kaiwa Raw Tester.app"
+r0
+
