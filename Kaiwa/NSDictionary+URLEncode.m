@@ -33,7 +33,10 @@
 	for(NSString *pair in parts)
 	{
 		NSArray *values=[pair componentsSeparatedByString:@"="];
-		[result setObject:[[values objectAtIndex:1] urlDecoded] forKey:[[values objectAtIndex:0] urlDecoded]];
+		if ([values count]==1)
+			[result setObject:@"YES" forKey:[[values objectAtIndex:0] urlDecoded]];
+		else if ([values count]==2)
+			[result setObject:[[values objectAtIndex:1] urlDecoded] forKey:[[values objectAtIndex:0] urlDecoded]];
 	}
 	
 	return result;

@@ -23,6 +23,9 @@
 // simply return them in a dictionary in this method.
 - (NSDictionary *)httpHeaders;
 
+// Allows you to set the headers
+- (void)setHeaders:(NSDictionary *)theHeaders;
+
 // If you want to generate your response asynchronously (e.g. in a background thread),
 // implement this method in your custom response class and return YES.
 // As you generate the data, call HTTPConnection's responseHasAvailableData method.
@@ -52,14 +55,19 @@
 
 @interface HTTPFileResponse : NSObject <HTTPResponse>
 {
+	NSMutableDictionary *headers;
 	NSString *filePath;
 	NSFileHandle *fileHandle;
 	
 	UInt64 fileLength;
 }
 
+@property (readonly) NSMutableDictionary *headers;
+
 - (id)initWithFilePath:(NSString *)filePath;
 - (NSString *)filePath;
+- (void)setHeaders:(NSDictionary *)theHeaders;
+- (NSDictionary *)httpHeaders;
 
 @end
 
@@ -69,11 +77,16 @@
 
 @interface HTTPDataResponse : NSObject <HTTPResponse>
 {
+	NSMutableDictionary *headers;
 	unsigned offset;
 	NSData *data;
 }
 
+@property (readonly) NSMutableDictionary *headers;
+
 - (id)initWithData:(NSData *)data;
+- (void)setHeaders:(NSDictionary *)theHeaders;
+- (NSDictionary *)httpHeaders;
 
 @end
 

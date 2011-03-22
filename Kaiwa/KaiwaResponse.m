@@ -12,6 +12,8 @@
 
 @implementation KaiwaResponse
 
+@synthesize headers,cookies;
+
 #pragma mark initialization
 
 -(id)initWithConnection:(KaiwaConnection *)theConnection
@@ -20,9 +22,9 @@
 	{
 		connection=theConnection;
 		cookies=[[[NSMutableArray alloc] init] retain];
-		headers=[[[NSMutableArray alloc] init] retain];
+		headers=[[[NSMutableDictionary alloc] init] retain];
 		output=[[[NSMutableData alloc] init] retain];
-		contentType=[@"text/xml" retain];
+		contentType=[@"text/plain" retain];
 		canWrite=YES;
 		filePath=nil;
 	}
@@ -41,6 +43,14 @@
 		[filePath release];
 
 	[super dealloc];
+}
+
+
+-(void)addCookie:(HTTPCookie *)cookie
+{
+	cookie.domain=[connection.uri host];
+	
+	[cookies addObject:cookie];
 }
 
 #pragma mark write/respond
@@ -75,10 +85,29 @@
 
 -(NSObject<HTTPResponse> *)httpResponse
 {
+	NSObject<HTTPResponse> *result;
+	
 	if (filePath!=nil)
-		return [[[HTTPAsyncFileResponse alloc] initWithFilePath:filePath forConnection:connection runLoopModes:[connection.asyncSocket runLoopModes]] autorelease];
+		result=[[[HTTPAsyncFileResponse alloc] initWithFilePath:filePath forConnection:connection runLoopModes:[connection.asyncSocket runLoopModes]] autorelease];
 	else
-		return [[[HTTPDataResponse alloc] initWithData:output] autorelease];
+		result=[[[HTTPDataResponse alloc] initWithData:output] autorelease];
+	
+	[headers setObject:contentType forKey:@"Content-Type"];
+	
+	NSString *cookieHeader=@"";
+	for(int i=0; i<[cookies count]; i++)
+	{
+		cookieHeader=[cookieHeader stringByAppendingString:[[cookies objectAtIndex:0] collapse]];
+		if (i<[cookies count]-1)
+			cookieHeader=[cookieHeader stringByAppendingString:@", "];
+	}
+	
+	if ([cookieHeader isEqualToString:@""]==NO)
+		[headers setObject:cookieHeader forKey:@"Set-Cookie"];
+	
+	[result setHeaders:headers];
+	
+	return result;
 }
 
 

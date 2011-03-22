@@ -9,6 +9,7 @@
 #import "KaiwaRequest.h"
 #import "KaiwaConnection.h"
 #import "NSString+URLEncode.h"
+#import "NSDictionary+URLEncode.h"
 
 @implementation KaiwaRequest
 
@@ -22,6 +23,9 @@
 	{
 		connection=theConnection;
 		
+		headers=[[NSMutableDictionary alloc] init];
+		cookies=[[NSMutableDictionary alloc] init];
+		
 		uri=[uriString retain];
 		method=[theMethod retain];
 		url=[[[NSURL alloc] initWithScheme:@"http" host:@"localhost" path:uriString] retain];
@@ -30,6 +34,8 @@
 		NSArray *paramParts=[uriString componentsSeparatedByString:@"?"];
 		if ([paramParts count]>1)
 		{
+			query=[[NSDictionary parsedQuery:paramParts objectAtIndex:1] retain];
+/*
 			NSArray *parameters=[[paramParts objectAtIndex:1] componentsSeparatedByString:@"&"];
 			for(NSString *param in parameters)
 			{
@@ -39,7 +45,11 @@
 				else if ([elements count]==2)
 					[query setObject:[[elements objectAtIndex:1] urlDecoded] forKey:[[elements objectAtIndex:0] urlDecoded]];
 			}
+ */
 		}
+		else
+			query=[[[NSMutableDictionary alloc] init] retain];
+		
 		args=nil;
 	}
 	
@@ -48,6 +58,8 @@
 
 -(void)dealloc
 {
+	[headers release];
+	[cookies release];
 	[uri release];
 	[method release];
 	[query release];

@@ -59,6 +59,44 @@
 		FC59809F11A5FCD700453F68 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC59809C11A5FCD700453F68 /* libcrypto.dylib */; };
 		FC5980A011A5FCD700453F68 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC59809D11A5FCD700453F68 /* libz.dylib */; };
 		FC5980A111A5FCD700453F68 /* libpcre.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC59809E11A5FCD700453F68 /* libpcre.dylib */; };
+		FC5BAB9811BD5F8000AE6B30 /* RandomSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BAB9611BD5F8000AE6B30 /* RandomSequence.h */; };
+		FC5BAB9911BD5F8000AE6B30 /* RandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BAB9711BD5F8000AE6B30 /* RandomSequence.m */; };
+		FC5BABA811BD5F9E00AE6B30 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BAB9B11BD5F9E00AE6B30 /* JSON.h */; };
+		FC5BABA911BD5F9E00AE6B30 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BAB9C11BD5F9E00AE6B30 /* NSObject+SBJSON.h */; };
+		FC5BABAA11BD5F9E00AE6B30 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BAB9D11BD5F9E00AE6B30 /* NSObject+SBJSON.m */; };
+		FC5BABAB11BD5F9E00AE6B30 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BAB9E11BD5F9E00AE6B30 /* NSString+SBJSON.h */; };
+		FC5BABAC11BD5F9E00AE6B30 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BAB9F11BD5F9E00AE6B30 /* NSString+SBJSON.m */; };
+		FC5BABAD11BD5F9E00AE6B30 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABA011BD5F9E00AE6B30 /* SBJSON.h */; };
+		FC5BABAE11BD5F9E00AE6B30 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABA111BD5F9E00AE6B30 /* SBJSON.m */; };
+		FC5BABAF11BD5F9E00AE6B30 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABA211BD5F9E00AE6B30 /* SBJsonBase.h */; };
+		FC5BABB011BD5F9E00AE6B30 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABA311BD5F9E00AE6B30 /* SBJsonBase.m */; };
+		FC5BABB111BD5F9E00AE6B30 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABA411BD5F9E00AE6B30 /* SBJsonParser.h */; };
+		FC5BABB211BD5F9E00AE6B30 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABA511BD5F9E00AE6B30 /* SBJsonParser.m */; };
+		FC5BABB311BD5F9E00AE6B30 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABA611BD5F9E00AE6B30 /* SBJsonWriter.h */; };
+		FC5BABB411BD5F9E00AE6B30 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABA711BD5F9E00AE6B30 /* SBJsonWriter.m */; };
+		FC5BABC211BD5FAD00AE6B30 /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABB511BD5FAD00AE6B30 /* ASIFormDataRequest.h */; };
+		FC5BABC311BD5FAD00AE6B30 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABB611BD5FAD00AE6B30 /* ASIFormDataRequest.m */; };
+		FC5BABC411BD5FAD00AE6B30 /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABB711BD5FAD00AE6B30 /* ASIHTTPRequest.h */; };
+		FC5BABC511BD5FAD00AE6B30 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABB811BD5FAD00AE6B30 /* ASIHTTPRequest.m */; };
+		FC5BABC611BD5FAD00AE6B30 /* ASIHTTPRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABB911BD5FAD00AE6B30 /* ASIHTTPRequestConfig.h */; };
+		FC5BABC711BD5FAD00AE6B30 /* ASIHTTPRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABBA11BD5FAD00AE6B30 /* ASIHTTPRequestDelegate.h */; };
+		FC5BABC811BD5FAD00AE6B30 /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABBB11BD5FAD00AE6B30 /* ASIInputStream.h */; };
+		FC5BABC911BD5FAD00AE6B30 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABBC11BD5FAD00AE6B30 /* ASIInputStream.m */; };
+		FC5BABCA11BD5FAD00AE6B30 /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABBD11BD5FAD00AE6B30 /* ASINetworkQueue.h */; };
+		FC5BABCB11BD5FAD00AE6B30 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABBE11BD5FAD00AE6B30 /* ASINetworkQueue.m */; };
+		FC5BABCC11BD5FAD00AE6B30 /* ASINSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABBF11BD5FAD00AE6B30 /* ASINSStringAdditions.h */; };
+		FC5BABCD11BD5FAD00AE6B30 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABC011BD5FAD00AE6B30 /* ASINSStringAdditions.m */; };
+		FC5BABCE11BD5FAD00AE6B30 /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABC111BD5FAD00AE6B30 /* ASIProgressDelegate.h */; };
+		FC5BABD211BD5FC500AE6B30 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5BABD111BD5FC500AE6B30 /* Security.framework */; };
+		FC5BABD411BD5FC500AE6B30 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5BABD311BD5FC500AE6B30 /* SystemConfiguration.framework */; };
+		FC5BABD711BD5FD300AE6B30 /* KaiwaFriendController.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5BABD511BD5FD300AE6B30 /* KaiwaFriendController.h */; };
+		FC5BABD811BD5FD300AE6B30 /* KaiwaFriendController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5BABD611BD5FD300AE6B30 /* KaiwaFriendController.m */; };
+		FC9BAEB611BAEB350017EA67 /* HTTPCookie.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9BAEB011BAEB350017EA67 /* HTTPCookie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC9BAEB711BAEB350017EA67 /* HTTPCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9BAEB111BAEB350017EA67 /* HTTPCookie.m */; };
+		FC9BAEB811BAEB350017EA67 /* KaiwaFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9BAEB211BAEB350017EA67 /* KaiwaFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC9BAEB911BAEB350017EA67 /* KaiwaFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9BAEB311BAEB350017EA67 /* KaiwaFriend.m */; };
+		FC9BAEBA11BAEB350017EA67 /* KaiwaHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC9BAEB411BAEB350017EA67 /* KaiwaHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC9BAEBB11BAEB350017EA67 /* KaiwaHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9BAEB511BAEB350017EA67 /* KaiwaHTTPServer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +158,44 @@
 		FC59809C11A5FCD700453F68 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
 		FC59809D11A5FCD700453F68 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		FC59809E11A5FCD700453F68 /* libpcre.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpcre.dylib; path = /usr/local/lib/libpcre.dylib; sourceTree = "<absolute>"; };
+		FC5BAB9611BD5F8000AE6B30 /* RandomSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomSequence.h; sourceTree = "<group>"; };
+		FC5BAB9711BD5F8000AE6B30 /* RandomSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSequence.m; sourceTree = "<group>"; };
+		FC5BAB9B11BD5F9E00AE6B30 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FC5BAB9C11BD5F9E00AE6B30 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FC5BAB9D11BD5F9E00AE6B30 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FC5BAB9E11BD5F9E00AE6B30 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FC5BAB9F11BD5F9E00AE6B30 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FC5BABA011BD5F9E00AE6B30 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		FC5BABA111BD5F9E00AE6B30 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		FC5BABA211BD5F9E00AE6B30 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FC5BABA311BD5F9E00AE6B30 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FC5BABA411BD5F9E00AE6B30 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FC5BABA511BD5F9E00AE6B30 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FC5BABA611BD5F9E00AE6B30 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FC5BABA711BD5F9E00AE6B30 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		FC5BABB511BD5FAD00AE6B30 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		FC5BABB611BD5FAD00AE6B30 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		FC5BABB711BD5FAD00AE6B30 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		FC5BABB811BD5FAD00AE6B30 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		FC5BABB911BD5FAD00AE6B30 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		FC5BABBA11BD5FAD00AE6B30 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		FC5BABBB11BD5FAD00AE6B30 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		FC5BABBC11BD5FAD00AE6B30 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		FC5BABBD11BD5FAD00AE6B30 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		FC5BABBE11BD5FAD00AE6B30 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		FC5BABBF11BD5FAD00AE6B30 /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		FC5BABC011BD5FAD00AE6B30 /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		FC5BABC111BD5FAD00AE6B30 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		FC5BABD111BD5FC500AE6B30 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FC5BABD311BD5FC500AE6B30 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC5BABD511BD5FD300AE6B30 /* KaiwaFriendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaFriendController.h; sourceTree = "<group>"; };
+		FC5BABD611BD5FD300AE6B30 /* KaiwaFriendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaFriendController.m; sourceTree = "<group>"; };
+		FC9BAEB011BAEB350017EA67 /* HTTPCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCookie.h; sourceTree = "<group>"; };
+		FC9BAEB111BAEB350017EA67 /* HTTPCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCookie.m; sourceTree = "<group>"; };
+		FC9BAEB211BAEB350017EA67 /* KaiwaFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaFriend.h; sourceTree = "<group>"; };
+		FC9BAEB311BAEB350017EA67 /* KaiwaFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaFriend.m; sourceTree = "<group>"; };
+		FC9BAEB411BAEB350017EA67 /* KaiwaHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPServer.h; sourceTree = "<group>"; };
+		FC9BAEB511BAEB350017EA67 /* KaiwaHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPServer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +207,8 @@
 				FC59809F11A5FCD700453F68 /* libcrypto.dylib in Frameworks */,
 				FC5980A011A5FCD700453F68 /* libz.dylib in Frameworks */,
 				FC5980A111A5FCD700453F68 /* libpcre.dylib in Frameworks */,
+				FC5BABD211BD5FC500AE6B30 /* Security.framework in Frameworks */,
+				FC5BABD411BD5FC500AE6B30 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +256,9 @@
 		08FB77AEFE84172EC02AAC07 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FC5BAB9A11BD5F8300AE6B30 /* JSON */,
+				FC5BAB9511BD5F6C00AE6B30 /* Utility */,
+				FC5BAB9411BD5F6500AE6B30 /* ASIHTTP */,
 				FC59805211A5FBB000453F68 /* Kaiwa */,
 				FC59804F11A5FBB000453F68 /* AGRegex */,
 				FC59802D11A5FBB000453F68 /* HTTP */,
@@ -188,6 +269,8 @@
 		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC5BABD111BD5FC500AE6B30 /* Security.framework */,
+				FC5BABD311BD5FC500AE6B30 /* SystemConfiguration.framework */,
 				FC59809C11A5FCD700453F68 /* libcrypto.dylib */,
 				FC59809D11A5FCD700453F68 /* libz.dylib */,
 				FC59809E11A5FCD700453F68 /* libpcre.dylib */,
@@ -241,6 +324,8 @@
 				FC59803811A5FBB000453F68 /* HTTPResponse.h */,
 				FC59803911A5FBB000453F68 /* HTTPResponse.m */,
 				FC59803A11A5FBB000453F68 /* ThreadPerConnectionServer.m */,
+				FC9BAEB011BAEB350017EA67 /* HTTPCookie.h */,
+				FC9BAEB111BAEB350017EA67 /* HTTPCookie.m */,
 			);
 			name = HTTP;
 			sourceTree = "<group>";
@@ -301,7 +386,13 @@
 		FC59805211A5FBB000453F68 /* Kaiwa */ = {
 			isa = PBXGroup;
 			children = (
+				FC5BABD511BD5FD300AE6B30 /* KaiwaFriendController.h */,
+				FC5BABD611BD5FD300AE6B30 /* KaiwaFriendController.m */,
 				FC59805311A5FBB000453F68 /* Kaiwa.h */,
+				FC9BAEB211BAEB350017EA67 /* KaiwaFriend.h */,
+				FC9BAEB311BAEB350017EA67 /* KaiwaFriend.m */,
+				FC9BAEB411BAEB350017EA67 /* KaiwaHTTPServer.h */,
+				FC9BAEB511BAEB350017EA67 /* KaiwaHTTPServer.m */,
 				FC59805411A5FBB000453F68 /* KaiwaDispatcher.h */,
 				FC59805511A5FBB000453F68 /* KaiwaDispatcher.m */,
 				FC59805611A5FBB000453F68 /* KaiwaRequest.h */,
@@ -320,6 +411,55 @@
 				FC59806311A5FBB000453F68 /* KaiwaController.m */,
 			);
 			name = Kaiwa;
+			sourceTree = "<group>";
+		};
+		FC5BAB9411BD5F6500AE6B30 /* ASIHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FC5BABB511BD5FAD00AE6B30 /* ASIFormDataRequest.h */,
+				FC5BABB611BD5FAD00AE6B30 /* ASIFormDataRequest.m */,
+				FC5BABB711BD5FAD00AE6B30 /* ASIHTTPRequest.h */,
+				FC5BABB811BD5FAD00AE6B30 /* ASIHTTPRequest.m */,
+				FC5BABB911BD5FAD00AE6B30 /* ASIHTTPRequestConfig.h */,
+				FC5BABBA11BD5FAD00AE6B30 /* ASIHTTPRequestDelegate.h */,
+				FC5BABBB11BD5FAD00AE6B30 /* ASIInputStream.h */,
+				FC5BABBC11BD5FAD00AE6B30 /* ASIInputStream.m */,
+				FC5BABBD11BD5FAD00AE6B30 /* ASINetworkQueue.h */,
+				FC5BABBE11BD5FAD00AE6B30 /* ASINetworkQueue.m */,
+				FC5BABBF11BD5FAD00AE6B30 /* ASINSStringAdditions.h */,
+				FC5BABC011BD5FAD00AE6B30 /* ASINSStringAdditions.m */,
+				FC5BABC111BD5FAD00AE6B30 /* ASIProgressDelegate.h */,
+			);
+			name = ASIHTTP;
+			sourceTree = "<group>";
+		};
+		FC5BAB9511BD5F6C00AE6B30 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FC5BAB9611BD5F8000AE6B30 /* RandomSequence.h */,
+				FC5BAB9711BD5F8000AE6B30 /* RandomSequence.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		FC5BAB9A11BD5F8300AE6B30 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FC5BAB9B11BD5F9E00AE6B30 /* JSON.h */,
+				FC5BAB9C11BD5F9E00AE6B30 /* NSObject+SBJSON.h */,
+				FC5BAB9D11BD5F9E00AE6B30 /* NSObject+SBJSON.m */,
+				FC5BAB9E11BD5F9E00AE6B30 /* NSString+SBJSON.h */,
+				FC5BAB9F11BD5F9E00AE6B30 /* NSString+SBJSON.m */,
+				FC5BABA011BD5F9E00AE6B30 /* SBJSON.h */,
+				FC5BABA111BD5F9E00AE6B30 /* SBJSON.m */,
+				FC5BABA211BD5F9E00AE6B30 /* SBJsonBase.h */,
+				FC5BABA311BD5F9E00AE6B30 /* SBJsonBase.m */,
+				FC5BABA411BD5F9E00AE6B30 /* SBJsonParser.h */,
+				FC5BABA511BD5F9E00AE6B30 /* SBJsonParser.m */,
+				FC5BABA611BD5F9E00AE6B30 /* SBJsonWriter.h */,
+				FC5BABA711BD5F9E00AE6B30 /* SBJsonWriter.m */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +493,26 @@
 				FC59808D11A5FBB000453F68 /* KaiwaFilePath.h in Headers */,
 				FC59808F11A5FBB000453F68 /* KaiwaConnection.h in Headers */,
 				FC59809111A5FBB000453F68 /* KaiwaController.h in Headers */,
+				FC9BAEB611BAEB350017EA67 /* HTTPCookie.h in Headers */,
+				FC9BAEB811BAEB350017EA67 /* KaiwaFriend.h in Headers */,
+				FC9BAEBA11BAEB350017EA67 /* KaiwaHTTPServer.h in Headers */,
+				FC5BAB9811BD5F8000AE6B30 /* RandomSequence.h in Headers */,
+				FC5BABA811BD5F9E00AE6B30 /* JSON.h in Headers */,
+				FC5BABA911BD5F9E00AE6B30 /* NSObject+SBJSON.h in Headers */,
+				FC5BABAB11BD5F9E00AE6B30 /* NSString+SBJSON.h in Headers */,
+				FC5BABAD11BD5F9E00AE6B30 /* SBJSON.h in Headers */,
+				FC5BABAF11BD5F9E00AE6B30 /* SBJsonBase.h in Headers */,
+				FC5BABB111BD5F9E00AE6B30 /* SBJsonParser.h in Headers */,
+				FC5BABB311BD5F9E00AE6B30 /* SBJsonWriter.h in Headers */,
+				FC5BABC211BD5FAD00AE6B30 /* ASIFormDataRequest.h in Headers */,
+				FC5BABC411BD5FAD00AE6B30 /* ASIHTTPRequest.h in Headers */,
+				FC5BABC611BD5FAD00AE6B30 /* ASIHTTPRequestConfig.h in Headers */,
+				FC5BABC711BD5FAD00AE6B30 /* ASIHTTPRequestDelegate.h in Headers */,
+				FC5BABC811BD5FAD00AE6B30 /* ASIInputStream.h in Headers */,
+				FC5BABCA11BD5FAD00AE6B30 /* ASINetworkQueue.h in Headers */,
+				FC5BABCC11BD5FAD00AE6B30 /* ASINSStringAdditions.h in Headers */,
+				FC5BABCE11BD5FAD00AE6B30 /* ASIProgressDelegate.h in Headers */,
+				FC5BABD711BD5FD300AE6B30 /* KaiwaFriendController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +545,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Kaiwa" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* Kaiwa */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
@@ -435,6 +602,22 @@
 				FC59808E11A5FBB000453F68 /* KaiwaFilePath.m in Sources */,
 				FC59809011A5FBB000453F68 /* KaiwaConnection.m in Sources */,
 				FC59809211A5FBB000453F68 /* KaiwaController.m in Sources */,
+				FC9BAEB711BAEB350017EA67 /* HTTPCookie.m in Sources */,
+				FC9BAEB911BAEB350017EA67 /* KaiwaFriend.m in Sources */,
+				FC9BAEBB11BAEB350017EA67 /* KaiwaHTTPServer.m in Sources */,
+				FC5BAB9911BD5F8000AE6B30 /* RandomSequence.m in Sources */,
+				FC5BABAA11BD5F9E00AE6B30 /* NSObject+SBJSON.m in Sources */,
+				FC5BABAC11BD5F9E00AE6B30 /* NSString+SBJSON.m in Sources */,
+				FC5BABAE11BD5F9E00AE6B30 /* SBJSON.m in Sources */,
+				FC5BABB011BD5F9E00AE6B30 /* SBJsonBase.m in Sources */,
+				FC5BABB211BD5F9E00AE6B30 /* SBJsonParser.m in Sources */,
+				FC5BABB411BD5F9E00AE6B30 /* SBJsonWriter.m in Sources */,
+				FC5BABC311BD5FAD00AE6B30 /* ASIFormDataRequest.m in Sources */,
+				FC5BABC511BD5FAD00AE6B30 /* ASIHTTPRequest.m in Sources */,
+				FC5BABC911BD5FAD00AE6B30 /* ASIInputStream.m in Sources */,
+				FC5BABCB11BD5FAD00AE6B30 /* ASINetworkQueue.m in Sources */,
+				FC5BABCD11BD5FAD00AE6B30 /* ASINSStringAdditions.m in Sources */,
+				FC5BABD811BD5FD300AE6B30 /* KaiwaFriendController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

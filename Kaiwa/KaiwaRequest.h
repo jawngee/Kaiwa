@@ -15,8 +15,8 @@
 */
 @interface KaiwaRequest : NSObject 
 {
-	NSArray *headers;					/**< Array of headers - NOT IMPLEMENTED */
-	NSArray *cookies;					/**< Array of cookies - NOT IMPLEMENTED */
+	NSMutableDictionary *headers;	/**< Array of headers - NOT IMPLEMENTED */
+	NSMutableDictionary *cookies;		/**< Array of cookies - NOT IMPLEMENTED */
 	NSString *uri;						/**< The URI of the request */
 	NSURL *url;							/**< The NSURL of the request */
 	NSMutableDictionary *query;	/**< Dictionary of all query string parameters */
@@ -26,8 +26,8 @@
 }
 
 @property (retain, nonatomic) NSArray *args;
-@property (readonly) NSArray *headers;
-@property (readonly) NSArray *cookies;
+@property (readonly) NSMutableDictionary *headers;
+@property (readonly) NSMutableDictionary *cookies;
 @property (readonly) NSMutableDictionary *query;
 @property (readonly) NSString *method;
 @property (readonly) NSString *uri;

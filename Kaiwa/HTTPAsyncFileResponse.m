@@ -4,6 +4,8 @@
 
 @implementation HTTPAsyncFileResponse
 
+@synthesize headers;
+
 static NSOperationQueue *operationQueue;
 
 /**
@@ -41,6 +43,8 @@ static NSOperationQueue *operationQueue;
 {
 	if((self = [super init]))
 	{
+		headers=[[NSMutableDictionary dictionary] retain];
+		
 		connection = parent; // Parents retain children, children do NOT retain parents
 		
 		connectionThread = [[NSThread currentThread] retain];
@@ -71,6 +75,7 @@ static NSOperationQueue *operationQueue;
 
 - (void)dealloc
 {
+	[headers release];
 	[connectionThread release];
 	[connectionRunLoopModes release];
 	[filePath release];
@@ -173,6 +178,19 @@ static NSOperationQueue *operationQueue;
 	asyncReadInProgress = NO;
 	
 	[connection responseHasAvailableData];
+}
+
+- (void)setHeaders:(NSDictionary *)theHeaders
+{
+	if (headers!=nil)
+		[headers release];
+	
+	headers=[theHeaders retain];
+}
+
+- (NSDictionary *)httpHeaders
+{
+	return headers;
 }
 
 @end

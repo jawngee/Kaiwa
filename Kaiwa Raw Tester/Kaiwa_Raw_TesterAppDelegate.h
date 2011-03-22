@@ -9,14 +9,23 @@
 #import <Cocoa/Cocoa.h>
 #import "Kaiwa.h"
 
-@interface Kaiwa_Raw_TesterAppDelegate : NSObject <NSApplicationDelegate, KaiwaControllerProtocol> {
-    NSWindow *window;
+@interface Kaiwa_Raw_TesterAppDelegate : NSObject <NSApplicationDelegate, KaiwaControllerProtocol, KaiwaDispatcherProtocol> 
+{
+	NSWindow *window;
 	KaiwaRequest *request;
 	KaiwaResponse *response;
+	
+	KaiwaDispatcher *dispatcher;
+	
+	NSMutableArray *friends;
+	
+	IBOutlet NSArrayController *arrayController;
 }
 
 
 @property (assign) IBOutlet NSWindow *window;
+@property (readonly)  KaiwaDispatcher *dispatcher;
+@property (readonly)  NSMutableArray *friends;
 
 
 -(void)setRequest:(KaiwaRequest *)theRequest;

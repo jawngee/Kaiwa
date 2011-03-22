@@ -6,6 +6,7 @@
 
 @interface HTTPAsyncFileResponse : NSObject <HTTPResponse>
 {
+	NSMutableDictionary *headers;
 	HTTPConnection *connection;
 	NSThread *connectionThread;
 	NSArray *connectionRunLoopModes;
@@ -23,7 +24,11 @@
 	BOOL asyncReadInProgress;
 }
 
+@property (readonly) NSMutableDictionary *headers;
+
 - (id)initWithFilePath:(NSString *)filePath forConnection:(HTTPConnection *)connection runLoopModes:(NSArray *)modes;
 - (NSString *)filePath;
+- (void)setHeaders:(NSDictionary *)theHeaders;
+- (NSDictionary *)httpHeaders;
 
 @end

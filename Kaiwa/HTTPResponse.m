@@ -3,10 +3,13 @@
 
 @implementation HTTPFileResponse
 
+@synthesize headers;
+
 - (id)initWithFilePath:(NSString *)filePathParam
 {
 	if((self = [super init]))
 	{
+		headers=[[NSMutableDictionary dictionary] retain];
 		filePath = [filePathParam copy];
 		fileHandle = [[NSFileHandle fileHandleForReadingAtPath:filePath] retain];
 		
@@ -25,6 +28,7 @@
 
 - (void)dealloc
 {
+	[headers release];
 	[filePath release];
 	[fileHandle closeFile];
 	[fileHandle release];
@@ -61,6 +65,19 @@
 	return filePath;
 }
 
+- (void)setHeaders:(NSDictionary *)theHeaders
+{
+	if (headers!=nil)
+		[headers release];
+	
+	headers=[theHeaders retain];
+}
+
+- (NSDictionary *)httpHeaders
+{
+	return headers;
+}
+
 @end
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -69,18 +86,22 @@
 
 @implementation HTTPDataResponse
 
+@synthesize headers;
+
 - (id)initWithData:(NSData *)dataParam
 {
 	if((self = [super init]))
 	{
 		offset = 0;
 		data = [dataParam retain];
+		headers=[[NSMutableDictionary dictionary] retain];
 	}
 	return self;
 }
 
 - (void)dealloc
 {
+	[headers release];
 	[data release];
 	[super dealloc];
 }
@@ -115,6 +136,19 @@
 - (BOOL)isDone
 {
 	return (offset == [data length]);
+}
+
+- (void)setHeaders:(NSDictionary *)theHeaders
+{
+	if (headers!=nil)
+		[headers release];
+	
+	headers=[theHeaders retain];
+}
+
+- (NSDictionary *)httpHeaders
+{
+	return headers;
 }
 
 @end

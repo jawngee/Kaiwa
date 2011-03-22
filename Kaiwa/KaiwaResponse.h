@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HTTPResponse.h"
+#import "HTTPCookie.h"
 
 @class KaiwaConnection;
 
@@ -17,13 +18,18 @@
 @interface KaiwaResponse : NSObject 
 {
 	NSMutableArray *cookies;		/**< Array of cookies - NOT IMPLEMENTED */
-	NSMutableArray *headers;		/**< Array of outgoing headers - NOT IMPLEMENTED */
+	NSMutableDictionary *headers;		/**< Array of outgoing headers - NOT IMPLEMENTED */
 	NSMutableData *output;			/**< Buffer to hold all output */
 	NSString *contentType;			/**< The content type of the response */
 	BOOL canWrite;						/**< Indicates that response allows writing */
 	NSString *filePath;				/**< The full path and filename of a file to be sent in lieu of output */
 	KaiwaConnection *connection;	/**< Instance of KaiwaConnection */
 }
+
+@property (readonly) NSMutableArray *cookies;
+@property (readonly) NSMutableDictionary *headers;
+
+-(void)addCookie:(HTTPCookie *)cookie;
 
 /**
  Initializes a new response

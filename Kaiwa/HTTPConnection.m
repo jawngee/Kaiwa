@@ -7,21 +7,21 @@
 #import "DDRange.h"
 #import "DDData.h"
 #import "HTTPAsyncFileResponse.h"
-
+#import "HTTPCookie.h"
 
 // Define chunk size used to read in data for responses
 // This is how much data will be read from disk into RAM at a time
 #if TARGET_OS_IPHONE
-  #define READ_CHUNKSIZE  (1024 * 128)
+#define READ_CHUNKSIZE  (1024 * 128)
 #else
-  #define READ_CHUNKSIZE  (1024 * 512)
+#define READ_CHUNKSIZE  (1024 * 512)
 #endif
 
 // Define chunk size used to read in POST upload data
 #if TARGET_OS_IPHONE
-  #define POST_CHUNKSIZE  (1024 * 32)
+#define POST_CHUNKSIZE  (1024 * 32)
 #else
-  #define POST_CHUNKSIZE  (1024 * 128)
+#define POST_CHUNKSIZE  (1024 * 128)
 #endif
 
 // Define the various timeouts (in seconds) for various parts of the HTTP process
@@ -73,14 +73,14 @@
 
 @implementation HTTPConnection
 
-@synthesize asyncSocket;
+@synthesize asyncSocket, server, headers, cookies, uri;
 
 static NSMutableArray *recentNonces;
 
 /**
  * This method is automatically called (courtesy of Cocoa) before the first instantiation of this class.
  * We use it to initialize any static variables.
-**/
+ **/
 + (void)initialize
 {
 	static BOOL initialized = NO;
@@ -96,7 +96,7 @@ static NSMutableArray *recentNonces;
 /**
  * This method is designed to be called by a scheduled timer, and will remove a nonce from the recent nonce list.
  * The nonce to remove should be set as the timer's userInfo.
-**/
+ **/
 + (void)removeRecentNonce:(NSTimer *)aTimer
 {
 	[recentNonces removeObject:[aTimer userInfo]];
@@ -110,7 +110,7 @@ static NSMutableArray *recentNonces;
  * Sole Constructor.
  * Associates this new HTTP connection with the given AsyncSocket.
  * This HTTP connection object will become the socket's delegate and take over responsibility for the socket.
-**/
+ **/
 - (id)initWithAsyncSocket:(AsyncSocket *)newSocket forServer:(HTTPServer *)myServer
 {
 	if((self = [super init]))
@@ -138,18 +138,23 @@ static NSMutableArray *recentNonces;
 		
 		responseDataSizes = [[NSMutableArray alloc] initWithCapacity:5];
 		
+		cookies=[NSDictionary dictionary];
+		
+		uri=nil;
+		
 		// Don't start reading the HTTP request here.
 		// We are currently running on the thread that the server's listen socket is running on.
 		// However, the server may place us on a different thread.
 		// We should only read/write to our socket on its proper thread.
 		// Instead, we'll wait for the call to onSocket:didConnectToHost:port: which will be on the proper thread.
+		
 	}
 	return self;
 }
 
 /**
  * Standard Deconstructor.
-**/
+ **/
 - (void)dealloc
 {
 	[asyncSocket setDelegate:nil];
@@ -172,6 +177,12 @@ static NSMutableArray *recentNonces;
 	
 	[responseDataSizes release];
 	
+	if (uri!=nil)
+		[uri release];
+	
+	if (cookies!=nil)
+		[cookies release];
+	
 	[super dealloc];
 }
 
@@ -182,7 +193,7 @@ static NSMutableArray *recentNonces;
 /**
  * Returns whether or not the server will accept messages of a given method
  * at a particular URI.
-**/
+ **/
 - (BOOL)supportsMethod:(NSString *)method atPath:(NSString *)relativePath
 {
 	// Override me to support methods such as POST.
@@ -197,7 +208,7 @@ static NSMutableArray *recentNonces;
 		return YES;
 	if([method isEqualToString:@"HEAD"])
 		return YES;
-		
+	
 	return NO;
 }
 
@@ -207,7 +218,7 @@ static NSMutableArray *recentNonces;
  * In other words, should the server expect a content-length header and associated body from this method.
  * This would be true in the case of a POST, where the client is sending data,
  * or for something like PUT where the client is supposed to be uploading a file.
-**/
+ **/
 - (BOOL)expectsRequestBodyFromMethod:(NSString *)method atPath:(NSString *)relativePath
 {
 	// Override me to add support for other methods that expect the client
@@ -238,7 +249,7 @@ static NSMutableArray *recentNonces;
  * would need to be run on a separate port in order to support unsecure connections.
  * 
  * Note: In order to support secure connections, the sslIdentityAndCertificates method must be implemented.
-**/
+ **/
 - (BOOL)isSecureServer
 {
 	// Override me to create an https server...
@@ -249,7 +260,7 @@ static NSMutableArray *recentNonces;
 /**
  * This method is expected to returns an array appropriate for use in kCFStreamSSLCertificates SSL Settings.
  * It should be an array of SecCertificateRefs except for the first element in the array, which is a SecIdentityRef.
-**/
+ **/
 - (NSArray *)sslIdentityAndCertificates
 {
 	// Override me to provide the proper required SSL identity.
@@ -264,7 +275,7 @@ static NSMutableArray *recentNonces;
 /**
  * Returns whether or not the requested resource is password protected.
  * In this generic implementation, nothing is password protected.
-**/
+ **/
 - (BOOL)isPasswordProtected:(NSString *)path
 {
 	// Override me to provide password protection...
@@ -279,7 +290,7 @@ static NSMutableArray *recentNonces;
  * 
  * If at all possible, digest access authentication should be used because it's more secure.
  * Basic authentication sends passwords in the clear and should be avoided unless using SSL/TLS.
-**/
+ **/
 - (BOOL)useDigestAccessAuthentication
 {
 	// Override me to customize the authentication scheme
@@ -291,7 +302,7 @@ static NSMutableArray *recentNonces;
 /**
  * Returns the authentication realm.
  * In this generic implmentation, a default realm is used for the entire server.
-**/
+ **/
 - (NSString *)realm
 {
 	// Override me to provide a custom realm...
@@ -302,7 +313,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Returns the password for the given username.
-**/
+ **/
 - (NSString *)passwordForUser:(NSString *)username
 {
 	// Override me to provide proper password authentication
@@ -319,7 +330,7 @@ static NSMutableArray *recentNonces;
  * Generates and returns an authentication nonce.
  * A nonce is a  server-specified string uniquely generated for each 401 response.
  * The default implementation uses a single nonce for each session.
-**/
+ **/
 - (NSString *)generateNonce
 {
 	// We use the Core Foundation UUID class to generate a nonce value for us
@@ -350,7 +361,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Returns whether or not the user is properly authenticated.
-**/
+ **/
 - (BOOL)isAuthenticated
 {
 	// Extract the authentication information from the Authorization header
@@ -487,7 +498,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Adds a digest access authentication challenge to the given response.
-**/
+ **/
 - (void)addDigestAuthChallenge:(CFHTTPMessageRef)response
 {
 	NSString *authFormat = @"Digest realm=\"%@\", qop=\"auth\", nonce=\"%@\"";
@@ -498,7 +509,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Adds a basic authentication challenge to the given response.
-**/
+ **/
 - (void)addBasicAuthChallenge:(CFHTTPMessageRef)response
 {
 	NSString *authFormat = @"Basic realm=\"%@\"";
@@ -664,7 +675,7 @@ static NSMutableArray *recentNonces;
 /**
  * This method is called after a full HTTP request has been received.
  * The current request is in the CFHTTPMessage request variable.
-**/
+ **/
 - (void)replyToHTTPRequest
 {
 	// Check the HTTP version - if it's anything but HTTP version 1.1, we don't support it
@@ -678,10 +689,15 @@ static NSMutableArray *recentNonces;
 	// Extract the method
 	NSString *method = [NSMakeCollectable(CFHTTPMessageCopyRequestMethod(request)) autorelease];
 	
-	// Note: We already checked to ensure the method was supported in onSocket:didReadData:withTag:
-	
 	// Extract requested URI
-	NSURL *uri = [NSMakeCollectable(CFHTTPMessageCopyRequestURL(request)) autorelease];
+	// Note: We already checked to ensure the method was supported in onSocket:didReadData:withTag:
+	uri = [NSMakeCollectable(CFHTTPMessageCopyRequestURL(request)) retain];
+
+	// Get the headers
+	headers=(NSDictionary *)CFHTTPMessageCopyAllHeaderFields(request);
+	
+	// Get the cookies
+	cookies=[HTTPCookie cookiesFromHeader:headers];
 	
 	// Check Authentication (if needed)
 	// If not properly authenticated for resource, issue Unauthorized response
@@ -875,7 +891,7 @@ static NSMutableArray *recentNonces;
  * Prepares a single-range response.
  * 
  * Note: The returned CFHTTPMessageRef is owned by the sender, who is responsible for releasing it.
-**/
+ **/
 - (CFHTTPMessageRef)prepareUniRangeResponse:(UInt64)contentLength
 {
 	// Status Code 206 - Partial Content
@@ -897,7 +913,7 @@ static NSMutableArray *recentNonces;
  * Prepares a multi-range response.
  * 
  * Note: The returned CFHTTPMessageRef is owned by the sender, who is responsible for releasing it.
-**/
+ **/
 - (CFHTTPMessageRef)prepareMultiRangeResponse:(UInt64)contentLength
 {
 	// Status Code 206 - Partial Content
@@ -967,7 +983,7 @@ static NSMutableArray *recentNonces;
 /**
  * Returns the chunk size line that must precede each chunk of data when using chunked transfer encoding.
  * This consists of the size of the data, in hexadecimal, followed by a CRLF.
-**/
+ **/
 - (NSData *)chunkedTransferSizeLineForLength:(unsigned int)length
 {
 	return [[NSString stringWithFormat:@"%x\r\n", length] dataUsingEncoding:NSUTF8StringEncoding];
@@ -975,7 +991,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Returns the data that signals the end of a chunked transfer.
-**/
+ **/
 - (NSData *)chunkedTransferFooter
 {
 	// Each data chunk is preceded by a size line (in hex and including a CRLF),
@@ -992,7 +1008,7 @@ static NSMutableArray *recentNonces;
  * 
  * We keep track of this information in order to keep our memory footprint low while
  * working with asynchronous HTTPResponse objects.
-**/
+ **/
 - (unsigned int)writeQueueSize
 {
 	unsigned int result = 0;
@@ -1011,7 +1027,7 @@ static NSMutableArray *recentNonces;
  * The last chunk of the response body will be sent with a tag of HTTP_RESPONSE.
  * 
  * This method should only be called for standard (non-range) responses.
-**/
+ **/
 - (void)continueSendingStandardResponseBody
 {
 	// This method is called when either asyncSocket has finished writing one of the response data chunks,
@@ -1077,7 +1093,7 @@ static NSMutableArray *recentNonces;
  * The last chunk of the response body will be sent with a tag of HTTP_RESPONSE.
  * 
  * This method should only be called for single-range responses.
-**/
+ **/
 - (void)continueSendingSingleRangeResponseBody
 {
 	// This method is called when either asyncSocket has finished writing one of the response data chunks,
@@ -1126,7 +1142,7 @@ static NSMutableArray *recentNonces;
  * The last chunk of the response body will be sent with a tag of HTTP_RESPONSE.
  * 
  * This method should only be called for multi-range responses.
-**/
+ **/
 - (void)continueSendingMultiRangeResponseBody
 {
 	// This method is called when either asyncSocket has finished writing one of the response data chunks,
@@ -1209,7 +1225,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Converts relative URI path into full file-system path.
-**/
+ **/
 - (NSString *)filePathForURI:(NSString *)path
 {
 	// Override me to perform custom path mapping.
@@ -1258,7 +1274,7 @@ static NSMutableArray *recentNonces;
  * The HTTPServer comes with two such classes: HTTPFileResponse and HTTPDataResponse.
  * HTTPFileResponse is a wrapper for an NSFileHandle object, and is the preferred way to send a file response.
  * HTTPDataResponse is a wrapper for an NSData object, and may be used to send a custom response.
-**/
+ **/
 - (NSObject<HTTPResponse> *)httpResponseForMethod:(NSString *)method URI:(NSString *)path
 {
 	// Override me to provide custom responses.
@@ -1268,12 +1284,12 @@ static NSMutableArray *recentNonces;
 	if([[NSFileManager defaultManager] fileExistsAtPath:filePath])
 	{
 		return [[[HTTPFileResponse alloc] initWithFilePath:filePath] autorelease];
-	
-	//	// Use me instead for asynchronous file IO
-	//	
-	//	return [[[HTTPAsyncFileResponse alloc] initWithFilePath:filePath
-	//											  forConnection:self
-	//											   runLoopModes:[asyncSocket runLoopModes]] autorelease];
+		
+		//	// Use me instead for asynchronous file IO
+		//	
+		//	return [[[HTTPAsyncFileResponse alloc] initWithFilePath:filePath
+		//											  forConnection:self
+		//											   runLoopModes:[asyncSocket runLoopModes]] autorelease];
 	}
 	
 	return nil;
@@ -1285,7 +1301,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * This method is called after receiving all HTTP headers, but before reading any of the request body.
-**/
+ **/
 - (void)prepareForBodyWithSize:(UInt64)contentLength
 {
 	// Override me to allocate buffers, file handles, etc.
@@ -1294,7 +1310,7 @@ static NSMutableArray *recentNonces;
 /**
  * This method is called to handle data read from a POST / PUT.
  * The given data is part of the request body.
-**/
+ **/
 - (void)processDataChunk:(NSData *)postDataChunk
 {
 	// Override me to do something useful with a POST / PUT.
@@ -1313,7 +1329,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Called if the HTML version is other than what is supported
-**/
+ **/
 - (void)handleVersionNotSupported:(NSString *)version
 {
 	// Override me for custom error handling of unsupported http version responses
@@ -1333,7 +1349,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Called if the authentication information was required and absent, or if authentication failed.
-**/
+ **/
 - (void)handleAuthenticationFailed
 {
 	// Override me for custom handling of authentication challenges
@@ -1341,7 +1357,7 @@ static NSMutableArray *recentNonces;
 	// You can also use preprocessErrorResponse: to add an optional HTML body.
 	
 	NSLog(@"HTTP Server: Error 401 - Unauthorized");
-		
+	
 	// Status Code 401 - Unauthorized
 	CFHTTPMessageRef response = CFHTTPMessageCreateResponse(kCFAllocatorDefault, 401, NULL, kCFHTTPVersion1_1);
 	CFHTTPMessageSetHeaderFieldValue(response, CFSTR("Content-Length"), CFSTR("0"));
@@ -1365,7 +1381,7 @@ static NSMutableArray *recentNonces;
  * Called if we receive some sort of malformed HTTP request.
  * The data parameter is the invalid HTTP header line, including CRLF, as read from AsyncSocket.
  * The data parameter may also be nil if the request as a whole was invalid, such as a POST with no Content-Length.
-**/
+ **/
 - (void)handleInvalidRequest:(NSData *)data
 {
 	// Override me for custom error handling of invalid HTTP requests
@@ -1392,7 +1408,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Called if we receive a HTTP request with a method other than GET or HEAD.
-**/
+ **/
 - (void)handleUnknownMethod:(NSString *)method
 {
 	// Override me for custom error handling of 405 method not allowed responses.
@@ -1420,7 +1436,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Called if we're unable to find the requested resource.
-**/
+ **/
 - (void)handleResourceNotFound
 {
 	// Override me for custom error handling of 404 not found responses
@@ -1445,7 +1461,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * Gets the current date and time, formatted properly (according to RFC) for insertion into an HTTP header.
-**/
+ **/
 - (NSString *)dateAsString:(NSDate *)date
 {
 	// Example: Sun, 06 Nov 1994 08:49:37 GMT
@@ -1463,7 +1479,7 @@ static NSMutableArray *recentNonces;
 /**
  * This method is called immediately prior to sending the response headers.
  * This method adds standard header fields, and then converts the response to an NSData object.
-**/
+ **/
 - (NSData *)preprocessResponse:(CFHTTPMessageRef)response
 {
 	// Override me to customize the response headers
@@ -1499,7 +1515,7 @@ static NSMutableArray *recentNonces;
 /**
  * This method is called immediately prior to sending the response headers (for an error).
  * This method adds standard header fields, and then converts the response to an NSData object.
-**/
+ **/
 - (NSData *)preprocessErrorResponse:(CFHTTPMessageRef)response;
 {
 	// Override me to customize the error response headers
@@ -1555,7 +1571,7 @@ static NSMutableArray *recentNonces;
 /**
  * This method is called immediately prior to opening up the stream.
  * This is the time to manually configure the stream if necessary.
-**/
+ **/
 - (BOOL)onSocketWillConnect:(AsyncSocket *)sock
 {
 	if([self isSecureServer])
@@ -1590,7 +1606,7 @@ static NSMutableArray *recentNonces;
 /**
  * This method is called after the socket has been fully opened.
  * It is called on the proper thread/runloop that HTTPServer configured our socket to run on.
-**/
+ **/
 - (void)onSocket:(AsyncSocket *)sock didConnectToHost:(NSString *)host port:(UInt16)port
 {
 	// The socket is up and ready, and this method is called on the socket's corresponding thread.
@@ -1604,7 +1620,7 @@ static NSMutableArray *recentNonces;
 /**
  * This method is called after the socket has successfully read data from the stream.
  * Remember that this method will only be called after the socket reaches a CRLF, or after it's read the proper length.
-**/
+ **/
 - (void)onSocket:(AsyncSocket *)sock didReadData:(NSData*)data withTag:(long)tag
 {
 	if(tag == HTTP_REQUEST_HEADER)
@@ -1649,7 +1665,7 @@ static NSMutableArray *recentNonces;
 			
 			// Check for a Content-Length field
 			NSString *contentLength =
-			    [NSMakeCollectable(CFHTTPMessageCopyHeaderFieldValue(request, CFSTR("Content-Length"))) autorelease];
+			[NSMakeCollectable(CFHTTPMessageCopyHeaderFieldValue(request, CFSTR("Content-Length"))) autorelease];
 			
 			// Content-Length MUST be present for upload methods (such as POST or PUT)
 			// and MUST NOT be present for other methods.
@@ -1751,7 +1767,7 @@ static NSMutableArray *recentNonces;
 
 /**
  * This method is called after the socket has successfully written data to the stream.
-**/
+ **/
 - (void)onSocket:(AsyncSocket *)sock didWriteDataWithTag:(long)tag
 {
 	BOOL doneSendingResponse = NO;
@@ -1843,15 +1859,15 @@ static NSMutableArray *recentNonces;
  *  - if there is an connection, time out, or other i/o error.
  *  - if the remote socket cleanly disconnects.
  *  - before the local socket is disconnected.
-**/
+ **/
 - (void)onSocket:(AsyncSocket *)sock willDisconnectWithError:(NSError *)err
 {
-//	NSLog(@"HTTPConnection: onSocket:willDisconnectWithError: %@", err);
+	//	NSLog(@"HTTPConnection: onSocket:willDisconnectWithError: %@", err);
 }
 
 /**
  * Sent after the socket has been disconnected.
-**/
+ **/
 - (void)onSocketDidDisconnect:(AsyncSocket *)sock
 {
 	[self die];
@@ -1866,7 +1882,7 @@ static NSMutableArray *recentNonces;
  * That is, HTTPResponse objects that return YES in their "- (BOOL)isAsynchronous" method.
  * 
  * This informs us that the response object has generated more data that we may be able to send.
-**/
+ **/
 - (void)responseHasAvailableData
 {
 	if(ranges == nil)

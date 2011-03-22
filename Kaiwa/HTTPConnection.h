@@ -34,9 +34,17 @@
 	UInt64 requestContentLengthReceived;
 	
 	NSMutableArray *responseDataSizes;
+	
+	NSDictionary *headers;
+	NSDictionary *cookies;
+	NSURL *uri;
 }
 
 @property (readonly) AsyncSocket *asyncSocket;
+@property (readonly) HTTPServer *server;
+@property (readonly) NSDictionary *headers;
+@property (readonly) NSDictionary *cookies;
+@property (readonly) NSURL *uri;
 
 - (id)initWithAsyncSocket:(AsyncSocket *)newSocket forServer:(HTTPServer *)myServer;
 
