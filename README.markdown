@@ -24,6 +24,8 @@ The following libraries are used:
 
 PCRE - <http://www.pcre.org/>
 
+##Kaiwa Messenger##
+This is a simple application showing you how to do inter-app communication with Kaiwa.  It's probably not well written.
 
 ##Licenses##
 Below are the license terms for the individual packages used to write Kaiwa.  They are all BSD as
