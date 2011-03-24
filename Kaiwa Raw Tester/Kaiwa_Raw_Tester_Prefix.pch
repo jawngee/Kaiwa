@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'Kaiwa Raw Tester' target in the 'Kaiwa Raw Tester' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif
