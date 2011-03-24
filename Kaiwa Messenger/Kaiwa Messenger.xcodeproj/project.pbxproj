@@ -19,10 +19,8 @@
 		FCF877D7133A62F4006779EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FCF877EE133A633D006779EF /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877EB133A633D006779EF /* libcrypto.dylib */; };
 		FCF877EF133A633D006779EF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877EC133A633D006779EF /* libz.dylib */; };
-		FCF877F0133A633D006779EF /* libpcre.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877ED133A633D006779EF /* libpcre.dylib */; };
 		FCF877F1133A633D006779EF /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877EB133A633D006779EF /* libcrypto.dylib */; };
 		FCF877F2133A633D006779EF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877EC133A633D006779EF /* libz.dylib */; };
-		FCF877F3133A633D006779EF /* libpcre.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877ED133A633D006779EF /* libpcre.dylib */; };
 		FCF87845133A634A006779EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF87843133A634A006779EF /* Security.framework */; };
 		FCF87846133A634A006779EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF87844133A634A006779EF /* SystemConfiguration.framework */; };
 		FCF87847133A634A006779EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF87843133A634A006779EF /* Security.framework */; };
@@ -119,6 +117,8 @@
 		FCF87EBA133AEC56006779EF /* KaiwaRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E69133AEC56006779EF /* KaiwaRoute.m */; };
 		FCF87EBB133AEC56006779EF /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E6C133AEC56006779EF /* NSString+UUID.m */; };
 		FCF87EBC133AEC56006779EF /* RandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E6E133AEC56006779EF /* RandomSequence.m */; };
+		FCFA0A3F133BD12100141766 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0A3E133BD12100141766 /* libpcre.a */; };
+		FCFA0A40133BD12100141766 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0A3E133BD12100141766 /* libpcre.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -138,7 +138,6 @@
 		FCF877CF133A62DF006779EF /* Kaiwa Test Messenger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kaiwa Test Messenger-Info.plist"; sourceTree = "<group>"; };
 		FCF877EB133A633D006779EF /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
 		FCF877EC133A633D006779EF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		FCF877ED133A633D006779EF /* libpcre.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpcre.dylib; path = usr/local/lib/libpcre.dylib; sourceTree = SDKROOT; };
 		FCF87843133A634A006779EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FCF87844133A634A006779EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FCF87903133A72A2006779EF /* KMBuddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBuddy.h; sourceTree = "<group>"; };
@@ -236,6 +235,11 @@
 		FCF87E6C133AEC56006779EF /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
 		FCF87E6D133AEC56006779EF /* RandomSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomSequence.h; sourceTree = "<group>"; };
 		FCF87E6E133AEC56006779EF /* RandomSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSequence.m; sourceTree = "<group>"; };
+		FCFA0A3A133BD11100141766 /* pcre_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_internal.h; path = ../Kaiwa/pcre/include/pcre_internal.h; sourceTree = SOURCE_ROOT; };
+		FCFA0A3B133BD11100141766 /* pcre_scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_scanner.h; path = ../Kaiwa/pcre/include/pcre_scanner.h; sourceTree = SOURCE_ROOT; };
+		FCFA0A3C133BD11100141766 /* pcre_stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_stringpiece.h; path = ../Kaiwa/pcre/include/pcre_stringpiece.h; sourceTree = SOURCE_ROOT; };
+		FCFA0A3D133BD11100141766 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre.h; path = ../Kaiwa/pcre/include/pcre.h; sourceTree = SOURCE_ROOT; };
+		FCFA0A3E133BD12100141766 /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre.a; path = ../Kaiwa/pcre/lib/osx/libpcre.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,9 +250,9 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				FCF877EE133A633D006779EF /* libcrypto.dylib in Frameworks */,
 				FCF877EF133A633D006779EF /* libz.dylib in Frameworks */,
-				FCF877F0133A633D006779EF /* libpcre.dylib in Frameworks */,
 				FCF87845133A634A006779EF /* Security.framework in Frameworks */,
 				FCF87846133A634A006779EF /* SystemConfiguration.framework in Frameworks */,
+				FCFA0A3F133BD12100141766 /* libpcre.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +263,9 @@
 				FCF877D7133A62F4006779EF /* Cocoa.framework in Frameworks */,
 				FCF877F1133A633D006779EF /* libcrypto.dylib in Frameworks */,
 				FCF877F2133A633D006779EF /* libz.dylib in Frameworks */,
-				FCF877F3133A633D006779EF /* libpcre.dylib in Frameworks */,
 				FCF87847133A634A006779EF /* Security.framework in Frameworks */,
 				FCF87848133A634A006779EF /* SystemConfiguration.framework in Frameworks */,
+				FCFA0A40133BD12100141766 /* libpcre.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +275,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA0A30133BD0FB00141766 /* pcre */,
 				FCF87E11133AEC56006779EF /* AGRegex */,
 				FCF87E14133AEC56006779EF /* ASIHTTP */,
 				FCF87E22133AEC56006779EF /* HTTP */,
@@ -285,11 +290,11 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA0A3E133BD12100141766 /* libpcre.a */,
 				FCF87843133A634A006779EF /* Security.framework */,
 				FCF87844133A634A006779EF /* SystemConfiguration.framework */,
 				FCF877EB133A633D006779EF /* libcrypto.dylib */,
 				FCF877EC133A633D006779EF /* libz.dylib */,
-				FCF877ED133A633D006779EF /* libpcre.dylib */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -555,6 +560,17 @@
 			path = ../Kaiwa/Utility;
 			sourceTree = SOURCE_ROOT;
 		};
+		FCFA0A30133BD0FB00141766 /* pcre */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA0A3A133BD11100141766 /* pcre_internal.h */,
+				FCFA0A3B133BD11100141766 /* pcre_scanner.h */,
+				FCFA0A3C133BD11100141766 /* pcre_stringpiece.h */,
+				FCFA0A3D133BD11100141766 /* pcre.h */,
+			);
+			name = pcre;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -785,6 +801,10 @@
 				GCC_PREFIX_HEADER = Kaiwa_Messenger_Prefix.pch;
 				INFOPLIST_FILE = "Kaiwa_Messenger-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
+				);
 				PRODUCT_NAME = "Kaiwa Messenger";
 			};
 			name = Debug;
@@ -799,6 +819,10 @@
 				GCC_PREFIX_HEADER = Kaiwa_Messenger_Prefix.pch;
 				INFOPLIST_FILE = "Kaiwa_Messenger-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
+				);
 				PRODUCT_NAME = "Kaiwa Messenger";
 			};
 			name = Release;
@@ -811,8 +835,12 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/local/include;
+				HEADER_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-search_paths_first",
+					"-W1",
+				);
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
@@ -825,7 +853,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/local/include;
+				HEADER_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"-search_paths_first",
+					"-W1",
+				);
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
@@ -844,6 +876,10 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Kaiwa Test Messenger-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -867,6 +903,10 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "Kaiwa Test Messenger-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
