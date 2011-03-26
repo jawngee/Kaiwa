@@ -17,14 +17,6 @@
 		FCF877D5133A62EF006779EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		FCF877D6133A62EF006779EF /* Kaiwa_MessengerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* Kaiwa_MessengerAppDelegate.m */; };
 		FCF877D7133A62F4006779EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		FCF877EE133A633D006779EF /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877EB133A633D006779EF /* libcrypto.dylib */; };
-		FCF877EF133A633D006779EF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877EC133A633D006779EF /* libz.dylib */; };
-		FCF877F1133A633D006779EF /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877EB133A633D006779EF /* libcrypto.dylib */; };
-		FCF877F2133A633D006779EF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF877EC133A633D006779EF /* libz.dylib */; };
-		FCF87845133A634A006779EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF87843133A634A006779EF /* Security.framework */; };
-		FCF87846133A634A006779EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF87844133A634A006779EF /* SystemConfiguration.framework */; };
-		FCF87847133A634A006779EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF87843133A634A006779EF /* Security.framework */; };
-		FCF87848133A634A006779EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF87844133A634A006779EF /* SystemConfiguration.framework */; };
 		FCF87905133A72A2006779EF /* KMBuddy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87904133A72A2006779EF /* KMBuddy.m */; };
 		FCF87906133A72A2006779EF /* KMBuddy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87904133A72A2006779EF /* KMBuddy.m */; };
 		FCF87909133A7495006779EF /* KMBuddyListController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87908133A7495006779EF /* KMBuddyListController.m */; };
@@ -39,93 +31,60 @@
 		FCF87B68133ADE3B006779EF /* KMBuddyCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87B66133ADE3B006779EF /* KMBuddyCollectionViewItem.m */; };
 		FCF87B92133ADF49006779EF /* KMBuddy.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF87B91133ADF49006779EF /* KMBuddy.xib */; };
 		FCF87B93133ADF49006779EF /* KMBuddy.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF87B91133ADF49006779EF /* KMBuddy.xib */; };
-		FCF87E6F133AEC56006779EF /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E13133AEC56006779EF /* AGRegex.m */; };
-		FCF87E70133AEC56006779EF /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E16133AEC56006779EF /* ASIFormDataRequest.m */; };
-		FCF87E71133AEC56006779EF /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E18133AEC56006779EF /* ASIHTTPRequest.m */; };
-		FCF87E72133AEC56006779EF /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E1C133AEC56006779EF /* ASIInputStream.m */; };
-		FCF87E73133AEC56006779EF /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E1E133AEC56006779EF /* ASINetworkQueue.m */; };
-		FCF87E74133AEC56006779EF /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E20133AEC56006779EF /* ASINSStringAdditions.m */; };
-		FCF87E75133AEC56006779EF /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E25133AEC56006779EF /* DDData.m */; };
-		FCF87E76133AEC56006779EF /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E27133AEC56006779EF /* DDNumber.m */; };
-		FCF87E77133AEC56006779EF /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E29133AEC56006779EF /* DDRange.m */; };
-		FCF87E78133AEC56006779EF /* NSDictionary+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E2B133AEC56006779EF /* NSDictionary+URLEncode.m */; };
-		FCF87E79133AEC56006779EF /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E2D133AEC56006779EF /* NSString+URLEncode.m */; };
-		FCF87E7A133AEC56006779EF /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E31133AEC56006779EF /* HTTPAsyncFileResponse.m */; };
-		FCF87E7B133AEC56006779EF /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E33133AEC56006779EF /* HTTPAuthenticationRequest.m */; };
-		FCF87E7C133AEC56006779EF /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E35133AEC56006779EF /* HTTPConnection.m */; };
-		FCF87E7D133AEC56006779EF /* HTTPCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E37133AEC56006779EF /* HTTPCookie.m */; };
-		FCF87E7E133AEC56006779EF /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E39133AEC56006779EF /* HTTPResponse.m */; };
-		FCF87E7F133AEC56006779EF /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E3B133AEC56006779EF /* HTTPServer.m */; };
-		FCF87E80133AEC56006779EF /* ThreadPerConnectionServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E3D133AEC56006779EF /* ThreadPerConnectionServer.m */; };
-		FCF87E81133AEC56006779EF /* ThreadPoolServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E3F133AEC56006779EF /* ThreadPoolServer.m */; };
-		FCF87E82133AEC56006779EF /* SSCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E42133AEC56006779EF /* SSCrypto.m */; };
-		FCF87E83133AEC56006779EF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E45133AEC56006779EF /* AsyncSocket.m */; };
-		FCF87E84133AEC56006779EF /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E49133AEC56006779EF /* NSObject+SBJSON.m */; };
-		FCF87E85133AEC56006779EF /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E4B133AEC56006779EF /* NSString+SBJSON.m */; };
-		FCF87E86133AEC56006779EF /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E4D133AEC56006779EF /* SBJSON.m */; };
-		FCF87E87133AEC56006779EF /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E4F133AEC56006779EF /* SBJsonBase.m */; };
-		FCF87E88133AEC56006779EF /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E51133AEC56006779EF /* SBJsonParser.m */; };
-		FCF87E89133AEC56006779EF /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E53133AEC56006779EF /* SBJsonWriter.m */; };
-		FCF87E8A133AEC56006779EF /* KaiwaConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E57133AEC56006779EF /* KaiwaConnection.m */; };
-		FCF87E8B133AEC56006779EF /* KaiwaConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E59133AEC56006779EF /* KaiwaConversation.m */; };
-		FCF87E8C133AEC56006779EF /* KaiwaDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E5B133AEC56006779EF /* KaiwaDispatcher.m */; };
-		FCF87E8D133AEC56006779EF /* KaiwaFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E5D133AEC56006779EF /* KaiwaFilePath.m */; };
-		FCF87E8E133AEC56006779EF /* KaiwaFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E5F133AEC56006779EF /* KaiwaFriend.m */; };
-		FCF87E8F133AEC56006779EF /* KaiwaHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E61133AEC56006779EF /* KaiwaHTTPServer.m */; };
-		FCF87E90133AEC56006779EF /* KaiwaRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E63133AEC56006779EF /* KaiwaRequest.m */; };
-		FCF87E91133AEC56006779EF /* KaiwaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E65133AEC56006779EF /* KaiwaResponse.m */; };
-		FCF87E92133AEC56006779EF /* KaiwaRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E67133AEC56006779EF /* KaiwaRewrite.m */; };
-		FCF87E93133AEC56006779EF /* KaiwaRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E69133AEC56006779EF /* KaiwaRoute.m */; };
-		FCF87E94133AEC56006779EF /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E6C133AEC56006779EF /* NSString+UUID.m */; };
-		FCF87E95133AEC56006779EF /* RandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E6E133AEC56006779EF /* RandomSequence.m */; };
-		FCF87E96133AEC56006779EF /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E13133AEC56006779EF /* AGRegex.m */; };
-		FCF87E97133AEC56006779EF /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E16133AEC56006779EF /* ASIFormDataRequest.m */; };
-		FCF87E98133AEC56006779EF /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E18133AEC56006779EF /* ASIHTTPRequest.m */; };
-		FCF87E99133AEC56006779EF /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E1C133AEC56006779EF /* ASIInputStream.m */; };
-		FCF87E9A133AEC56006779EF /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E1E133AEC56006779EF /* ASINetworkQueue.m */; };
-		FCF87E9B133AEC56006779EF /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E20133AEC56006779EF /* ASINSStringAdditions.m */; };
-		FCF87E9C133AEC56006779EF /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E25133AEC56006779EF /* DDData.m */; };
-		FCF87E9D133AEC56006779EF /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E27133AEC56006779EF /* DDNumber.m */; };
-		FCF87E9E133AEC56006779EF /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E29133AEC56006779EF /* DDRange.m */; };
-		FCF87E9F133AEC56006779EF /* NSDictionary+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E2B133AEC56006779EF /* NSDictionary+URLEncode.m */; };
-		FCF87EA0133AEC56006779EF /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E2D133AEC56006779EF /* NSString+URLEncode.m */; };
-		FCF87EA1133AEC56006779EF /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E31133AEC56006779EF /* HTTPAsyncFileResponse.m */; };
-		FCF87EA2133AEC56006779EF /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E33133AEC56006779EF /* HTTPAuthenticationRequest.m */; };
-		FCF87EA3133AEC56006779EF /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E35133AEC56006779EF /* HTTPConnection.m */; };
-		FCF87EA4133AEC56006779EF /* HTTPCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E37133AEC56006779EF /* HTTPCookie.m */; };
-		FCF87EA5133AEC56006779EF /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E39133AEC56006779EF /* HTTPResponse.m */; };
-		FCF87EA6133AEC56006779EF /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E3B133AEC56006779EF /* HTTPServer.m */; };
-		FCF87EA7133AEC56006779EF /* ThreadPerConnectionServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E3D133AEC56006779EF /* ThreadPerConnectionServer.m */; };
-		FCF87EA8133AEC56006779EF /* ThreadPoolServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E3F133AEC56006779EF /* ThreadPoolServer.m */; };
-		FCF87EA9133AEC56006779EF /* SSCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E42133AEC56006779EF /* SSCrypto.m */; };
-		FCF87EAA133AEC56006779EF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E45133AEC56006779EF /* AsyncSocket.m */; };
-		FCF87EAB133AEC56006779EF /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E49133AEC56006779EF /* NSObject+SBJSON.m */; };
-		FCF87EAC133AEC56006779EF /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E4B133AEC56006779EF /* NSString+SBJSON.m */; };
-		FCF87EAD133AEC56006779EF /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E4D133AEC56006779EF /* SBJSON.m */; };
-		FCF87EAE133AEC56006779EF /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E4F133AEC56006779EF /* SBJsonBase.m */; };
-		FCF87EAF133AEC56006779EF /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E51133AEC56006779EF /* SBJsonParser.m */; };
-		FCF87EB0133AEC56006779EF /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E53133AEC56006779EF /* SBJsonWriter.m */; };
-		FCF87EB1133AEC56006779EF /* KaiwaConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E57133AEC56006779EF /* KaiwaConnection.m */; };
-		FCF87EB2133AEC56006779EF /* KaiwaConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E59133AEC56006779EF /* KaiwaConversation.m */; };
-		FCF87EB3133AEC56006779EF /* KaiwaDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E5B133AEC56006779EF /* KaiwaDispatcher.m */; };
-		FCF87EB4133AEC56006779EF /* KaiwaFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E5D133AEC56006779EF /* KaiwaFilePath.m */; };
-		FCF87EB5133AEC56006779EF /* KaiwaFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E5F133AEC56006779EF /* KaiwaFriend.m */; };
-		FCF87EB6133AEC56006779EF /* KaiwaHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E61133AEC56006779EF /* KaiwaHTTPServer.m */; };
-		FCF87EB7133AEC56006779EF /* KaiwaRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E63133AEC56006779EF /* KaiwaRequest.m */; };
-		FCF87EB8133AEC56006779EF /* KaiwaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E65133AEC56006779EF /* KaiwaResponse.m */; };
-		FCF87EB9133AEC56006779EF /* KaiwaRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E67133AEC56006779EF /* KaiwaRewrite.m */; };
-		FCF87EBA133AEC56006779EF /* KaiwaRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E69133AEC56006779EF /* KaiwaRoute.m */; };
-		FCF87EBB133AEC56006779EF /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E6C133AEC56006779EF /* NSString+UUID.m */; };
-		FCF87EBC133AEC56006779EF /* RandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E6E133AEC56006779EF /* RandomSequence.m */; };
-		FCFA0A3F133BD12100141766 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0A3E133BD12100141766 /* libpcre.a */; };
-		FCFA0A40133BD12100141766 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0A3E133BD12100141766 /* libpcre.a */; };
-		FCFA0C17133D768D00141766 /* KaiwaHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0C16133D768D00141766 /* KaiwaHTTPRequest.m */; };
-		FCFA0C18133D768D00141766 /* KaiwaHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0C16133D768D00141766 /* KaiwaHTTPRequest.m */; };
-		FCFA0D78133E7FDF00141766 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0D77133E7FDF00141766 /* Collaboration.framework */; };
 		FCFA0D7A133E7FDF00141766 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0D79133E7FDF00141766 /* CoreServices.framework */; };
-		FCFA0D85133E7FE800141766 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0D77133E7FDF00141766 /* Collaboration.framework */; };
 		FCFA0D86133E7FE800141766 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0D79133E7FDF00141766 /* CoreServices.framework */; };
+		FCFA0EB6133E8BED00141766 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0EB5133E8BED00141766 /* Collaboration.framework */; };
+		FCFA0EB9133E8BF100141766 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0EB5133E8BED00141766 /* Collaboration.framework */; };
+		FCFA0F1A133E90AD00141766 /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCFA0EF5133E8EC500141766 /* KaiwaFramework.framework */; };
+		FCFA0F1B133E90B100141766 /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCFA0EF5133E8EC500141766 /* KaiwaFramework.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFA0EF4133E8EC500141766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFA0EEF133E8EC500141766 /* KaiwaFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* KaiwaFramework.framework */;
+			remoteInfo = KaiwaFramework;
+		};
+		FCFA0EF6133E8EE700141766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFA0EEF133E8EC500141766 /* KaiwaFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFA0ED9133E8E0900141766 /* Build and Install */;
+			remoteInfo = "Build and Install";
+		};
+		FCFA0EF8133E8EF000141766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFA0EEF133E8EC500141766 /* KaiwaFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFA0ED9133E8E0900141766 /* Build and Install */;
+			remoteInfo = "Build and Install";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCFA0ED1133E8CF700141766 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FCFA0F1A133E90AD00141766 /* KaiwaFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA0ED2133E8CF700141766 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FCFA0F1B133E90B100141766 /* KaiwaFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -142,10 +101,6 @@
 		8D1107320486CEB800E47090 /* Kaiwa Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kaiwa Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF877CD133A62DF006779EF /* Kaiwa Test Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kaiwa Test Messenger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF877CF133A62DF006779EF /* Kaiwa Test Messenger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kaiwa Test Messenger-Info.plist"; sourceTree = "<group>"; };
-		FCF877EB133A633D006779EF /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
-		FCF877EC133A633D006779EF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		FCF87843133A634A006779EF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		FCF87844133A634A006779EF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FCF87903133A72A2006779EF /* KMBuddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBuddy.h; sourceTree = "<group>"; };
 		FCF87904133A72A2006779EF /* KMBuddy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMBuddy.m; sourceTree = "<group>"; };
 		FCF87907133A7495006779EF /* KMBuddyListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBuddyListController.h; sourceTree = "<group>"; };
@@ -158,98 +113,9 @@
 		FCF87B65133ADE3B006779EF /* KMBuddyCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBuddyCollectionViewItem.h; sourceTree = "<group>"; };
 		FCF87B66133ADE3B006779EF /* KMBuddyCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMBuddyCollectionViewItem.m; sourceTree = "<group>"; };
 		FCF87B91133ADF49006779EF /* KMBuddy.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KMBuddy.xib; sourceTree = "<group>"; };
-		FCF87E12133AEC56006779EF /* AGRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGRegex.h; sourceTree = "<group>"; };
-		FCF87E13133AEC56006779EF /* AGRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGRegex.m; sourceTree = "<group>"; };
-		FCF87E15133AEC56006779EF /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
-		FCF87E16133AEC56006779EF /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
-		FCF87E17133AEC56006779EF /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
-		FCF87E18133AEC56006779EF /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
-		FCF87E19133AEC56006779EF /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
-		FCF87E1A133AEC56006779EF /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
-		FCF87E1B133AEC56006779EF /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
-		FCF87E1C133AEC56006779EF /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
-		FCF87E1D133AEC56006779EF /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
-		FCF87E1E133AEC56006779EF /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
-		FCF87E1F133AEC56006779EF /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
-		FCF87E20133AEC56006779EF /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
-		FCF87E21133AEC56006779EF /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
-		FCF87E24133AEC56006779EF /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
-		FCF87E25133AEC56006779EF /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
-		FCF87E26133AEC56006779EF /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
-		FCF87E27133AEC56006779EF /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
-		FCF87E28133AEC56006779EF /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
-		FCF87E29133AEC56006779EF /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
-		FCF87E2A133AEC56006779EF /* NSDictionary+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLEncode.h"; sourceTree = "<group>"; };
-		FCF87E2B133AEC56006779EF /* NSDictionary+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncode.m"; sourceTree = "<group>"; };
-		FCF87E2C133AEC56006779EF /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
-		FCF87E2D133AEC56006779EF /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
-		FCF87E30133AEC56006779EF /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
-		FCF87E31133AEC56006779EF /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
-		FCF87E32133AEC56006779EF /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
-		FCF87E33133AEC56006779EF /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
-		FCF87E34133AEC56006779EF /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
-		FCF87E35133AEC56006779EF /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
-		FCF87E36133AEC56006779EF /* HTTPCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCookie.h; sourceTree = "<group>"; };
-		FCF87E37133AEC56006779EF /* HTTPCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCookie.m; sourceTree = "<group>"; };
-		FCF87E38133AEC56006779EF /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
-		FCF87E39133AEC56006779EF /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponse.m; sourceTree = "<group>"; };
-		FCF87E3A133AEC56006779EF /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
-		FCF87E3B133AEC56006779EF /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
-		FCF87E3C133AEC56006779EF /* ThreadPerConnectionServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPerConnectionServer.h; sourceTree = "<group>"; };
-		FCF87E3D133AEC56006779EF /* ThreadPerConnectionServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPerConnectionServer.m; sourceTree = "<group>"; };
-		FCF87E3E133AEC56006779EF /* ThreadPoolServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPoolServer.h; sourceTree = "<group>"; };
-		FCF87E3F133AEC56006779EF /* ThreadPoolServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPoolServer.m; sourceTree = "<group>"; };
-		FCF87E41133AEC56006779EF /* SSCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCrypto.h; sourceTree = "<group>"; };
-		FCF87E42133AEC56006779EF /* SSCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCrypto.m; sourceTree = "<group>"; };
-		FCF87E44133AEC56006779EF /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
-		FCF87E45133AEC56006779EF /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
-		FCF87E47133AEC56006779EF /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		FCF87E48133AEC56006779EF /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
-		FCF87E49133AEC56006779EF /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
-		FCF87E4A133AEC56006779EF /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
-		FCF87E4B133AEC56006779EF /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
-		FCF87E4C133AEC56006779EF /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
-		FCF87E4D133AEC56006779EF /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
-		FCF87E4E133AEC56006779EF /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
-		FCF87E4F133AEC56006779EF /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
-		FCF87E50133AEC56006779EF /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		FCF87E51133AEC56006779EF /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
-		FCF87E52133AEC56006779EF /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		FCF87E53133AEC56006779EF /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		FCF87E55133AEC56006779EF /* Kaiwa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kaiwa.h; sourceTree = "<group>"; };
-		FCF87E56133AEC56006779EF /* KaiwaConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaConnection.h; sourceTree = "<group>"; };
-		FCF87E57133AEC56006779EF /* KaiwaConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaConnection.m; sourceTree = "<group>"; };
-		FCF87E58133AEC56006779EF /* KaiwaConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaConversation.h; sourceTree = "<group>"; };
-		FCF87E59133AEC56006779EF /* KaiwaConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaConversation.m; sourceTree = "<group>"; };
-		FCF87E5A133AEC56006779EF /* KaiwaDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaDispatcher.h; sourceTree = "<group>"; };
-		FCF87E5B133AEC56006779EF /* KaiwaDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaDispatcher.m; sourceTree = "<group>"; };
-		FCF87E5C133AEC56006779EF /* KaiwaFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaFilePath.h; sourceTree = "<group>"; };
-		FCF87E5D133AEC56006779EF /* KaiwaFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaFilePath.m; sourceTree = "<group>"; };
-		FCF87E5E133AEC56006779EF /* KaiwaFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaFriend.h; sourceTree = "<group>"; };
-		FCF87E5F133AEC56006779EF /* KaiwaFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaFriend.m; sourceTree = "<group>"; };
-		FCF87E60133AEC56006779EF /* KaiwaHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPServer.h; sourceTree = "<group>"; };
-		FCF87E61133AEC56006779EF /* KaiwaHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPServer.m; sourceTree = "<group>"; };
-		FCF87E62133AEC56006779EF /* KaiwaRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRequest.h; sourceTree = "<group>"; };
-		FCF87E63133AEC56006779EF /* KaiwaRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRequest.m; sourceTree = "<group>"; };
-		FCF87E64133AEC56006779EF /* KaiwaResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaResponse.h; sourceTree = "<group>"; };
-		FCF87E65133AEC56006779EF /* KaiwaResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaResponse.m; sourceTree = "<group>"; };
-		FCF87E66133AEC56006779EF /* KaiwaRewrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRewrite.h; sourceTree = "<group>"; };
-		FCF87E67133AEC56006779EF /* KaiwaRewrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRewrite.m; sourceTree = "<group>"; };
-		FCF87E68133AEC56006779EF /* KaiwaRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRoute.h; sourceTree = "<group>"; };
-		FCF87E69133AEC56006779EF /* KaiwaRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRoute.m; sourceTree = "<group>"; };
-		FCF87E6B133AEC56006779EF /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
-		FCF87E6C133AEC56006779EF /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
-		FCF87E6D133AEC56006779EF /* RandomSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomSequence.h; sourceTree = "<group>"; };
-		FCF87E6E133AEC56006779EF /* RandomSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSequence.m; sourceTree = "<group>"; };
-		FCFA0A3A133BD11100141766 /* pcre_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_internal.h; path = ../Kaiwa/pcre/include/pcre_internal.h; sourceTree = SOURCE_ROOT; };
-		FCFA0A3B133BD11100141766 /* pcre_scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_scanner.h; path = ../Kaiwa/pcre/include/pcre_scanner.h; sourceTree = SOURCE_ROOT; };
-		FCFA0A3C133BD11100141766 /* pcre_stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_stringpiece.h; path = ../Kaiwa/pcre/include/pcre_stringpiece.h; sourceTree = SOURCE_ROOT; };
-		FCFA0A3D133BD11100141766 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre.h; path = ../Kaiwa/pcre/include/pcre.h; sourceTree = SOURCE_ROOT; };
-		FCFA0A3E133BD12100141766 /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre.a; path = ../Kaiwa/pcre/lib/osx/libpcre.a; sourceTree = SOURCE_ROOT; };
-		FCFA0C15133D768D00141766 /* KaiwaHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPRequest.h; sourceTree = "<group>"; };
-		FCFA0C16133D768D00141766 /* KaiwaHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPRequest.m; sourceTree = "<group>"; };
-		FCFA0D77133E7FDF00141766 /* Collaboration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Collaboration.framework; path = System/Library/Frameworks/Collaboration.framework; sourceTree = SDKROOT; };
 		FCFA0D79133E7FDF00141766 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		FCFA0EB5133E8BED00141766 /* Collaboration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Collaboration.framework; path = System/Library/Frameworks/Collaboration.framework; sourceTree = SDKROOT; };
+		FCFA0EEF133E8EC500141766 /* KaiwaFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KaiwaFramework.xcodeproj; path = ../KaiwaFramework/KaiwaFramework.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,13 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFA0EB9133E8BF100141766 /* Collaboration.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				FCF877EE133A633D006779EF /* libcrypto.dylib in Frameworks */,
-				FCF877EF133A633D006779EF /* libz.dylib in Frameworks */,
-				FCF87845133A634A006779EF /* Security.framework in Frameworks */,
-				FCF87846133A634A006779EF /* SystemConfiguration.framework in Frameworks */,
-				FCFA0A3F133BD12100141766 /* libpcre.a in Frameworks */,
-				FCFA0D78133E7FDF00141766 /* Collaboration.framework in Frameworks */,
 				FCFA0D7A133E7FDF00141766 /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,14 +133,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCFA0D85133E7FE800141766 /* Collaboration.framework in Frameworks */,
 				FCFA0D86133E7FE800141766 /* CoreServices.framework in Frameworks */,
 				FCF877D7133A62F4006779EF /* Cocoa.framework in Frameworks */,
-				FCF877F1133A633D006779EF /* libcrypto.dylib in Frameworks */,
-				FCF877F2133A633D006779EF /* libz.dylib in Frameworks */,
-				FCF87847133A634A006779EF /* Security.framework in Frameworks */,
-				FCF87848133A634A006779EF /* SystemConfiguration.framework in Frameworks */,
-				FCFA0A40133BD12100141766 /* libpcre.a in Frameworks */,
+				FCFA0EB6133E8BED00141766 /* Collaboration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,13 +145,6 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FCFA0A30133BD0FB00141766 /* pcre */,
-				FCF87E11133AEC56006779EF /* AGRegex */,
-				FCF87E14133AEC56006779EF /* ASIHTTP */,
-				FCF87E22133AEC56006779EF /* HTTP */,
-				FCF87E46133AEC56006779EF /* JSON */,
-				FCF87E54133AEC56006779EF /* Kaiwa */,
-				FCF87E6A133AEC56006779EF /* Utility */,
 				FCF87849133A6366006779EF /* Application */,
 			);
 			name = Classes;
@@ -304,14 +153,9 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FCFA0A3E133BD12100141766 /* libpcre.a */,
-				FCF87843133A634A006779EF /* Security.framework */,
-				FCF87844133A634A006779EF /* SystemConfiguration.framework */,
-				FCF877EB133A633D006779EF /* libcrypto.dylib */,
-				FCF877EC133A633D006779EF /* libz.dylib */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-				FCFA0D77133E7FDF00141766 /* Collaboration.framework */,
 				FCFA0D79133E7FDF00141766 /* CoreServices.framework */,
+				FCFA0EB5133E8BED00141766 /* Collaboration.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -338,6 +182,7 @@
 		29B97314FDCFA39411CA2CEA /* Kaiwa Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA0EEA133E8EA500141766 /* Core Framework */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -362,7 +207,6 @@
 			children = (
 				8D1107310486CEB800E47090 /* Kaiwa_Messenger-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -382,6 +226,7 @@
 				FCF87B60133ADD8F006779EF /* Views */,
 				256AC3D80F4B6AC300CF3369 /* Kaiwa_MessengerAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* Kaiwa_MessengerAppDelegate.m */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				FCF87903133A72A2006779EF /* KMBuddy.h */,
 				FCF87904133A72A2006779EF /* KMBuddy.m */,
 				FCF87907133A7495006779EF /* KMBuddyListController.h */,
@@ -405,188 +250,20 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		FCF87E11133AEC56006779EF /* AGRegex */ = {
+		FCFA0EEA133E8EA500141766 /* Core Framework */ = {
 			isa = PBXGroup;
 			children = (
-				FCF87E12133AEC56006779EF /* AGRegex.h */,
-				FCF87E13133AEC56006779EF /* AGRegex.m */,
+				FCFA0EEF133E8EC500141766 /* KaiwaFramework.xcodeproj */,
 			);
-			name = AGRegex;
-			path = ../Kaiwa/AGRegex;
-			sourceTree = SOURCE_ROOT;
-		};
-		FCF87E14133AEC56006779EF /* ASIHTTP */ = {
-			isa = PBXGroup;
-			children = (
-				FCF87E15133AEC56006779EF /* ASIFormDataRequest.h */,
-				FCF87E16133AEC56006779EF /* ASIFormDataRequest.m */,
-				FCF87E17133AEC56006779EF /* ASIHTTPRequest.h */,
-				FCF87E18133AEC56006779EF /* ASIHTTPRequest.m */,
-				FCF87E19133AEC56006779EF /* ASIHTTPRequestConfig.h */,
-				FCF87E1A133AEC56006779EF /* ASIHTTPRequestDelegate.h */,
-				FCF87E1B133AEC56006779EF /* ASIInputStream.h */,
-				FCF87E1C133AEC56006779EF /* ASIInputStream.m */,
-				FCF87E1D133AEC56006779EF /* ASINetworkQueue.h */,
-				FCF87E1E133AEC56006779EF /* ASINetworkQueue.m */,
-				FCF87E1F133AEC56006779EF /* ASINSStringAdditions.h */,
-				FCF87E20133AEC56006779EF /* ASINSStringAdditions.m */,
-				FCF87E21133AEC56006779EF /* ASIProgressDelegate.h */,
-			);
-			name = ASIHTTP;
-			path = ../Kaiwa/ASIHTTP;
-			sourceTree = SOURCE_ROOT;
-		};
-		FCF87E22133AEC56006779EF /* HTTP */ = {
-			isa = PBXGroup;
-			children = (
-				FCF87E23133AEC56006779EF /* Categories */,
-				FCF87E2E133AEC56006779EF /* HTTP */,
-				FCF87E40133AEC56006779EF /* SSCrypto */,
-				FCF87E43133AEC56006779EF /* TCP */,
-			);
-			name = HTTP;
-			path = ../Kaiwa/HTTP;
-			sourceTree = SOURCE_ROOT;
-		};
-		FCF87E23133AEC56006779EF /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				FCF87E24133AEC56006779EF /* DDData.h */,
-				FCF87E25133AEC56006779EF /* DDData.m */,
-				FCF87E26133AEC56006779EF /* DDNumber.h */,
-				FCF87E27133AEC56006779EF /* DDNumber.m */,
-				FCF87E28133AEC56006779EF /* DDRange.h */,
-				FCF87E29133AEC56006779EF /* DDRange.m */,
-				FCF87E2A133AEC56006779EF /* NSDictionary+URLEncode.h */,
-				FCF87E2B133AEC56006779EF /* NSDictionary+URLEncode.m */,
-				FCF87E2C133AEC56006779EF /* NSString+URLEncode.h */,
-				FCF87E2D133AEC56006779EF /* NSString+URLEncode.m */,
-			);
-			path = Categories;
+			name = "Core Framework";
 			sourceTree = "<group>";
 		};
-		FCF87E2E133AEC56006779EF /* HTTP */ = {
+		FCFA0EF0133E8EC500141766 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCF87E2F133AEC56006779EF /* Advanced */,
-				FCF87E32133AEC56006779EF /* HTTPAuthenticationRequest.h */,
-				FCF87E33133AEC56006779EF /* HTTPAuthenticationRequest.m */,
-				FCF87E34133AEC56006779EF /* HTTPConnection.h */,
-				FCF87E35133AEC56006779EF /* HTTPConnection.m */,
-				FCF87E36133AEC56006779EF /* HTTPCookie.h */,
-				FCF87E37133AEC56006779EF /* HTTPCookie.m */,
-				FCF87E38133AEC56006779EF /* HTTPResponse.h */,
-				FCF87E39133AEC56006779EF /* HTTPResponse.m */,
-				FCF87E3A133AEC56006779EF /* HTTPServer.h */,
-				FCF87E3B133AEC56006779EF /* HTTPServer.m */,
-				FCF87E3C133AEC56006779EF /* ThreadPerConnectionServer.h */,
-				FCF87E3D133AEC56006779EF /* ThreadPerConnectionServer.m */,
-				FCF87E3E133AEC56006779EF /* ThreadPoolServer.h */,
-				FCF87E3F133AEC56006779EF /* ThreadPoolServer.m */,
+				FCFA0EF5133E8EC500141766 /* KaiwaFramework.framework */,
 			);
-			path = HTTP;
-			sourceTree = "<group>";
-		};
-		FCF87E2F133AEC56006779EF /* Advanced */ = {
-			isa = PBXGroup;
-			children = (
-				FCF87E30133AEC56006779EF /* HTTPAsyncFileResponse.h */,
-				FCF87E31133AEC56006779EF /* HTTPAsyncFileResponse.m */,
-			);
-			path = Advanced;
-			sourceTree = "<group>";
-		};
-		FCF87E40133AEC56006779EF /* SSCrypto */ = {
-			isa = PBXGroup;
-			children = (
-				FCF87E41133AEC56006779EF /* SSCrypto.h */,
-				FCF87E42133AEC56006779EF /* SSCrypto.m */,
-			);
-			path = SSCrypto;
-			sourceTree = "<group>";
-		};
-		FCF87E43133AEC56006779EF /* TCP */ = {
-			isa = PBXGroup;
-			children = (
-				FCF87E44133AEC56006779EF /* AsyncSocket.h */,
-				FCF87E45133AEC56006779EF /* AsyncSocket.m */,
-			);
-			path = TCP;
-			sourceTree = "<group>";
-		};
-		FCF87E46133AEC56006779EF /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				FCF87E47133AEC56006779EF /* JSON.h */,
-				FCF87E48133AEC56006779EF /* NSObject+SBJSON.h */,
-				FCF87E49133AEC56006779EF /* NSObject+SBJSON.m */,
-				FCF87E4A133AEC56006779EF /* NSString+SBJSON.h */,
-				FCF87E4B133AEC56006779EF /* NSString+SBJSON.m */,
-				FCF87E4C133AEC56006779EF /* SBJSON.h */,
-				FCF87E4D133AEC56006779EF /* SBJSON.m */,
-				FCF87E4E133AEC56006779EF /* SBJsonBase.h */,
-				FCF87E4F133AEC56006779EF /* SBJsonBase.m */,
-				FCF87E50133AEC56006779EF /* SBJsonParser.h */,
-				FCF87E51133AEC56006779EF /* SBJsonParser.m */,
-				FCF87E52133AEC56006779EF /* SBJsonWriter.h */,
-				FCF87E53133AEC56006779EF /* SBJsonWriter.m */,
-			);
-			name = JSON;
-			path = ../Kaiwa/JSON;
-			sourceTree = SOURCE_ROOT;
-		};
-		FCF87E54133AEC56006779EF /* Kaiwa */ = {
-			isa = PBXGroup;
-			children = (
-				FCF87E55133AEC56006779EF /* Kaiwa.h */,
-				FCF87E56133AEC56006779EF /* KaiwaConnection.h */,
-				FCF87E57133AEC56006779EF /* KaiwaConnection.m */,
-				FCF87E58133AEC56006779EF /* KaiwaConversation.h */,
-				FCF87E59133AEC56006779EF /* KaiwaConversation.m */,
-				FCF87E5A133AEC56006779EF /* KaiwaDispatcher.h */,
-				FCF87E5B133AEC56006779EF /* KaiwaDispatcher.m */,
-				FCF87E5C133AEC56006779EF /* KaiwaFilePath.h */,
-				FCF87E5D133AEC56006779EF /* KaiwaFilePath.m */,
-				FCF87E5E133AEC56006779EF /* KaiwaFriend.h */,
-				FCF87E5F133AEC56006779EF /* KaiwaFriend.m */,
-				FCF87E60133AEC56006779EF /* KaiwaHTTPServer.h */,
-				FCF87E61133AEC56006779EF /* KaiwaHTTPServer.m */,
-				FCFA0C15133D768D00141766 /* KaiwaHTTPRequest.h */,
-				FCFA0C16133D768D00141766 /* KaiwaHTTPRequest.m */,
-				FCF87E62133AEC56006779EF /* KaiwaRequest.h */,
-				FCF87E63133AEC56006779EF /* KaiwaRequest.m */,
-				FCF87E64133AEC56006779EF /* KaiwaResponse.h */,
-				FCF87E65133AEC56006779EF /* KaiwaResponse.m */,
-				FCF87E66133AEC56006779EF /* KaiwaRewrite.h */,
-				FCF87E67133AEC56006779EF /* KaiwaRewrite.m */,
-				FCF87E68133AEC56006779EF /* KaiwaRoute.h */,
-				FCF87E69133AEC56006779EF /* KaiwaRoute.m */,
-			);
-			name = Kaiwa;
-			path = ../Kaiwa/Kaiwa;
-			sourceTree = SOURCE_ROOT;
-		};
-		FCF87E6A133AEC56006779EF /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				FCF87E6B133AEC56006779EF /* NSString+UUID.h */,
-				FCF87E6C133AEC56006779EF /* NSString+UUID.m */,
-				FCF87E6D133AEC56006779EF /* RandomSequence.h */,
-				FCF87E6E133AEC56006779EF /* RandomSequence.m */,
-			);
-			name = Utility;
-			path = ../Kaiwa/Utility;
-			sourceTree = SOURCE_ROOT;
-		};
-		FCFA0A30133BD0FB00141766 /* pcre */ = {
-			isa = PBXGroup;
-			children = (
-				FCFA0A3A133BD11100141766 /* pcre_internal.h */,
-				FCFA0A3B133BD11100141766 /* pcre_scanner.h */,
-				FCFA0A3C133BD11100141766 /* pcre_stringpiece.h */,
-				FCFA0A3D133BD11100141766 /* pcre.h */,
-			);
-			name = pcre;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -599,10 +276,12 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				FCFA0ED1133E8CF700141766 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FCFA0EF7133E8EE700141766 /* PBXTargetDependency */,
 			);
 			name = "Kaiwa Messenger";
 			productInstallPath = "$(HOME)/Applications";
@@ -617,10 +296,12 @@
 				FCF877C9133A62DF006779EF /* Resources */,
 				FCF877CA133A62DF006779EF /* Sources */,
 				FCF877CB133A62DF006779EF /* Frameworks */,
+				FCFA0ED2133E8CF700141766 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FCFA0EF9133E8EF000141766 /* PBXTargetDependency */,
 			);
 			name = "Kaiwa Test Messenger";
 			productName = "Kaiwa Test Messenger";
@@ -644,6 +325,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Kaiwa Messenger */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FCFA0EF0133E8EC500141766 /* Products */;
+					ProjectRef = FCFA0EEF133E8EC500141766 /* KaiwaFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Kaiwa Messenger */,
@@ -651,6 +338,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FCFA0EF5133E8EC500141766 /* KaiwaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KaiwaFramework.framework;
+			remoteRef = FCFA0EF4133E8EC500141766 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -689,46 +386,6 @@
 				FCF87B42133AD550006779EF /* KMMessageWindowController.m in Sources */,
 				FCF87B63133ADDA1006779EF /* KMBuddyView.m in Sources */,
 				FCF87B67133ADE3B006779EF /* KMBuddyCollectionViewItem.m in Sources */,
-				FCF87E6F133AEC56006779EF /* AGRegex.m in Sources */,
-				FCF87E70133AEC56006779EF /* ASIFormDataRequest.m in Sources */,
-				FCF87E71133AEC56006779EF /* ASIHTTPRequest.m in Sources */,
-				FCF87E72133AEC56006779EF /* ASIInputStream.m in Sources */,
-				FCF87E73133AEC56006779EF /* ASINetworkQueue.m in Sources */,
-				FCF87E74133AEC56006779EF /* ASINSStringAdditions.m in Sources */,
-				FCF87E75133AEC56006779EF /* DDData.m in Sources */,
-				FCF87E76133AEC56006779EF /* DDNumber.m in Sources */,
-				FCF87E77133AEC56006779EF /* DDRange.m in Sources */,
-				FCF87E78133AEC56006779EF /* NSDictionary+URLEncode.m in Sources */,
-				FCF87E79133AEC56006779EF /* NSString+URLEncode.m in Sources */,
-				FCF87E7A133AEC56006779EF /* HTTPAsyncFileResponse.m in Sources */,
-				FCF87E7B133AEC56006779EF /* HTTPAuthenticationRequest.m in Sources */,
-				FCF87E7C133AEC56006779EF /* HTTPConnection.m in Sources */,
-				FCF87E7D133AEC56006779EF /* HTTPCookie.m in Sources */,
-				FCF87E7E133AEC56006779EF /* HTTPResponse.m in Sources */,
-				FCF87E7F133AEC56006779EF /* HTTPServer.m in Sources */,
-				FCF87E80133AEC56006779EF /* ThreadPerConnectionServer.m in Sources */,
-				FCF87E81133AEC56006779EF /* ThreadPoolServer.m in Sources */,
-				FCF87E82133AEC56006779EF /* SSCrypto.m in Sources */,
-				FCF87E83133AEC56006779EF /* AsyncSocket.m in Sources */,
-				FCF87E84133AEC56006779EF /* NSObject+SBJSON.m in Sources */,
-				FCF87E85133AEC56006779EF /* NSString+SBJSON.m in Sources */,
-				FCF87E86133AEC56006779EF /* SBJSON.m in Sources */,
-				FCF87E87133AEC56006779EF /* SBJsonBase.m in Sources */,
-				FCF87E88133AEC56006779EF /* SBJsonParser.m in Sources */,
-				FCF87E89133AEC56006779EF /* SBJsonWriter.m in Sources */,
-				FCF87E8A133AEC56006779EF /* KaiwaConnection.m in Sources */,
-				FCF87E8B133AEC56006779EF /* KaiwaConversation.m in Sources */,
-				FCF87E8C133AEC56006779EF /* KaiwaDispatcher.m in Sources */,
-				FCF87E8D133AEC56006779EF /* KaiwaFilePath.m in Sources */,
-				FCF87E8E133AEC56006779EF /* KaiwaFriend.m in Sources */,
-				FCF87E8F133AEC56006779EF /* KaiwaHTTPServer.m in Sources */,
-				FCF87E90133AEC56006779EF /* KaiwaRequest.m in Sources */,
-				FCF87E91133AEC56006779EF /* KaiwaResponse.m in Sources */,
-				FCF87E92133AEC56006779EF /* KaiwaRewrite.m in Sources */,
-				FCF87E93133AEC56006779EF /* KaiwaRoute.m in Sources */,
-				FCF87E94133AEC56006779EF /* NSString+UUID.m in Sources */,
-				FCF87E95133AEC56006779EF /* RandomSequence.m in Sources */,
-				FCFA0C17133D768D00141766 /* KaiwaHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,50 +400,23 @@
 				FCF87B43133AD550006779EF /* KMMessageWindowController.m in Sources */,
 				FCF87B64133ADDA1006779EF /* KMBuddyView.m in Sources */,
 				FCF87B68133ADE3B006779EF /* KMBuddyCollectionViewItem.m in Sources */,
-				FCF87E96133AEC56006779EF /* AGRegex.m in Sources */,
-				FCF87E97133AEC56006779EF /* ASIFormDataRequest.m in Sources */,
-				FCF87E98133AEC56006779EF /* ASIHTTPRequest.m in Sources */,
-				FCF87E99133AEC56006779EF /* ASIInputStream.m in Sources */,
-				FCF87E9A133AEC56006779EF /* ASINetworkQueue.m in Sources */,
-				FCF87E9B133AEC56006779EF /* ASINSStringAdditions.m in Sources */,
-				FCF87E9C133AEC56006779EF /* DDData.m in Sources */,
-				FCF87E9D133AEC56006779EF /* DDNumber.m in Sources */,
-				FCF87E9E133AEC56006779EF /* DDRange.m in Sources */,
-				FCF87E9F133AEC56006779EF /* NSDictionary+URLEncode.m in Sources */,
-				FCF87EA0133AEC56006779EF /* NSString+URLEncode.m in Sources */,
-				FCF87EA1133AEC56006779EF /* HTTPAsyncFileResponse.m in Sources */,
-				FCF87EA2133AEC56006779EF /* HTTPAuthenticationRequest.m in Sources */,
-				FCF87EA3133AEC56006779EF /* HTTPConnection.m in Sources */,
-				FCF87EA4133AEC56006779EF /* HTTPCookie.m in Sources */,
-				FCF87EA5133AEC56006779EF /* HTTPResponse.m in Sources */,
-				FCF87EA6133AEC56006779EF /* HTTPServer.m in Sources */,
-				FCF87EA7133AEC56006779EF /* ThreadPerConnectionServer.m in Sources */,
-				FCF87EA8133AEC56006779EF /* ThreadPoolServer.m in Sources */,
-				FCF87EA9133AEC56006779EF /* SSCrypto.m in Sources */,
-				FCF87EAA133AEC56006779EF /* AsyncSocket.m in Sources */,
-				FCF87EAB133AEC56006779EF /* NSObject+SBJSON.m in Sources */,
-				FCF87EAC133AEC56006779EF /* NSString+SBJSON.m in Sources */,
-				FCF87EAD133AEC56006779EF /* SBJSON.m in Sources */,
-				FCF87EAE133AEC56006779EF /* SBJsonBase.m in Sources */,
-				FCF87EAF133AEC56006779EF /* SBJsonParser.m in Sources */,
-				FCF87EB0133AEC56006779EF /* SBJsonWriter.m in Sources */,
-				FCF87EB1133AEC56006779EF /* KaiwaConnection.m in Sources */,
-				FCF87EB2133AEC56006779EF /* KaiwaConversation.m in Sources */,
-				FCF87EB3133AEC56006779EF /* KaiwaDispatcher.m in Sources */,
-				FCF87EB4133AEC56006779EF /* KaiwaFilePath.m in Sources */,
-				FCF87EB5133AEC56006779EF /* KaiwaFriend.m in Sources */,
-				FCF87EB6133AEC56006779EF /* KaiwaHTTPServer.m in Sources */,
-				FCF87EB7133AEC56006779EF /* KaiwaRequest.m in Sources */,
-				FCF87EB8133AEC56006779EF /* KaiwaResponse.m in Sources */,
-				FCF87EB9133AEC56006779EF /* KaiwaRewrite.m in Sources */,
-				FCF87EBA133AEC56006779EF /* KaiwaRoute.m in Sources */,
-				FCF87EBB133AEC56006779EF /* NSString+UUID.m in Sources */,
-				FCF87EBC133AEC56006779EF /* RandomSequence.m in Sources */,
-				FCFA0C18133D768D00141766 /* KaiwaHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFA0EF7133E8EE700141766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Build and Install";
+			targetProxy = FCFA0EF6133E8EE700141766 /* PBXContainerItemProxy */;
+		};
+		FCFA0EF9133E8EF000141766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Build and Install";
+			targetProxy = FCFA0EF8133E8EF000141766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
@@ -825,6 +455,12 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
 				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					KaiwaFramework,
+					"-search_paths_first",
+					"-W1",
+				);
 				PRODUCT_NAME = "Kaiwa Messenger";
 			};
 			name = Debug;
@@ -842,6 +478,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					KaiwaFramework,
+					"-search_paths_first",
+					"-W1",
 				);
 				PRODUCT_NAME = "Kaiwa Messenger";
 			};
@@ -902,6 +544,8 @@
 				);
 				OTHER_LDFLAGS = (
 					"-framework",
+					KaiwaFramework,
+					"-framework",
 					Foundation,
 					"-framework",
 					AppKit,
@@ -928,6 +572,8 @@
 					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
 				);
 				OTHER_LDFLAGS = (
+					"-framework",
+					KaiwaFramework,
 					"-framework",
 					Foundation,
 					"-framework",

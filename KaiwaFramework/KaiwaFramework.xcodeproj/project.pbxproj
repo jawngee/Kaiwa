@@ -6,102 +6,155 @@
 	objectVersion = 45;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FCFA0ED9133E8E0900141766 /* Build and Install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FCFA0EDF133E8E3A00141766 /* Build configuration list for PBXAggregateTarget "Build and Install" */;
+			buildPhases = (
+				FCFA0EE6133E8E7500141766 /* CopyFiles */,
+				FCFA0EED133E8EAB00141766 /* CopyFiles */,
+			);
+			dependencies = (
+				FCFA0EDE133E8E1C00141766 /* PBXTargetDependency */,
+			);
+			name = "Build and Install";
+			productName = "Build and Install";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
-		FCFA0ABC133BD4D600141766 /* AGRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A64133BD4D600141766 /* AGRegex.h */; };
+		FCFA0ABC133BD4D600141766 /* AGRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A64133BD4D600141766 /* AGRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0ABD133BD4D600141766 /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A65133BD4D600141766 /* AGRegex.m */; };
-		FCFA0ABE133BD4D600141766 /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A67133BD4D600141766 /* ASIFormDataRequest.h */; };
+		FCFA0ABE133BD4D600141766 /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A67133BD4D600141766 /* ASIFormDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0ABF133BD4D600141766 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A68133BD4D600141766 /* ASIFormDataRequest.m */; };
-		FCFA0AC0133BD4D600141766 /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A69133BD4D600141766 /* ASIHTTPRequest.h */; };
+		FCFA0AC0133BD4D600141766 /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A69133BD4D600141766 /* ASIHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AC1133BD4D600141766 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A6A133BD4D600141766 /* ASIHTTPRequest.m */; };
-		FCFA0AC2133BD4D600141766 /* ASIHTTPRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A6B133BD4D600141766 /* ASIHTTPRequestConfig.h */; };
-		FCFA0AC3133BD4D600141766 /* ASIHTTPRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A6C133BD4D600141766 /* ASIHTTPRequestDelegate.h */; };
-		FCFA0AC4133BD4D600141766 /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A6D133BD4D600141766 /* ASIInputStream.h */; };
+		FCFA0AC2133BD4D600141766 /* ASIHTTPRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A6B133BD4D600141766 /* ASIHTTPRequestConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0AC3133BD4D600141766 /* ASIHTTPRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A6C133BD4D600141766 /* ASIHTTPRequestDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0AC4133BD4D600141766 /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A6D133BD4D600141766 /* ASIInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AC5133BD4D600141766 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A6E133BD4D600141766 /* ASIInputStream.m */; };
-		FCFA0AC6133BD4D600141766 /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A6F133BD4D600141766 /* ASINetworkQueue.h */; };
+		FCFA0AC6133BD4D600141766 /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A6F133BD4D600141766 /* ASINetworkQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AC7133BD4D600141766 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A70133BD4D600141766 /* ASINetworkQueue.m */; };
-		FCFA0AC8133BD4D600141766 /* ASINSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A71133BD4D600141766 /* ASINSStringAdditions.h */; };
+		FCFA0AC8133BD4D600141766 /* ASINSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A71133BD4D600141766 /* ASINSStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AC9133BD4D600141766 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A72133BD4D600141766 /* ASINSStringAdditions.m */; };
-		FCFA0ACA133BD4D600141766 /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A73133BD4D600141766 /* ASIProgressDelegate.h */; };
-		FCFA0ACB133BD4D600141766 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A76133BD4D600141766 /* DDData.h */; };
+		FCFA0ACA133BD4D600141766 /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A73133BD4D600141766 /* ASIProgressDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0ACB133BD4D600141766 /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A76133BD4D600141766 /* DDData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0ACC133BD4D600141766 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A77133BD4D600141766 /* DDData.m */; };
-		FCFA0ACD133BD4D600141766 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A78133BD4D600141766 /* DDNumber.h */; };
+		FCFA0ACD133BD4D600141766 /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A78133BD4D600141766 /* DDNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0ACE133BD4D600141766 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A79133BD4D600141766 /* DDNumber.m */; };
-		FCFA0ACF133BD4D600141766 /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A7A133BD4D600141766 /* DDRange.h */; };
+		FCFA0ACF133BD4D600141766 /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A7A133BD4D600141766 /* DDRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AD0133BD4D600141766 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A7B133BD4D600141766 /* DDRange.m */; };
-		FCFA0AD1133BD4D600141766 /* NSDictionary+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A7C133BD4D600141766 /* NSDictionary+URLEncode.h */; };
+		FCFA0AD1133BD4D600141766 /* NSDictionary+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A7C133BD4D600141766 /* NSDictionary+URLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AD2133BD4D600141766 /* NSDictionary+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A7D133BD4D600141766 /* NSDictionary+URLEncode.m */; };
-		FCFA0AD3133BD4D600141766 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A7E133BD4D600141766 /* NSString+URLEncode.h */; };
+		FCFA0AD3133BD4D600141766 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A7E133BD4D600141766 /* NSString+URLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AD4133BD4D600141766 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A7F133BD4D600141766 /* NSString+URLEncode.m */; };
-		FCFA0AD5133BD4D600141766 /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A82133BD4D600141766 /* HTTPAsyncFileResponse.h */; };
+		FCFA0AD5133BD4D600141766 /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A82133BD4D600141766 /* HTTPAsyncFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AD6133BD4D600141766 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A83133BD4D600141766 /* HTTPAsyncFileResponse.m */; };
-		FCFA0AD7133BD4D600141766 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A84133BD4D600141766 /* HTTPAuthenticationRequest.h */; };
+		FCFA0AD7133BD4D600141766 /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A84133BD4D600141766 /* HTTPAuthenticationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AD8133BD4D600141766 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A85133BD4D600141766 /* HTTPAuthenticationRequest.m */; };
-		FCFA0AD9133BD4D600141766 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A86133BD4D600141766 /* HTTPConnection.h */; };
+		FCFA0AD9133BD4D600141766 /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A86133BD4D600141766 /* HTTPConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0ADA133BD4D600141766 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A87133BD4D600141766 /* HTTPConnection.m */; };
-		FCFA0ADB133BD4D600141766 /* HTTPCookie.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A88133BD4D600141766 /* HTTPCookie.h */; };
+		FCFA0ADB133BD4D600141766 /* HTTPCookie.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A88133BD4D600141766 /* HTTPCookie.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0ADC133BD4D600141766 /* HTTPCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A89133BD4D600141766 /* HTTPCookie.m */; };
-		FCFA0ADD133BD4D600141766 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A8A133BD4D600141766 /* HTTPResponse.h */; };
+		FCFA0ADD133BD4D600141766 /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A8A133BD4D600141766 /* HTTPResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0ADE133BD4D600141766 /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A8B133BD4D600141766 /* HTTPResponse.m */; };
-		FCFA0ADF133BD4D600141766 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A8C133BD4D600141766 /* HTTPServer.h */; };
+		FCFA0ADF133BD4D600141766 /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A8C133BD4D600141766 /* HTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AE0133BD4D600141766 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A8D133BD4D600141766 /* HTTPServer.m */; };
-		FCFA0AE1133BD4D600141766 /* ThreadPerConnectionServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A8E133BD4D600141766 /* ThreadPerConnectionServer.h */; };
+		FCFA0AE1133BD4D600141766 /* ThreadPerConnectionServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A8E133BD4D600141766 /* ThreadPerConnectionServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AE2133BD4D600141766 /* ThreadPerConnectionServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A8F133BD4D600141766 /* ThreadPerConnectionServer.m */; };
-		FCFA0AE3133BD4D600141766 /* ThreadPoolServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A90133BD4D600141766 /* ThreadPoolServer.h */; };
+		FCFA0AE3133BD4D600141766 /* ThreadPoolServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A90133BD4D600141766 /* ThreadPoolServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AE4133BD4D600141766 /* ThreadPoolServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A91133BD4D600141766 /* ThreadPoolServer.m */; };
-		FCFA0AE5133BD4D600141766 /* SSCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A93133BD4D600141766 /* SSCrypto.h */; };
+		FCFA0AE5133BD4D600141766 /* SSCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A93133BD4D600141766 /* SSCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AE6133BD4D600141766 /* SSCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A94133BD4D600141766 /* SSCrypto.m */; };
-		FCFA0AE7133BD4D600141766 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A96133BD4D600141766 /* AsyncSocket.h */; };
+		FCFA0AE7133BD4D600141766 /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A96133BD4D600141766 /* AsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AE8133BD4D600141766 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A97133BD4D600141766 /* AsyncSocket.m */; };
-		FCFA0AE9133BD4D600141766 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A99133BD4D600141766 /* JSON.h */; };
-		FCFA0AEA133BD4D600141766 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A9A133BD4D600141766 /* NSObject+SBJSON.h */; };
+		FCFA0AE9133BD4D600141766 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A99133BD4D600141766 /* JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0AEA133BD4D600141766 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A9A133BD4D600141766 /* NSObject+SBJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AEB133BD4D600141766 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A9B133BD4D600141766 /* NSObject+SBJSON.m */; };
-		FCFA0AEC133BD4D600141766 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A9C133BD4D600141766 /* NSString+SBJSON.h */; };
+		FCFA0AEC133BD4D600141766 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A9C133BD4D600141766 /* NSString+SBJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AED133BD4D600141766 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A9D133BD4D600141766 /* NSString+SBJSON.m */; };
-		FCFA0AEE133BD4D600141766 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A9E133BD4D600141766 /* SBJSON.h */; };
+		FCFA0AEE133BD4D600141766 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0A9E133BD4D600141766 /* SBJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AEF133BD4D600141766 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0A9F133BD4D600141766 /* SBJSON.m */; };
-		FCFA0AF0133BD4D600141766 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA0133BD4D600141766 /* SBJsonBase.h */; };
+		FCFA0AF0133BD4D600141766 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA0133BD4D600141766 /* SBJsonBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AF1133BD4D600141766 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AA1133BD4D600141766 /* SBJsonBase.m */; };
-		FCFA0AF2133BD4D600141766 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA2133BD4D600141766 /* SBJsonParser.h */; };
+		FCFA0AF2133BD4D600141766 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA2133BD4D600141766 /* SBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AF3133BD4D600141766 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AA3133BD4D600141766 /* SBJsonParser.m */; };
-		FCFA0AF4133BD4D600141766 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA4133BD4D600141766 /* SBJsonWriter.h */; };
+		FCFA0AF4133BD4D600141766 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA4133BD4D600141766 /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AF5133BD4D600141766 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AA5133BD4D600141766 /* SBJsonWriter.m */; };
-		FCFA0AF6133BD4D600141766 /* Kaiwa.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA7133BD4D600141766 /* Kaiwa.h */; };
-		FCFA0AF7133BD4D600141766 /* KaiwaConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA8133BD4D600141766 /* KaiwaConnection.h */; };
+		FCFA0AF6133BD4D600141766 /* Kaiwa.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA7133BD4D600141766 /* Kaiwa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0AF7133BD4D600141766 /* KaiwaConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AA8133BD4D600141766 /* KaiwaConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AF8133BD4D600141766 /* KaiwaConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AA9133BD4D600141766 /* KaiwaConnection.m */; };
-		FCFA0AF9133BD4D600141766 /* KaiwaConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AAA133BD4D600141766 /* KaiwaConversation.h */; };
+		FCFA0AF9133BD4D600141766 /* KaiwaConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AAA133BD4D600141766 /* KaiwaConversation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AFA133BD4D600141766 /* KaiwaConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AAB133BD4D600141766 /* KaiwaConversation.m */; };
-		FCFA0AFB133BD4D600141766 /* KaiwaDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AAC133BD4D600141766 /* KaiwaDispatcher.h */; };
+		FCFA0AFB133BD4D600141766 /* KaiwaDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AAC133BD4D600141766 /* KaiwaDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AFC133BD4D600141766 /* KaiwaDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AAD133BD4D600141766 /* KaiwaDispatcher.m */; };
-		FCFA0AFD133BD4D600141766 /* KaiwaFilePath.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AAE133BD4D600141766 /* KaiwaFilePath.h */; };
+		FCFA0AFD133BD4D600141766 /* KaiwaFilePath.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AAE133BD4D600141766 /* KaiwaFilePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0AFE133BD4D600141766 /* KaiwaFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AAF133BD4D600141766 /* KaiwaFilePath.m */; };
-		FCFA0AFF133BD4D600141766 /* KaiwaFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB0133BD4D600141766 /* KaiwaFriend.h */; };
+		FCFA0AFF133BD4D600141766 /* KaiwaFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB0133BD4D600141766 /* KaiwaFriend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B00133BD4D600141766 /* KaiwaFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AB1133BD4D600141766 /* KaiwaFriend.m */; };
-		FCFA0B01133BD4D600141766 /* KaiwaHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB2133BD4D600141766 /* KaiwaHTTPServer.h */; };
+		FCFA0B01133BD4D600141766 /* KaiwaHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB2133BD4D600141766 /* KaiwaHTTPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B02133BD4D600141766 /* KaiwaHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AB3133BD4D600141766 /* KaiwaHTTPServer.m */; };
-		FCFA0B03133BD4D600141766 /* KaiwaRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB4133BD4D600141766 /* KaiwaRequest.h */; };
+		FCFA0B03133BD4D600141766 /* KaiwaRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB4133BD4D600141766 /* KaiwaRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B04133BD4D600141766 /* KaiwaRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AB5133BD4D600141766 /* KaiwaRequest.m */; };
-		FCFA0B05133BD4D600141766 /* KaiwaResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB6133BD4D600141766 /* KaiwaResponse.h */; };
+		FCFA0B05133BD4D600141766 /* KaiwaResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB6133BD4D600141766 /* KaiwaResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B06133BD4D600141766 /* KaiwaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AB7133BD4D600141766 /* KaiwaResponse.m */; };
-		FCFA0B07133BD4D600141766 /* KaiwaRewrite.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB8133BD4D600141766 /* KaiwaRewrite.h */; };
+		FCFA0B07133BD4D600141766 /* KaiwaRewrite.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0AB8133BD4D600141766 /* KaiwaRewrite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B08133BD4D600141766 /* KaiwaRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0AB9133BD4D600141766 /* KaiwaRewrite.m */; };
-		FCFA0B09133BD4D600141766 /* KaiwaRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0ABA133BD4D600141766 /* KaiwaRoute.h */; };
+		FCFA0B09133BD4D600141766 /* KaiwaRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0ABA133BD4D600141766 /* KaiwaRoute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B0A133BD4D600141766 /* KaiwaRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0ABB133BD4D600141766 /* KaiwaRoute.m */; };
-		FCFA0B10133BD4EA00141766 /* pcre_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0C133BD4EA00141766 /* pcre_internal.h */; };
-		FCFA0B11133BD4EA00141766 /* pcre_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0D133BD4EA00141766 /* pcre_scanner.h */; };
-		FCFA0B12133BD4EA00141766 /* pcre_stringpiece.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0E133BD4EA00141766 /* pcre_stringpiece.h */; };
-		FCFA0B13133BD4EA00141766 /* pcre.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0F133BD4EA00141766 /* pcre.h */; };
+		FCFA0B10133BD4EA00141766 /* pcre_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0C133BD4EA00141766 /* pcre_internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0B11133BD4EA00141766 /* pcre_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0D133BD4EA00141766 /* pcre_scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0B12133BD4EA00141766 /* pcre_stringpiece.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0E133BD4EA00141766 /* pcre_stringpiece.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0B13133BD4EA00141766 /* pcre.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0F133BD4EA00141766 /* pcre.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B68133BD4FA00141766 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B63133BD4FA00141766 /* libpcre.a */; };
 		FCFA0B69133BD4FA00141766 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B64133BD4FA00141766 /* Security.framework */; };
 		FCFA0B6A133BD4FA00141766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B65133BD4FA00141766 /* SystemConfiguration.framework */; };
 		FCFA0B6B133BD4FA00141766 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B66133BD4FA00141766 /* libcrypto.dylib */; };
 		FCFA0B6C133BD4FA00141766 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B67133BD4FA00141766 /* libz.dylib */; };
-		FCFA0B75133BD54200141766 /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B71133BD54200141766 /* NSString+UUID.h */; };
+		FCFA0B75133BD54200141766 /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B71133BD54200141766 /* NSString+UUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B76133BD54200141766 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0B72133BD54200141766 /* NSString+UUID.m */; };
-		FCFA0B77133BD54200141766 /* RandomSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B73133BD54200141766 /* RandomSequence.h */; };
+		FCFA0B77133BD54200141766 /* RandomSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B73133BD54200141766 /* RandomSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B78133BD54200141766 /* RandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0B74133BD54200141766 /* RandomSequence.m */; };
+		FCFA0E61133E8B9900141766 /* KaiwaHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0E5F133E8B9900141766 /* KaiwaHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0E62133E8B9900141766 /* KaiwaHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0E60133E8B9900141766 /* KaiwaHTTPRequest.m */; };
+		FCFA0EE8133E8E9500141766 /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* KaiwaFramework.framework */; };
+		FCFA0EE9133E8E9700141766 /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* KaiwaFramework.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFA0EDD133E8E1C00141766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* KaiwaFramework */;
+			remoteInfo = KaiwaFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCFA0EE6133E8E7500141766 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Library/Frameworks;
+			dstSubfolderSpec = 0;
+			files = (
+				FCFA0EE8133E8E9500141766 /* KaiwaFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFA0EED133E8EAB00141766 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "../../../build/$(CONFIGURATION)";
+			dstSubfolderSpec = 16;
+			files = (
+				FCFA0EE9133E8E9700141766 /* KaiwaFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -204,6 +257,8 @@
 		FCFA0B72133BD54200141766 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
 		FCFA0B73133BD54200141766 /* RandomSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomSequence.h; sourceTree = "<group>"; };
 		FCFA0B74133BD54200141766 /* RandomSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSequence.m; sourceTree = "<group>"; };
+		FCFA0E5F133E8B9900141766 /* KaiwaHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPRequest.h; sourceTree = "<group>"; };
+		FCFA0E60133E8B9900141766 /* KaiwaHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -452,6 +507,8 @@
 				FCFA0AB1133BD4D600141766 /* KaiwaFriend.m */,
 				FCFA0AB2133BD4D600141766 /* KaiwaHTTPServer.h */,
 				FCFA0AB3133BD4D600141766 /* KaiwaHTTPServer.m */,
+				FCFA0E5F133E8B9900141766 /* KaiwaHTTPRequest.h */,
+				FCFA0E60133E8B9900141766 /* KaiwaHTTPRequest.m */,
 				FCFA0AB4133BD4D600141766 /* KaiwaRequest.h */,
 				FCFA0AB5133BD4D600141766 /* KaiwaRequest.m */,
 				FCFA0AB6133BD4D600141766 /* KaiwaResponse.h */,
@@ -543,6 +600,7 @@
 				FCFA0B13133BD4EA00141766 /* pcre.h in Headers */,
 				FCFA0B75133BD54200141766 /* NSString+UUID.h in Headers */,
 				FCFA0B77133BD54200141766 /* RandomSequence.h in Headers */,
+				FCFA0E61133E8B9900141766 /* KaiwaHTTPRequest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +647,7 @@
 			projectRoot = "";
 			targets = (
 				8DC2EF4F0486A6940098B216 /* KaiwaFramework */,
+				FCFA0ED9133E8E0900141766 /* Build and Install */,
 			);
 		};
 /* End PBXProject section */
@@ -648,10 +707,19 @@
 				FCFA0B0A133BD4D600141766 /* KaiwaRoute.m in Sources */,
 				FCFA0B76133BD54200141766 /* NSString+UUID.m in Sources */,
 				FCFA0B78133BD54200141766 /* RandomSequence.m in Sources */,
+				FCFA0E62133E8B9900141766 /* KaiwaHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFA0EDE133E8E1C00141766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* KaiwaFramework */;
+			targetProxy = FCFA0EDD133E8E1C00141766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
@@ -738,6 +806,27 @@
 			};
 			name = Release;
 		};
+		FCFA0EDB133E8E0900141766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build and Install";
+			};
+			name = Debug;
+		};
+		FCFA0EDC133E8E0900141766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build and Install";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -755,6 +844,15 @@
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
 				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFA0EDF133E8E3A00141766 /* Build configuration list for PBXAggregateTarget "Build and Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFA0EDB133E8E0900141766 /* Debug */,
+				FCFA0EDC133E8E0900141766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

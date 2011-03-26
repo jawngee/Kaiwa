@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "Kaiwa.h"
+#import <KaiwaFramework/Kaiwa.h>
 
 @class KMMessageWindowController;
 
