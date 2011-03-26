@@ -6,7 +6,11 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+#if IPHONE
+#import <UIKit/UIKit.h>
+#else
 #import <Cocoa/Cocoa.h>
+#endif
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
 /**

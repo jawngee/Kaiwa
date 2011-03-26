@@ -121,6 +121,41 @@
 		FCFA0E62133E8B9900141766 /* KaiwaHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0E60133E8B9900141766 /* KaiwaHTTPRequest.m */; };
 		FCFA0EE8133E8E9500141766 /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* KaiwaFramework.framework */; };
 		FCFA0EE9133E8E9700141766 /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* KaiwaFramework.framework */; };
+		FCFA0F69133E928E00141766 /* OSCAddressSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F4F133E928E00141766 /* OSCAddressSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F6A133E928E00141766 /* OSCAddressSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F50133E928E00141766 /* OSCAddressSpace.m */; };
+		FCFA0F6B133E928E00141766 /* OSCBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F51133E928E00141766 /* OSCBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F6C133E928E00141766 /* OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F52133E928E00141766 /* OSCBundle.m */; };
+		FCFA0F6D133E928E00141766 /* OSCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F53133E928E00141766 /* OSCConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F6E133E928E00141766 /* OSCInPort.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F54133E928E00141766 /* OSCInPort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F6F133E928E00141766 /* OSCInPort.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F55133E928E00141766 /* OSCInPort.m */; };
+		FCFA0F70133E928E00141766 /* OSCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F56133E928E00141766 /* OSCManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F71133E928E00141766 /* OSCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F57133E928E00141766 /* OSCManager.m */; };
+		FCFA0F72133E928E00141766 /* OSCMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F58133E928E00141766 /* OSCMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F73133E928E00141766 /* OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F59133E928E00141766 /* OSCMessage.m */; };
+		FCFA0F74133E928E00141766 /* OSCNode.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F5A133E928E00141766 /* OSCNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F75133E928E00141766 /* OSCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F5B133E928E00141766 /* OSCNode.m */; };
+		FCFA0F76133E928E00141766 /* OSCOutPort.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F5C133E928E00141766 /* OSCOutPort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F77133E928E00141766 /* OSCOutPort.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F5D133E928E00141766 /* OSCOutPort.m */; };
+		FCFA0F78133E928E00141766 /* OSCPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F5E133E928E00141766 /* OSCPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F79133E928E00141766 /* OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F5F133E928E00141766 /* OSCPacket.m */; };
+		FCFA0F7A133E928E00141766 /* OSCStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F60133E928E00141766 /* OSCStringAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F7B133E928E00141766 /* OSCStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F61133E928E00141766 /* OSCStringAdditions.m */; };
+		FCFA0F7C133E928E00141766 /* OSCValue.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F62133E928E00141766 /* OSCValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F7D133E928E00141766 /* OSCValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F63133E928E00141766 /* OSCValue.m */; };
+		FCFA0F7E133E928E00141766 /* OSCZeroConfDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F64133E928E00141766 /* OSCZeroConfDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F7F133E928E00141766 /* OSCZeroConfDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F65133E928E00141766 /* OSCZeroConfDomain.m */; };
+		FCFA0F80133E928E00141766 /* OSCZeroConfManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F66133E928E00141766 /* OSCZeroConfManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F81133E928E00141766 /* OSCZeroConfManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F67133E928E00141766 /* OSCZeroConfManager.m */; };
+		FCFA0F82133E928E00141766 /* VVOSC.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F68133E928E00141766 /* VVOSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F8A133E967000141766 /* MutNRLockArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F87133E967000141766 /* MutNRLockArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F8B133E967000141766 /* MutNRLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F88133E967000141766 /* MutNRLockArray.m */; };
+		FCFA0F8C133E967000141766 /* VVBasicMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F89133E967000141766 /* VVBasicMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F91133E968900141766 /* VVThreadLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F8F133E968900141766 /* VVThreadLoop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F92133E968900141766 /* VVThreadLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F90133E968900141766 /* VVThreadLoop.m */; };
+		FCFA0F97133E96A400141766 /* MutLockArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F95133E96A400141766 /* MutLockArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F98133E96A400141766 /* MutLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F96133E96A400141766 /* MutLockArray.m */; };
+		FCFA0F9D133E96EE00141766 /* ObjectHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F9B133E96EE00141766 /* ObjectHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA0F9E133E96EE00141766 /* ObjectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F9C133E96EE00141766 /* ObjectHolder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -259,6 +294,41 @@
 		FCFA0B74133BD54200141766 /* RandomSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSequence.m; sourceTree = "<group>"; };
 		FCFA0E5F133E8B9900141766 /* KaiwaHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPRequest.h; sourceTree = "<group>"; };
 		FCFA0E60133E8B9900141766 /* KaiwaHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPRequest.m; sourceTree = "<group>"; };
+		FCFA0F4F133E928E00141766 /* OSCAddressSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCAddressSpace.h; path = ../Kaiwa/VVOSC/OSCAddressSpace.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F50133E928E00141766 /* OSCAddressSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCAddressSpace.m; path = ../Kaiwa/VVOSC/OSCAddressSpace.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F51133E928E00141766 /* OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCBundle.h; path = ../Kaiwa/VVOSC/OSCBundle.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F52133E928E00141766 /* OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCBundle.m; path = ../Kaiwa/VVOSC/OSCBundle.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F53133E928E00141766 /* OSCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCConstants.h; path = ../Kaiwa/VVOSC/OSCConstants.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F54133E928E00141766 /* OSCInPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCInPort.h; path = ../Kaiwa/VVOSC/OSCInPort.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F55133E928E00141766 /* OSCInPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCInPort.m; path = ../Kaiwa/VVOSC/OSCInPort.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F56133E928E00141766 /* OSCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCManager.h; path = ../Kaiwa/VVOSC/OSCManager.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F57133E928E00141766 /* OSCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCManager.m; path = ../Kaiwa/VVOSC/OSCManager.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F58133E928E00141766 /* OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCMessage.h; path = ../Kaiwa/VVOSC/OSCMessage.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F59133E928E00141766 /* OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCMessage.m; path = ../Kaiwa/VVOSC/OSCMessage.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F5A133E928E00141766 /* OSCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCNode.h; path = ../Kaiwa/VVOSC/OSCNode.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F5B133E928E00141766 /* OSCNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCNode.m; path = ../Kaiwa/VVOSC/OSCNode.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F5C133E928E00141766 /* OSCOutPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCOutPort.h; path = ../Kaiwa/VVOSC/OSCOutPort.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F5D133E928E00141766 /* OSCOutPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCOutPort.m; path = ../Kaiwa/VVOSC/OSCOutPort.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F5E133E928E00141766 /* OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCPacket.h; path = ../Kaiwa/VVOSC/OSCPacket.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F5F133E928E00141766 /* OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCPacket.m; path = ../Kaiwa/VVOSC/OSCPacket.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F60133E928E00141766 /* OSCStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCStringAdditions.h; path = ../Kaiwa/VVOSC/OSCStringAdditions.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F61133E928E00141766 /* OSCStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCStringAdditions.m; path = ../Kaiwa/VVOSC/OSCStringAdditions.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F62133E928E00141766 /* OSCValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCValue.h; path = ../Kaiwa/VVOSC/OSCValue.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F63133E928E00141766 /* OSCValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCValue.m; path = ../Kaiwa/VVOSC/OSCValue.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F64133E928E00141766 /* OSCZeroConfDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCZeroConfDomain.h; path = ../Kaiwa/VVOSC/OSCZeroConfDomain.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F65133E928E00141766 /* OSCZeroConfDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCZeroConfDomain.m; path = ../Kaiwa/VVOSC/OSCZeroConfDomain.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F66133E928E00141766 /* OSCZeroConfManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCZeroConfManager.h; path = ../Kaiwa/VVOSC/OSCZeroConfManager.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F67133E928E00141766 /* OSCZeroConfManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCZeroConfManager.m; path = ../Kaiwa/VVOSC/OSCZeroConfManager.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F68133E928E00141766 /* VVOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVOSC.h; path = ../Kaiwa/VVOSC/VVOSC.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F87133E967000141766 /* MutNRLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MutNRLockArray.h; path = ../Kaiwa/VVBasics/MutNRLockArray.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F88133E967000141766 /* MutNRLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MutNRLockArray.m; path = ../Kaiwa/VVBasics/MutNRLockArray.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F89133E967000141766 /* VVBasicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVBasicMacros.h; path = ../Kaiwa/VVBasics/VVBasicMacros.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F8F133E968900141766 /* VVThreadLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVThreadLoop.h; path = ../Kaiwa/VVBasics/VVThreadLoop.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F90133E968900141766 /* VVThreadLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVThreadLoop.m; path = ../Kaiwa/VVBasics/VVThreadLoop.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F95133E96A400141766 /* MutLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MutLockArray.h; path = ../Kaiwa/VVBasics/MutLockArray.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F96133E96A400141766 /* MutLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MutLockArray.m; path = ../Kaiwa/VVBasics/MutLockArray.m; sourceTree = SOURCE_ROOT; };
+		FCFA0F9B133E96EE00141766 /* ObjectHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectHolder.h; path = ../Kaiwa/VVBasics/ObjectHolder.h; sourceTree = SOURCE_ROOT; };
+		FCFA0F9C133E96EE00141766 /* ObjectHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectHolder.m; path = ../Kaiwa/VVBasics/ObjectHolder.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,6 +389,8 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FCFA0F4C133E925E00141766 /* VVBasics */,
+				FCFA0F4B133E925900141766 /* VVOSC */,
 				FCFA0B0B133BD4EA00141766 /* pcre */,
 				FCFA0A63133BD4D600141766 /* AGRegex */,
 				FCFA0A66133BD4D600141766 /* ASIHTTP */,
@@ -545,6 +617,55 @@
 			path = ../Kaiwa/Utility;
 			sourceTree = SOURCE_ROOT;
 		};
+		FCFA0F4B133E925900141766 /* VVOSC */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA0F4F133E928E00141766 /* OSCAddressSpace.h */,
+				FCFA0F50133E928E00141766 /* OSCAddressSpace.m */,
+				FCFA0F51133E928E00141766 /* OSCBundle.h */,
+				FCFA0F52133E928E00141766 /* OSCBundle.m */,
+				FCFA0F53133E928E00141766 /* OSCConstants.h */,
+				FCFA0F54133E928E00141766 /* OSCInPort.h */,
+				FCFA0F55133E928E00141766 /* OSCInPort.m */,
+				FCFA0F56133E928E00141766 /* OSCManager.h */,
+				FCFA0F57133E928E00141766 /* OSCManager.m */,
+				FCFA0F58133E928E00141766 /* OSCMessage.h */,
+				FCFA0F59133E928E00141766 /* OSCMessage.m */,
+				FCFA0F5A133E928E00141766 /* OSCNode.h */,
+				FCFA0F5B133E928E00141766 /* OSCNode.m */,
+				FCFA0F5C133E928E00141766 /* OSCOutPort.h */,
+				FCFA0F5D133E928E00141766 /* OSCOutPort.m */,
+				FCFA0F5E133E928E00141766 /* OSCPacket.h */,
+				FCFA0F5F133E928E00141766 /* OSCPacket.m */,
+				FCFA0F60133E928E00141766 /* OSCStringAdditions.h */,
+				FCFA0F61133E928E00141766 /* OSCStringAdditions.m */,
+				FCFA0F62133E928E00141766 /* OSCValue.h */,
+				FCFA0F63133E928E00141766 /* OSCValue.m */,
+				FCFA0F64133E928E00141766 /* OSCZeroConfDomain.h */,
+				FCFA0F65133E928E00141766 /* OSCZeroConfDomain.m */,
+				FCFA0F66133E928E00141766 /* OSCZeroConfManager.h */,
+				FCFA0F67133E928E00141766 /* OSCZeroConfManager.m */,
+				FCFA0F68133E928E00141766 /* VVOSC.h */,
+			);
+			name = VVOSC;
+			sourceTree = "<group>";
+		};
+		FCFA0F4C133E925E00141766 /* VVBasics */ = {
+			isa = PBXGroup;
+			children = (
+				FCFA0F9B133E96EE00141766 /* ObjectHolder.h */,
+				FCFA0F9C133E96EE00141766 /* ObjectHolder.m */,
+				FCFA0F95133E96A400141766 /* MutLockArray.h */,
+				FCFA0F96133E96A400141766 /* MutLockArray.m */,
+				FCFA0F8F133E968900141766 /* VVThreadLoop.h */,
+				FCFA0F90133E968900141766 /* VVThreadLoop.m */,
+				FCFA0F87133E967000141766 /* MutNRLockArray.h */,
+				FCFA0F88133E967000141766 /* MutNRLockArray.m */,
+				FCFA0F89133E967000141766 /* VVBasicMacros.h */,
+			);
+			name = VVBasics;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -601,6 +722,25 @@
 				FCFA0B75133BD54200141766 /* NSString+UUID.h in Headers */,
 				FCFA0B77133BD54200141766 /* RandomSequence.h in Headers */,
 				FCFA0E61133E8B9900141766 /* KaiwaHTTPRequest.h in Headers */,
+				FCFA0F69133E928E00141766 /* OSCAddressSpace.h in Headers */,
+				FCFA0F6B133E928E00141766 /* OSCBundle.h in Headers */,
+				FCFA0F6D133E928E00141766 /* OSCConstants.h in Headers */,
+				FCFA0F6E133E928E00141766 /* OSCInPort.h in Headers */,
+				FCFA0F70133E928E00141766 /* OSCManager.h in Headers */,
+				FCFA0F72133E928E00141766 /* OSCMessage.h in Headers */,
+				FCFA0F74133E928E00141766 /* OSCNode.h in Headers */,
+				FCFA0F76133E928E00141766 /* OSCOutPort.h in Headers */,
+				FCFA0F78133E928E00141766 /* OSCPacket.h in Headers */,
+				FCFA0F7A133E928E00141766 /* OSCStringAdditions.h in Headers */,
+				FCFA0F7C133E928E00141766 /* OSCValue.h in Headers */,
+				FCFA0F7E133E928E00141766 /* OSCZeroConfDomain.h in Headers */,
+				FCFA0F80133E928E00141766 /* OSCZeroConfManager.h in Headers */,
+				FCFA0F82133E928E00141766 /* VVOSC.h in Headers */,
+				FCFA0F8A133E967000141766 /* MutNRLockArray.h in Headers */,
+				FCFA0F8C133E967000141766 /* VVBasicMacros.h in Headers */,
+				FCFA0F91133E968900141766 /* VVThreadLoop.h in Headers */,
+				FCFA0F97133E96A400141766 /* MutLockArray.h in Headers */,
+				FCFA0F9D133E96EE00141766 /* ObjectHolder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +848,22 @@
 				FCFA0B76133BD54200141766 /* NSString+UUID.m in Sources */,
 				FCFA0B78133BD54200141766 /* RandomSequence.m in Sources */,
 				FCFA0E62133E8B9900141766 /* KaiwaHTTPRequest.m in Sources */,
+				FCFA0F6A133E928E00141766 /* OSCAddressSpace.m in Sources */,
+				FCFA0F6C133E928E00141766 /* OSCBundle.m in Sources */,
+				FCFA0F6F133E928E00141766 /* OSCInPort.m in Sources */,
+				FCFA0F71133E928E00141766 /* OSCManager.m in Sources */,
+				FCFA0F73133E928E00141766 /* OSCMessage.m in Sources */,
+				FCFA0F75133E928E00141766 /* OSCNode.m in Sources */,
+				FCFA0F77133E928E00141766 /* OSCOutPort.m in Sources */,
+				FCFA0F79133E928E00141766 /* OSCPacket.m in Sources */,
+				FCFA0F7B133E928E00141766 /* OSCStringAdditions.m in Sources */,
+				FCFA0F7D133E928E00141766 /* OSCValue.m in Sources */,
+				FCFA0F7F133E928E00141766 /* OSCZeroConfDomain.m in Sources */,
+				FCFA0F81133E928E00141766 /* OSCZeroConfManager.m in Sources */,
+				FCFA0F8B133E967000141766 /* MutNRLockArray.m in Sources */,
+				FCFA0F92133E968900141766 /* VVThreadLoop.m in Sources */,
+				FCFA0F98133E96A400141766 /* MutLockArray.m in Sources */,
+				FCFA0F9E133E96EE00141766 /* ObjectHolder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
