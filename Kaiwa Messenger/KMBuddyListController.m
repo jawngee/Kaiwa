@@ -9,6 +9,8 @@
 #import "KMBuddyListController.h"
 #import "KMBuddy.h"
 #import "KMMessageWindowController.h"
+#import <CoreServices/CoreServices.h>
+#import <Collaboration/Collaboration.h>
 
 @implementation KMBuddyListController
 
@@ -25,6 +27,7 @@
 
 -(void)dealloc
 {
+	[dispatcher release];
 	
 	[super dealloc];
 }
@@ -46,7 +49,12 @@
 
 -(void)foundFriend:(KaiwaFriend *)newFriend
 {
-	[friendsArrayController performSelectorOnMainThread:@selector(addObject:) withObject:[[KMBuddy alloc] initWithFriend:newFriend] waitUntilDone:YES];
+	KMBuddy *buddy=[[KMBuddy alloc] initWithFriend:newFriend];
+	[friendsArrayController addObject:buddy];
+	
+	[newFriend ask:@"/command/userImage" withData:nil forBlock:^(BOOL success, id res){
+		buddy.image=[[[NSImage alloc] initWithData:res] autorelease];
+	}];
 	
 	NSLog(@"Found friend:%@",newFriend.url);
 }
@@ -102,6 +110,43 @@
 		buddy.status=[convo.request.query objectForKey:@"status"];
 }
 
+-(void)userImageAction:(KaiwaConversation *)convo
+{
+	NSData *imgData = nil;
+	
+	NSString *currentUser=NSUserName();
+	
+	CSIdentityAuthorityRef defaultAuthority = CSGetLocalIdentityAuthority();
+	CSIdentityClass identityClass = kCSIdentityClassUser;
+	
+	CSIdentityQueryRef query = CSIdentityQueryCreate(NULL, identityClass, defaultAuthority);
+	
+	CFErrorRef error = NULL;
+	CSIdentityQueryExecute(query, 0, &error);
+	
+	CFArrayRef results = CSIdentityQueryCopyResults(query);
+	
+	int numResults = CFArrayGetCount(results);
+	
+	for (int i = 0; i < numResults; ++i) {
+		CSIdentityRef identity = (CSIdentityRef)CFArrayGetValueAtIndex(results, i);
+		
+		CBIdentity * identityObject = [CBIdentity identityWithCSIdentity:identity];
+		if ([[identityObject posixName] isEqualToString:currentUser])
+		{
+			imgData=[[identityObject image] TIFFRepresentation];
+			break;
+		}
+	}
+	
+	CFRelease(results);
+	CFRelease(query);
+
+	if (imgData!=nil)
+		[convo.response sendData:imgData];
+}
+
+
 
 #pragma mark -
 #pragma mark mouse actions
@@ -121,6 +166,11 @@
 	{
 		[buddy.messageWindowController showWindow:nil];
 	}
+}
+
+-(IBAction)statusChanged:(id)sender
+{
+	[dispatcher broadcastToFriends:@"/command/status" data:[NSDictionary dictionaryWithObject:[[sender selectedItem] title] forKey:@"status"]];
 }
 
 

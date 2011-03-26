@@ -3,7 +3,7 @@
 //  Kaiwa Raw Tester
 //
 //  Created by Jon Gilkison on 5/25/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Interfacelab LLC. All rights reserved.
 //
 
 #import "KaiwaHTTPServer.h"

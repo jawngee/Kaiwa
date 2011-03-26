@@ -20,5 +20,6 @@
 }
 
 -(IBAction)doubleClick:(id)sender;
+-(IBAction)statusChanged:(id)sender;
 
 @end

@@ -119,6 +119,12 @@
 		FCF87EBC133AEC56006779EF /* RandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF87E6E133AEC56006779EF /* RandomSequence.m */; };
 		FCFA0A3F133BD12100141766 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0A3E133BD12100141766 /* libpcre.a */; };
 		FCFA0A40133BD12100141766 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0A3E133BD12100141766 /* libpcre.a */; };
+		FCFA0C17133D768D00141766 /* KaiwaHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0C16133D768D00141766 /* KaiwaHTTPRequest.m */; };
+		FCFA0C18133D768D00141766 /* KaiwaHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0C16133D768D00141766 /* KaiwaHTTPRequest.m */; };
+		FCFA0D78133E7FDF00141766 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0D77133E7FDF00141766 /* Collaboration.framework */; };
+		FCFA0D7A133E7FDF00141766 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0D79133E7FDF00141766 /* CoreServices.framework */; };
+		FCFA0D85133E7FE800141766 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0D77133E7FDF00141766 /* Collaboration.framework */; };
+		FCFA0D86133E7FE800141766 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0D79133E7FDF00141766 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -240,6 +246,10 @@
 		FCFA0A3C133BD11100141766 /* pcre_stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_stringpiece.h; path = ../Kaiwa/pcre/include/pcre_stringpiece.h; sourceTree = SOURCE_ROOT; };
 		FCFA0A3D133BD11100141766 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre.h; path = ../Kaiwa/pcre/include/pcre.h; sourceTree = SOURCE_ROOT; };
 		FCFA0A3E133BD12100141766 /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre.a; path = ../Kaiwa/pcre/lib/osx/libpcre.a; sourceTree = SOURCE_ROOT; };
+		FCFA0C15133D768D00141766 /* KaiwaHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPRequest.h; sourceTree = "<group>"; };
+		FCFA0C16133D768D00141766 /* KaiwaHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPRequest.m; sourceTree = "<group>"; };
+		FCFA0D77133E7FDF00141766 /* Collaboration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Collaboration.framework; path = System/Library/Frameworks/Collaboration.framework; sourceTree = SDKROOT; };
+		FCFA0D79133E7FDF00141766 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +263,8 @@
 				FCF87845133A634A006779EF /* Security.framework in Frameworks */,
 				FCF87846133A634A006779EF /* SystemConfiguration.framework in Frameworks */,
 				FCFA0A3F133BD12100141766 /* libpcre.a in Frameworks */,
+				FCFA0D78133E7FDF00141766 /* Collaboration.framework in Frameworks */,
+				FCFA0D7A133E7FDF00141766 /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +272,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFA0D85133E7FE800141766 /* Collaboration.framework in Frameworks */,
+				FCFA0D86133E7FE800141766 /* CoreServices.framework in Frameworks */,
 				FCF877D7133A62F4006779EF /* Cocoa.framework in Frameworks */,
 				FCF877F1133A633D006779EF /* libcrypto.dylib in Frameworks */,
 				FCF877F2133A633D006779EF /* libz.dylib in Frameworks */,
@@ -296,6 +310,8 @@
 				FCF877EB133A633D006779EF /* libcrypto.dylib */,
 				FCF877EC133A633D006779EF /* libz.dylib */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				FCFA0D77133E7FDF00141766 /* Collaboration.framework */,
+				FCFA0D79133E7FDF00141766 /* CoreServices.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -535,6 +551,8 @@
 				FCF87E5F133AEC56006779EF /* KaiwaFriend.m */,
 				FCF87E60133AEC56006779EF /* KaiwaHTTPServer.h */,
 				FCF87E61133AEC56006779EF /* KaiwaHTTPServer.m */,
+				FCFA0C15133D768D00141766 /* KaiwaHTTPRequest.h */,
+				FCFA0C16133D768D00141766 /* KaiwaHTTPRequest.m */,
 				FCF87E62133AEC56006779EF /* KaiwaRequest.h */,
 				FCF87E63133AEC56006779EF /* KaiwaRequest.m */,
 				FCF87E64133AEC56006779EF /* KaiwaResponse.h */,
@@ -710,6 +728,7 @@
 				FCF87E93133AEC56006779EF /* KaiwaRoute.m in Sources */,
 				FCF87E94133AEC56006779EF /* NSString+UUID.m in Sources */,
 				FCF87E95133AEC56006779EF /* RandomSequence.m in Sources */,
+				FCFA0C17133D768D00141766 /* KaiwaHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,6 +782,7 @@
 				FCF87EBA133AEC56006779EF /* KaiwaRoute.m in Sources */,
 				FCF87EBB133AEC56006779EF /* NSString+UUID.m in Sources */,
 				FCF87EBC133AEC56006779EF /* RandomSequence.m in Sources */,
+				FCFA0C18133D768D00141766 /* KaiwaHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

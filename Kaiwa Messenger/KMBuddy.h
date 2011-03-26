@@ -15,7 +15,7 @@
 	KaiwaFriend *friend;
 	NSString *userName;
 	NSString *status;
-	NSString *imageURL;
+	NSImage *image;
 	
 	KMMessageWindowController *messageWindowController;
 }
@@ -24,7 +24,7 @@
 @property (retain, nonatomic) KaiwaFriend *friend;
 @property (retain, nonatomic) NSString *userName;
 @property (retain, nonatomic) NSString *status;
-@property (retain, nonatomic) NSString *imageURL;
+@property (retain, nonatomic) NSImage *image;
 @property (readonly) KMMessageWindowController *messageWindowController;
 
 

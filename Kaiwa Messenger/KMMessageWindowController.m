@@ -48,6 +48,7 @@
 -(IBAction)sendMessage:(id)sender
 {
 	[buddy.friend tell:@"/command/message" withData:[NSMutableDictionary dictionaryWithObjectsAndKeys:[messageField stringValue],@"message",nil]];
+	[messageField setStringValue:@""];
 }
 
 

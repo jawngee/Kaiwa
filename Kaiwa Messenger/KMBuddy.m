@@ -11,7 +11,7 @@
 
 @implementation KMBuddy
 
-@synthesize userName, status, imageURL, friend, messageWindowController;
+@synthesize userName, status, image, friend, messageWindowController;
 
 
 -(id)initWithFriend:(KaiwaFriend *)afriend
@@ -22,7 +22,7 @@
 		
 		userName=friend.user;
 		status=@"Available";
-		imageURL=nil;
+		image=[[NSImage imageNamed:@"NSEveryone"] retain];
 		
 		messageWindowController=[[KMMessageWindowController alloc] initWithBuddy:self];
 	}
@@ -34,7 +34,7 @@
 {
 	[friend release];
 	[status release];
-	[imageURL release];
+	[image release];
 	
 	[messageWindowController release];
 	

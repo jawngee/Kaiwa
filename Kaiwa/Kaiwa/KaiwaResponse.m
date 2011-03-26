@@ -83,6 +83,14 @@
 	canWrite=NO;
 }
 
+-(void)sendData:(NSData*)theData
+{
+	[output release];
+	contentType=@"application/binary";
+	output=[[NSMutableData dataWithData:theData] retain];
+}
+
+
 -(NSObject<HTTPResponse> *)httpResponse
 {
 	NSObject<HTTPResponse> *result;

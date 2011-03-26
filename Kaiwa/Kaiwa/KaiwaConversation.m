@@ -3,7 +3,7 @@
 //  Kaiwa Messenger
 //
 //  Created by Jon Gilkison on 3/23/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Interfacelab LLC. All rights reserved.
 //
 
 #import "KaiwaConversation.h"
