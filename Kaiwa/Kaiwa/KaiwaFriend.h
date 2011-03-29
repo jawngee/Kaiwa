@@ -12,6 +12,7 @@
 #import <Cocoa/Cocoa.h>
 #endif
 #import "KaiwaDispatcher.h"
+#import "VVOSC.h"
 
 /**
  Block def to call when asking a friend something.
@@ -46,6 +47,8 @@ typedef void(^AskBlock)(BOOL success, id response);
 	NSString *app;				/**< The name of the app */
 	NSString *appVersion;		/**< The current app version */
 	NSString *uid;				/**< The friend's UID */
+	
+	OSCOutPort *outPort;		/**< The friend's OSC outport */
 }
 
 @property (readonly) KaiwaDispatcher *dispatcher;	/**< The dispatcher */
@@ -58,6 +61,7 @@ typedef void(^AskBlock)(BOOL success, id response);
 @property (readonly) NSString *app;					/**< The name of the app */
 @property (readonly) NSString *appVersion;			/**< The current app version */
 @property (readonly) NSString *uid;					/**< The friend's UID */
+@property (readonly) OSCOutPort *outPort;			/**< The friend's OSC outport */
 
 
 /**
@@ -74,6 +78,11 @@ typedef void(^AskBlock)(BOOL success, id response);
  Invokes a uri on the friend POSTing the data.  Is async and offers no response.
  */
 -(void)tell:(NSString *)uri withData:(NSDictionary *)data;
+
+/**
+ Invokes a uri on the friend via OSC.  Is async and offers no response.
+ */
+-(void)shout:(NSString *)uri withData:(NSArray *)data;
 
 
 /**

@@ -15,3 +15,5 @@
 #import "KaiwaConnection.h"
 #import "KaiwaFriend.h"
 #import "KaiwaConversation.h"
+#import "KaiwaShout.h"
+#import "NSColor+Hex.h"

@@ -23,7 +23,7 @@
 
 @implementation KaiwaFriend
 
-@synthesize service, url, host, port, user, machine, app, appVersion, dispatcher, uid;
+@synthesize service, url, host, port, user, machine, app, appVersion, dispatcher, uid, outPort;
 
 -(id)initWithService:(NSNetService *)theService dispatcher:(KaiwaDispatcher *)theDispatcher
 {
@@ -34,6 +34,8 @@
 		host=[[service hostName] retain];
 		port=[service port];
 		url=[[NSString stringWithFormat:@"http://%@:%d",[service hostName],[service port]] retain];
+		
+		outPort=nil;
 		
 		user=nil;
 		machine=nil;
@@ -58,6 +60,8 @@
 		port=thePort;
 		url=[[NSString stringWithFormat:@"http://%@:%d",host,port] retain];
 		
+		outPort=nil;
+		
 		user=nil;
 		machine=nil;
 		app=nil;
@@ -73,6 +77,8 @@
 -(void)dealloc
 {
 	if (service!=nil)	[service release];
+	
+	[outPort release];
 
 	[host release];
 	[url release];
@@ -97,7 +103,43 @@
 		appVersion=[[dict objectForKey:@"version"] retain];
 		uid=[[dict objectForKey:@"uid"] retain];
 		
+		BOOL hasOsc=[[dict objectForKey:@"osc"] boolValue];
+		if (hasOsc)
+		{
+			NSInteger oscPort=[[dict objectForKey:@"osc-port"] integerValue];
+			
+			NSArray				*addressArray = [service addresses];
+			NSEnumerator		*it = [addressArray objectEnumerator];
+			NSData				*data = nil;
+			struct sockaddr_in	*sock = (struct sockaddr_in *)[data bytes];
+			char				*charPtr = nil;
+			NSString			*ipString = nil;
+			
+			//	find the ip address & port of the resolved service
+			while ((charPtr == nil) && (data = [it nextObject]))	{
+				sock = (struct sockaddr_in *)[data bytes];
+				//	only continue if this is an IPv4 address (IPv6s resolve to 0.0.0.0)
+				if (sock->sin_family == AF_INET)	{
+					charPtr = inet_ntoa(sock->sin_addr);
+				}
+			}
+			//	make an nsstring from the c string of the ip address string of the resolved service
+			ipString = [NSString stringWithCString:charPtr encoding:NSASCIIStringEncoding];
+			
+			NSLog(@"IP STRING:%@",ipString);
+
+			
+			NSLog(@"%@",[[service addresses] objectAtIndex:0]);
+			outPort=[[OSCOutPort alloc] initWithAddress:ipString andPort:oscPort];
+		}
+		
+		NSLog(@"user:%@",user);
+		NSLog(@"machine:%@",machine);
+		NSLog(@"app:%@",app);
+		NSLog(@"appVersion:%@",appVersion);
 		NSLog(@"UID:%@",uid);
+		NSLog(@"hasOsc:%@",(hasOsc) ? @"YES":@"NO");
+		NSLog(@"OscPort:%d",[[dict objectForKey:@"osc-port"] integerValue]);
 	}
 }
 
@@ -119,6 +161,40 @@
 	[req addRequestHeader:@"KAIWA-UID" value:dispatcher.name];
 	
 	[req startAsynchronous];
+}
+
+
+-(void)shout:(NSString *)uri withData:(NSArray *)data
+{
+	OSCMessage *msg=[OSCMessage createWithAddress:uri];
+	
+	[msg addString:dispatcher.name];
+	
+	for(id datum in data)
+	{
+		if ([datum isKindOfClass:[NSString class]])
+			[msg addString:datum];
+		else if ([datum isKindOfClass:[NSNumber class]])
+		{
+			char what=*[datum objCType];
+			
+			switch(what)
+			{
+				case 'i':
+					[msg addInt:[datum integerValue]];
+					break;
+				case 'f':
+				case 'd':
+					[msg addFloat:[datum floatValue]];
+					break;
+				case 'c':
+					[msg addBOOL:[datum boolValue]];
+					break;
+			}
+		}
+	}
+	
+	[outPort sendThisMessage:msg];
 }
 
 

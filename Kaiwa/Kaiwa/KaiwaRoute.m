@@ -8,6 +8,7 @@
 
 #import "KaiwaRoute.h"
 #import "KaiwaConversation.h"
+#import "KaiwaShout.h"
 
 @implementation KaiwaRoute
 
@@ -156,6 +157,70 @@
 	if ([handlerInstance respondsToSelector:dasSelector])
 	{
 		[handlerInstance performSelectorOnMainThread:dasSelector withObject:[KaiwaConversation conversationWithRequest:req andResponse:response forFriend:requestFriend] waitUntilDone:YES];
+		result=YES;
+	}
+	
+	if (persistsInstance==NO)
+	{
+		[handlerInstance release];
+		handlerInstance=nil;
+	}
+	
+	return result;
+}
+
+
+-(BOOL)invokeURI:(NSString *)uri withArguments:(NSArray *)arguments forFriend:(KaiwaFriend *)friend
+{
+	NSArray *matches=[routeRegex findAllInString:uri];
+	if ([matches count]==0)
+		return NO;
+	
+	if (handlerInstance==nil)
+	{
+		if (handlerClass==nil)
+			return NO;
+		
+		handlerInstance=[[[handlerClass alloc] init] retain];
+	}
+	
+	BOOL result=NO;
+	
+	//	SEL setReq=@selector(setRequest:);
+	//	SEL setRes=@selector(setResponse:);
+	//	
+	//	if ([handlerInstance respondsToSelector:setReq])
+	//		[handlerInstance performSelector:setReq withObject:req];
+	//	if ([handlerInstance respondsToSelector:setRes])
+	//		[handlerInstance performSelector:setRes withObject:response];
+	
+	
+	// invoke
+	SEL dasSelector=selector;
+	if (dasSelector==nil)
+	{
+		NSString *method=nil;
+		
+		NSMutableArray *segments = [NSMutableArray array];
+		NSScanner *scanner = [NSScanner scannerWithString:uri];
+		[scanner setCharactersToBeSkipped:[NSCharacterSet characterSetWithCharactersInString:@"/"]];
+		while (![scanner isAtEnd]) {
+			NSString *seg=@"";
+			[scanner scanUpToString:@"/" intoString:&seg];
+			[segments addObject:seg];
+		}
+		
+		if ([segments count]<2)
+			method=@"defaultAction:";
+		else
+			method=[[segments objectAtIndex:1] stringByAppendingString:@"Action:"];
+		
+		dasSelector=NSSelectorFromString(method);
+	}
+	
+	if ([handlerInstance respondsToSelector:dasSelector])
+	{
+		[handlerInstance performSelectorOnMainThread:dasSelector withObject:[KaiwaShout shoutWithURI:uri withArguments:arguments forFriend:friend] waitUntilDone:NO];
 		result=YES;
 	}
 	

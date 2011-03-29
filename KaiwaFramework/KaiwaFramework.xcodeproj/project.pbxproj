@@ -156,6 +156,10 @@
 		FCFA0F98133E96A400141766 /* MutLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F96133E96A400141766 /* MutLockArray.m */; };
 		FCFA0F9D133E96EE00141766 /* ObjectHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F9B133E96EE00141766 /* ObjectHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0F9E133E96EE00141766 /* ObjectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F9C133E96EE00141766 /* ObjectHolder.m */; };
+		FCFA122C1341586500141766 /* KaiwaShout.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA122A1341586500141766 /* KaiwaShout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA122D1341586500141766 /* KaiwaShout.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA122B1341586500141766 /* KaiwaShout.m */; };
+		FCFA12B213415F1F00141766 /* NSColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA12B013415F1F00141766 /* NSColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCFA12B313415F1F00141766 /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA12B113415F1F00141766 /* NSColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,7 +167,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* KaiwaFramework */;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = KaiwaFramework;
 		};
 /* End PBXContainerItemProxy section */
@@ -329,6 +333,10 @@
 		FCFA0F96133E96A400141766 /* MutLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MutLockArray.m; path = ../Kaiwa/VVBasics/MutLockArray.m; sourceTree = SOURCE_ROOT; };
 		FCFA0F9B133E96EE00141766 /* ObjectHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectHolder.h; path = ../Kaiwa/VVBasics/ObjectHolder.h; sourceTree = SOURCE_ROOT; };
 		FCFA0F9C133E96EE00141766 /* ObjectHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectHolder.m; path = ../Kaiwa/VVBasics/ObjectHolder.m; sourceTree = SOURCE_ROOT; };
+		FCFA122A1341586500141766 /* KaiwaShout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaShout.h; sourceTree = "<group>"; };
+		FCFA122B1341586500141766 /* KaiwaShout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaShout.m; sourceTree = "<group>"; };
+		FCFA12B013415F1F00141766 /* NSColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Hex.h"; sourceTree = "<group>"; };
+		FCFA12B113415F1F00141766 /* NSColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -571,6 +579,8 @@
 				FCFA0AA9133BD4D600141766 /* KaiwaConnection.m */,
 				FCFA0AAA133BD4D600141766 /* KaiwaConversation.h */,
 				FCFA0AAB133BD4D600141766 /* KaiwaConversation.m */,
+				FCFA122A1341586500141766 /* KaiwaShout.h */,
+				FCFA122B1341586500141766 /* KaiwaShout.m */,
 				FCFA0AAC133BD4D600141766 /* KaiwaDispatcher.h */,
 				FCFA0AAD133BD4D600141766 /* KaiwaDispatcher.m */,
 				FCFA0AAE133BD4D600141766 /* KaiwaFilePath.h */,
@@ -612,6 +622,8 @@
 				FCFA0B72133BD54200141766 /* NSString+UUID.m */,
 				FCFA0B73133BD54200141766 /* RandomSequence.h */,
 				FCFA0B74133BD54200141766 /* RandomSequence.m */,
+				FCFA12B013415F1F00141766 /* NSColor+Hex.h */,
+				FCFA12B113415F1F00141766 /* NSColor+Hex.m */,
 			);
 			name = Utility;
 			path = ../Kaiwa/Utility;
@@ -741,6 +753,8 @@
 				FCFA0F91133E968900141766 /* VVThreadLoop.h in Headers */,
 				FCFA0F97133E96A400141766 /* MutLockArray.h in Headers */,
 				FCFA0F9D133E96EE00141766 /* ObjectHolder.h in Headers */,
+				FCFA122C1341586500141766 /* KaiwaShout.h in Headers */,
+				FCFA12B213415F1F00141766 /* NSColor+Hex.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,6 +878,8 @@
 				FCFA0F92133E968900141766 /* VVThreadLoop.m in Sources */,
 				FCFA0F98133E96A400141766 /* MutLockArray.m in Sources */,
 				FCFA0F9E133E96EE00141766 /* ObjectHolder.m in Sources */,
+				FCFA122D1341586500141766 /* KaiwaShout.m in Sources */,
+				FCFA12B313415F1F00141766 /* NSColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

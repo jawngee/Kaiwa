@@ -11,6 +11,7 @@
 #import "HTTPServer.h"
 #import "HTTPResponse.h"
 #import "HTTPConnection.h"
+#import "VVOSC.h"
 
 @class KaiwaConnection;
 @class KaiwaFriend;
@@ -42,6 +43,11 @@
  */
 @interface KaiwaDispatcher : NSObject<NSNetServiceDelegate,NSNetServiceBrowserDelegate>
 {
+	OSCManager *oscManager;			/**< An instance of OSCManager */
+
+	BOOL OSCEnabled;				/**< Controls if OSC is enabled or not */
+	NSInteger OSCPort;				/**< Incoming OSC port */
+	
 	NSMutableArray *routes;			/**< Array of KaiwaRoute instances */
 	NSMutableArray *rewrites;		/**< Array of KaiwaRewrite rules */
 	NSMutableArray *filePaths;		/**< Array of mapped file paths */
@@ -71,6 +77,10 @@
 @property (retain, nonatomic) id<KaiwaDispatcherProtocol> delegate;
 
 @property (readonly) NSArray *friends;
+
+@property (assign) BOOL OSCEnabled;
+@property (assign) NSInteger OSCPort;
+@property (readonly) OSCManager *oscManager;
 
 #pragma mark initialization
 
@@ -173,12 +183,18 @@
 -(void)findFriends;
 
 /**
- Broadcasts a message to friends.  Note that there is no ability to handle a response.  To do that, interface with
+ Broadcasts a message to friends via HTTP.  Note that there is no ability to handle a response.  To do that, interface with
  friends on a per friend basis.
  @param uri The uri to broadcast to, eg /do/something
  */
 -(void)broadcastToFriends:(NSString*)uri data:(NSDictionary *)theData;
 
+/**
+ Shouts a message to friends via OSC.  Note that there is no ability to handle a response.  To do that, interface with
+ friends on a per friend basis.
+ @param uri The uri to broadcast to, eg /do/something
+ */
+-(void)shoutToFriends:(NSString*)uri data:(NSArray *)theData;
 
 
 @end

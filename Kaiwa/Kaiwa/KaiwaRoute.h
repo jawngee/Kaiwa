@@ -65,4 +65,12 @@
 */
 -(BOOL)invoke:(KaiwaRequest *)req forResponse:(KaiwaResponse *)response andFriend:(KaiwaFriend *)requestFriend;
 
+/**
+ Invokes the route for an OSC shout
+ @param uri The command URI
+ @param arguments An array of OSCValues
+ @param friend The friend who sent the shout
+ */
+-(BOOL)invokeURI:(NSString *)uri withArguments:(NSArray *)arguments forFriend:(KaiwaFriend *)friend;
+
 @end

@@ -31,7 +31,7 @@
 
 #pragma mark property synthesizer
 
-@synthesize routes, rewrites, filePaths, name, type, port, delegate, friends;
+@synthesize routes, rewrites, filePaths, name, type, port, delegate, friends, OSCEnabled, OSCPort, oscManager;
 
 #pragma mark initialization/dealloc
 
@@ -39,6 +39,9 @@
 {
 	if ((self=[super init]))
 	{
+		OSCEnabled=NO;
+		OSCPort=32122;
+		
 		routes=[[NSMutableArray array] retain];
 		filePaths=[[NSMutableArray array] retain];
 		rewrites=[[NSMutableArray array] retain];
@@ -238,6 +241,13 @@
 		NSLog(@"Error starting HTTP Server: %@", error);
 	}
 	
+	if ((success) && (OSCEnabled))
+	{
+		NSLog(@"MY OSC PORT: %d",OSCPort);
+		oscManager=[[OSCManager alloc] init];
+		[oscManager setDelegate:self];
+		[oscManager createNewInputForPort:OSCPort withLabel:name];
+	}
 }
 
 -(void)stop
@@ -247,6 +257,12 @@
 		[httpServer stop];
 		[httpServer release];
 		httpServer=nil;
+	}
+	
+	if (OSCEnabled)
+	{
+		[oscManager release];
+		oscManager=nil;
 	}
 }
 
@@ -293,6 +309,31 @@
 	return nil;
 }
 
+- (void)receivedOSCMessage:(OSCMessage *)m
+{	
+	NSLog(@"OSC: %@",[m address]);
+	
+	NSMutableArray *args=[NSMutableArray arrayWithCapacity:0];
+	NSString *ruid=[[m valueAtIndex:0] stringValue];
+	
+	for(int i=1; i<[m valueCount]; i++)
+		[args addObject:[m valueAtIndex:i]];
+	
+	KaiwaFriend *requestFriend=nil;
+	if (ruid!=nil)
+	{
+		for(KaiwaFriend *f in friends)
+			if ([f.uid isEqualToString:ruid])
+			{
+				requestFriend=f;
+				break;
+			}
+	}
+	
+	for(KaiwaRoute *route in routes)
+		if ([route invokeURI:[m address] withArguments:args forFriend:requestFriend])
+			return;
+}
 
 #pragma mark kaiwa internal actions
 -(void)infoAction:(KaiwaConversation *)convo
@@ -309,10 +350,54 @@
 	NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
 	
 	
-	NSDictionary *dict=[NSDictionary dictionaryWithObjectsAndKeys:username,@"user",computerName,@"computer",name,@"uid",appName,@"application",appVersion,@"version",nil];
+	NSDictionary *dict=[NSDictionary dictionaryWithObjectsAndKeys:
+						username,@"user",
+						computerName,@"computer",
+						name,@"uid",
+						[NSNumber numberWithBool:OSCEnabled],@"osc",
+						[NSNumber numberWithInt:OSCPort],@"osc-port",
+						(appName!=nil) ? appName : @"",@"application",
+						(appVersion!=nil) ? appVersion : @"",@"version",
+						nil];
+	
 	[convo.response setContentType:@"text/json"];
 	[convo.response write:[dict JSONRepresentation]];
 }
 
+-(void)shoutToFriends:(NSString*)uri data:(NSArray *)theData;
+{
+	OSCMessage *msg=[OSCMessage createWithAddress:uri];
+	
+	[msg addString:name];
+	
+	for(id datum in theData)
+	{
+		if ([datum isKindOfClass:[NSString class]])
+			[msg addString:datum];
+		else if ([datum isKindOfClass:[NSNumber class]])
+		{
+			char what=*[datum objCType];
+			
+			switch(what)
+			{
+				case 'i':
+					[msg addInt:[datum integerValue]];
+					break;
+				case 'f':
+				case 'd':
+					[msg addFloat:[datum floatValue]];
+					break;
+				case 'c':
+					[msg addBOOL:[datum boolValue]];
+					break;
+			}
+		}
+	}
+	
+	NSLog(@"SHOUTING");
+	
+	for (KaiwaFriend *friend in friends)
+		[friend.outPort sendThisMessage:msg];
+}
 
 @end
