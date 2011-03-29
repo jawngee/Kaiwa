@@ -80,8 +80,8 @@
 		FC9672A013425E240003CEC4 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96729F13425E240003CEC4 /* ASIAuthenticationDialog.m */; };
 		FC9672A513425E460003CEC4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9672A413425E460003CEC4 /* Reachability.m */; };
 		FC9672AB13425EA20003CEC4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9672AA13425EA20003CEC4 /* CFNetwork.framework */; };
-		FC9672D613425F4D0003CEC4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9672D513425F4D0003CEC4 /* MobileCoreServices.framework */; };
 		FC96732013426E210003CEC4 /* KMBuddy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96731F13426E210003CEC4 /* KMBuddy.m */; };
+		FC96753F134292950003CEC4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96753E134292950003CEC4 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -235,9 +235,9 @@
 		FC9672A313425E460003CEC4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		FC9672A413425E460003CEC4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		FC9672AA13425EA20003CEC4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		FC9672D513425F4D0003CEC4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FC96731E13426E210003CEC4 /* KMBuddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMBuddy.h; sourceTree = "<group>"; };
 		FC96731F13426E210003CEC4 /* KMBuddy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMBuddy.m; sourceTree = "<group>"; };
+		FC96753E134292950003CEC4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,7 +253,7 @@
 				FC967243134259BA0003CEC4 /* SystemConfiguration.framework in Frameworks */,
 				FC967245134259BA0003CEC4 /* libz.dylib in Frameworks */,
 				FC9672AB13425EA20003CEC4 /* CFNetwork.framework in Frameworks */,
-				FC9672D613425F4D0003CEC4 /* MobileCoreServices.framework in Frameworks */,
+				FC96753F134292950003CEC4 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +334,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				FC96753E134292950003CEC4 /* MobileCoreServices.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

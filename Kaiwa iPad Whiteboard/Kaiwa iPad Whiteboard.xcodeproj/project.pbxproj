@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Kaiwa_iPad_WhiteboardAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Kaiwa_iPad_WhiteboardAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* Kaiwa_iPad_WhiteboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Kaiwa_iPad_WhiteboardViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* Kaiwa_iPad_WhiteboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Kaiwa_iPad_WhiteboardViewController.m */; };
+		FC9674CD1342923C0003CEC4 /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674401342923C0003CEC4 /* AGRegex.m */; };
+		FC9674CE1342923C0003CEC4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674431342923C0003CEC4 /* Reachability.m */; };
+		FC9674CF1342923C0003CEC4 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674451342923C0003CEC4 /* ASIAuthenticationDialog.m */; };
+		FC9674D01342923C0003CEC4 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674471342923C0003CEC4 /* ASIFormDataRequest.m */; };
+		FC9674D11342923C0003CEC4 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674491342923C0003CEC4 /* ASIHTTPRequest.m */; };
+		FC9674D21342923C0003CEC4 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96744D1342923C0003CEC4 /* ASIInputStream.m */; };
+		FC9674D31342923C0003CEC4 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96744F1342923C0003CEC4 /* ASINetworkQueue.m */; };
+		FC9674D41342923C0003CEC4 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674511342923C0003CEC4 /* ASINSStringAdditions.m */; };
+		FC9674D51342923C0003CEC4 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674561342923C0003CEC4 /* DDData.m */; };
+		FC9674D61342923C0003CEC4 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674581342923C0003CEC4 /* DDNumber.m */; };
+		FC9674D71342923C0003CEC4 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96745A1342923C0003CEC4 /* DDRange.m */; };
+		FC9674D81342923C0003CEC4 /* NSDictionary+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96745C1342923C0003CEC4 /* NSDictionary+URLEncode.m */; };
+		FC9674D91342923C0003CEC4 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96745E1342923C0003CEC4 /* NSString+URLEncode.m */; };
+		FC9674DA1342923C0003CEC4 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674621342923C0003CEC4 /* HTTPAsyncFileResponse.m */; };
+		FC9674DB1342923C0003CEC4 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674641342923C0003CEC4 /* HTTPAuthenticationRequest.m */; };
+		FC9674DC1342923C0003CEC4 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674661342923C0003CEC4 /* HTTPConnection.m */; };
+		FC9674DD1342923C0003CEC4 /* HTTPCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674681342923C0003CEC4 /* HTTPCookie.m */; };
+		FC9674DE1342923C0003CEC4 /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96746A1342923C0003CEC4 /* HTTPResponse.m */; };
+		FC9674DF1342923C0003CEC4 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96746C1342923C0003CEC4 /* HTTPServer.m */; };
+		FC9674E01342923C0003CEC4 /* ThreadPerConnectionServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96746E1342923C0003CEC4 /* ThreadPerConnectionServer.m */; };
+		FC9674E11342923C0003CEC4 /* ThreadPoolServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674701342923C0003CEC4 /* ThreadPoolServer.m */; };
+		FC9674E21342923C0003CEC4 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674731342923C0003CEC4 /* AsyncSocket.m */; };
+		FC9674E31342923C0003CEC4 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674771342923C0003CEC4 /* NSObject+SBJSON.m */; };
+		FC9674E41342923C0003CEC4 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674791342923C0003CEC4 /* NSString+SBJSON.m */; };
+		FC9674E51342923C0003CEC4 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96747B1342923C0003CEC4 /* SBJSON.m */; };
+		FC9674E61342923C0003CEC4 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96747D1342923C0003CEC4 /* SBJsonBase.m */; };
+		FC9674E71342923C0003CEC4 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96747F1342923C0003CEC4 /* SBJsonParser.m */; };
+		FC9674E81342923C0003CEC4 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674811342923C0003CEC4 /* SBJsonWriter.m */; };
+		FC9674E91342923C0003CEC4 /* KaiwaConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674851342923C0003CEC4 /* KaiwaConnection.m */; };
+		FC9674EA1342923C0003CEC4 /* KaiwaConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674871342923C0003CEC4 /* KaiwaConversation.m */; };
+		FC9674EB1342923C0003CEC4 /* KaiwaShout.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674891342923C0003CEC4 /* KaiwaShout.m */; };
+		FC9674EC1342923C0003CEC4 /* KaiwaDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96748B1342923C0003CEC4 /* KaiwaDispatcher.m */; };
+		FC9674ED1342923C0003CEC4 /* KaiwaFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96748D1342923C0003CEC4 /* KaiwaFilePath.m */; };
+		FC9674EE1342923C0003CEC4 /* KaiwaFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96748F1342923C0003CEC4 /* KaiwaFriend.m */; };
+		FC9674EF1342923C0003CEC4 /* KaiwaHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674911342923C0003CEC4 /* KaiwaHTTPServer.m */; };
+		FC9674F01342923C0003CEC4 /* KaiwaHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674931342923C0003CEC4 /* KaiwaHTTPRequest.m */; };
+		FC9674F11342923C0003CEC4 /* KaiwaRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674951342923C0003CEC4 /* KaiwaRequest.m */; };
+		FC9674F21342923C0003CEC4 /* KaiwaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674971342923C0003CEC4 /* KaiwaResponse.m */; };
+		FC9674F31342923C0003CEC4 /* KaiwaRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674991342923C0003CEC4 /* KaiwaRewrite.m */; };
+		FC9674F41342923C0003CEC4 /* KaiwaRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96749B1342923C0003CEC4 /* KaiwaRoute.m */; };
+		FC9674F51342923C0003CEC4 /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96749E1342923C0003CEC4 /* NSString+UUID.m */; };
+		FC9674F61342923C0003CEC4 /* RandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674A01342923C0003CEC4 /* RandomSequence.m */; };
+		FC9674F71342923C0003CEC4 /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674A21342923C0003CEC4 /* NSColor+Hex.m */; };
+		FC9674F81342923C0003CEC4 /* OSCAddressSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674AA1342923C0003CEC4 /* OSCAddressSpace.m */; };
+		FC9674F91342923C0003CEC4 /* OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674AC1342923C0003CEC4 /* OSCBundle.m */; };
+		FC9674FA1342923C0003CEC4 /* OSCInPort.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674AF1342923C0003CEC4 /* OSCInPort.m */; };
+		FC9674FB1342923C0003CEC4 /* OSCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674B11342923C0003CEC4 /* OSCManager.m */; };
+		FC9674FC1342923C0003CEC4 /* OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674B31342923C0003CEC4 /* OSCMessage.m */; };
+		FC9674FD1342923C0003CEC4 /* OSCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674B51342923C0003CEC4 /* OSCNode.m */; };
+		FC9674FE1342923C0003CEC4 /* OSCOutPort.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674B71342923C0003CEC4 /* OSCOutPort.m */; };
+		FC9674FF1342923C0003CEC4 /* OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674B91342923C0003CEC4 /* OSCPacket.m */; };
+		FC9675001342923C0003CEC4 /* OSCStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674BB1342923C0003CEC4 /* OSCStringAdditions.m */; };
+		FC9675011342923C0003CEC4 /* OSCValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674BD1342923C0003CEC4 /* OSCValue.m */; };
+		FC9675021342923C0003CEC4 /* OSCZeroConfDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674BF1342923C0003CEC4 /* OSCZeroConfDomain.m */; };
+		FC9675031342923C0003CEC4 /* OSCZeroConfManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674C11342923C0003CEC4 /* OSCZeroConfManager.m */; };
+		FC9675041342923C0003CEC4 /* ObjectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674C51342923C0003CEC4 /* ObjectHolder.m */; };
+		FC9675051342923C0003CEC4 /* MutLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674C71342923C0003CEC4 /* MutLockArray.m */; };
+		FC9675061342923C0003CEC4 /* VVThreadLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674C91342923C0003CEC4 /* VVThreadLoop.m */; };
+		FC9675071342923C0003CEC4 /* MutNRLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9674CB1342923C0003CEC4 /* MutNRLockArray.m */; };
+		FC9675371342924D0003CEC4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9675321342924D0003CEC4 /* CFNetwork.framework */; };
+		FC9675381342924D0003CEC4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9675331342924D0003CEC4 /* Security.framework */; };
+		FC9675391342924D0003CEC4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9675341342924D0003CEC4 /* SystemConfiguration.framework */; };
+		FC96753A1342924D0003CEC4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9675351342924D0003CEC4 /* libz.dylib */; };
+		FC96753B1342924D0003CEC4 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9675361342924D0003CEC4 /* libpcre.a */; };
+		FC967546134292AC0003CEC4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC967545134292AC0003CEC4 /* MobileCoreServices.framework */; };
+		FC96755C134292E00003CEC4 /* KWBuddy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC967557134292E00003CEC4 /* KWBuddy.m */; };
+		FC96755D134292E00003CEC4 /* KWScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = FC967559134292E00003CEC4 /* KWScribble.m */; };
+		FC96755E134292E00003CEC4 /* KWScribblePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FC96755B134292E00003CEC4 /* KWScribblePoint.m */; };
+		FC9675631342934E0003CEC4 /* KWWhiteBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC9675621342934E0003CEC4 /* KWWhiteBoardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Kaiwa_iPad_WhiteboardAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kaiwa_iPad_WhiteboardAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Kaiwa_iPad_WhiteboardAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kaiwa_iPad_WhiteboardAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Kaiwa iPad Whiteboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kaiwa iPad Whiteboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* Kaiwa_iPad_WhiteboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Kaiwa_iPad_WhiteboardViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* Kaiwa_iPad_WhiteboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kaiwa_iPad_WhiteboardViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* Kaiwa_iPad_WhiteboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kaiwa_iPad_WhiteboardViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Kaiwa_iPad_Whiteboard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kaiwa_iPad_Whiteboard_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Kaiwa_iPad_Whiteboard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Kaiwa_iPad_Whiteboard-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		FC96743F1342923C0003CEC4 /* AGRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGRegex.h; sourceTree = "<group>"; };
+		FC9674401342923C0003CEC4 /* AGRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGRegex.m; sourceTree = "<group>"; };
+		FC9674421342923C0003CEC4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FC9674431342923C0003CEC4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FC9674441342923C0003CEC4 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		FC9674451342923C0003CEC4 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		FC9674461342923C0003CEC4 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		FC9674471342923C0003CEC4 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		FC9674481342923C0003CEC4 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		FC9674491342923C0003CEC4 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		FC96744A1342923C0003CEC4 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		FC96744B1342923C0003CEC4 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		FC96744C1342923C0003CEC4 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		FC96744D1342923C0003CEC4 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		FC96744E1342923C0003CEC4 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		FC96744F1342923C0003CEC4 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		FC9674501342923C0003CEC4 /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		FC9674511342923C0003CEC4 /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		FC9674521342923C0003CEC4 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		FC9674551342923C0003CEC4 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		FC9674561342923C0003CEC4 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		FC9674571342923C0003CEC4 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		FC9674581342923C0003CEC4 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		FC9674591342923C0003CEC4 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		FC96745A1342923C0003CEC4 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		FC96745B1342923C0003CEC4 /* NSDictionary+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLEncode.h"; sourceTree = "<group>"; };
+		FC96745C1342923C0003CEC4 /* NSDictionary+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncode.m"; sourceTree = "<group>"; };
+		FC96745D1342923C0003CEC4 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		FC96745E1342923C0003CEC4 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		FC9674611342923C0003CEC4 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		FC9674621342923C0003CEC4 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		FC9674631342923C0003CEC4 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		FC9674641342923C0003CEC4 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		FC9674651342923C0003CEC4 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		FC9674661342923C0003CEC4 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		FC9674671342923C0003CEC4 /* HTTPCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCookie.h; sourceTree = "<group>"; };
+		FC9674681342923C0003CEC4 /* HTTPCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCookie.m; sourceTree = "<group>"; };
+		FC9674691342923C0003CEC4 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		FC96746A1342923C0003CEC4 /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponse.m; sourceTree = "<group>"; };
+		FC96746B1342923C0003CEC4 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		FC96746C1342923C0003CEC4 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		FC96746D1342923C0003CEC4 /* ThreadPerConnectionServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPerConnectionServer.h; sourceTree = "<group>"; };
+		FC96746E1342923C0003CEC4 /* ThreadPerConnectionServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPerConnectionServer.m; sourceTree = "<group>"; };
+		FC96746F1342923C0003CEC4 /* ThreadPoolServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPoolServer.h; sourceTree = "<group>"; };
+		FC9674701342923C0003CEC4 /* ThreadPoolServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPoolServer.m; sourceTree = "<group>"; };
+		FC9674721342923C0003CEC4 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		FC9674731342923C0003CEC4 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		FC9674751342923C0003CEC4 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FC9674761342923C0003CEC4 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FC9674771342923C0003CEC4 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FC9674781342923C0003CEC4 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FC9674791342923C0003CEC4 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FC96747A1342923C0003CEC4 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		FC96747B1342923C0003CEC4 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		FC96747C1342923C0003CEC4 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FC96747D1342923C0003CEC4 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FC96747E1342923C0003CEC4 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FC96747F1342923C0003CEC4 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FC9674801342923C0003CEC4 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FC9674811342923C0003CEC4 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		FC9674831342923C0003CEC4 /* Kaiwa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kaiwa.h; sourceTree = "<group>"; };
+		FC9674841342923C0003CEC4 /* KaiwaConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaConnection.h; sourceTree = "<group>"; };
+		FC9674851342923C0003CEC4 /* KaiwaConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaConnection.m; sourceTree = "<group>"; };
+		FC9674861342923C0003CEC4 /* KaiwaConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaConversation.h; sourceTree = "<group>"; };
+		FC9674871342923C0003CEC4 /* KaiwaConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaConversation.m; sourceTree = "<group>"; };
+		FC9674881342923C0003CEC4 /* KaiwaShout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaShout.h; sourceTree = "<group>"; };
+		FC9674891342923C0003CEC4 /* KaiwaShout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaShout.m; sourceTree = "<group>"; };
+		FC96748A1342923C0003CEC4 /* KaiwaDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaDispatcher.h; sourceTree = "<group>"; };
+		FC96748B1342923C0003CEC4 /* KaiwaDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaDispatcher.m; sourceTree = "<group>"; };
+		FC96748C1342923C0003CEC4 /* KaiwaFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaFilePath.h; sourceTree = "<group>"; };
+		FC96748D1342923C0003CEC4 /* KaiwaFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaFilePath.m; sourceTree = "<group>"; };
+		FC96748E1342923C0003CEC4 /* KaiwaFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaFriend.h; sourceTree = "<group>"; };
+		FC96748F1342923C0003CEC4 /* KaiwaFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaFriend.m; sourceTree = "<group>"; };
+		FC9674901342923C0003CEC4 /* KaiwaHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPServer.h; sourceTree = "<group>"; };
+		FC9674911342923C0003CEC4 /* KaiwaHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPServer.m; sourceTree = "<group>"; };
+		FC9674921342923C0003CEC4 /* KaiwaHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPRequest.h; sourceTree = "<group>"; };
+		FC9674931342923C0003CEC4 /* KaiwaHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPRequest.m; sourceTree = "<group>"; };
+		FC9674941342923C0003CEC4 /* KaiwaRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRequest.h; sourceTree = "<group>"; };
+		FC9674951342923C0003CEC4 /* KaiwaRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRequest.m; sourceTree = "<group>"; };
+		FC9674961342923C0003CEC4 /* KaiwaResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaResponse.h; sourceTree = "<group>"; };
+		FC9674971342923C0003CEC4 /* KaiwaResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaResponse.m; sourceTree = "<group>"; };
+		FC9674981342923C0003CEC4 /* KaiwaRewrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRewrite.h; sourceTree = "<group>"; };
+		FC9674991342923C0003CEC4 /* KaiwaRewrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRewrite.m; sourceTree = "<group>"; };
+		FC96749A1342923C0003CEC4 /* KaiwaRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRoute.h; sourceTree = "<group>"; };
+		FC96749B1342923C0003CEC4 /* KaiwaRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRoute.m; sourceTree = "<group>"; };
+		FC96749D1342923C0003CEC4 /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		FC96749E1342923C0003CEC4 /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		FC96749F1342923C0003CEC4 /* RandomSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomSequence.h; sourceTree = "<group>"; };
+		FC9674A01342923C0003CEC4 /* RandomSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSequence.m; sourceTree = "<group>"; };
+		FC9674A11342923C0003CEC4 /* NSColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Hex.h"; sourceTree = "<group>"; };
+		FC9674A21342923C0003CEC4 /* NSColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Hex.m"; sourceTree = "<group>"; };
+		FC9674A41342923C0003CEC4 /* pcre_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_internal.h; path = ../Kaiwa/pcre/include/pcre_internal.h; sourceTree = SOURCE_ROOT; };
+		FC9674A51342923C0003CEC4 /* pcre_scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_scanner.h; path = ../Kaiwa/pcre/include/pcre_scanner.h; sourceTree = SOURCE_ROOT; };
+		FC9674A61342923C0003CEC4 /* pcre_stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre_stringpiece.h; path = ../Kaiwa/pcre/include/pcre_stringpiece.h; sourceTree = SOURCE_ROOT; };
+		FC9674A71342923C0003CEC4 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre.h; path = ../Kaiwa/pcre/include/pcre.h; sourceTree = SOURCE_ROOT; };
+		FC9674A91342923C0003CEC4 /* OSCAddressSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCAddressSpace.h; path = ../Kaiwa/VVOSC/OSCAddressSpace.h; sourceTree = SOURCE_ROOT; };
+		FC9674AA1342923C0003CEC4 /* OSCAddressSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCAddressSpace.m; path = ../Kaiwa/VVOSC/OSCAddressSpace.m; sourceTree = SOURCE_ROOT; };
+		FC9674AB1342923C0003CEC4 /* OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCBundle.h; path = ../Kaiwa/VVOSC/OSCBundle.h; sourceTree = SOURCE_ROOT; };
+		FC9674AC1342923C0003CEC4 /* OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCBundle.m; path = ../Kaiwa/VVOSC/OSCBundle.m; sourceTree = SOURCE_ROOT; };
+		FC9674AD1342923C0003CEC4 /* OSCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCConstants.h; path = ../Kaiwa/VVOSC/OSCConstants.h; sourceTree = SOURCE_ROOT; };
+		FC9674AE1342923C0003CEC4 /* OSCInPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCInPort.h; path = ../Kaiwa/VVOSC/OSCInPort.h; sourceTree = SOURCE_ROOT; };
+		FC9674AF1342923C0003CEC4 /* OSCInPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCInPort.m; path = ../Kaiwa/VVOSC/OSCInPort.m; sourceTree = SOURCE_ROOT; };
+		FC9674B01342923C0003CEC4 /* OSCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCManager.h; path = ../Kaiwa/VVOSC/OSCManager.h; sourceTree = SOURCE_ROOT; };
+		FC9674B11342923C0003CEC4 /* OSCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCManager.m; path = ../Kaiwa/VVOSC/OSCManager.m; sourceTree = SOURCE_ROOT; };
+		FC9674B21342923C0003CEC4 /* OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCMessage.h; path = ../Kaiwa/VVOSC/OSCMessage.h; sourceTree = SOURCE_ROOT; };
+		FC9674B31342923C0003CEC4 /* OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCMessage.m; path = ../Kaiwa/VVOSC/OSCMessage.m; sourceTree = SOURCE_ROOT; };
+		FC9674B41342923C0003CEC4 /* OSCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCNode.h; path = ../Kaiwa/VVOSC/OSCNode.h; sourceTree = SOURCE_ROOT; };
+		FC9674B51342923C0003CEC4 /* OSCNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCNode.m; path = ../Kaiwa/VVOSC/OSCNode.m; sourceTree = SOURCE_ROOT; };
+		FC9674B61342923C0003CEC4 /* OSCOutPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCOutPort.h; path = ../Kaiwa/VVOSC/OSCOutPort.h; sourceTree = SOURCE_ROOT; };
+		FC9674B71342923C0003CEC4 /* OSCOutPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCOutPort.m; path = ../Kaiwa/VVOSC/OSCOutPort.m; sourceTree = SOURCE_ROOT; };
+		FC9674B81342923C0003CEC4 /* OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCPacket.h; path = ../Kaiwa/VVOSC/OSCPacket.h; sourceTree = SOURCE_ROOT; };
+		FC9674B91342923C0003CEC4 /* OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCPacket.m; path = ../Kaiwa/VVOSC/OSCPacket.m; sourceTree = SOURCE_ROOT; };
+		FC9674BA1342923C0003CEC4 /* OSCStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCStringAdditions.h; path = ../Kaiwa/VVOSC/OSCStringAdditions.h; sourceTree = SOURCE_ROOT; };
+		FC9674BB1342923C0003CEC4 /* OSCStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCStringAdditions.m; path = ../Kaiwa/VVOSC/OSCStringAdditions.m; sourceTree = SOURCE_ROOT; };
+		FC9674BC1342923C0003CEC4 /* OSCValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCValue.h; path = ../Kaiwa/VVOSC/OSCValue.h; sourceTree = SOURCE_ROOT; };
+		FC9674BD1342923C0003CEC4 /* OSCValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCValue.m; path = ../Kaiwa/VVOSC/OSCValue.m; sourceTree = SOURCE_ROOT; };
+		FC9674BE1342923C0003CEC4 /* OSCZeroConfDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCZeroConfDomain.h; path = ../Kaiwa/VVOSC/OSCZeroConfDomain.h; sourceTree = SOURCE_ROOT; };
+		FC9674BF1342923C0003CEC4 /* OSCZeroConfDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCZeroConfDomain.m; path = ../Kaiwa/VVOSC/OSCZeroConfDomain.m; sourceTree = SOURCE_ROOT; };
+		FC9674C01342923C0003CEC4 /* OSCZeroConfManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCZeroConfManager.h; path = ../Kaiwa/VVOSC/OSCZeroConfManager.h; sourceTree = SOURCE_ROOT; };
+		FC9674C11342923C0003CEC4 /* OSCZeroConfManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OSCZeroConfManager.m; path = ../Kaiwa/VVOSC/OSCZeroConfManager.m; sourceTree = SOURCE_ROOT; };
+		FC9674C21342923C0003CEC4 /* VVOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVOSC.h; path = ../Kaiwa/VVOSC/VVOSC.h; sourceTree = SOURCE_ROOT; };
+		FC9674C41342923C0003CEC4 /* ObjectHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectHolder.h; path = ../Kaiwa/VVBasics/ObjectHolder.h; sourceTree = SOURCE_ROOT; };
+		FC9674C51342923C0003CEC4 /* ObjectHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObjectHolder.m; path = ../Kaiwa/VVBasics/ObjectHolder.m; sourceTree = SOURCE_ROOT; };
+		FC9674C61342923C0003CEC4 /* MutLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MutLockArray.h; path = ../Kaiwa/VVBasics/MutLockArray.h; sourceTree = SOURCE_ROOT; };
+		FC9674C71342923C0003CEC4 /* MutLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MutLockArray.m; path = ../Kaiwa/VVBasics/MutLockArray.m; sourceTree = SOURCE_ROOT; };
+		FC9674C81342923C0003CEC4 /* VVThreadLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVThreadLoop.h; path = ../Kaiwa/VVBasics/VVThreadLoop.h; sourceTree = SOURCE_ROOT; };
+		FC9674C91342923C0003CEC4 /* VVThreadLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVThreadLoop.m; path = ../Kaiwa/VVBasics/VVThreadLoop.m; sourceTree = SOURCE_ROOT; };
+		FC9674CA1342923C0003CEC4 /* MutNRLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MutNRLockArray.h; path = ../Kaiwa/VVBasics/MutNRLockArray.h; sourceTree = SOURCE_ROOT; };
+		FC9674CB1342923C0003CEC4 /* MutNRLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MutNRLockArray.m; path = ../Kaiwa/VVBasics/MutNRLockArray.m; sourceTree = SOURCE_ROOT; };
+		FC9674CC1342923C0003CEC4 /* VVBasicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVBasicMacros.h; path = ../Kaiwa/VVBasics/VVBasicMacros.h; sourceTree = SOURCE_ROOT; };
+		FC9675321342924D0003CEC4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FC9675331342924D0003CEC4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FC9675341342924D0003CEC4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC9675351342924D0003CEC4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FC9675361342924D0003CEC4 /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre.a; path = ../Kaiwa/pcre/lib/iphone/libpcre.a; sourceTree = SOURCE_ROOT; };
+		FC967545134292AC0003CEC4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FC967556134292E00003CEC4 /* KWBuddy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWBuddy.h; sourceTree = "<group>"; };
+		FC967557134292E00003CEC4 /* KWBuddy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWBuddy.m; sourceTree = "<group>"; };
+		FC967558134292E00003CEC4 /* KWScribble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWScribble.h; sourceTree = "<group>"; };
+		FC967559134292E00003CEC4 /* KWScribble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWScribble.m; sourceTree = "<group>"; };
+		FC96755A134292E00003CEC4 /* KWScribblePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWScribblePoint.h; sourceTree = "<group>"; };
+		FC96755B134292E00003CEC4 /* KWScribblePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWScribblePoint.m; sourceTree = "<group>"; };
+		FC9675611342934E0003CEC4 /* KWWhiteBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWWhiteBoardView.h; sourceTree = "<group>"; };
+		FC9675621342934E0003CEC4 /* KWWhiteBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWWhiteBoardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				FC9675371342924D0003CEC4 /* CFNetwork.framework in Frameworks */,
+				FC9675381342924D0003CEC4 /* Security.framework in Frameworks */,
+				FC9675391342924D0003CEC4 /* SystemConfiguration.framework in Frameworks */,
+				FC96753A1342924D0003CEC4 /* libz.dylib in Frameworks */,
+				FC96753B1342924D0003CEC4 /* libpcre.a in Frameworks */,
+				FC967546134292AC0003CEC4 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FC967549134292BA0003CEC4 /* Application */,
+				FC9674C31342923C0003CEC4 /* VVBasics */,
+				FC9674A81342923C0003CEC4 /* VVOSC */,
+				FC9674A31342923C0003CEC4 /* pcre */,
+				FC96743E1342923C0003CEC4 /* AGRegex */,
+				FC9674411342923C0003CEC4 /* ASIHTTP */,
+				FC9674531342923C0003CEC4 /* HTTP */,
+				FC9674741342923C0003CEC4 /* JSON */,
+				FC9674821342923C0003CEC4 /* Kaiwa */,
+				FC96749C1342923C0003CEC4 /* Utility */,
+				1D3623240D0F684500981E51 /* Kaiwa_iPad_WhiteboardAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Kaiwa_iPad_WhiteboardAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* Kaiwa_iPad_WhiteboardViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* Kaiwa_iPad_WhiteboardViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Kaiwa iPad Whiteboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Kaiwa_iPad_Whiteboard_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* Kaiwa_iPad_WhiteboardViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Kaiwa_iPad_Whiteboard-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC9675321342924D0003CEC4 /* CFNetwork.framework */,
+				FC9675331342924D0003CEC4 /* Security.framework */,
+				FC9675341342924D0003CEC4 /* SystemConfiguration.framework */,
+				FC9675351342924D0003CEC4 /* libz.dylib */,
+				FC9675361342924D0003CEC4 /* libpcre.a */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				FC967545134292AC0003CEC4 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC96743E1342923C0003CEC4 /* AGRegex */ = {
+			isa = PBXGroup;
+			children = (
+				FC96743F1342923C0003CEC4 /* AGRegex.h */,
+				FC9674401342923C0003CEC4 /* AGRegex.m */,
+			);
+			name = AGRegex;
+			path = ../Kaiwa/AGRegex;
+			sourceTree = SOURCE_ROOT;
+		};
+		FC9674411342923C0003CEC4 /* ASIHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674421342923C0003CEC4 /* Reachability.h */,
+				FC9674431342923C0003CEC4 /* Reachability.m */,
+				FC9674441342923C0003CEC4 /* ASIAuthenticationDialog.h */,
+				FC9674451342923C0003CEC4 /* ASIAuthenticationDialog.m */,
+				FC9674461342923C0003CEC4 /* ASIFormDataRequest.h */,
+				FC9674471342923C0003CEC4 /* ASIFormDataRequest.m */,
+				FC9674481342923C0003CEC4 /* ASIHTTPRequest.h */,
+				FC9674491342923C0003CEC4 /* ASIHTTPRequest.m */,
+				FC96744A1342923C0003CEC4 /* ASIHTTPRequestConfig.h */,
+				FC96744B1342923C0003CEC4 /* ASIHTTPRequestDelegate.h */,
+				FC96744C1342923C0003CEC4 /* ASIInputStream.h */,
+				FC96744D1342923C0003CEC4 /* ASIInputStream.m */,
+				FC96744E1342923C0003CEC4 /* ASINetworkQueue.h */,
+				FC96744F1342923C0003CEC4 /* ASINetworkQueue.m */,
+				FC9674501342923C0003CEC4 /* ASINSStringAdditions.h */,
+				FC9674511342923C0003CEC4 /* ASINSStringAdditions.m */,
+				FC9674521342923C0003CEC4 /* ASIProgressDelegate.h */,
+			);
+			name = ASIHTTP;
+			path = ../Kaiwa/ASIHTTP;
+			sourceTree = SOURCE_ROOT;
+		};
+		FC9674531342923C0003CEC4 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674541342923C0003CEC4 /* Categories */,
+				FC96745F1342923C0003CEC4 /* HTTP */,
+				FC9674711342923C0003CEC4 /* TCP */,
+			);
+			name = HTTP;
+			path = ../Kaiwa/HTTP;
+			sourceTree = SOURCE_ROOT;
+		};
+		FC9674541342923C0003CEC4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674551342923C0003CEC4 /* DDData.h */,
+				FC9674561342923C0003CEC4 /* DDData.m */,
+				FC9674571342923C0003CEC4 /* DDNumber.h */,
+				FC9674581342923C0003CEC4 /* DDNumber.m */,
+				FC9674591342923C0003CEC4 /* DDRange.h */,
+				FC96745A1342923C0003CEC4 /* DDRange.m */,
+				FC96745B1342923C0003CEC4 /* NSDictionary+URLEncode.h */,
+				FC96745C1342923C0003CEC4 /* NSDictionary+URLEncode.m */,
+				FC96745D1342923C0003CEC4 /* NSString+URLEncode.h */,
+				FC96745E1342923C0003CEC4 /* NSString+URLEncode.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FC96745F1342923C0003CEC4 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674601342923C0003CEC4 /* Advanced */,
+				FC9674631342923C0003CEC4 /* HTTPAuthenticationRequest.h */,
+				FC9674641342923C0003CEC4 /* HTTPAuthenticationRequest.m */,
+				FC9674651342923C0003CEC4 /* HTTPConnection.h */,
+				FC9674661342923C0003CEC4 /* HTTPConnection.m */,
+				FC9674671342923C0003CEC4 /* HTTPCookie.h */,
+				FC9674681342923C0003CEC4 /* HTTPCookie.m */,
+				FC9674691342923C0003CEC4 /* HTTPResponse.h */,
+				FC96746A1342923C0003CEC4 /* HTTPResponse.m */,
+				FC96746B1342923C0003CEC4 /* HTTPServer.h */,
+				FC96746C1342923C0003CEC4 /* HTTPServer.m */,
+				FC96746D1342923C0003CEC4 /* ThreadPerConnectionServer.h */,
+				FC96746E1342923C0003CEC4 /* ThreadPerConnectionServer.m */,
+				FC96746F1342923C0003CEC4 /* ThreadPoolServer.h */,
+				FC9674701342923C0003CEC4 /* ThreadPoolServer.m */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		FC9674601342923C0003CEC4 /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674611342923C0003CEC4 /* HTTPAsyncFileResponse.h */,
+				FC9674621342923C0003CEC4 /* HTTPAsyncFileResponse.m */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		FC9674711342923C0003CEC4 /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674721342923C0003CEC4 /* AsyncSocket.h */,
+				FC9674731342923C0003CEC4 /* AsyncSocket.m */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		FC9674741342923C0003CEC4 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674751342923C0003CEC4 /* JSON.h */,
+				FC9674761342923C0003CEC4 /* NSObject+SBJSON.h */,
+				FC9674771342923C0003CEC4 /* NSObject+SBJSON.m */,
+				FC9674781342923C0003CEC4 /* NSString+SBJSON.h */,
+				FC9674791342923C0003CEC4 /* NSString+SBJSON.m */,
+				FC96747A1342923C0003CEC4 /* SBJSON.h */,
+				FC96747B1342923C0003CEC4 /* SBJSON.m */,
+				FC96747C1342923C0003CEC4 /* SBJsonBase.h */,
+				FC96747D1342923C0003CEC4 /* SBJsonBase.m */,
+				FC96747E1342923C0003CEC4 /* SBJsonParser.h */,
+				FC96747F1342923C0003CEC4 /* SBJsonParser.m */,
+				FC9674801342923C0003CEC4 /* SBJsonWriter.h */,
+				FC9674811342923C0003CEC4 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = ../Kaiwa/JSON;
+			sourceTree = SOURCE_ROOT;
+		};
+		FC9674821342923C0003CEC4 /* Kaiwa */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674831342923C0003CEC4 /* Kaiwa.h */,
+				FC9674841342923C0003CEC4 /* KaiwaConnection.h */,
+				FC9674851342923C0003CEC4 /* KaiwaConnection.m */,
+				FC9674861342923C0003CEC4 /* KaiwaConversation.h */,
+				FC9674871342923C0003CEC4 /* KaiwaConversation.m */,
+				FC9674881342923C0003CEC4 /* KaiwaShout.h */,
+				FC9674891342923C0003CEC4 /* KaiwaShout.m */,
+				FC96748A1342923C0003CEC4 /* KaiwaDispatcher.h */,
+				FC96748B1342923C0003CEC4 /* KaiwaDispatcher.m */,
+				FC96748C1342923C0003CEC4 /* KaiwaFilePath.h */,
+				FC96748D1342923C0003CEC4 /* KaiwaFilePath.m */,
+				FC96748E1342923C0003CEC4 /* KaiwaFriend.h */,
+				FC96748F1342923C0003CEC4 /* KaiwaFriend.m */,
+				FC9674901342923C0003CEC4 /* KaiwaHTTPServer.h */,
+				FC9674911342923C0003CEC4 /* KaiwaHTTPServer.m */,
+				FC9674921342923C0003CEC4 /* KaiwaHTTPRequest.h */,
+				FC9674931342923C0003CEC4 /* KaiwaHTTPRequest.m */,
+				FC9674941342923C0003CEC4 /* KaiwaRequest.h */,
+				FC9674951342923C0003CEC4 /* KaiwaRequest.m */,
+				FC9674961342923C0003CEC4 /* KaiwaResponse.h */,
+				FC9674971342923C0003CEC4 /* KaiwaResponse.m */,
+				FC9674981342923C0003CEC4 /* KaiwaRewrite.h */,
+				FC9674991342923C0003CEC4 /* KaiwaRewrite.m */,
+				FC96749A1342923C0003CEC4 /* KaiwaRoute.h */,
+				FC96749B1342923C0003CEC4 /* KaiwaRoute.m */,
+			);
+			name = Kaiwa;
+			path = ../Kaiwa/Kaiwa;
+			sourceTree = SOURCE_ROOT;
+		};
+		FC96749C1342923C0003CEC4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FC96749D1342923C0003CEC4 /* NSString+UUID.h */,
+				FC96749E1342923C0003CEC4 /* NSString+UUID.m */,
+				FC96749F1342923C0003CEC4 /* RandomSequence.h */,
+				FC9674A01342923C0003CEC4 /* RandomSequence.m */,
+				FC9674A11342923C0003CEC4 /* NSColor+Hex.h */,
+				FC9674A21342923C0003CEC4 /* NSColor+Hex.m */,
+			);
+			name = Utility;
+			path = ../Kaiwa/Utility;
+			sourceTree = SOURCE_ROOT;
+		};
+		FC9674A31342923C0003CEC4 /* pcre */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674A41342923C0003CEC4 /* pcre_internal.h */,
+				FC9674A51342923C0003CEC4 /* pcre_scanner.h */,
+				FC9674A61342923C0003CEC4 /* pcre_stringpiece.h */,
+				FC9674A71342923C0003CEC4 /* pcre.h */,
+			);
+			name = pcre;
+			sourceTree = "<group>";
+		};
+		FC9674A81342923C0003CEC4 /* VVOSC */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674A91342923C0003CEC4 /* OSCAddressSpace.h */,
+				FC9674AA1342923C0003CEC4 /* OSCAddressSpace.m */,
+				FC9674AB1342923C0003CEC4 /* OSCBundle.h */,
+				FC9674AC1342923C0003CEC4 /* OSCBundle.m */,
+				FC9674AD1342923C0003CEC4 /* OSCConstants.h */,
+				FC9674AE1342923C0003CEC4 /* OSCInPort.h */,
+				FC9674AF1342923C0003CEC4 /* OSCInPort.m */,
+				FC9674B01342923C0003CEC4 /* OSCManager.h */,
+				FC9674B11342923C0003CEC4 /* OSCManager.m */,
+				FC9674B21342923C0003CEC4 /* OSCMessage.h */,
+				FC9674B31342923C0003CEC4 /* OSCMessage.m */,
+				FC9674B41342923C0003CEC4 /* OSCNode.h */,
+				FC9674B51342923C0003CEC4 /* OSCNode.m */,
+				FC9674B61342923C0003CEC4 /* OSCOutPort.h */,
+				FC9674B71342923C0003CEC4 /* OSCOutPort.m */,
+				FC9674B81342923C0003CEC4 /* OSCPacket.h */,
+				FC9674B91342923C0003CEC4 /* OSCPacket.m */,
+				FC9674BA1342923C0003CEC4 /* OSCStringAdditions.h */,
+				FC9674BB1342923C0003CEC4 /* OSCStringAdditions.m */,
+				FC9674BC1342923C0003CEC4 /* OSCValue.h */,
+				FC9674BD1342923C0003CEC4 /* OSCValue.m */,
+				FC9674BE1342923C0003CEC4 /* OSCZeroConfDomain.h */,
+				FC9674BF1342923C0003CEC4 /* OSCZeroConfDomain.m */,
+				FC9674C01342923C0003CEC4 /* OSCZeroConfManager.h */,
+				FC9674C11342923C0003CEC4 /* OSCZeroConfManager.m */,
+				FC9674C21342923C0003CEC4 /* VVOSC.h */,
+			);
+			name = VVOSC;
+			sourceTree = "<group>";
+		};
+		FC9674C31342923C0003CEC4 /* VVBasics */ = {
+			isa = PBXGroup;
+			children = (
+				FC9674C41342923C0003CEC4 /* ObjectHolder.h */,
+				FC9674C51342923C0003CEC4 /* ObjectHolder.m */,
+				FC9674C61342923C0003CEC4 /* MutLockArray.h */,
+				FC9674C71342923C0003CEC4 /* MutLockArray.m */,
+				FC9674C81342923C0003CEC4 /* VVThreadLoop.h */,
+				FC9674C91342923C0003CEC4 /* VVThreadLoop.m */,
+				FC9674CA1342923C0003CEC4 /* MutNRLockArray.h */,
+				FC9674CB1342923C0003CEC4 /* MutNRLockArray.m */,
+				FC9674CC1342923C0003CEC4 /* VVBasicMacros.h */,
+			);
+			name = VVBasics;
+			sourceTree = "<group>";
+		};
+		FC967549134292BA0003CEC4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FC967556134292E00003CEC4 /* KWBuddy.h */,
+				FC967557134292E00003CEC4 /* KWBuddy.m */,
+				FC967558134292E00003CEC4 /* KWScribble.h */,
+				FC967559134292E00003CEC4 /* KWScribble.m */,
+				FC96755A134292E00003CEC4 /* KWScribblePoint.h */,
+				FC96755B134292E00003CEC4 /* KWScribblePoint.m */,
+				FC9675611342934E0003CEC4 /* KWWhiteBoardView.h */,
+				FC9675621342934E0003CEC4 /* KWWhiteBoardView.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Kaiwa iPad Whiteboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Kaiwa iPad Whiteboard" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kaiwa iPad Whiteboard";
+			productName = "Kaiwa iPad Whiteboard";
+			productReference = 1D6058910D05DD3D006BFB54 /* Kaiwa iPad Whiteboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Kaiwa iPad Whiteboard" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Kaiwa iPad Whiteboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* Kaiwa_iPad_WhiteboardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Kaiwa_iPad_WhiteboardAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* Kaiwa_iPad_WhiteboardViewController.m in Sources */,
+				FC9674CD1342923C0003CEC4 /* AGRegex.m in Sources */,
+				FC9674CE1342923C0003CEC4 /* Reachability.m in Sources */,
+				FC9674CF1342923C0003CEC4 /* ASIAuthenticationDialog.m in Sources */,
+				FC9674D01342923C0003CEC4 /* ASIFormDataRequest.m in Sources */,
+				FC9674D11342923C0003CEC4 /* ASIHTTPRequest.m in Sources */,
+				FC9674D21342923C0003CEC4 /* ASIInputStream.m in Sources */,
+				FC9674D31342923C0003CEC4 /* ASINetworkQueue.m in Sources */,
+				FC9674D41342923C0003CEC4 /* ASINSStringAdditions.m in Sources */,
+				FC9674D51342923C0003CEC4 /* DDData.m in Sources */,
+				FC9674D61342923C0003CEC4 /* DDNumber.m in Sources */,
+				FC9674D71342923C0003CEC4 /* DDRange.m in Sources */,
+				FC9674D81342923C0003CEC4 /* NSDictionary+URLEncode.m in Sources */,
+				FC9674D91342923C0003CEC4 /* NSString+URLEncode.m in Sources */,
+				FC9674DA1342923C0003CEC4 /* HTTPAsyncFileResponse.m in Sources */,
+				FC9674DB1342923C0003CEC4 /* HTTPAuthenticationRequest.m in Sources */,
+				FC9674DC1342923C0003CEC4 /* HTTPConnection.m in Sources */,
+				FC9674DD1342923C0003CEC4 /* HTTPCookie.m in Sources */,
+				FC9674DE1342923C0003CEC4 /* HTTPResponse.m in Sources */,
+				FC9674DF1342923C0003CEC4 /* HTTPServer.m in Sources */,
+				FC9674E01342923C0003CEC4 /* ThreadPerConnectionServer.m in Sources */,
+				FC9674E11342923C0003CEC4 /* ThreadPoolServer.m in Sources */,
+				FC9674E21342923C0003CEC4 /* AsyncSocket.m in Sources */,
+				FC9674E31342923C0003CEC4 /* NSObject+SBJSON.m in Sources */,
+				FC9674E41342923C0003CEC4 /* NSString+SBJSON.m in Sources */,
+				FC9674E51342923C0003CEC4 /* SBJSON.m in Sources */,
+				FC9674E61342923C0003CEC4 /* SBJsonBase.m in Sources */,
+				FC9674E71342923C0003CEC4 /* SBJsonParser.m in Sources */,
+				FC9674E81342923C0003CEC4 /* SBJsonWriter.m in Sources */,
+				FC9674E91342923C0003CEC4 /* KaiwaConnection.m in Sources */,
+				FC9674EA1342923C0003CEC4 /* KaiwaConversation.m in Sources */,
+				FC9674EB1342923C0003CEC4 /* KaiwaShout.m in Sources */,
+				FC9674EC1342923C0003CEC4 /* KaiwaDispatcher.m in Sources */,
+				FC9674ED1342923C0003CEC4 /* KaiwaFilePath.m in Sources */,
+				FC9674EE1342923C0003CEC4 /* KaiwaFriend.m in Sources */,
+				FC9674EF1342923C0003CEC4 /* KaiwaHTTPServer.m in Sources */,
+				FC9674F01342923C0003CEC4 /* KaiwaHTTPRequest.m in Sources */,
+				FC9674F11342923C0003CEC4 /* KaiwaRequest.m in Sources */,
+				FC9674F21342923C0003CEC4 /* KaiwaResponse.m in Sources */,
+				FC9674F31342923C0003CEC4 /* KaiwaRewrite.m in Sources */,
+				FC9674F41342923C0003CEC4 /* KaiwaRoute.m in Sources */,
+				FC9674F51342923C0003CEC4 /* NSString+UUID.m in Sources */,
+				FC9674F61342923C0003CEC4 /* RandomSequence.m in Sources */,
+				FC9674F71342923C0003CEC4 /* NSColor+Hex.m in Sources */,
+				FC9674F81342923C0003CEC4 /* OSCAddressSpace.m in Sources */,
+				FC9674F91342923C0003CEC4 /* OSCBundle.m in Sources */,
+				FC9674FA1342923C0003CEC4 /* OSCInPort.m in Sources */,
+				FC9674FB1342923C0003CEC4 /* OSCManager.m in Sources */,
+				FC9674FC1342923C0003CEC4 /* OSCMessage.m in Sources */,
+				FC9674FD1342923C0003CEC4 /* OSCNode.m in Sources */,
+				FC9674FE1342923C0003CEC4 /* OSCOutPort.m in Sources */,
+				FC9674FF1342923C0003CEC4 /* OSCPacket.m in Sources */,
+				FC9675001342923C0003CEC4 /* OSCStringAdditions.m in Sources */,
+				FC9675011342923C0003CEC4 /* OSCValue.m in Sources */,
+				FC9675021342923C0003CEC4 /* OSCZeroConfDomain.m in Sources */,
+				FC9675031342923C0003CEC4 /* OSCZeroConfManager.m in Sources */,
+				FC9675041342923C0003CEC4 /* ObjectHolder.m in Sources */,
+				FC9675051342923C0003CEC4 /* MutLockArray.m in Sources */,
+				FC9675061342923C0003CEC4 /* VVThreadLoop.m in Sources */,
+				FC9675071342923C0003CEC4 /* MutNRLockArray.m in Sources */,
+				FC96755C134292E00003CEC4 /* KWBuddy.m in Sources */,
+				FC96755D134292E00003CEC4 /* KWScribble.m in Sources */,
+				FC96755E134292E00003CEC4 /* KWScribblePoint.m in Sources */,
+				FC9675631342934E0003CEC4 /* KWWhiteBoardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kaiwa_iPad_Whiteboard_Prefix.pch;
+				INFOPLIST_FILE = "Kaiwa_iPad_Whiteboard-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/iphone\"",
+				);
+				PRODUCT_NAME = "Kaiwa iPad Whiteboard";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Kaiwa_iPad_Whiteboard_Prefix.pch;
+				INFOPLIST_FILE = "Kaiwa_iPad_Whiteboard-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/iphone\"",
+				);
+				PRODUCT_NAME = "Kaiwa iPad Whiteboard";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Kaiwa iPad Whiteboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Kaiwa iPad Whiteboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
