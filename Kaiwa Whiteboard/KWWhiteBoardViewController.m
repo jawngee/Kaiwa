@@ -105,6 +105,7 @@
 
 -(void)mouseUpAction:(KaiwaConversation *)convo
 {
+	NSLog(@"MOUSE UP");
 	float x=[[convo.request.query objectForKey:@"x"] floatValue];
 	float y=[[convo.request.query objectForKey:@"y"] floatValue];
 	
@@ -122,18 +123,21 @@
 
 -(void)clearMineAction:(KaiwaConversation *)convo
 {
+	NSLog(@"CLEAR MINE");
 	// they are asking to clear theirs when they call /command/clearMine
 	[whiteBoard clearTheirs:convo.friend];
 }
 
 -(void)clearTheirsAction:(KaiwaConversation *)convo
 {
+	NSLog(@"CLEAR THEIRS");
 	// they are asking to clear mine when they call /command/clearTheirs
 	[whiteBoard clearMine];
 }
 
--(void)clearAllActiion:(KaiwaConversation *)convo
+-(void)clearAllAction:(KaiwaConversation *)convo
 {
+	NSLog(@"CLEAR ALL");
 	[whiteBoard clearAll];
 }
 
@@ -158,6 +162,7 @@
 
 -(void)whiteBoardMouseUp:(NSPoint)point
 {
+	NSLog(@"FRIEND MOUSE UP");
 	[dispatcher broadcastToFriends:@"/command/mouseUp" data:[NSDictionary dictionaryWithObjectsAndKeys:
 																   [NSNumber numberWithFloat:point.x],@"x",
 																   [NSNumber numberWithFloat:point.y],@"y",

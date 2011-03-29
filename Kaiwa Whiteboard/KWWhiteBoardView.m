@@ -37,19 +37,10 @@
 -(void)friendMouseDown:(KaiwaFriend *)friend x:(float)x y:(float)y lineWidth:(float)lineWidth lineColor:(NSColor *)lineColor
 {
 	NSPoint p=NSMakePoint(x, y);
-	KWScribble *current=[liveScribbles objectForKey:friend.uid];
-	
-	if (!current)
-	{
-		current=[KWScribble scribbleWithFriend:friend color:lineColor lineWidth:lineWidth initialX:p.x initialY:p.y];
-		[liveScribbles setObject:current forKey:friend.uid];
-		[scribbles addObject:current];
-	}
-	else
-	{
-		[current addPointWithX:p.x andY:p.y];
-		[self setNeedsDisplay:YES];
-	}
+	KWScribble *current=[KWScribble scribbleWithFriend:friend color:lineColor lineWidth:lineWidth initialX:p.x initialY:p.y];
+	[liveScribbles setObject:current forKey:friend.uid];
+	[scribbles addObject:current];
+	[self setNeedsDisplay:YES];
 }
 
 -(void)friendMouseDragged:(KaiwaFriend *)friend x:(float)x y:(float)y
@@ -82,19 +73,11 @@
 -(void)mouseDown:(NSEvent*)event
 {
 	NSPoint p=[self convertPoint:[event locationInWindow] fromView:nil];
-	KWScribble *current=[liveScribbles objectForKey:@"SELF"];
-	
-	if (!current)
-	{
-		current=[KWScribble scribbleWithFriend:nil color:currentColor lineWidth:currentLineWidth initialX:p.x initialY:p.y];
-		[liveScribbles setObject:current forKey:@"SELF"];
-		[scribbles addObject:current];
-	}
-	else
-	{
-		[current addPointWithX:p.x andY:p.y];
-		[self setNeedsDisplay:YES];
-	}
+
+	KWScribble *current=[KWScribble scribbleWithFriend:nil color:currentColor lineWidth:currentLineWidth initialX:p.x initialY:p.y];
+	[liveScribbles setObject:current forKey:@"SELF"];
+	[scribbles addObject:current];
+	[self setNeedsDisplay:YES];
 	
 	[delegate whiteBoardMouseDown:p lineWidth:currentLineWidth andColor:currentColor];
 }
@@ -167,7 +150,7 @@
 
 -(void)clearTheirs:(KaiwaFriend *)friend
 {
-	for(int i=[scribbles count]-1; i--; i>=0)
+	for(int i=[scribbles count]; i--; i>=0)
 	{
 		KWScribble *s=[scribbles objectAtIndex:i];
 		if ((s.friend!=nil) && ([s.friend.uid isEqualToString:friend.uid]))
@@ -179,7 +162,7 @@
 
 -(void)clearMine
 {
-	for(int i=[scribbles count]-1; i--; i>=0)
+	for(int i=[scribbles count]; i--; i>=0)
 	{
 		KWScribble *s=[scribbles objectAtIndex:i];
 		if (s.friend==nil)
