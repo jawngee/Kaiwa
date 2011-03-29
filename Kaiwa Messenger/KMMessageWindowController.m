@@ -47,6 +47,12 @@
 
 -(IBAction)sendMessage:(id)sender
 {
+	[[[messagesView textStorage] mutableString] appendString: [NSString stringWithFormat:@"%@\n",[messageField stringValue]]];
+	
+	NSRange range = NSMakeRange ([[messagesView string] length], 0);
+	
+    [messagesView scrollRangeToVisible: range];
+
 	[buddy.friend tell:@"/command/message" withData:[NSMutableDictionary dictionaryWithObjectsAndKeys:[messageField stringValue],@"message",nil]];
 	[messageField setStringValue:@""];
 }
