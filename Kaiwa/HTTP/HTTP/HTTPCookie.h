@@ -6,7 +6,11 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+#else
 #import <Cocoa/Cocoa.h>
+#endif
 
 
 @interface HTTPCookie : NSObject 

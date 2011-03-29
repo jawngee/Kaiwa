@@ -6,11 +6,12 @@
 //  Copyright 2011 Interfacelab LLC. All rights reserved.
 //
 
-#if IPHONE
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #else
 #import <Cocoa/Cocoa.h>
 #endif
+
 #import "KaiwaRequest.h"
 #import "KaiwaResponse.h"
 #import "KaiwaFriend.h"

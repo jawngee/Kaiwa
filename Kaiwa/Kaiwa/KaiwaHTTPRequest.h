@@ -6,13 +6,15 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#if IPHONE
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #else
 #import <Cocoa/Cocoa.h>
 #endif
+
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
+
 /**
  Block def to call when asking a friend something.
  */

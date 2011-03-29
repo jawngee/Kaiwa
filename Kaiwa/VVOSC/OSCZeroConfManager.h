@@ -1,5 +1,5 @@
 
-#if IPHONE
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #else
 #import <Cocoa/Cocoa.h>
@@ -11,7 +11,7 @@
 
 
 
-#if IPHONE
+#if TARGET_OS_IPHONE
 @interface OSCZeroConfManager : NSObject <NSNetServiceBrowserDelegate> {
 #else
 @interface OSCZeroConfManager : NSObject {

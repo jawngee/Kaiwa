@@ -1,5 +1,5 @@
 
-#if IPHONE
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #else
 #import <Cocoa/Cocoa.h>
@@ -34,7 +34,7 @@ id _mainAddressSpace;
 
 + (OSCAddressSpace *) mainSpace;
 + (void) refreshMenu;
-#if !IPHONE
+#if !TARGET_OS_IPHONE
 + (NSMenu *) makeMenuForNode:(OSCNode *)n withTarget:(id)t action:(SEL)a;
 + (NSMenu *) makeMenuForNode:(OSCNode *)n ofType:(NSIndexSet *)ts withTarget:(id)t action:(SEL)a;
 #endif

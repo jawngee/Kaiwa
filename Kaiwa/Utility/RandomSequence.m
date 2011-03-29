@@ -124,8 +124,12 @@ long generateSeed();
 // places of the value
 long generateSeed() {
 
+#if TARGET_OS_IPHONE
+	return arc4random();
+#else
     UnsignedWide i;
     long result;
+	
     
     Microseconds( &i );
     result = (i.lo & 0x0000000F) << 28;
@@ -150,6 +154,7 @@ long generateSeed() {
 
     Microseconds( &i );
     result = (i.lo & 0x0000000F) | result;
-    
+
     return result;
+#endif
 }

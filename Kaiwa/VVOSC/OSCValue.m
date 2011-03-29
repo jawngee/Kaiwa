@@ -34,7 +34,7 @@
 	return [NSString stringWithFormat:@"<OSCValue ?>"];
 }
 - (NSString *) lengthyDescription	{
-#if !IPHONE
+#if !TARGET_OS_IPHONE
 	float		colorComps[4];
 #endif
 	switch (type)	{
@@ -45,7 +45,7 @@
 		case OSCValString:
 			return [NSString stringWithFormat:@"string \"%@\"",(id)value];
 		case OSCValColor:
-#if IPHONE
+#if TARGET_OS_IPHONE
 			return [NSString stringWithFormat:@"color %@",(id)value];
 #else
 			[(NSColor *)value getComponents:(CGFloat *)colorComps];
@@ -348,7 +348,7 @@
 			returnMe = *(float *)value;
 			break;
 		case OSCValColor:
-#if IPHONE
+#if TARGET_OS_IPHONE
 			*comps = *(CGColorGetComponents([(UIColor *)value CGColor]));
 #else
 			[(NSColor *)value getComponents:comps];
@@ -453,7 +453,7 @@
 	unsigned char		*charPtr = NULL;
 	void				*voidPtr = NULL;
 	unsigned char		tmpChar = 0;
-#if IPHONE
+#if TARGET_OS_IPHONE
 	CGColorRef			tmpColor;
 	const CGFloat		*tmpCGFloatPtr;
 #endif
@@ -490,7 +490,7 @@
 			++*t;
 			break;
 		case OSCValColor:
-#if IPHONE
+#if TARGET_OS_IPHONE
 			tmpColor = [(UIColor *)value CGColor];
 			tmpCGFloatPtr = CGColorGetComponents(tmpColor);
 			for (i=0;i<4;++i)	{

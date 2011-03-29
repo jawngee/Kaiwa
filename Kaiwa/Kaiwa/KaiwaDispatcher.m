@@ -340,11 +340,16 @@
 {
 	NSString *username=NSFullUserName();
 	
-	CFStringRef cname;
 	NSString *computerName;
+	
+#if TARGET_OS_IPHONE
+	computerName=[[UIDevice currentDevice] name];
+#else
+	CFStringRef cname;
 	cname=SCDynamicStoreCopyComputerName(NULL,NULL);
 	computerName=[NSString stringWithString:(NSString *)name];
 	CFRelease(cname);
+#endif
 	
 	NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleNameKey];
 	NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];

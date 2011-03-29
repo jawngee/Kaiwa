@@ -212,8 +212,10 @@
 	
 	if ([contentType isEqualToString:@"application/binary"])
 		return [req responseData];
+#if !TARGET_OS_IPHONE
 	else if ([contentType isEqualToString:@"text/xml"])
 		return [[NSXMLDocument alloc] initWithData:[req responseData] options:NSXMLDocumentTidyXML error:nil];
+#endif
 	else if ([contentType isEqualToString:@"text/json"])
 		return [[req responseString] JSONValue];
 	

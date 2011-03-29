@@ -1,5 +1,5 @@
 
-#if IPHONE
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #else
