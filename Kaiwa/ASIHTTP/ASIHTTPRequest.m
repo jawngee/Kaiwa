@@ -3586,7 +3586,7 @@ static BOOL isiPhoneOS2;
 + (void)registerForNetworkReachabilityNotifications
 {
 #if REACHABILITY_20_API
-	[[Reachability reachabilityForInternetConnection] startNotifer];
+	[[Reachability reachabilityForInternetConnection] startNotifier];
 #else
 	[[Reachability sharedReachability] setNetworkStatusNotificationsEnabled:YES];
 #endif

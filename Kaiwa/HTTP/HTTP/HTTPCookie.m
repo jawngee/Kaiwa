@@ -88,7 +88,19 @@
 	
 	if (expires!=nil)
 	{
+#if TARGET_OS_IPHONE
+		NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+		
+		[dateFormatter setDateFormat:@"%a, %d-%b-%Y %H:%M:%S GMT"];
+		
+		NSString *expireStr = [dateFormatter stringFromDate:expires];
+		
+		// output is 'formattedDateString for locale en_US: 2/6/10'
+		
+		[dateFormatter release];
+#else
 		NSString *expireStr=[expires descriptionWithCalendarFormat:@"%a, %d-%b-%Y %H:%M:%S GMT" timeZone:[NSTimeZone timeZoneWithName:@"GMT"] locale:nil];
+#endif
 		result=[result stringByAppendingFormat:@"; expires:%@",expireStr];
 	}
 

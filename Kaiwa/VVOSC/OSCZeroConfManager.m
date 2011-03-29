@@ -101,7 +101,7 @@
 	NSCharacterSet		*charSet;
 	NSMutableArray		*IPAddressArray = [NSMutableArray arrayWithCapacity:0];
 	charSet = [NSCharacterSet characterSetWithCharactersInString:@"abcdefABCDEF:%"];
-#if IPHONE
+#if TARGET_OS_IPHONE
 	
 #else
 	NSRange				charSetRange;
