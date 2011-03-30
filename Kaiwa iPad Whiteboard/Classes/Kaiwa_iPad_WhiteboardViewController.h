@@ -12,7 +12,7 @@
 #import "Kaiwa.h"
 
 
-@interface Kaiwa_iPad_WhiteboardViewController : UIViewController {
+@interface Kaiwa_iPad_WhiteboardViewController : UIViewController<KaiwaDispatcherProtocol> {
 	IBOutlet KWWhiteBoardView *whiteBoard;
 	KaiwaDispatcher *dispatcher;
 	

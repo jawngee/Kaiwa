@@ -14,7 +14,7 @@
 
 
 
-#if IPHONE
+#if TARGET_OS_IPHONE
 @interface OSCZeroConfDomain : NSObject <NSNetServiceBrowserDelegate,NSNetServiceDelegate> {
 #else
 @interface OSCZeroConfDomain : NSObject {
