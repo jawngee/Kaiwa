@@ -6,6 +6,30 @@
 
 @implementation OSCValue
 
+#define TYP_INIT 0 
+#define TYP_SMLE 1 
+#define TYP_BIGE 2 
+
+unsigned long long htonll(unsigned long long src) { 
+    static int typ = TYP_INIT; 
+    unsigned char c; 
+    union { 
+        unsigned long long ull; 
+        unsigned char c[8]; 
+    } x; 
+    if (typ == TYP_INIT) { 
+        x.ull = 0x01; 
+        typ = (x.c[7] == 0x01ULL) ? TYP_BIGE : TYP_SMLE; 
+    } 
+    if (typ == TYP_BIGE) 
+        return src; 
+    x.ull = src; 
+    c = x.c[0]; x.c[0] = x.c[7]; x.c[7] = c; 
+    c = x.c[1]; x.c[1] = x.c[6]; x.c[6] = c; 
+    c = x.c[2]; x.c[2] = x.c[5]; x.c[5] = c; 
+    c = x.c[3]; x.c[3] = x.c[4]; x.c[4] = c; 
+    return x.ull; 
+} 
 
 - (NSString *) description	{
 	switch (type)	{
@@ -30,6 +54,10 @@
 			return [NSString stringWithFormat:@"<OSCVal infinity>"];
 		case OSCValBlob:
 			return [NSString stringWithFormat:@"<OSCVal blob: %@>",value];
+        case OSCValLongLong:
+            return [NSString stringWithFormat:@"<OSCVal long long: %lld>",*(long long *)value];
+        case OSCValDouble:
+            return [NSString stringWithFormat:@"<OSCVal double: %f>",*(double *)value];
 	}
 	return [NSString stringWithFormat:@"<OSCValue ?>"];
 }
@@ -64,11 +92,27 @@
 		case OSCValInfinity:
 			return [NSString stringWithFormat:@"infinity"];
 		case OSCValBlob:
-			return [NSString stringWithFormat:@"<Data Blob>"];
+			return [NSString stringWithFormat:@"<Data Blob>"];		
+        case OSCValLongLong:
+			return [NSString stringWithFormat:@"long long %ll",*(long long *)value];
+
 	}
 	return [NSString stringWithFormat:@"?"];
 }
 
++ (id) createWithDouble:(double)n	{
+	OSCValue		*returnMe = [[OSCValue alloc] initWithDouble:n];
+	if (returnMe == nil)
+		return nil;
+	return [returnMe autorelease];
+}
+
++ (id) createWithLongLong:(long long)n	{
+	OSCValue		*returnMe = [[OSCValue alloc] initWithLongLong:n];
+	if (returnMe == nil)
+		return nil;
+	return [returnMe autorelease];
+}
 
 + (id) createWithInt:(int)n	{
 	OSCValue		*returnMe = [[OSCValue alloc] initWithInt:n];
@@ -125,6 +169,28 @@
 	return [returnMe autorelease];
 }
 
+-(id)initWithLongLong:(long long)l{
+	if (self = [super init])	{
+		value = malloc(sizeof(long long));
+		*(long long *)value = l;
+		type = OSCValLongLong;
+		return self;
+	}
+	[self release];
+	return nil;
+}
+
+-(id)initWithDouble:(double)n
+{
+	if (self = [super init])	{
+		value = malloc(sizeof(double));
+		*(double *)value = n;
+		type = OSCValDouble;
+		return self;
+	}
+	[self release];
+	return nil;
+}
 
 - (id) initWithInt:(int)n	{
 	if (self = [super init])	{
@@ -228,44 +294,51 @@
 }
 - (id) copyWithZone:(NSZone *)z	{
 	OSCValue		*returnMe = nil;
-	switch (type)	{
-		OSCValInt:
+	switch (type)	
+    {
+		case OSCValInt:
 			returnMe = [[OSCValue allocWithZone:z] initWithInt:*((int *)value)];
 			break;
-		OSCValFloat:
+		case OSCValFloat:
 			returnMe = [[OSCValue allocWithZone:z] initWithFloat:*((float *)value)];
 			break;
-		OSCValString:
+		case OSCValString:
 			returnMe = [[OSCValue allocWithZone:z] initWithString:((NSString *)value)];
 			break;
-		OSCValTimeTag:
+		case OSCValTimeTag:
 			NSLog(@"\tERR: TRIED TO COPY TIME TAG");
 			break;
-		OSCValChar:
+		case OSCValChar:
 			NSLog(@"\tERR: TRIED TO COPY CHAR");
 			break;
-		OSCValColor:
+		case OSCValColor:
 			returnMe = [[OSCValue allocWithZone:z] initWithColor:((id)value)];
 			break;
-		OSCValMIDI:
+		case OSCValMIDI:
 			returnMe = [[OSCValue allocWithZone:z]
 				initWithMIDIChannel:*((Byte *)value+0)
 				status:*((Byte *)value+1)
 				data1:*((Byte *)value+2)
 				data2:*((Byte *)value+3)];
 			break;
-		OSCValBool:
+		case OSCValBool:
 			returnMe = [[OSCValue allocWithZone:z] initWithBool:*((BOOL *)value)];
 			break;
-		OSCValNil:
+		case OSCValNil:
 			returnMe = [[OSCValue allocWithZone:z] initWithNil];
 			break;
-		OSCValInfinity:
+		case OSCValInfinity:
 			returnMe = [[OSCValue allocWithZone:z] initWithInfinity];
 			break;
-		OSCValBlob:
+		case OSCValBlob:
 			returnMe = [[OSCValue allocWithZone:z] initWithNSDataBlob:value];
 			break;
+        case OSCValLongLong:
+            returnMe = [[OSCValue allocWithZone:z] initWithLongLong:*((long long *)value)];
+            break;
+        case OSCValDouble:
+            returnMe = [[OSCValue allocWithZone:z] initWithDouble:*((double *)value)];
+            break;
 	}
 	return returnMe;
 }
@@ -273,8 +346,10 @@
 
 - (void) dealloc	{
 	switch (type)	{
+        case OSCValLongLong:
 		case OSCValInt:
 		case OSCValBool:
+        case OSCValDouble:
 		case OSCValFloat:
 			if (value != nil)
 				free(value);
@@ -305,6 +380,13 @@
 }
 
 
+- (long long) doubleValue	{
+	return *(double *)value;
+}
+
+- (long long) longLongValue	{
+	return *(long long *)value;
+}
 - (int) intValue	{
 	return *(int *)value;
 }
@@ -341,6 +423,12 @@
 	float		returnMe = 0.0;
 	CGFloat		comps[4];
 	switch (type)	{
+		case OSCValLongLong:
+			returnMe = (float)(*(long long *)value);
+			break;
+		case OSCValDouble:
+			returnMe = (float)(*(double *)value);
+			break;
 		case OSCValInt:
 			returnMe = (float)(*(int *)value);
 			break;
@@ -420,6 +508,10 @@
 - (int) bufferLength	{
 	//NSLog(@"%s",__func__);
 	switch (type)	{
+        case OSCValDouble:
+            return 8;
+        case OSCValLongLong:
+            return 8;
 		case OSCValInt:
 		case OSCValFloat:
 		case OSCValColor:
@@ -449,7 +541,9 @@
 	
 	int					i;
 	long				tmpLong = 0;
+    long long           tmpLongLong = 0;
 	float				tmpFloat = 0.0;
+    double              tmpDouble = 0.0;
 	unsigned char		*charPtr = NULL;
 	void				*voidPtr = NULL;
 	unsigned char		tmpChar = 0;
@@ -459,6 +553,17 @@
 #endif
 	
 	switch (type)	{
+		case OSCValLongLong:
+			tmpLongLong = *(long long *)value;
+			//tmpLongLong = htonll(tmpLongLong);
+			
+			for (i=0; i<8; ++i)
+				b[*d+i] = 255 & (tmpLongLong >> (i*8));
+			*d += 8;
+			
+			b[*t] = 'L';
+			++*t;
+			break;
 		case OSCValInt:
 			tmpLong = *(int *)value;
 			tmpLong = htonl(tmpLong);
@@ -477,6 +582,15 @@
 			*d += 4;
 			
 			b[*t] = 'f';
+			++*t;
+			break;
+		case OSCValDouble:
+			tmpDouble = *(double *)value;
+           // NSLog(@"DOUBLE: %f",tmpDouble);
+			strncpy((char *)(b+*d), (char *)(&tmpDouble), 8);
+			*d += 8;
+			
+			b[*t] = 'D';
 			++*t;
 			break;
 		case OSCValString:

@@ -8,7 +8,6 @@
 
 #import "KaiwaFriend.h"
 #import "ASIHTTPRequest.h"
-#import "ASIFormDataRequest.h"
 #import "JSON.h"
 #import "NSString+UUID.h"
 #import "KaiwaHTTPRequest.h"
@@ -92,55 +91,91 @@
 	[super dealloc];
 }
 
--(void)getInfo
+-(void)listAddresses:(NSArray *)addressArray
 {
-	NSDictionary *dict=[self demand:@"/_kaiwa/info" withData:nil];
-	if (dict!=nil)
-	{
-		user=[[dict objectForKey:@"user"] retain];
-		machine=[[dict objectForKey:@"computer"] retain];
-		app=[[dict objectForKey:@"application"] retain];
-		appVersion=[[dict objectForKey:@"version"] retain];
-		uid=[[dict objectForKey:@"uid"] retain];
+	NSLog(@"ADDRESS COUNT %lu",[addressArray count]);
+	
+	for (NSData* data in addressArray) {
 		
-		BOOL hasOsc=[[dict objectForKey:@"osc"] boolValue];
-		if (hasOsc)
-		{
-			NSInteger oscPort=[[dict objectForKey:@"osc-port"] integerValue];
+		char addressBuffer[100];
+		
+		struct sockaddr_in* socketAddress = (struct sockaddr_in*) [data bytes];
+		
+		int sockFamily = socketAddress->sin_family;
+		
+		if (sockFamily == AF_INET || sockFamily == AF_INET6) {
 			
-			NSArray				*addressArray = [service addresses];
-			NSEnumerator		*it = [addressArray objectEnumerator];
-			NSData				*data = nil;
-			struct sockaddr_in	*sock = (struct sockaddr_in *)[data bytes];
-			char				*charPtr = nil;
-			NSString			*ipString = nil;
+			const char* addressStr = inet_ntop(sockFamily,
+											   &(socketAddress->sin_addr), addressBuffer,
+											   sizeof(addressBuffer));
 			
-			//	find the ip address & port of the resolved service
-			while ((charPtr == nil) && (data = [it nextObject]))	{
-				sock = (struct sockaddr_in *)[data bytes];
-				//	only continue if this is an IPv4 address (IPv6s resolve to 0.0.0.0)
-				if (sock->sin_family == AF_INET)	{
-					charPtr = inet_ntoa(sock->sin_addr);
-				}
-			}
-			//	make an nsstring from the c string of the ip address string of the resolved service
-			ipString = [NSString stringWithCString:charPtr encoding:NSASCIIStringEncoding];
+			int _port = ntohs(socketAddress->sin_port);
 			
-			NSLog(@"IP STRING:%@",ipString);
-
+			if (addressStr && _port)
+				NSLog(@"Found service at %s:%d", addressStr, _port);
 			
-			NSLog(@"%@",[[service addresses] objectAtIndex:0]);
-			outPort=[[OSCOutPort alloc] initWithAddress:ipString andPort:oscPort];
 		}
 		
-		NSLog(@"user:%@",user);
-		NSLog(@"machine:%@",machine);
-		NSLog(@"app:%@",app);
-		NSLog(@"appVersion:%@",appVersion);
-		NSLog(@"UID:%@",uid);
-		NSLog(@"hasOsc:%@",(hasOsc) ? @"YES":@"NO");
-		NSLog(@"OscPort:%d",[[dict objectForKey:@"osc-port"] integerValue]);
 	}
+}
+
+
+-(void)getInfo
+{
+    [self ask:@"/_kaiwa/info" withData:nil forBlock:^(BOOL success, id response) {
+        if (!success)
+            return;
+        
+        NSDictionary *dict=(NSDictionary *)response;
+        if (dict!=nil)
+        {
+            user=[[dict objectForKey:@"user"] retain];
+            machine=[[dict objectForKey:@"computer"] retain];
+            app=[[dict objectForKey:@"application"] retain];
+            appVersion=[[dict objectForKey:@"version"] retain];
+            uid=[[dict objectForKey:@"uid"] retain];
+            
+            BOOL hasOsc=[[dict objectForKey:@"osc"] boolValue];
+            if (hasOsc)
+            {
+                NSInteger oscPort=[[dict objectForKey:@"osc-port"] integerValue];
+                
+                [self listAddresses:[service addresses]];
+                
+                NSArray				*addressArray = [service addresses];
+                NSEnumerator		*it = [addressArray objectEnumerator];
+                NSData				*data = nil;
+                struct sockaddr_in	*sock = (struct sockaddr_in *)[data bytes];
+                char				*charPtr = nil;
+                NSString			*ipString = nil;
+                
+                //	find the ip address & port of the resolved service
+                while ((charPtr == nil) && (data = [it nextObject]))	{
+                    sock = (struct sockaddr_in *)[data bytes];
+                    //	only continue if this is an IPv4 address (IPv6s resolve to 0.0.0.0)
+                    if (sock->sin_family == AF_INET)	{
+                        charPtr = inet_ntoa(sock->sin_addr);
+                    }
+                }
+                //	make an nsstring from the c string of the ip address string of the resolved service
+                ipString = [NSString stringWithCString:charPtr encoding:NSASCIIStringEncoding];
+                
+                NSLog(@"IP STRING:%@",ipString);
+                
+                
+                NSLog(@"%@",[[service addresses] objectAtIndex:0]);
+                outPort=[[OSCOutPort alloc] initWithAddress:ipString andPort:oscPort];
+            }
+            
+            NSLog(@"user:%@",user);
+            NSLog(@"machine:%@",machine);
+            NSLog(@"app:%@",app);
+            NSLog(@"appVersion:%@",appVersion);
+            NSLog(@"UID:%@",uid);
+            NSLog(@"hasOsc:%@",(hasOsc) ? @"YES":@"NO");
+            NSLog(@"OscPort:%ld",[[dict objectForKey:@"osc-port"] integerValue]);
+        }
+    }];
 }
 
 -(void)tell:(NSString *)uri withData:(NSDictionary *)data

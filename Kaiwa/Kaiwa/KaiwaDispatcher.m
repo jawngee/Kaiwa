@@ -152,7 +152,7 @@
 		return;
 	
 	NSLog(@"found service %@",[aService name]);
-	NSLog(@"found: %d",aService);
+	NSLog(@"found: %@",aService);
 	[friendServices addObject:aService];
 	
 	aService.delegate=self;
@@ -168,8 +168,8 @@
 	
 	for(KaiwaFriend *friend in friends)
 	{
-		NSLog(@"friend: %d",friend.service);
-		NSLog(@"remove: %d",aService);
+		NSLog(@"friend: %@",friend.service);
+		NSLog(@"remove: %@",aService);
 		NSLog(@"remove: %@",[[friend.service TXTRecordData] description]);
 		NSLog(@"remove: %@",[[aService TXTRecordData] description]);
 		
@@ -189,7 +189,7 @@
 -(void)netServiceDidResolveAddress:(NSNetService *)aService 
 {
 	NSLog(@"resolved friend");
-	NSLog(@"resolved: %d",aService);
+	NSLog(@"resolved: %@",aService);
 	
 	KaiwaFriend *friend=[[KaiwaFriend alloc] initWithService:aService dispatcher:self];
 	
@@ -243,7 +243,7 @@
 	
 	if ((success) && (OSCEnabled))
 	{
-		NSLog(@"MY OSC PORT: %d",OSCPort);
+		NSLog(@"MY OSC PORT: %ld",OSCPort);
 		oscManager=[[OSCManager alloc] init];
 		[oscManager setDelegate:self];
 		[oscManager createNewInputForPort:OSCPort withLabel:name];
@@ -311,8 +311,6 @@
 
 - (void)receivedOSCMessage:(OSCMessage *)m
 {	
-	NSLog(@"OSC: %@",[m address]);
-	
 	NSMutableArray *args=[NSMutableArray arrayWithCapacity:0];
 	NSString *ruid=[[m valueAtIndex:0] stringValue];
 	
@@ -382,14 +380,20 @@
 		else if ([datum isKindOfClass:[NSNumber class]])
 		{
 			char what=*[datum objCType];
+            
 			
 			switch(what)
 			{
+                case 'd':
+                    [msg addDouble:[datum doubleValue]];
+                    break;
+                case 'q':
+                    [msg addLongLong:[datum longLongValue]];
+                    break;
 				case 'i':
 					[msg addInt:[datum integerValue]];
 					break;
 				case 'f':
-				case 'd':
 					[msg addFloat:[datum floatValue]];
 					break;
 				case 'c':
@@ -398,8 +402,6 @@
 			}
 		}
 	}
-	
-	NSLog(@"SHOUTING");
 	
 	for (KaiwaFriend *friend in friends)
 		[friend.outPort sendThisMessage:msg];

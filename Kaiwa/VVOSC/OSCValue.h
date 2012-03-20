@@ -52,6 +52,10 @@ typedef enum	{
 	void			*value;
 }
 
+///	Creates & returns an auto-released instance of OSCValue with a double
++ (id) createWithDouble:(double)n;
+///	Creates & returns an auto-released instance of OSCValue with a long long
++ (id) createWithLongLong:(long long)n;
 ///	Creates & returns an auto-released instance of OSCValue with an int
 + (id) createWithInt:(int)n;
 ///	Creates & returns an auto-released instance of OSCValue with a float
@@ -77,6 +81,8 @@ typedef enum	{
 
 - (NSString *) lengthyDescription;
 
+- (id) initWithDouble:(double)n;
+- (id) initWithLongLong:(long long)n;
 - (id) initWithInt:(int)n;
 - (id) initWithFloat:(float)n;
 - (id) initWithString:(NSString *)n;
@@ -89,6 +95,10 @@ typedef enum	{
 - (id) initWithInfinity;
 - (id) initWithNSDataBlob:(NSData *)d;
 
+///	Returns an int value corresponding to the instance's value
+- (long long) doubleValue;
+///	Returns an int value corresponding to the instance's value
+- (long long) longLongValue;
 ///	Returns an int value corresponding to the instance's value
 - (int) intValue;
 ///	Returns a float value corresponding to the instance's value

@@ -55,6 +55,7 @@ build_pcre() {
 
     make
 
+	echo "DESTINATION DIR: $DISTDIR"
     mkdir ${DISTDIR}
     mkdir ${DISTDIR}/lib
     mkdir ${DISTDIR}/include
@@ -67,13 +68,13 @@ build_pcre() {
     cd ..
 
     echo Clean-up ${TARGET}
-    /bin/rm -rf ${TARGET}
+   ## /bin/rm -rf ${TARGET}
 }
 
 
 
 build_pcre "device" "iPhoneOS"
-build_pcre "simulator" "iPhoneSimulator"
+##build_pcre "simulator" "iPhoneSimulator"
 
 ### Then, combine them into one..
 
@@ -89,7 +90,7 @@ do
 	-o dist/lib/lib$i.a
 done
 
-/bin/rm -rf dist-simulator dist-device
+##/bin/rm -rf dist-simulator dist-device
 
 echo "Now package is ready in 'dist' directory'"
 

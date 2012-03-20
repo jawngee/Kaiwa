@@ -26,6 +26,13 @@ According to the OSC spec, a message consists of an address path (where the mess
 + (id) createWithAddress:(NSString *)a;
 - (id) initWithAddress:(NSString *)a;
 
+
+/// Add the passed double to the message
+-(void)addDouble:(double)n;
+
+/// Add the passed long long to the message
+-(void) addLongLong:(long long)n;
+
 ///	Add the passed int to the message
 - (void) addInt:(int)n;
 ///	Add the passed float to the message

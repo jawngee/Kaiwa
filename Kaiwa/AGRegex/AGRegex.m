@@ -332,7 +332,7 @@ static AGRegex *backrefPattern;
 		// add captured subpatterns if any
 		count = [match count];
 		for (j = 1; j < count; j++)
-			if (group = [match groupAtIndex:j])
+			if ((group = [match groupAtIndex:j]))
 				[result addObject:group];
 		// set remaining range to the part after the split
 		remainRange.location = matchRange.location + matchRange.length;
@@ -455,7 +455,7 @@ static AGRegex *backrefPattern;
 
 - (id)nextObject {
     AGRegexMatch *next;
-    if (next = [regex findInUTF8Data:string byteRange:range]) {
+    if ((next = [regex findInUTF8Data:string byteRange:range])) {
         range.location = [next range].location + [next range].length;
         if ([next range].length == 0)
             range.location++;

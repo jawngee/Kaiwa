@@ -7,3 +7,9 @@ build/
 *.pbxuser
 *.mode1v3
 
+
+dist/
+Kaiwa iPad Messenger/Kaiwa iPad Messenger.xcodeproj/project.xcworkspace/
+Kaiwa iPad Messenger/Kaiwa iPad Messenger.xcodeproj/xcuserdata/
+project.xcworkspace
+xcuserdata

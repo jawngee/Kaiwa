@@ -19,7 +19,9 @@ typedef enum	{
 	OSCValBool = 8,	//!<BOOL
 	OSCValNil = 9,	//!<nil/NULL
 	OSCValInfinity = 10,	//!<Infinity
-	OSCValBlob = 11	//!<Blob- random binary data
+	OSCValBlob = 11,	//!<Blob- random binary data
+    OSCValLongLong = 12,
+    OSCValDouble = 13
 } OSCValueType;
 
 

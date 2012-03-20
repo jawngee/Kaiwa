@@ -21,6 +21,7 @@
 	NSURL *url;							/**< The NSURL of the request */
 	NSMutableDictionary *query;	/**< Dictionary of all query string parameters */
 	NSString *method;					/**< The HTTP method */
+    NSArray *args;
 
 	KaiwaConnection *connection;	/**< The associated KaiwaConnection */
 }

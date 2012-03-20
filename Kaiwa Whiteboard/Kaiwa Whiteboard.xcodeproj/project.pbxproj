@@ -12,8 +12,6 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		FCFA0FE8133FDEB200141766 /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCFA0FE0133FDE7C00141766 /* KaiwaFramework.framework */; };
-		FCFA0FE9133FDEB500141766 /* KaiwaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0FE0133FDE7C00141766 /* KaiwaFramework.framework */; };
 		FCFA0FF8133FDEFD00141766 /* KWWhiteBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0FF7133FDEFD00141766 /* KWWhiteBoardView.m */; };
 		FCFA0FFB133FDF4100141766 /* KWWhiteBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0FFA133FDF4100141766 /* KWWhiteBoardViewController.m */; };
 		FCFA0FFE1340EE5100141766 /* KWScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0FFD1340EE5100141766 /* KWScribble.m */; };
@@ -29,30 +27,23 @@
 		FCFA10E513412B9700141766 /* KWScribble.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0FFD1340EE5100141766 /* KWScribble.m */; };
 		FCFA10E613412B9700141766 /* KWScribblePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA10001340FCB200141766 /* KWScribblePoint.m */; };
 		FCFA10E713412B9700141766 /* KWBuddy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA108C1341271C00141766 /* KWBuddy.m */; };
-		FCFA10E913412B9700141766 /* KaiwaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0FE0133FDE7C00141766 /* KaiwaFramework.framework */; };
 		FCFA10EA13412B9700141766 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		FCFA10EB13412B9700141766 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA10B313412B2A00141766 /* Collaboration.framework */; };
-		FCFA10ED13412B9700141766 /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCFA0FE0133FDE7C00141766 /* KaiwaFramework.framework */; };
+		FF91E1EC150FFE8700ED565E /* KaiwaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF91E1EB150FFE8700ED565E /* KaiwaFramework.framework */; };
+		FF91E1ED150FFE9000ED565E /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = FF91E1EB150FFE8700ED565E /* KaiwaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FCFA0FDF133FDE7C00141766 /* PBXContainerItemProxy */ = {
+		FF91E1E3150FFDE200ED565E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FCFA0FDA133FDE7C00141766 /* KaiwaFramework.xcodeproj */;
+			containerPortal = FF91E1DB150FFDE100ED565E /* KaiwaFramework.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = KaiwaFramework;
 		};
-		FCFA0FE5133FDE9E00141766 /* PBXContainerItemProxy */ = {
+		FF91E1E9150FFE2100ED565E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FCFA0FDA133FDE7C00141766 /* KaiwaFramework.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FCFA0ED9133E8E0900141766;
-			remoteInfo = "Build and Install";
-		};
-		FCFA10DC13412B9700141766 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCFA0FDA133FDE7C00141766 /* KaiwaFramework.xcodeproj */;
+			containerPortal = FF91E1DB150FFDE100ED565E /* KaiwaFramework.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = FCFA0ED9133E8E0900141766;
 			remoteInfo = "Build and Install";
@@ -66,7 +57,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FCFA0FE8133FDEB200141766 /* KaiwaFramework.framework in CopyFiles */,
+				FF91E1ED150FFE9000ED565E /* KaiwaFramework.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +67,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FCFA10ED13412B9700141766 /* KaiwaFramework.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +85,6 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Kaiwa_Whiteboard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Kaiwa_Whiteboard-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Kaiwa Whiteboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kaiwa Whiteboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCFA0FDA133FDE7C00141766 /* KaiwaFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KaiwaFramework.xcodeproj; path = ../KaiwaFramework/KaiwaFramework.xcodeproj; sourceTree = SOURCE_ROOT; };
 		FCFA0FF6133FDEFD00141766 /* KWWhiteBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWWhiteBoardView.h; sourceTree = "<group>"; };
 		FCFA0FF7133FDEFD00141766 /* KWWhiteBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWWhiteBoardView.m; sourceTree = "<group>"; };
 		FCFA0FF9133FDF4100141766 /* KWWhiteBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWWhiteBoardViewController.h; sourceTree = "<group>"; };
@@ -109,6 +98,8 @@
 		FCFA10B313412B2A00141766 /* Collaboration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Collaboration.framework; path = System/Library/Frameworks/Collaboration.framework; sourceTree = SDKROOT; };
 		FCFA10F113412B9700141766 /* Kaiwa Whiteboard Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kaiwa Whiteboard Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFA10F313412B9700141766 /* Kaiwa_Whiteboard-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kaiwa_Whiteboard-Info copy.plist"; sourceTree = "<group>"; };
+		FF91E1DB150FFDE100ED565E /* KaiwaFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KaiwaFramework.xcodeproj; path = ../KaiwaFramework/KaiwaFramework.xcodeproj; sourceTree = "<group>"; };
+		FF91E1EB150FFE8700ED565E /* KaiwaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KaiwaFramework.framework; path = ../../../../Library/Frameworks/KaiwaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCFA0FE9133FDEB500141766 /* KaiwaFramework.framework in Frameworks */,
+				FF91E1EC150FFE8700ED565E /* KaiwaFramework.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				FCFA10B413412B2A00141766 /* Collaboration.framework in Frameworks */,
 			);
@@ -126,7 +117,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCFA10E913412B9700141766 /* KaiwaFramework.framework in Frameworks */,
 				FCFA10EA13412B9700141766 /* Cocoa.framework in Frameworks */,
 				FCFA10EB13412B9700141766 /* Collaboration.framework in Frameworks */,
 			);
@@ -158,6 +148,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF91E1EB150FFE8700ED565E /* KaiwaFramework.framework */,
 				FCFA10B313412B2A00141766 /* Collaboration.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
@@ -186,7 +177,7 @@
 		29B97314FDCFA39411CA2CEA /* Kaiwa Whiteboard */ = {
 			isa = PBXGroup;
 			children = (
-				FCFA0FE4133FDE7F00141766 /* Core Framework */,
+				FF91E1DB150FFDE100ED565E /* KaiwaFramework.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -224,20 +215,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FCFA0FDB133FDE7C00141766 /* Products */ = {
+		FF91E1DC150FFDE100ED565E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCFA0FE0133FDE7C00141766 /* KaiwaFramework.framework */,
+				FF91E1E4150FFDE200ED565E /* KaiwaFramework.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FCFA0FE4133FDE7F00141766 /* Core Framework */ = {
-			isa = PBXGroup;
-			children = (
-				FCFA0FDA133FDE7C00141766 /* KaiwaFramework.xcodeproj */,
-			);
-			name = "Core Framework";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +238,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FCFA0FE6133FDE9E00141766 /* PBXTargetDependency */,
+				FF91E1EA150FFE2100ED565E /* PBXTargetDependency */,
 			);
 			name = "Kaiwa Whiteboard";
 			productInstallPath = "$(HOME)/Applications";
@@ -275,7 +258,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FCFA10DB13412B9700141766 /* PBXTargetDependency */,
 			);
 			name = "Kaiwa Whiteboard Test";
 			productInstallPath = "$(HOME)/Applications";
@@ -302,8 +284,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = FCFA0FDB133FDE7C00141766 /* Products */;
-					ProjectRef = FCFA0FDA133FDE7C00141766 /* KaiwaFramework.xcodeproj */;
+					ProductGroup = FF91E1DC150FFDE100ED565E /* Products */;
+					ProjectRef = FF91E1DB150FFDE100ED565E /* KaiwaFramework.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -315,11 +297,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		FCFA0FE0133FDE7C00141766 /* KaiwaFramework.framework */ = {
+		FF91E1E4150FFDE200ED565E /* KaiwaFramework.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = KaiwaFramework.framework;
-			remoteRef = FCFA0FDF133FDE7C00141766 /* PBXContainerItemProxy */;
+			remoteRef = FF91E1E3150FFDE200ED565E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -377,15 +359,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FCFA0FE6133FDE9E00141766 /* PBXTargetDependency */ = {
+		FF91E1EA150FFE2100ED565E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Build and Install";
-			targetProxy = FCFA0FE5133FDE9E00141766 /* PBXContainerItemProxy */;
-		};
-		FCFA10DB13412B9700141766 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Build and Install";
-			targetProxy = FCFA10DC13412B9700141766 /* PBXContainerItemProxy */;
+			targetProxy = FF91E1E9150FFE2100ED565E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,8 +389,13 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUILD_STYLE = Debug;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Frameworks\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -429,8 +411,13 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUILD_STYLE = Release;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Library/Frameworks\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Kaiwa_Whiteboard_Prefix.pch;
@@ -444,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUILD_STYLE = Debug;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -458,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				BUILD_STYLE = Release;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -470,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_STYLE = Debug;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -487,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_STYLE = Release;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

@@ -70,7 +70,7 @@
 	if (headers!=nil)
 		[headers release];
 	
-	headers=[theHeaders retain];
+	headers=[theHeaders mutableCopy];
 }
 
 - (NSDictionary *)httpHeaders
@@ -143,7 +143,7 @@
 	if (headers!=nil)
 		[headers release];
 	
-	headers=[theHeaders retain];
+	headers=[theHeaders mutableCopy];
 }
 
 - (NSDictionary *)httpHeaders

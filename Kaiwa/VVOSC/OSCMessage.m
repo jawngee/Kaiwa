@@ -4,7 +4,6 @@
 
 
 
-
 @implementation OSCMessage
 
 
@@ -24,7 +23,9 @@
 	int				tmpIndex = 0;
 	int				tmpInt;
 	float			*tmpFloatPtr;
+    double          *tmpDoublePtr;
 	long			tmpLong;
+	long long		tmpLongLong;
 	int				msgTypeStartIndex = -1;
 	int				msgTypeEndIndex = -1;
 	NSData			*tmpData = nil;
@@ -101,6 +102,17 @@
 	for (i=msgTypeStartIndex; i<msgTypeEndIndex; ++i)	{
 		//	"tmpIndex" is the offset in "b" i'm currently reading data for this type from!
 		switch(b[i])	{
+			case 'L':			//	long long
+				tmpLongLong = 0;
+				for(j=0; j<8; ++j)	{
+					tmpInt = b[tmpIndex+j];
+					tmpLongLong = tmpLongLong | (tmpInt << (j*8));
+				}
+				//tmpLongLong = ntohl(tmpLongLong);
+				oscValue = [OSCValue createWithLongLong:tmpLongLong];
+				[msg addValue:oscValue];
+				tmpIndex = tmpIndex + 8;
+				break;
 			case 'i':			//	int32
 				tmpLong = 0;
 				for(j=0; j<4; ++j)	{
@@ -118,6 +130,12 @@
 				oscValue = [OSCValue createWithFloat:*tmpFloatPtr];
 				[msg addValue:oscValue];
 				tmpIndex = tmpIndex + 4;
+				break;
+			case 'D':			//	double
+				tmpDoublePtr = (double *)((long *)(b+tmpIndex));
+				oscValue = [OSCValue createWithDouble:*tmpDoublePtr];
+				[msg addValue:oscValue];
+				tmpIndex = tmpIndex + 8;
 				break;
 			case 's':			//	OSC-string
 			case 'S':			//	alternate type represented as an OSC-string
@@ -278,6 +296,16 @@
 	valueArray = nil;
 	valueCount = 0;
 	[super dealloc];
+}
+
+-(void)addDouble:(double)n
+{
+	[self addValue:[OSCValue createWithDouble:n]];
+}
+
+-(void)addLongLong:(long long)n
+{
+	[self addValue:[OSCValue createWithLongLong:n]];
 }
 
 - (void) addInt:(int)n	{
