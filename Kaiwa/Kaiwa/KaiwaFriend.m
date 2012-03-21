@@ -93,7 +93,7 @@
 
 -(void)listAddresses:(NSArray *)addressArray
 {
-	NSLog(@"ADDRESS COUNT %lu",[addressArray count]);
+	NSLog(@"ADDRESS COUNT %u",[addressArray count]);
 	
 	for (NSData* data in addressArray) {
 		
@@ -119,6 +119,10 @@
 	}
 }
 
+-(void)applyInfo:(NSDictionary *)info
+{
+    
+}
 
 -(void)getInfo
 {
@@ -166,6 +170,8 @@
                 NSLog(@"%@",[[service addresses] objectAtIndex:0]);
                 outPort=[[OSCOutPort alloc] initWithAddress:ipString andPort:oscPort];
             }
+            
+            [self applyInfo:dict];
             
             NSLog(@"user:%@",user);
             NSLog(@"machine:%@",machine);

@@ -34,7 +34,7 @@
 		NSArray *paramParts=[uriString componentsSeparatedByString:@"?"];
 		if ([paramParts count]>1)
 		{
-			query=[[NSDictionary parsedQuery:[paramParts objectAtIndex:1]] retain];
+			query=[[NSMutableDictionary parsedQuery:[paramParts objectAtIndex:1]] retain];
 /*
 			NSArray *parameters=[[paramParts objectAtIndex:1] componentsSeparatedByString:@"&"];
 			for(NSString *param in parameters)

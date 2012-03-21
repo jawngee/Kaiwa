@@ -16,7 +16,7 @@
 
 -(id)initWithRoute:(NSString *)theRoute forClass:(Class)theClass persist:(BOOL)isPersistant
 {
-	if ((self==[super init]))
+	if ((self=[super init]))
 	{
 		route=[theRoute retain];
 		routeRegex=[[AGRegex regexWithPattern:route options:AGRegexCaseInsensitive] retain];
@@ -30,7 +30,7 @@
 
 -(id)initWithRoute:(NSString *)theRoute forInstance:(id)theInstance
 {
-	if ((self==[super init]))
+	if ((self=[super init]))
 	{
 		route=[theRoute retain];
 		routeRegex=[[AGRegex regexWithPattern:route options:AGRegexCaseInsensitive] retain];
@@ -44,7 +44,7 @@
 
 -(id)initWithRoute:(NSString *)theRoute forInstance:(id)theInstance andSelector:(SEL)theSelector
 {
-	if ((self==[super init]))
+	if ((self=[super init]))
 	{
 		route=[theRoute retain];
 		routeRegex=[[AGRegex regexWithPattern:route options:AGRegexCaseInsensitive] retain];
@@ -59,7 +59,7 @@
 
 -(id)initWithRoute:(NSString *)theRoute forClass:(Class)theClass persistInstance:(BOOL)isPersistant
 {
-	if ((self==[super init]))
+	if ((self=[super init]))
 	{
 		route=[theRoute retain];
 		routeRegex=[[AGRegex regexWithPattern:route options:AGRegexCaseInsensitive] retain];
@@ -75,7 +75,7 @@
 
 -(id)initWithRoute:(NSString *)theRoute forClass:(Class)theClass andSelector:(SEL)theSelector persistInstance:(BOOL)isPersistant
 {
-	if ((self==[super init]))
+	if ((self=[super init]))
 	{
 		route=[theRoute retain];
 		routeRegex=[[AGRegex regexWithPattern:route options:AGRegexCaseInsensitive] retain];

@@ -11,7 +11,7 @@
 
 @implementation KaiwaShout
 
-@synthesize uri,friend,arguments;
+@synthesize uri,kaiwaFriend,arguments;
 
 -(id)initWithURI:(NSString *)theURI withArguments:(NSArray *)theArgs forFriend:(KaiwaFriend *)theFriend
 {
@@ -19,7 +19,7 @@
 	{
 		uri=[theURI retain];
 		arguments=[theArgs retain];
-		friend=[theFriend retain];
+		kaiwaFriend=[theFriend retain];
 	}
 	
 	return self;
@@ -34,7 +34,7 @@
 {
 	[uri release];
 	[arguments release];
-	[friend release];
+	[kaiwaFriend release];
 	
 	[super dealloc];
 }

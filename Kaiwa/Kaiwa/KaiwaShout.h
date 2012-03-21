@@ -19,12 +19,12 @@
  */
 @interface KaiwaShout : NSObject {
 	NSString *uri;
-	KaiwaFriend *friend;
+	KaiwaFriend *kaiwaFriend;
 	NSArray *arguments;
 }
 
 @property (readonly) NSString *uri;
-@property (readonly) KaiwaFriend *friend;
+@property (readonly) KaiwaFriend *kaiwaFriend;
 @property (readonly) NSArray *arguments;
 
 /**

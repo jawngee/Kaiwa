@@ -23,12 +23,12 @@
 @interface KaiwaConversation : NSObject {
 	KaiwaRequest *request;			/**< The request */
 	KaiwaResponse *response;		/**< The response */
-	KaiwaFriend *friend;			/**< The friend the request is associated with, may be nil */
+	KaiwaFriend *kaiwaFriend;			/**< The friend the request is associated with, may be nil */
 }
 
 @property (readonly) KaiwaRequest *request;
 @property (readonly) KaiwaResponse *response;
-@property (readonly) KaiwaFriend *friend;
+@property (readonly) KaiwaFriend *kaiwaFriend;
 
 /**
  Creates a new conversation for an incoming request and outgoing response.

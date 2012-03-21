@@ -11,7 +11,7 @@
 
 @implementation KaiwaConversation
 
-@synthesize request, response, friend;
+@synthesize request, response, kaiwaFriend;
 
 -(id)initWithRequest:(KaiwaRequest *)req andResponse:(KaiwaResponse *)res forFriend:(KaiwaFriend *)theFriend
 {
@@ -19,7 +19,7 @@
 	{
 		request=[req retain];
 		response=[res retain];
-		friend=[theFriend retain];
+		kaiwaFriend=[theFriend retain];
 	}
 	
 	return self;
@@ -34,7 +34,7 @@
 {
 	[request release];
 	[response release];
-	[friend release];
+	[kaiwaFriend release];
 	
 	[super dealloc];
 }

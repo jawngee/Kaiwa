@@ -19,14 +19,15 @@
  */
 typedef void(^AskBlock)(BOOL success, id response);
 
+@class KaiwaFriend;
 
 /**
  Delegate for asking
  */
 @protocol KaiwaAskDelegate
 
--(void)replyFrom:(KaiwaFriend *)friend with:(id)response;
--(void)errorFrom:(KaiwaFriend *)friend error:(id)error;
+-(void)replyFrom:(KaiwaFriend *)afriend with:(id)response;
+-(void)errorFrom:(KaiwaFriend *)afriend error:(id)error;
 
 @end
 
@@ -118,5 +119,13 @@ typedef void(^AskBlock)(BOOL success, id response);
  main thread.
  */
 -(void)ask:(NSString *)uri withData:(NSDictionary *)data forDelegate:(id<KaiwaAskDelegate>)delegate;
+
+/**
+ When a dispatcher detects a new friend, it will ask it send information about
+ itself.  This method is meant for subclasses of KaiwaFriend to pluck out any
+ custom data they've defined.
+ @param info The information dictionary
+ */
+-(void)applyInfo:(NSDictionary *)info;
 
 @end

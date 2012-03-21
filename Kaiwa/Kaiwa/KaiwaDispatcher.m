@@ -31,7 +31,7 @@
 
 #pragma mark property synthesizer
 
-@synthesize routes, rewrites, filePaths, name, type, port, delegate, friends, OSCEnabled, OSCPort, oscManager;
+@synthesize routes, rewrites, filePaths, name, type, port, delegate, friends, OSCEnabled, OSCPort, oscManager, friendClass;
 
 #pragma mark initialization/dealloc
 
@@ -53,6 +53,8 @@
 		
 		serviceBrowser=nil;
 		delegate=nil;
+        
+        friendClass=[KaiwaFriend class];
 		
 		friends=[[NSMutableArray array] retain];
 		friendServices=[[NSMutableArray array] retain];
@@ -191,7 +193,7 @@
 	NSLog(@"resolved friend");
 	NSLog(@"resolved: %@",aService);
 	
-	KaiwaFriend *friend=[[KaiwaFriend alloc] initWithService:aService dispatcher:self];
+	KaiwaFriend *friend=[[friendClass alloc] initWithService:aService dispatcher:self];
 	
 	[friends addObject:friend];
 	
@@ -353,7 +355,7 @@
 	NSString *appVersion = [[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey];
 	
 	
-	NSDictionary *dict=[NSDictionary dictionaryWithObjectsAndKeys:
+	NSMutableDictionary *dict=[NSMutableDictionary dictionaryWithObjectsAndKeys:
 						username,@"user",
 						computerName,@"computer",
 						name,@"uid",
@@ -362,6 +364,9 @@
 						(appName!=nil) ? appName : @"",@"application",
 						(appVersion!=nil) ? appVersion : @"",@"version",
 						nil];
+    
+    if ([((NSObject *)delegate) respondsToSelector:@selector(populateInfo:)])
+        [delegate populateInfo:dict];
 	
 	[convo.response setContentType:@"text/json"];
 	[convo.response write:[dict JSONRepresentation]];
@@ -385,7 +390,7 @@
 			switch(what)
 			{
                 case 'd':
-                    [msg addDouble:[datum doubleValue]];
+                    [msg addDouble:[(NSNumber*)datum doubleValue]];
                     break;
                 case 'q':
                     [msg addLongLong:[datum longLongValue]];

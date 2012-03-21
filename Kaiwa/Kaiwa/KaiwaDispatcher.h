@@ -13,6 +13,7 @@
 #import "HTTPConnection.h"
 #import "VVOSC.h"
 
+
 @class KaiwaConnection;
 @class KaiwaFriend;
 @class KaiwaHTTPServer;
@@ -33,6 +34,14 @@
  @param newFriend The instance of KaiwaFriend that has been lost.
  */
 -(void)lostFriend:(KaiwaFriend *)oldFriend;
+
+@optional
+
+/**
+ Called to add to the info dictionary when two friends meet
+ @param infoDict The information dictionary
+ */
+-(void)populateInfo:(NSMutableDictionary *)infoDict;
 
 @end
 
@@ -55,6 +64,8 @@
 	NSString *name;					/**< The name of your service */
 	NSString *type;					/**< The bonjour type, eg _http._tcp */
 	NSInteger port;					/**< The port to run the server on */
+    
+    Class friendClass;              /**< The class to use for friends */
 	
 	KaiwaHTTPServer *httpServer;	/**< An instance of KaiwaHTTPServer */
 	
@@ -81,6 +92,8 @@
 @property (assign) BOOL OSCEnabled;
 @property (assign) NSInteger OSCPort;
 @property (readonly) OSCManager *oscManager;
+
+@property (assign, nonatomic) Class friendClass;
 
 #pragma mark initialization
 
