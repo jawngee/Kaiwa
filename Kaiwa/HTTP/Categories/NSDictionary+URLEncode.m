@@ -26,7 +26,7 @@
 }
 
 
-+(NSDictionary *)parsedQuery:(NSString *)queryString
++(NSMutableDictionary *)parsedQuery:(NSString *)queryString
 {
 	NSMutableDictionary *result=[NSMutableDictionary dictionary];
 	NSArray *parts=[queryString componentsSeparatedByString:@"&"];

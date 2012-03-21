@@ -15,7 +15,7 @@
 
 @interface NSDictionary(URLEncode)
 
-+(NSDictionary *)parsedQuery:(NSString *)queryString;
++(NSMutableDictionary *)parsedQuery:(NSString *)queryString;
 -(NSString *)urlEncoded;
 
 @end
