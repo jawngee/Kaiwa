@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4A3E141519B80700C73DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A3E131519B80700C73DCC /* Foundation.framework */; };
+		FF4A3E1A1519B80700C73DCC /* KaiwaLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E191519B80700C73DCC /* KaiwaLib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF4A3E101519B80700C73DCC /* libKaiwaLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKaiwaLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4A3E131519B80700C73DCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF4A3E171519B80700C73DCC /* KaiwaLib-Prefix.pch */ = {isa = PBXFileReference; path = "KaiwaLib-Prefix.pch"; sourceTree = "<group>"; };
+		FF4A3E181519B80700C73DCC /* KaiwaLib.h */ = {isa = PBXFileReference; path = KaiwaLib.h; sourceTree = "<group>"; };
+		FF4A3E191519B80700C73DCC /* KaiwaLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaiwaLib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4A3E0D1519B80700C73DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4A3E141519B80700C73DCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4A3E051519B80500C73DCC = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E151519B80700C73DCC /* KaiwaLib */,
+				FF4A3E121519B80700C73DCC /* Frameworks */,
+				FF4A3E111519B80700C73DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4A3E111519B80700C73DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E101519B80700C73DCC /* libKaiwaLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4A3E121519B80700C73DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E131519B80700C73DCC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF4A3E151519B80700C73DCC /* KaiwaLib */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E181519B80700C73DCC /* KaiwaLib.h */,
+				FF4A3E191519B80700C73DCC /* KaiwaLib.m */,
+				FF4A3E161519B80700C73DCC /* Supporting Files */,
+			);
+			path = KaiwaLib;
+			sourceTree = "<group>";
+		};
+		FF4A3E161519B80700C73DCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E171519B80700C73DCC /* KaiwaLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF4A3E0E1519B80700C73DCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FF4A3E0F1519B80700C73DCC /* KaiwaLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4A3E1D1519B80700C73DCC /* Build configuration list for PBXNativeTarget "KaiwaLib" */;
+			buildPhases = (
+				FF4A3E0C1519B80700C73DCC /* Sources */,
+				FF4A3E0D1519B80700C73DCC /* Frameworks */,
+				FF4A3E0E1519B80700C73DCC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaiwaLib;
+			productName = KaiwaLib;
+			productReference = FF4A3E101519B80700C73DCC /* libKaiwaLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4A3E071519B80500C73DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Interfacelab LLC";
+			};
+			buildConfigurationList = FF4A3E0A1519B80500C73DCC /* Build configuration list for PBXProject "KaiwaLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF4A3E051519B80500C73DCC;
+			productRefGroup = FF4A3E111519B80700C73DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4A3E0F1519B80700C73DCC /* KaiwaLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4A3E0C1519B80700C73DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4A3E1A1519B80700C73DCC /* KaiwaLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF4A3E1B1519B80700C73DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF4A3E1C1519B80700C73DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4A3E1E1519B80700C73DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KaiwaLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaiwaLib/KaiwaLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF4A3E1F1519B80700C73DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/KaiwaLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KaiwaLib/KaiwaLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4A3E0A1519B80500C73DCC /* Build configuration list for PBXProject "KaiwaLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4A3E1B1519B80700C73DCC /* Debug */,
+				FF4A3E1C1519B80700C73DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4A3E1D1519B80700C73DCC /* Build configuration list for PBXNativeTarget "KaiwaLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4A3E1E1519B80700C73DCC /* Debug */,
+				FF4A3E1F1519B80700C73DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4A3E071519B80500C73DCC /* Project object */;
+}

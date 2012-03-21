@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'KaiwaLib' target in the 'KaiwaLib' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
