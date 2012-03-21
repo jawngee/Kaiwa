@@ -6,22 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		FCFA0ED9133E8E0900141766 /* Build and Install */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = FCFA0EDF133E8E3A00141766 /* Build configuration list for PBXAggregateTarget "Build and Install" */;
-			buildPhases = (
-				FCFA0EED133E8EAB00141766 /* CopyFiles */,
-				FF91E1D4150FF8C400ED565E /* CopyFiles */,
-			);
-			dependencies = (
-				FCFA0EDE133E8E1C00141766 /* PBXTargetDependency */,
-			);
-			name = "Build and Install";
-			productName = "Build and Install";
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
@@ -106,7 +90,6 @@
 		FCFA0B78133BD54200141766 /* RandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0B74133BD54200141766 /* RandomSequence.m */; };
 		FCFA0E61133E8B9900141766 /* KaiwaHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0E5F133E8B9900141766 /* KaiwaHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0E62133E8B9900141766 /* KaiwaHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0E60133E8B9900141766 /* KaiwaHTTPRequest.m */; };
-		FCFA0EE9133E8E9700141766 /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* KaiwaFramework.framework */; };
 		FCFA0F69133E928E00141766 /* OSCAddressSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F4F133E928E00141766 /* OSCAddressSpace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0F6A133E928E00141766 /* OSCAddressSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFA0F50133E928E00141766 /* OSCAddressSpace.m */; };
 		FCFA0F6B133E928E00141766 /* OSCBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0F51133E928E00141766 /* OSCBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -159,41 +142,7 @@
 		FF2AA9411510ED5F0086CDC5 /* ASINSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2AA9301510ED5F0086CDC5 /* ASINSStringAdditions.h */; };
 		FF2AA9421510ED5F0086CDC5 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2AA9311510ED5F0086CDC5 /* ASINSStringAdditions.m */; };
 		FF2AA9431510ED5F0086CDC5 /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2AA9321510ED5F0086CDC5 /* ASIProgressDelegate.h */; };
-		FF91E1D5150FF8CD00ED565E /* KaiwaFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* KaiwaFramework.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FCFA0EDD133E8E1C00141766 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
-			remoteInfo = KaiwaFramework;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FCFA0EED133E8EAB00141766 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "../../../build/$(CONFIGURATION)";
-			dstSubfolderSpec = 16;
-			files = (
-				FCFA0EE9133E8E9700141766 /* KaiwaFramework.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF91E1D4150FF8C400ED565E /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(HOME)/Library/Frameworks/";
-			dstSubfolderSpec = 0;
-			files = (
-				FF91E1D5150FF8CD00ED565E /* KaiwaFramework.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -804,7 +753,6 @@
 			projectRoot = "";
 			targets = (
 				8DC2EF4F0486A6940098B216 /* KaiwaFramework */,
-				FCFA0ED9133E8E0900141766 /* Build and Install */,
 			);
 		};
 /* End PBXProject section */
@@ -888,14 +836,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		FCFA0EDE133E8E1C00141766 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8DC2EF4F0486A6940098B216 /* KaiwaFramework */;
-			targetProxy = FCFA0EDD133E8E1C00141766 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -911,65 +851,34 @@
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				BUILD_STYLE = Debug;
-				COPY_PHASE_STRIP = NO;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = KaiwaFramework_Prefix.pch;
+				DSTROOT = /;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
-				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = KaiwaFramework;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
 		1DEB91AF08733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
-				BUILD_STYLE = Release;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = KaiwaFramework_Prefix.pch;
+				DSTROOT = /;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
-				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = KaiwaFramework;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
 		1DEB91B208733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				BUILD_STYLE = Debug;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -977,34 +886,14 @@
 		1DEB91B308733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				BUILD_STYLE = Release;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = macosx;
-			};
-			name = Release;
-		};
-		FCFA0EDB133E8E0900141766 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_STYLE = Debug;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Build and Install";
-			};
-			name = Debug;
-		};
-		FCFA0EDC133E8E0900141766 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_STYLE = Release;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = "Build and Install";
-				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -1025,15 +914,6 @@
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
 				1DEB91B308733DA50010E9CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FCFA0EDF133E8E3A00141766 /* Build configuration list for PBXAggregateTarget "Build and Install" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FCFA0EDB133E8E0900141766 /* Debug */,
-				FCFA0EDC133E8E0900141766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
