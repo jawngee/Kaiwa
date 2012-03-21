@@ -6,6 +6,10 @@
 
 
 
+
+id _mainAddressSpace;
+
+
 @implementation OSCAddressSpace
 
 

@@ -14,10 +14,6 @@
 
 
 
-id _mainAddressSpace;
-
-
-
 
 //	OSCAddressSpace delegate protocol
 @protocol OSCAddressSpaceDelegateProtocol
