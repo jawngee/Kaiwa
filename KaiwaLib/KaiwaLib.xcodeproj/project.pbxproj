@@ -8,15 +8,298 @@
 
 /* Begin PBXBuildFile section */
 		FF4A3E141519B80700C73DCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A3E131519B80700C73DCC /* Foundation.framework */; };
-		FF4A3E1A1519B80700C73DCC /* KaiwaLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E191519B80700C73DCC /* KaiwaLib.m */; };
+		FF4A40501519B91400C73DCC /* AGRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E211519B91300C73DCC /* AGRegex.h */; };
+		FF4A40511519B91400C73DCC /* AGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E221519B91300C73DCC /* AGRegex.m */; };
+		FF4A40521519B91400C73DCC /* ASIAuthenticationDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E241519B91300C73DCC /* ASIAuthenticationDialog.h */; };
+		FF4A40531519B91400C73DCC /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E251519B91300C73DCC /* ASIAuthenticationDialog.m */; };
+		FF4A40541519B91400C73DCC /* ASIFormDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E261519B91300C73DCC /* ASIFormDataRequest.h */; };
+		FF4A40551519B91400C73DCC /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E271519B91300C73DCC /* ASIFormDataRequest.m */; };
+		FF4A40561519B91400C73DCC /* ASIHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E281519B91300C73DCC /* ASIHTTPRequest.h */; };
+		FF4A40571519B91400C73DCC /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E291519B91300C73DCC /* ASIHTTPRequest.m */; };
+		FF4A40581519B91400C73DCC /* ASIHTTPRequestConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E2A1519B91300C73DCC /* ASIHTTPRequestConfig.h */; };
+		FF4A40591519B91400C73DCC /* ASIHTTPRequestDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E2B1519B91300C73DCC /* ASIHTTPRequestDelegate.h */; };
+		FF4A405A1519B91400C73DCC /* ASIInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E2C1519B91300C73DCC /* ASIInputStream.h */; };
+		FF4A405B1519B91400C73DCC /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E2D1519B91300C73DCC /* ASIInputStream.m */; };
+		FF4A405C1519B91400C73DCC /* ASINetworkQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E2E1519B91300C73DCC /* ASINetworkQueue.h */; };
+		FF4A405D1519B91400C73DCC /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E2F1519B91300C73DCC /* ASINetworkQueue.m */; };
+		FF4A405E1519B91400C73DCC /* ASINSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E301519B91300C73DCC /* ASINSStringAdditions.h */; };
+		FF4A405F1519B91400C73DCC /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E311519B91300C73DCC /* ASINSStringAdditions.m */; };
+		FF4A40601519B91400C73DCC /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E321519B91300C73DCC /* ASIProgressDelegate.h */; };
+		FF4A40611519B91400C73DCC /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E331519B91300C73DCC /* Reachability.h */; };
+		FF4A40621519B91400C73DCC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E341519B91300C73DCC /* Reachability.m */; };
+		FF4A40631519B91400C73DCC /* DDData.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E371519B91300C73DCC /* DDData.h */; };
+		FF4A40641519B91400C73DCC /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E381519B91300C73DCC /* DDData.m */; };
+		FF4A40651519B91400C73DCC /* DDNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E391519B91300C73DCC /* DDNumber.h */; };
+		FF4A40661519B91400C73DCC /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E3A1519B91300C73DCC /* DDNumber.m */; };
+		FF4A40671519B91400C73DCC /* DDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E3B1519B91300C73DCC /* DDRange.h */; };
+		FF4A40681519B91400C73DCC /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E3C1519B91300C73DCC /* DDRange.m */; };
+		FF4A40691519B91400C73DCC /* NSDictionary+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E3D1519B91300C73DCC /* NSDictionary+URLEncode.h */; };
+		FF4A406A1519B91400C73DCC /* NSDictionary+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E3E1519B91300C73DCC /* NSDictionary+URLEncode.m */; };
+		FF4A406B1519B91400C73DCC /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E3F1519B91300C73DCC /* NSString+URLEncode.h */; };
+		FF4A406C1519B91400C73DCC /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E401519B91300C73DCC /* NSString+URLEncode.m */; };
+		FF4A406D1519B91400C73DCC /* HTTPAsyncFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E431519B91300C73DCC /* HTTPAsyncFileResponse.h */; };
+		FF4A406E1519B91400C73DCC /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E441519B91300C73DCC /* HTTPAsyncFileResponse.m */; };
+		FF4A406F1519B91400C73DCC /* HTTPAuthenticationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E451519B91300C73DCC /* HTTPAuthenticationRequest.h */; };
+		FF4A40701519B91400C73DCC /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E461519B91300C73DCC /* HTTPAuthenticationRequest.m */; };
+		FF4A40711519B91400C73DCC /* HTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E471519B91300C73DCC /* HTTPConnection.h */; };
+		FF4A40721519B91400C73DCC /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E481519B91300C73DCC /* HTTPConnection.m */; };
+		FF4A40731519B91400C73DCC /* HTTPCookie.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E491519B91300C73DCC /* HTTPCookie.h */; };
+		FF4A40741519B91400C73DCC /* HTTPCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E4A1519B91300C73DCC /* HTTPCookie.m */; };
+		FF4A40751519B91400C73DCC /* HTTPResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E4B1519B91300C73DCC /* HTTPResponse.h */; };
+		FF4A40761519B91400C73DCC /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E4C1519B91300C73DCC /* HTTPResponse.m */; };
+		FF4A40771519B91400C73DCC /* HTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E4D1519B91300C73DCC /* HTTPServer.h */; };
+		FF4A40781519B91400C73DCC /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E4E1519B91300C73DCC /* HTTPServer.m */; };
+		FF4A40791519B91400C73DCC /* ThreadPerConnectionServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E4F1519B91300C73DCC /* ThreadPerConnectionServer.h */; };
+		FF4A407A1519B91400C73DCC /* ThreadPerConnectionServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E501519B91300C73DCC /* ThreadPerConnectionServer.m */; };
+		FF4A407B1519B91400C73DCC /* ThreadPoolServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E511519B91300C73DCC /* ThreadPoolServer.h */; };
+		FF4A407C1519B91400C73DCC /* ThreadPoolServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E521519B91300C73DCC /* ThreadPoolServer.m */; };
+		FF4A407F1519B91400C73DCC /* AsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E571519B91300C73DCC /* AsyncSocket.h */; };
+		FF4A40801519B91400C73DCC /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E581519B91300C73DCC /* AsyncSocket.m */; };
+		FF4A40811519B91400C73DCC /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E5A1519B91300C73DCC /* JSON.h */; };
+		FF4A40821519B91400C73DCC /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E5B1519B91300C73DCC /* NSObject+SBJSON.h */; };
+		FF4A40831519B91400C73DCC /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E5C1519B91300C73DCC /* NSObject+SBJSON.m */; };
+		FF4A40841519B91400C73DCC /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E5D1519B91300C73DCC /* NSString+SBJSON.h */; };
+		FF4A40851519B91400C73DCC /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E5E1519B91300C73DCC /* NSString+SBJSON.m */; };
+		FF4A40861519B91400C73DCC /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E5F1519B91300C73DCC /* SBJSON.h */; };
+		FF4A40871519B91400C73DCC /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E601519B91300C73DCC /* SBJSON.m */; };
+		FF4A40881519B91400C73DCC /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E611519B91300C73DCC /* SBJsonBase.h */; };
+		FF4A40891519B91400C73DCC /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E621519B91300C73DCC /* SBJsonBase.m */; };
+		FF4A408A1519B91400C73DCC /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E631519B91300C73DCC /* SBJsonParser.h */; };
+		FF4A408B1519B91400C73DCC /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E641519B91300C73DCC /* SBJsonParser.m */; };
+		FF4A408C1519B91400C73DCC /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E651519B91300C73DCC /* SBJsonWriter.h */; };
+		FF4A408D1519B91400C73DCC /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E661519B91300C73DCC /* SBJsonWriter.m */; };
+		FF4A408E1519B91400C73DCC /* Kaiwa.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E681519B91300C73DCC /* Kaiwa.h */; };
+		FF4A408F1519B91400C73DCC /* KaiwaConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E691519B91300C73DCC /* KaiwaConnection.h */; };
+		FF4A40901519B91400C73DCC /* KaiwaConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E6A1519B91300C73DCC /* KaiwaConnection.m */; };
+		FF4A40911519B91400C73DCC /* KaiwaConversation.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E6B1519B91300C73DCC /* KaiwaConversation.h */; };
+		FF4A40921519B91400C73DCC /* KaiwaConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E6C1519B91300C73DCC /* KaiwaConversation.m */; };
+		FF4A40931519B91400C73DCC /* KaiwaDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E6D1519B91300C73DCC /* KaiwaDispatcher.h */; };
+		FF4A40941519B91400C73DCC /* KaiwaDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E6E1519B91300C73DCC /* KaiwaDispatcher.m */; };
+		FF4A40951519B91400C73DCC /* KaiwaFilePath.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E6F1519B91300C73DCC /* KaiwaFilePath.h */; };
+		FF4A40961519B91400C73DCC /* KaiwaFilePath.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E701519B91300C73DCC /* KaiwaFilePath.m */; };
+		FF4A40971519B91400C73DCC /* KaiwaFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E711519B91300C73DCC /* KaiwaFriend.h */; };
+		FF4A40981519B91400C73DCC /* KaiwaFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E721519B91300C73DCC /* KaiwaFriend.m */; };
+		FF4A40991519B91400C73DCC /* KaiwaHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E731519B91300C73DCC /* KaiwaHTTPRequest.h */; };
+		FF4A409A1519B91400C73DCC /* KaiwaHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E741519B91300C73DCC /* KaiwaHTTPRequest.m */; };
+		FF4A409B1519B91400C73DCC /* KaiwaHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E751519B91300C73DCC /* KaiwaHTTPServer.h */; };
+		FF4A409C1519B91400C73DCC /* KaiwaHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E761519B91300C73DCC /* KaiwaHTTPServer.m */; };
+		FF4A409D1519B91400C73DCC /* KaiwaRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E771519B91300C73DCC /* KaiwaRequest.h */; };
+		FF4A409E1519B91400C73DCC /* KaiwaRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E781519B91300C73DCC /* KaiwaRequest.m */; };
+		FF4A409F1519B91400C73DCC /* KaiwaResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E791519B91300C73DCC /* KaiwaResponse.h */; };
+		FF4A40A01519B91400C73DCC /* KaiwaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E7A1519B91300C73DCC /* KaiwaResponse.m */; };
+		FF4A40A11519B91400C73DCC /* KaiwaRewrite.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E7B1519B91300C73DCC /* KaiwaRewrite.h */; };
+		FF4A40A21519B91400C73DCC /* KaiwaRewrite.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E7C1519B91300C73DCC /* KaiwaRewrite.m */; };
+		FF4A40A31519B91400C73DCC /* KaiwaRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E7D1519B91300C73DCC /* KaiwaRoute.h */; };
+		FF4A40A41519B91400C73DCC /* KaiwaRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E7E1519B91300C73DCC /* KaiwaRoute.m */; };
+		FF4A40A51519B91400C73DCC /* KaiwaShout.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E7F1519B91300C73DCC /* KaiwaShout.h */; };
+		FF4A40A61519B91400C73DCC /* KaiwaShout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A3E801519B91300C73DCC /* KaiwaShout.m */; };
+		FF4A40B71519B91400C73DCC /* pcre.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E981519B91300C73DCC /* pcre.h */; };
+		FF4A40B81519B91400C73DCC /* pcre_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E991519B91300C73DCC /* pcre_internal.h */; };
+		FF4A40B91519B91400C73DCC /* pcre_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E9A1519B91300C73DCC /* pcre_scanner.h */; };
+		FF4A40BA1519B91400C73DCC /* pcre_stringpiece.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E9B1519B91300C73DCC /* pcre_stringpiece.h */; };
+		FF4A40BB1519B91400C73DCC /* pcrecpp.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E9C1519B91300C73DCC /* pcrecpp.h */; };
+		FF4A40BC1519B91400C73DCC /* pcrecpp_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E9D1519B91300C73DCC /* pcrecpp_internal.h */; };
+		FF4A40BD1519B91400C73DCC /* pcrecpparg.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E9E1519B91300C73DCC /* pcrecpparg.h */; };
+		FF4A40BE1519B91400C73DCC /* pcreposix.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A3E9F1519B91300C73DCC /* pcreposix.h */; };
+		FF4A40BF1519B91400C73DCC /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A3EA21519B91300C73DCC /* libpcre.a */; };
+		FF4A40C21519B91400C73DCC /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A3EA71519B91300C73DCC /* libpcre.a */; };
+		FF4A40C51519B91400C73DCC /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A3EAB1519B91300C73DCC /* libpcre.a */; };
+		FF4A41341519B91400C73DCC /* NSColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40251519B91400C73DCC /* NSColor+Hex.h */; };
+		FF4A41351519B91400C73DCC /* NSColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40261519B91400C73DCC /* NSColor+Hex.m */; };
+		FF4A41361519B91400C73DCC /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40271519B91400C73DCC /* NSString+UUID.h */; };
+		FF4A41371519B91400C73DCC /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40281519B91400C73DCC /* NSString+UUID.m */; };
+		FF4A41381519B91400C73DCC /* RandomSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40291519B91400C73DCC /* RandomSequence.h */; };
+		FF4A41391519B91400C73DCC /* RandomSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A402A1519B91400C73DCC /* RandomSequence.m */; };
+		FF4A413A1519B91400C73DCC /* MutLockArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A402C1519B91400C73DCC /* MutLockArray.h */; };
+		FF4A413B1519B91400C73DCC /* MutLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A402D1519B91400C73DCC /* MutLockArray.m */; };
+		FF4A413C1519B91400C73DCC /* MutNRLockArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A402E1519B91400C73DCC /* MutNRLockArray.h */; };
+		FF4A413D1519B91400C73DCC /* MutNRLockArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A402F1519B91400C73DCC /* MutNRLockArray.m */; };
+		FF4A413E1519B91400C73DCC /* ObjectHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40301519B91400C73DCC /* ObjectHolder.h */; };
+		FF4A413F1519B91400C73DCC /* ObjectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40311519B91400C73DCC /* ObjectHolder.m */; };
+		FF4A41401519B91400C73DCC /* VVBasicMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40321519B91400C73DCC /* VVBasicMacros.h */; };
+		FF4A41411519B91400C73DCC /* VVThreadLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40331519B91400C73DCC /* VVThreadLoop.h */; };
+		FF4A41421519B91400C73DCC /* VVThreadLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40341519B91400C73DCC /* VVThreadLoop.m */; };
+		FF4A41431519B91400C73DCC /* OSCAddressSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40361519B91400C73DCC /* OSCAddressSpace.h */; };
+		FF4A41441519B91400C73DCC /* OSCAddressSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40371519B91400C73DCC /* OSCAddressSpace.m */; };
+		FF4A41451519B91400C73DCC /* OSCBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40381519B91400C73DCC /* OSCBundle.h */; };
+		FF4A41461519B91400C73DCC /* OSCBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40391519B91400C73DCC /* OSCBundle.m */; };
+		FF4A41471519B91400C73DCC /* OSCConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A403A1519B91400C73DCC /* OSCConstants.h */; };
+		FF4A41481519B91400C73DCC /* OSCInPort.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A403B1519B91400C73DCC /* OSCInPort.h */; };
+		FF4A41491519B91400C73DCC /* OSCInPort.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A403C1519B91400C73DCC /* OSCInPort.m */; };
+		FF4A414A1519B91400C73DCC /* OSCManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A403D1519B91400C73DCC /* OSCManager.h */; };
+		FF4A414B1519B91400C73DCC /* OSCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A403E1519B91400C73DCC /* OSCManager.m */; };
+		FF4A414C1519B91400C73DCC /* OSCMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A403F1519B91400C73DCC /* OSCMessage.h */; };
+		FF4A414D1519B91400C73DCC /* OSCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40401519B91400C73DCC /* OSCMessage.m */; };
+		FF4A414E1519B91400C73DCC /* OSCNode.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40411519B91400C73DCC /* OSCNode.h */; };
+		FF4A414F1519B91400C73DCC /* OSCNode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40421519B91400C73DCC /* OSCNode.m */; };
+		FF4A41501519B91400C73DCC /* OSCOutPort.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40431519B91400C73DCC /* OSCOutPort.h */; };
+		FF4A41511519B91400C73DCC /* OSCOutPort.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40441519B91400C73DCC /* OSCOutPort.m */; };
+		FF4A41521519B91400C73DCC /* OSCPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40451519B91400C73DCC /* OSCPacket.h */; };
+		FF4A41531519B91400C73DCC /* OSCPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40461519B91400C73DCC /* OSCPacket.m */; };
+		FF4A41541519B91400C73DCC /* OSCStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40471519B91400C73DCC /* OSCStringAdditions.h */; };
+		FF4A41551519B91400C73DCC /* OSCStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A40481519B91400C73DCC /* OSCStringAdditions.m */; };
+		FF4A41561519B91400C73DCC /* OSCValue.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A40491519B91400C73DCC /* OSCValue.h */; };
+		FF4A41571519B91400C73DCC /* OSCValue.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A404A1519B91400C73DCC /* OSCValue.m */; };
+		FF4A41581519B91400C73DCC /* OSCZeroConfDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A404B1519B91400C73DCC /* OSCZeroConfDomain.h */; };
+		FF4A41591519B91400C73DCC /* OSCZeroConfDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A404C1519B91400C73DCC /* OSCZeroConfDomain.m */; };
+		FF4A415A1519B91400C73DCC /* OSCZeroConfManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A404D1519B91400C73DCC /* OSCZeroConfManager.h */; };
+		FF4A415B1519B91400C73DCC /* OSCZeroConfManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FF4A404E1519B91400C73DCC /* OSCZeroConfManager.m */; };
+		FF4A415C1519B91400C73DCC /* VVOSC.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4A404F1519B91400C73DCC /* VVOSC.h */; };
+		FF4A416F1519B9DC00C73DCC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A416A1519B9DB00C73DCC /* CFNetwork.framework */; };
+		FF4A41701519B9DC00C73DCC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A416B1519B9DC00C73DCC /* libz.dylib */; };
+		FF4A41711519B9DC00C73DCC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A416C1519B9DC00C73DCC /* MobileCoreServices.framework */; };
+		FF4A41721519B9DC00C73DCC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A416D1519B9DC00C73DCC /* Security.framework */; };
+		FF4A41731519B9DC00C73DCC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A416E1519B9DC00C73DCC /* SystemConfiguration.framework */; };
+		FF4A41751519BA0900C73DCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4A41741519BA0900C73DCC /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF4A3E101519B80700C73DCC /* libKaiwaLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKaiwaLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4A3E131519B80700C73DCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FF4A3E171519B80700C73DCC /* KaiwaLib-Prefix.pch */ = {isa = PBXFileReference; path = "KaiwaLib-Prefix.pch"; sourceTree = "<group>"; };
-		FF4A3E181519B80700C73DCC /* KaiwaLib.h */ = {isa = PBXFileReference; path = KaiwaLib.h; sourceTree = "<group>"; };
-		FF4A3E191519B80700C73DCC /* KaiwaLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KaiwaLib.m; sourceTree = "<group>"; };
+		FF4A3E171519B80700C73DCC /* KaiwaLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KaiwaLib-Prefix.pch"; sourceTree = "<group>"; };
+		FF4A3E211519B91300C73DCC /* AGRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGRegex.h; sourceTree = "<group>"; };
+		FF4A3E221519B91300C73DCC /* AGRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGRegex.m; sourceTree = "<group>"; };
+		FF4A3E241519B91300C73DCC /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		FF4A3E251519B91300C73DCC /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		FF4A3E261519B91300C73DCC /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		FF4A3E271519B91300C73DCC /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		FF4A3E281519B91300C73DCC /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		FF4A3E291519B91300C73DCC /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		FF4A3E2A1519B91300C73DCC /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		FF4A3E2B1519B91300C73DCC /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		FF4A3E2C1519B91300C73DCC /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		FF4A3E2D1519B91300C73DCC /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		FF4A3E2E1519B91300C73DCC /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		FF4A3E2F1519B91300C73DCC /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		FF4A3E301519B91300C73DCC /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
+		FF4A3E311519B91300C73DCC /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
+		FF4A3E321519B91300C73DCC /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		FF4A3E331519B91300C73DCC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FF4A3E341519B91300C73DCC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FF4A3E371519B91300C73DCC /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
+		FF4A3E381519B91300C73DCC /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
+		FF4A3E391519B91300C73DCC /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
+		FF4A3E3A1519B91300C73DCC /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
+		FF4A3E3B1519B91300C73DCC /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
+		FF4A3E3C1519B91300C73DCC /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
+		FF4A3E3D1519B91300C73DCC /* NSDictionary+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URLEncode.h"; sourceTree = "<group>"; };
+		FF4A3E3E1519B91300C73DCC /* NSDictionary+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URLEncode.m"; sourceTree = "<group>"; };
+		FF4A3E3F1519B91300C73DCC /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		FF4A3E401519B91300C73DCC /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		FF4A3E431519B91300C73DCC /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
+		FF4A3E441519B91300C73DCC /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
+		FF4A3E451519B91300C73DCC /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		FF4A3E461519B91300C73DCC /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		FF4A3E471519B91300C73DCC /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
+		FF4A3E481519B91300C73DCC /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
+		FF4A3E491519B91300C73DCC /* HTTPCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCookie.h; sourceTree = "<group>"; };
+		FF4A3E4A1519B91300C73DCC /* HTTPCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCookie.m; sourceTree = "<group>"; };
+		FF4A3E4B1519B91300C73DCC /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
+		FF4A3E4C1519B91300C73DCC /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPResponse.m; sourceTree = "<group>"; };
+		FF4A3E4D1519B91300C73DCC /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
+		FF4A3E4E1519B91300C73DCC /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
+		FF4A3E4F1519B91300C73DCC /* ThreadPerConnectionServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPerConnectionServer.h; sourceTree = "<group>"; };
+		FF4A3E501519B91300C73DCC /* ThreadPerConnectionServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPerConnectionServer.m; sourceTree = "<group>"; };
+		FF4A3E511519B91300C73DCC /* ThreadPoolServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadPoolServer.h; sourceTree = "<group>"; };
+		FF4A3E521519B91300C73DCC /* ThreadPoolServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadPoolServer.m; sourceTree = "<group>"; };
+		FF4A3E571519B91300C73DCC /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		FF4A3E581519B91300C73DCC /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		FF4A3E5A1519B91300C73DCC /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FF4A3E5B1519B91300C73DCC /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		FF4A3E5C1519B91300C73DCC /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		FF4A3E5D1519B91300C73DCC /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		FF4A3E5E1519B91300C73DCC /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		FF4A3E5F1519B91300C73DCC /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		FF4A3E601519B91300C73DCC /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		FF4A3E611519B91300C73DCC /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		FF4A3E621519B91300C73DCC /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		FF4A3E631519B91300C73DCC /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		FF4A3E641519B91300C73DCC /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		FF4A3E651519B91300C73DCC /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		FF4A3E661519B91300C73DCC /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		FF4A3E681519B91300C73DCC /* Kaiwa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kaiwa.h; sourceTree = "<group>"; };
+		FF4A3E691519B91300C73DCC /* KaiwaConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaConnection.h; sourceTree = "<group>"; };
+		FF4A3E6A1519B91300C73DCC /* KaiwaConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaConnection.m; sourceTree = "<group>"; };
+		FF4A3E6B1519B91300C73DCC /* KaiwaConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaConversation.h; sourceTree = "<group>"; };
+		FF4A3E6C1519B91300C73DCC /* KaiwaConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaConversation.m; sourceTree = "<group>"; };
+		FF4A3E6D1519B91300C73DCC /* KaiwaDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaDispatcher.h; sourceTree = "<group>"; };
+		FF4A3E6E1519B91300C73DCC /* KaiwaDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaDispatcher.m; sourceTree = "<group>"; };
+		FF4A3E6F1519B91300C73DCC /* KaiwaFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaFilePath.h; sourceTree = "<group>"; };
+		FF4A3E701519B91300C73DCC /* KaiwaFilePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaFilePath.m; sourceTree = "<group>"; };
+		FF4A3E711519B91300C73DCC /* KaiwaFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaFriend.h; sourceTree = "<group>"; };
+		FF4A3E721519B91300C73DCC /* KaiwaFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaFriend.m; sourceTree = "<group>"; };
+		FF4A3E731519B91300C73DCC /* KaiwaHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPRequest.h; sourceTree = "<group>"; };
+		FF4A3E741519B91300C73DCC /* KaiwaHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPRequest.m; sourceTree = "<group>"; };
+		FF4A3E751519B91300C73DCC /* KaiwaHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaHTTPServer.h; sourceTree = "<group>"; };
+		FF4A3E761519B91300C73DCC /* KaiwaHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaHTTPServer.m; sourceTree = "<group>"; };
+		FF4A3E771519B91300C73DCC /* KaiwaRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRequest.h; sourceTree = "<group>"; };
+		FF4A3E781519B91300C73DCC /* KaiwaRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRequest.m; sourceTree = "<group>"; };
+		FF4A3E791519B91300C73DCC /* KaiwaResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaResponse.h; sourceTree = "<group>"; };
+		FF4A3E7A1519B91300C73DCC /* KaiwaResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaResponse.m; sourceTree = "<group>"; };
+		FF4A3E7B1519B91300C73DCC /* KaiwaRewrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRewrite.h; sourceTree = "<group>"; };
+		FF4A3E7C1519B91300C73DCC /* KaiwaRewrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRewrite.m; sourceTree = "<group>"; };
+		FF4A3E7D1519B91300C73DCC /* KaiwaRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaRoute.h; sourceTree = "<group>"; };
+		FF4A3E7E1519B91300C73DCC /* KaiwaRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaRoute.m; sourceTree = "<group>"; };
+		FF4A3E7F1519B91300C73DCC /* KaiwaShout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KaiwaShout.h; sourceTree = "<group>"; };
+		FF4A3E801519B91300C73DCC /* KaiwaShout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KaiwaShout.m; sourceTree = "<group>"; };
+		FF4A3E981519B91300C73DCC /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre.h; sourceTree = "<group>"; };
+		FF4A3E991519B91300C73DCC /* pcre_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre_internal.h; sourceTree = "<group>"; };
+		FF4A3E9A1519B91300C73DCC /* pcre_scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre_scanner.h; sourceTree = "<group>"; };
+		FF4A3E9B1519B91300C73DCC /* pcre_stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre_stringpiece.h; sourceTree = "<group>"; };
+		FF4A3E9C1519B91300C73DCC /* pcrecpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcrecpp.h; sourceTree = "<group>"; };
+		FF4A3E9D1519B91300C73DCC /* pcrecpp_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcrecpp_internal.h; sourceTree = "<group>"; };
+		FF4A3E9E1519B91300C73DCC /* pcrecpparg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcrecpparg.h; sourceTree = "<group>"; };
+		FF4A3E9F1519B91300C73DCC /* pcreposix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcreposix.h; sourceTree = "<group>"; };
+		FF4A3EA21519B91300C73DCC /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpcre.a; sourceTree = "<group>"; };
+		FF4A3EA71519B91300C73DCC /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpcre.a; sourceTree = "<group>"; };
+		FF4A3EAB1519B91300C73DCC /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpcre.a; sourceTree = "<group>"; };
+		FF4A40251519B91400C73DCC /* NSColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+Hex.h"; sourceTree = "<group>"; };
+		FF4A40261519B91400C73DCC /* NSColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+Hex.m"; sourceTree = "<group>"; };
+		FF4A40271519B91400C73DCC /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		FF4A40281519B91400C73DCC /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		FF4A40291519B91400C73DCC /* RandomSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomSequence.h; sourceTree = "<group>"; };
+		FF4A402A1519B91400C73DCC /* RandomSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomSequence.m; sourceTree = "<group>"; };
+		FF4A402C1519B91400C73DCC /* MutLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutLockArray.h; sourceTree = "<group>"; };
+		FF4A402D1519B91400C73DCC /* MutLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutLockArray.m; sourceTree = "<group>"; };
+		FF4A402E1519B91400C73DCC /* MutNRLockArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutNRLockArray.h; sourceTree = "<group>"; };
+		FF4A402F1519B91400C73DCC /* MutNRLockArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutNRLockArray.m; sourceTree = "<group>"; };
+		FF4A40301519B91400C73DCC /* ObjectHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectHolder.h; sourceTree = "<group>"; };
+		FF4A40311519B91400C73DCC /* ObjectHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectHolder.m; sourceTree = "<group>"; };
+		FF4A40321519B91400C73DCC /* VVBasicMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVBasicMacros.h; sourceTree = "<group>"; };
+		FF4A40331519B91400C73DCC /* VVThreadLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVThreadLoop.h; sourceTree = "<group>"; };
+		FF4A40341519B91400C73DCC /* VVThreadLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVThreadLoop.m; sourceTree = "<group>"; };
+		FF4A40361519B91400C73DCC /* OSCAddressSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCAddressSpace.h; sourceTree = "<group>"; };
+		FF4A40371519B91400C73DCC /* OSCAddressSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCAddressSpace.m; sourceTree = "<group>"; };
+		FF4A40381519B91400C73DCC /* OSCBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCBundle.h; sourceTree = "<group>"; };
+		FF4A40391519B91400C73DCC /* OSCBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCBundle.m; sourceTree = "<group>"; };
+		FF4A403A1519B91400C73DCC /* OSCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCConstants.h; sourceTree = "<group>"; };
+		FF4A403B1519B91400C73DCC /* OSCInPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCInPort.h; sourceTree = "<group>"; };
+		FF4A403C1519B91400C73DCC /* OSCInPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCInPort.m; sourceTree = "<group>"; };
+		FF4A403D1519B91400C73DCC /* OSCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCManager.h; sourceTree = "<group>"; };
+		FF4A403E1519B91400C73DCC /* OSCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCManager.m; sourceTree = "<group>"; };
+		FF4A403F1519B91400C73DCC /* OSCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCMessage.h; sourceTree = "<group>"; };
+		FF4A40401519B91400C73DCC /* OSCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCMessage.m; sourceTree = "<group>"; };
+		FF4A40411519B91400C73DCC /* OSCNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCNode.h; sourceTree = "<group>"; };
+		FF4A40421519B91400C73DCC /* OSCNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCNode.m; sourceTree = "<group>"; };
+		FF4A40431519B91400C73DCC /* OSCOutPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCOutPort.h; sourceTree = "<group>"; };
+		FF4A40441519B91400C73DCC /* OSCOutPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCOutPort.m; sourceTree = "<group>"; };
+		FF4A40451519B91400C73DCC /* OSCPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCPacket.h; sourceTree = "<group>"; };
+		FF4A40461519B91400C73DCC /* OSCPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCPacket.m; sourceTree = "<group>"; };
+		FF4A40471519B91400C73DCC /* OSCStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCStringAdditions.h; sourceTree = "<group>"; };
+		FF4A40481519B91400C73DCC /* OSCStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCStringAdditions.m; sourceTree = "<group>"; };
+		FF4A40491519B91400C73DCC /* OSCValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCValue.h; sourceTree = "<group>"; };
+		FF4A404A1519B91400C73DCC /* OSCValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCValue.m; sourceTree = "<group>"; };
+		FF4A404B1519B91400C73DCC /* OSCZeroConfDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCZeroConfDomain.h; sourceTree = "<group>"; };
+		FF4A404C1519B91400C73DCC /* OSCZeroConfDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCZeroConfDomain.m; sourceTree = "<group>"; };
+		FF4A404D1519B91400C73DCC /* OSCZeroConfManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCZeroConfManager.h; sourceTree = "<group>"; };
+		FF4A404E1519B91400C73DCC /* OSCZeroConfManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCZeroConfManager.m; sourceTree = "<group>"; };
+		FF4A404F1519B91400C73DCC /* VVOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVOSC.h; sourceTree = "<group>"; };
+		FF4A416A1519B9DB00C73DCC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FF4A416B1519B9DC00C73DCC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FF4A416C1519B9DC00C73DCC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FF4A416D1519B9DC00C73DCC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FF4A416E1519B9DC00C73DCC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FF4A41741519BA0900C73DCC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,7 +307,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4A41751519BA0900C73DCC /* UIKit.framework in Frameworks */,
+				FF4A416F1519B9DC00C73DCC /* CFNetwork.framework in Frameworks */,
+				FF4A41701519B9DC00C73DCC /* libz.dylib in Frameworks */,
+				FF4A41711519B9DC00C73DCC /* MobileCoreServices.framework in Frameworks */,
+				FF4A41721519B9DC00C73DCC /* Security.framework in Frameworks */,
+				FF4A41731519B9DC00C73DCC /* SystemConfiguration.framework in Frameworks */,
 				FF4A3E141519B80700C73DCC /* Foundation.framework in Frameworks */,
+				FF4A40BF1519B91400C73DCC /* libpcre.a in Frameworks */,
+				FF4A40C21519B91400C73DCC /* libpcre.a in Frameworks */,
+				FF4A40C51519B91400C73DCC /* libpcre.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,7 +326,8 @@
 		FF4A3E051519B80500C73DCC = {
 			isa = PBXGroup;
 			children = (
-				FF4A3E151519B80700C73DCC /* KaiwaLib */,
+				FF4A3E151519B80700C73DCC /* Source */,
+				FF4A3E161519B80700C73DCC /* Supporting Files */,
 				FF4A3E121519B80700C73DCC /* Frameworks */,
 				FF4A3E111519B80700C73DCC /* Products */,
 			);
@@ -51,18 +344,31 @@
 		FF4A3E121519B80700C73DCC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF4A41741519BA0900C73DCC /* UIKit.framework */,
+				FF4A416A1519B9DB00C73DCC /* CFNetwork.framework */,
+				FF4A416B1519B9DC00C73DCC /* libz.dylib */,
+				FF4A416C1519B9DC00C73DCC /* MobileCoreServices.framework */,
+				FF4A416D1519B9DC00C73DCC /* Security.framework */,
+				FF4A416E1519B9DC00C73DCC /* SystemConfiguration.framework */,
 				FF4A3E131519B80700C73DCC /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FF4A3E151519B80700C73DCC /* KaiwaLib */ = {
+		FF4A3E151519B80700C73DCC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				FF4A3E181519B80700C73DCC /* KaiwaLib.h */,
-				FF4A3E191519B80700C73DCC /* KaiwaLib.m */,
-				FF4A3E161519B80700C73DCC /* Supporting Files */,
+				FF4A3E201519B91300C73DCC /* AGRegex */,
+				FF4A3E231519B91300C73DCC /* ASIHTTP */,
+				FF4A3E351519B91300C73DCC /* HTTP */,
+				FF4A3E591519B91300C73DCC /* JSON */,
+				FF4A3E671519B91300C73DCC /* Kaiwa */,
+				FF4A3E811519B91300C73DCC /* pcre */,
+				FF4A40241519B91400C73DCC /* Utility */,
+				FF4A402B1519B91400C73DCC /* VVBasics */,
+				FF4A40351519B91400C73DCC /* VVOSC */,
 			);
+			name = Source;
 			path = KaiwaLib;
 			sourceTree = "<group>";
 		};
@@ -72,6 +378,296 @@
 				FF4A3E171519B80700C73DCC /* KaiwaLib-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = KaiwaLib;
+			sourceTree = "<group>";
+		};
+		FF4A3E201519B91300C73DCC /* AGRegex */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E211519B91300C73DCC /* AGRegex.h */,
+				FF4A3E221519B91300C73DCC /* AGRegex.m */,
+			);
+			name = AGRegex;
+			path = ../../Kaiwa/AGRegex;
+			sourceTree = "<group>";
+		};
+		FF4A3E231519B91300C73DCC /* ASIHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E241519B91300C73DCC /* ASIAuthenticationDialog.h */,
+				FF4A3E251519B91300C73DCC /* ASIAuthenticationDialog.m */,
+				FF4A3E261519B91300C73DCC /* ASIFormDataRequest.h */,
+				FF4A3E271519B91300C73DCC /* ASIFormDataRequest.m */,
+				FF4A3E281519B91300C73DCC /* ASIHTTPRequest.h */,
+				FF4A3E291519B91300C73DCC /* ASIHTTPRequest.m */,
+				FF4A3E2A1519B91300C73DCC /* ASIHTTPRequestConfig.h */,
+				FF4A3E2B1519B91300C73DCC /* ASIHTTPRequestDelegate.h */,
+				FF4A3E2C1519B91300C73DCC /* ASIInputStream.h */,
+				FF4A3E2D1519B91300C73DCC /* ASIInputStream.m */,
+				FF4A3E2E1519B91300C73DCC /* ASINetworkQueue.h */,
+				FF4A3E2F1519B91300C73DCC /* ASINetworkQueue.m */,
+				FF4A3E301519B91300C73DCC /* ASINSStringAdditions.h */,
+				FF4A3E311519B91300C73DCC /* ASINSStringAdditions.m */,
+				FF4A3E321519B91300C73DCC /* ASIProgressDelegate.h */,
+				FF4A3E331519B91300C73DCC /* Reachability.h */,
+				FF4A3E341519B91300C73DCC /* Reachability.m */,
+			);
+			name = ASIHTTP;
+			path = ../../Kaiwa/ASIHTTP;
+			sourceTree = "<group>";
+		};
+		FF4A3E351519B91300C73DCC /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E361519B91300C73DCC /* Categories */,
+				FF4A3E411519B91300C73DCC /* HTTP */,
+				FF4A3E561519B91300C73DCC /* TCP */,
+			);
+			name = HTTP;
+			path = ../../Kaiwa/HTTP;
+			sourceTree = "<group>";
+		};
+		FF4A3E361519B91300C73DCC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E371519B91300C73DCC /* DDData.h */,
+				FF4A3E381519B91300C73DCC /* DDData.m */,
+				FF4A3E391519B91300C73DCC /* DDNumber.h */,
+				FF4A3E3A1519B91300C73DCC /* DDNumber.m */,
+				FF4A3E3B1519B91300C73DCC /* DDRange.h */,
+				FF4A3E3C1519B91300C73DCC /* DDRange.m */,
+				FF4A3E3D1519B91300C73DCC /* NSDictionary+URLEncode.h */,
+				FF4A3E3E1519B91300C73DCC /* NSDictionary+URLEncode.m */,
+				FF4A3E3F1519B91300C73DCC /* NSString+URLEncode.h */,
+				FF4A3E401519B91300C73DCC /* NSString+URLEncode.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FF4A3E411519B91300C73DCC /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E421519B91300C73DCC /* Advanced */,
+				FF4A3E451519B91300C73DCC /* HTTPAuthenticationRequest.h */,
+				FF4A3E461519B91300C73DCC /* HTTPAuthenticationRequest.m */,
+				FF4A3E471519B91300C73DCC /* HTTPConnection.h */,
+				FF4A3E481519B91300C73DCC /* HTTPConnection.m */,
+				FF4A3E491519B91300C73DCC /* HTTPCookie.h */,
+				FF4A3E4A1519B91300C73DCC /* HTTPCookie.m */,
+				FF4A3E4B1519B91300C73DCC /* HTTPResponse.h */,
+				FF4A3E4C1519B91300C73DCC /* HTTPResponse.m */,
+				FF4A3E4D1519B91300C73DCC /* HTTPServer.h */,
+				FF4A3E4E1519B91300C73DCC /* HTTPServer.m */,
+				FF4A3E4F1519B91300C73DCC /* ThreadPerConnectionServer.h */,
+				FF4A3E501519B91300C73DCC /* ThreadPerConnectionServer.m */,
+				FF4A3E511519B91300C73DCC /* ThreadPoolServer.h */,
+				FF4A3E521519B91300C73DCC /* ThreadPoolServer.m */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		FF4A3E421519B91300C73DCC /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E431519B91300C73DCC /* HTTPAsyncFileResponse.h */,
+				FF4A3E441519B91300C73DCC /* HTTPAsyncFileResponse.m */,
+			);
+			path = Advanced;
+			sourceTree = "<group>";
+		};
+		FF4A3E561519B91300C73DCC /* TCP */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E571519B91300C73DCC /* AsyncSocket.h */,
+				FF4A3E581519B91300C73DCC /* AsyncSocket.m */,
+			);
+			path = TCP;
+			sourceTree = "<group>";
+		};
+		FF4A3E591519B91300C73DCC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E5A1519B91300C73DCC /* JSON.h */,
+				FF4A3E5B1519B91300C73DCC /* NSObject+SBJSON.h */,
+				FF4A3E5C1519B91300C73DCC /* NSObject+SBJSON.m */,
+				FF4A3E5D1519B91300C73DCC /* NSString+SBJSON.h */,
+				FF4A3E5E1519B91300C73DCC /* NSString+SBJSON.m */,
+				FF4A3E5F1519B91300C73DCC /* SBJSON.h */,
+				FF4A3E601519B91300C73DCC /* SBJSON.m */,
+				FF4A3E611519B91300C73DCC /* SBJsonBase.h */,
+				FF4A3E621519B91300C73DCC /* SBJsonBase.m */,
+				FF4A3E631519B91300C73DCC /* SBJsonParser.h */,
+				FF4A3E641519B91300C73DCC /* SBJsonParser.m */,
+				FF4A3E651519B91300C73DCC /* SBJsonWriter.h */,
+				FF4A3E661519B91300C73DCC /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = ../../Kaiwa/JSON;
+			sourceTree = "<group>";
+		};
+		FF4A3E671519B91300C73DCC /* Kaiwa */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E681519B91300C73DCC /* Kaiwa.h */,
+				FF4A3E691519B91300C73DCC /* KaiwaConnection.h */,
+				FF4A3E6A1519B91300C73DCC /* KaiwaConnection.m */,
+				FF4A3E6B1519B91300C73DCC /* KaiwaConversation.h */,
+				FF4A3E6C1519B91300C73DCC /* KaiwaConversation.m */,
+				FF4A3E6D1519B91300C73DCC /* KaiwaDispatcher.h */,
+				FF4A3E6E1519B91300C73DCC /* KaiwaDispatcher.m */,
+				FF4A3E6F1519B91300C73DCC /* KaiwaFilePath.h */,
+				FF4A3E701519B91300C73DCC /* KaiwaFilePath.m */,
+				FF4A3E711519B91300C73DCC /* KaiwaFriend.h */,
+				FF4A3E721519B91300C73DCC /* KaiwaFriend.m */,
+				FF4A3E731519B91300C73DCC /* KaiwaHTTPRequest.h */,
+				FF4A3E741519B91300C73DCC /* KaiwaHTTPRequest.m */,
+				FF4A3E751519B91300C73DCC /* KaiwaHTTPServer.h */,
+				FF4A3E761519B91300C73DCC /* KaiwaHTTPServer.m */,
+				FF4A3E771519B91300C73DCC /* KaiwaRequest.h */,
+				FF4A3E781519B91300C73DCC /* KaiwaRequest.m */,
+				FF4A3E791519B91300C73DCC /* KaiwaResponse.h */,
+				FF4A3E7A1519B91300C73DCC /* KaiwaResponse.m */,
+				FF4A3E7B1519B91300C73DCC /* KaiwaRewrite.h */,
+				FF4A3E7C1519B91300C73DCC /* KaiwaRewrite.m */,
+				FF4A3E7D1519B91300C73DCC /* KaiwaRoute.h */,
+				FF4A3E7E1519B91300C73DCC /* KaiwaRoute.m */,
+				FF4A3E7F1519B91300C73DCC /* KaiwaShout.h */,
+				FF4A3E801519B91300C73DCC /* KaiwaShout.m */,
+			);
+			name = Kaiwa;
+			path = ../../Kaiwa/Kaiwa;
+			sourceTree = "<group>";
+		};
+		FF4A3E811519B91300C73DCC /* pcre */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E971519B91300C73DCC /* include */,
+				FF4A3EA01519B91300C73DCC /* lib */,
+			);
+			name = pcre;
+			path = ../../Kaiwa/pcre;
+			sourceTree = "<group>";
+		};
+		FF4A3E971519B91300C73DCC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3E981519B91300C73DCC /* pcre.h */,
+				FF4A3E991519B91300C73DCC /* pcre_internal.h */,
+				FF4A3E9A1519B91300C73DCC /* pcre_scanner.h */,
+				FF4A3E9B1519B91300C73DCC /* pcre_stringpiece.h */,
+				FF4A3E9C1519B91300C73DCC /* pcrecpp.h */,
+				FF4A3E9D1519B91300C73DCC /* pcrecpp_internal.h */,
+				FF4A3E9E1519B91300C73DCC /* pcrecpparg.h */,
+				FF4A3E9F1519B91300C73DCC /* pcreposix.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		FF4A3EA01519B91300C73DCC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3EA11519B91300C73DCC /* iphone */,
+				FF4A3EA51519B91300C73DCC /* osx */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FF4A3EA11519B91300C73DCC /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3EA21519B91300C73DCC /* libpcre.a */,
+			);
+			path = iphone;
+			sourceTree = "<group>";
+		};
+		FF4A3EA51519B91300C73DCC /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3EA61519B91300C73DCC /* i386 */,
+				FF4A3EAA1519B91300C73DCC /* x86 */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		FF4A3EA61519B91300C73DCC /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3EA71519B91300C73DCC /* libpcre.a */,
+			);
+			path = i386;
+			sourceTree = "<group>";
+		};
+		FF4A3EAA1519B91300C73DCC /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A3EAB1519B91300C73DCC /* libpcre.a */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		FF4A40241519B91400C73DCC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A40251519B91400C73DCC /* NSColor+Hex.h */,
+				FF4A40261519B91400C73DCC /* NSColor+Hex.m */,
+				FF4A40271519B91400C73DCC /* NSString+UUID.h */,
+				FF4A40281519B91400C73DCC /* NSString+UUID.m */,
+				FF4A40291519B91400C73DCC /* RandomSequence.h */,
+				FF4A402A1519B91400C73DCC /* RandomSequence.m */,
+			);
+			name = Utility;
+			path = ../../Kaiwa/Utility;
+			sourceTree = "<group>";
+		};
+		FF4A402B1519B91400C73DCC /* VVBasics */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A402C1519B91400C73DCC /* MutLockArray.h */,
+				FF4A402D1519B91400C73DCC /* MutLockArray.m */,
+				FF4A402E1519B91400C73DCC /* MutNRLockArray.h */,
+				FF4A402F1519B91400C73DCC /* MutNRLockArray.m */,
+				FF4A40301519B91400C73DCC /* ObjectHolder.h */,
+				FF4A40311519B91400C73DCC /* ObjectHolder.m */,
+				FF4A40321519B91400C73DCC /* VVBasicMacros.h */,
+				FF4A40331519B91400C73DCC /* VVThreadLoop.h */,
+				FF4A40341519B91400C73DCC /* VVThreadLoop.m */,
+			);
+			name = VVBasics;
+			path = ../../Kaiwa/VVBasics;
+			sourceTree = "<group>";
+		};
+		FF4A40351519B91400C73DCC /* VVOSC */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A40361519B91400C73DCC /* OSCAddressSpace.h */,
+				FF4A40371519B91400C73DCC /* OSCAddressSpace.m */,
+				FF4A40381519B91400C73DCC /* OSCBundle.h */,
+				FF4A40391519B91400C73DCC /* OSCBundle.m */,
+				FF4A403A1519B91400C73DCC /* OSCConstants.h */,
+				FF4A403B1519B91400C73DCC /* OSCInPort.h */,
+				FF4A403C1519B91400C73DCC /* OSCInPort.m */,
+				FF4A403D1519B91400C73DCC /* OSCManager.h */,
+				FF4A403E1519B91400C73DCC /* OSCManager.m */,
+				FF4A403F1519B91400C73DCC /* OSCMessage.h */,
+				FF4A40401519B91400C73DCC /* OSCMessage.m */,
+				FF4A40411519B91400C73DCC /* OSCNode.h */,
+				FF4A40421519B91400C73DCC /* OSCNode.m */,
+				FF4A40431519B91400C73DCC /* OSCOutPort.h */,
+				FF4A40441519B91400C73DCC /* OSCOutPort.m */,
+				FF4A40451519B91400C73DCC /* OSCPacket.h */,
+				FF4A40461519B91400C73DCC /* OSCPacket.m */,
+				FF4A40471519B91400C73DCC /* OSCStringAdditions.h */,
+				FF4A40481519B91400C73DCC /* OSCStringAdditions.m */,
+				FF4A40491519B91400C73DCC /* OSCValue.h */,
+				FF4A404A1519B91400C73DCC /* OSCValue.m */,
+				FF4A404B1519B91400C73DCC /* OSCZeroConfDomain.h */,
+				FF4A404C1519B91400C73DCC /* OSCZeroConfDomain.m */,
+				FF4A404D1519B91400C73DCC /* OSCZeroConfManager.h */,
+				FF4A404E1519B91400C73DCC /* OSCZeroConfManager.m */,
+				FF4A404F1519B91400C73DCC /* VVOSC.h */,
+			);
+			name = VVOSC;
+			path = ../../Kaiwa/VVOSC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +677,81 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4A40501519B91400C73DCC /* AGRegex.h in Headers */,
+				FF4A40521519B91400C73DCC /* ASIAuthenticationDialog.h in Headers */,
+				FF4A40541519B91400C73DCC /* ASIFormDataRequest.h in Headers */,
+				FF4A40561519B91400C73DCC /* ASIHTTPRequest.h in Headers */,
+				FF4A40581519B91400C73DCC /* ASIHTTPRequestConfig.h in Headers */,
+				FF4A40591519B91400C73DCC /* ASIHTTPRequestDelegate.h in Headers */,
+				FF4A405A1519B91400C73DCC /* ASIInputStream.h in Headers */,
+				FF4A405C1519B91400C73DCC /* ASINetworkQueue.h in Headers */,
+				FF4A405E1519B91400C73DCC /* ASINSStringAdditions.h in Headers */,
+				FF4A40601519B91400C73DCC /* ASIProgressDelegate.h in Headers */,
+				FF4A40611519B91400C73DCC /* Reachability.h in Headers */,
+				FF4A40631519B91400C73DCC /* DDData.h in Headers */,
+				FF4A40651519B91400C73DCC /* DDNumber.h in Headers */,
+				FF4A40671519B91400C73DCC /* DDRange.h in Headers */,
+				FF4A40691519B91400C73DCC /* NSDictionary+URLEncode.h in Headers */,
+				FF4A406B1519B91400C73DCC /* NSString+URLEncode.h in Headers */,
+				FF4A406D1519B91400C73DCC /* HTTPAsyncFileResponse.h in Headers */,
+				FF4A406F1519B91400C73DCC /* HTTPAuthenticationRequest.h in Headers */,
+				FF4A40711519B91400C73DCC /* HTTPConnection.h in Headers */,
+				FF4A40731519B91400C73DCC /* HTTPCookie.h in Headers */,
+				FF4A40751519B91400C73DCC /* HTTPResponse.h in Headers */,
+				FF4A40771519B91400C73DCC /* HTTPServer.h in Headers */,
+				FF4A40791519B91400C73DCC /* ThreadPerConnectionServer.h in Headers */,
+				FF4A407B1519B91400C73DCC /* ThreadPoolServer.h in Headers */,
+				FF4A407F1519B91400C73DCC /* AsyncSocket.h in Headers */,
+				FF4A40811519B91400C73DCC /* JSON.h in Headers */,
+				FF4A40821519B91400C73DCC /* NSObject+SBJSON.h in Headers */,
+				FF4A40841519B91400C73DCC /* NSString+SBJSON.h in Headers */,
+				FF4A40861519B91400C73DCC /* SBJSON.h in Headers */,
+				FF4A40881519B91400C73DCC /* SBJsonBase.h in Headers */,
+				FF4A408A1519B91400C73DCC /* SBJsonParser.h in Headers */,
+				FF4A408C1519B91400C73DCC /* SBJsonWriter.h in Headers */,
+				FF4A408E1519B91400C73DCC /* Kaiwa.h in Headers */,
+				FF4A408F1519B91400C73DCC /* KaiwaConnection.h in Headers */,
+				FF4A40911519B91400C73DCC /* KaiwaConversation.h in Headers */,
+				FF4A40931519B91400C73DCC /* KaiwaDispatcher.h in Headers */,
+				FF4A40951519B91400C73DCC /* KaiwaFilePath.h in Headers */,
+				FF4A40971519B91400C73DCC /* KaiwaFriend.h in Headers */,
+				FF4A40991519B91400C73DCC /* KaiwaHTTPRequest.h in Headers */,
+				FF4A409B1519B91400C73DCC /* KaiwaHTTPServer.h in Headers */,
+				FF4A409D1519B91400C73DCC /* KaiwaRequest.h in Headers */,
+				FF4A409F1519B91400C73DCC /* KaiwaResponse.h in Headers */,
+				FF4A40A11519B91400C73DCC /* KaiwaRewrite.h in Headers */,
+				FF4A40A31519B91400C73DCC /* KaiwaRoute.h in Headers */,
+				FF4A40A51519B91400C73DCC /* KaiwaShout.h in Headers */,
+				FF4A40B71519B91400C73DCC /* pcre.h in Headers */,
+				FF4A40B81519B91400C73DCC /* pcre_internal.h in Headers */,
+				FF4A40B91519B91400C73DCC /* pcre_scanner.h in Headers */,
+				FF4A40BA1519B91400C73DCC /* pcre_stringpiece.h in Headers */,
+				FF4A40BB1519B91400C73DCC /* pcrecpp.h in Headers */,
+				FF4A40BC1519B91400C73DCC /* pcrecpp_internal.h in Headers */,
+				FF4A40BD1519B91400C73DCC /* pcrecpparg.h in Headers */,
+				FF4A40BE1519B91400C73DCC /* pcreposix.h in Headers */,
+				FF4A41341519B91400C73DCC /* NSColor+Hex.h in Headers */,
+				FF4A41361519B91400C73DCC /* NSString+UUID.h in Headers */,
+				FF4A41381519B91400C73DCC /* RandomSequence.h in Headers */,
+				FF4A413A1519B91400C73DCC /* MutLockArray.h in Headers */,
+				FF4A413C1519B91400C73DCC /* MutNRLockArray.h in Headers */,
+				FF4A413E1519B91400C73DCC /* ObjectHolder.h in Headers */,
+				FF4A41401519B91400C73DCC /* VVBasicMacros.h in Headers */,
+				FF4A41411519B91400C73DCC /* VVThreadLoop.h in Headers */,
+				FF4A41431519B91400C73DCC /* OSCAddressSpace.h in Headers */,
+				FF4A41451519B91400C73DCC /* OSCBundle.h in Headers */,
+				FF4A41471519B91400C73DCC /* OSCConstants.h in Headers */,
+				FF4A41481519B91400C73DCC /* OSCInPort.h in Headers */,
+				FF4A414A1519B91400C73DCC /* OSCManager.h in Headers */,
+				FF4A414C1519B91400C73DCC /* OSCMessage.h in Headers */,
+				FF4A414E1519B91400C73DCC /* OSCNode.h in Headers */,
+				FF4A41501519B91400C73DCC /* OSCOutPort.h in Headers */,
+				FF4A41521519B91400C73DCC /* OSCPacket.h in Headers */,
+				FF4A41541519B91400C73DCC /* OSCStringAdditions.h in Headers */,
+				FF4A41561519B91400C73DCC /* OSCValue.h in Headers */,
+				FF4A41581519B91400C73DCC /* OSCZeroConfDomain.h in Headers */,
+				FF4A415A1519B91400C73DCC /* OSCZeroConfManager.h in Headers */,
+				FF4A415C1519B91400C73DCC /* VVOSC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +806,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4A3E1A1519B80700C73DCC /* KaiwaLib.m in Sources */,
+				FF4A40511519B91400C73DCC /* AGRegex.m in Sources */,
+				FF4A40531519B91400C73DCC /* ASIAuthenticationDialog.m in Sources */,
+				FF4A40551519B91400C73DCC /* ASIFormDataRequest.m in Sources */,
+				FF4A40571519B91400C73DCC /* ASIHTTPRequest.m in Sources */,
+				FF4A405B1519B91400C73DCC /* ASIInputStream.m in Sources */,
+				FF4A405D1519B91400C73DCC /* ASINetworkQueue.m in Sources */,
+				FF4A405F1519B91400C73DCC /* ASINSStringAdditions.m in Sources */,
+				FF4A40621519B91400C73DCC /* Reachability.m in Sources */,
+				FF4A40641519B91400C73DCC /* DDData.m in Sources */,
+				FF4A40661519B91400C73DCC /* DDNumber.m in Sources */,
+				FF4A40681519B91400C73DCC /* DDRange.m in Sources */,
+				FF4A406A1519B91400C73DCC /* NSDictionary+URLEncode.m in Sources */,
+				FF4A406C1519B91400C73DCC /* NSString+URLEncode.m in Sources */,
+				FF4A406E1519B91400C73DCC /* HTTPAsyncFileResponse.m in Sources */,
+				FF4A40701519B91400C73DCC /* HTTPAuthenticationRequest.m in Sources */,
+				FF4A40721519B91400C73DCC /* HTTPConnection.m in Sources */,
+				FF4A40741519B91400C73DCC /* HTTPCookie.m in Sources */,
+				FF4A40761519B91400C73DCC /* HTTPResponse.m in Sources */,
+				FF4A40781519B91400C73DCC /* HTTPServer.m in Sources */,
+				FF4A407A1519B91400C73DCC /* ThreadPerConnectionServer.m in Sources */,
+				FF4A407C1519B91400C73DCC /* ThreadPoolServer.m in Sources */,
+				FF4A40801519B91400C73DCC /* AsyncSocket.m in Sources */,
+				FF4A40831519B91400C73DCC /* NSObject+SBJSON.m in Sources */,
+				FF4A40851519B91400C73DCC /* NSString+SBJSON.m in Sources */,
+				FF4A40871519B91400C73DCC /* SBJSON.m in Sources */,
+				FF4A40891519B91400C73DCC /* SBJsonBase.m in Sources */,
+				FF4A408B1519B91400C73DCC /* SBJsonParser.m in Sources */,
+				FF4A408D1519B91400C73DCC /* SBJsonWriter.m in Sources */,
+				FF4A40901519B91400C73DCC /* KaiwaConnection.m in Sources */,
+				FF4A40921519B91400C73DCC /* KaiwaConversation.m in Sources */,
+				FF4A40941519B91400C73DCC /* KaiwaDispatcher.m in Sources */,
+				FF4A40961519B91400C73DCC /* KaiwaFilePath.m in Sources */,
+				FF4A40981519B91400C73DCC /* KaiwaFriend.m in Sources */,
+				FF4A409A1519B91400C73DCC /* KaiwaHTTPRequest.m in Sources */,
+				FF4A409C1519B91400C73DCC /* KaiwaHTTPServer.m in Sources */,
+				FF4A409E1519B91400C73DCC /* KaiwaRequest.m in Sources */,
+				FF4A40A01519B91400C73DCC /* KaiwaResponse.m in Sources */,
+				FF4A40A21519B91400C73DCC /* KaiwaRewrite.m in Sources */,
+				FF4A40A41519B91400C73DCC /* KaiwaRoute.m in Sources */,
+				FF4A40A61519B91400C73DCC /* KaiwaShout.m in Sources */,
+				FF4A41351519B91400C73DCC /* NSColor+Hex.m in Sources */,
+				FF4A41371519B91400C73DCC /* NSString+UUID.m in Sources */,
+				FF4A41391519B91400C73DCC /* RandomSequence.m in Sources */,
+				FF4A413B1519B91400C73DCC /* MutLockArray.m in Sources */,
+				FF4A413D1519B91400C73DCC /* MutNRLockArray.m in Sources */,
+				FF4A413F1519B91400C73DCC /* ObjectHolder.m in Sources */,
+				FF4A41421519B91400C73DCC /* VVThreadLoop.m in Sources */,
+				FF4A41441519B91400C73DCC /* OSCAddressSpace.m in Sources */,
+				FF4A41461519B91400C73DCC /* OSCBundle.m in Sources */,
+				FF4A41491519B91400C73DCC /* OSCInPort.m in Sources */,
+				FF4A414B1519B91400C73DCC /* OSCManager.m in Sources */,
+				FF4A414D1519B91400C73DCC /* OSCMessage.m in Sources */,
+				FF4A414F1519B91400C73DCC /* OSCNode.m in Sources */,
+				FF4A41511519B91400C73DCC /* OSCOutPort.m in Sources */,
+				FF4A41531519B91400C73DCC /* OSCPacket.m in Sources */,
+				FF4A41551519B91400C73DCC /* OSCStringAdditions.m in Sources */,
+				FF4A41571519B91400C73DCC /* OSCValue.m in Sources */,
+				FF4A41591519B91400C73DCC /* OSCZeroConfDomain.m in Sources */,
+				FF4A415B1519B91400C73DCC /* OSCZeroConfManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +917,15 @@
 				DSTROOT = /tmp/KaiwaLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KaiwaLib/KaiwaLib-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/dist-simulator/lib\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/iphone\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx/i386\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx/x86\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/pcre-8.12/.libs\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/pcre-8.12/64_libns\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -200,6 +938,15 @@
 				DSTROOT = /tmp/KaiwaLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KaiwaLib/KaiwaLib-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/dist-simulator/lib\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/iphone\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx/i386\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx/x86\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/pcre-8.12/.libs\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/pcre-8.12/64_libns\"",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
