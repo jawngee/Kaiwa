@@ -919,12 +919,7 @@
 				GCC_PREFIX_HEADER = "KaiwaLib/KaiwaLib-Prefix.pch";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Kaiwa/pcre/dist-simulator/lib\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/lib/iphone\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx/i386\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx/x86\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/pcre-8.12/.libs\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/pcre-8.12/64_libns\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/iphone\"/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -940,12 +935,7 @@
 				GCC_PREFIX_HEADER = "KaiwaLib/KaiwaLib-Prefix.pch";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Kaiwa/pcre/dist-simulator/lib\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/lib/iphone\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx/i386\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx/x86\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/pcre-8.12/.libs\"",
-					"\"$(SRCROOT)/../Kaiwa/pcre/pcre-8.12/64_libns\"",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/iphone\"/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -972,6 +962,7 @@
 				FF4A3E1F1519B80700C73DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

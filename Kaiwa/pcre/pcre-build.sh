@@ -2,7 +2,7 @@
 OPATH=$PATH
 
 TARGET=pcre-8.12
-SDK_VERSION=4.2
+SDK_VERSION=4.3
 
 CONFIG="--disable-shared --enable-utf8"
 
@@ -11,20 +11,29 @@ CONFIG="--disable-shared --enable-utf8"
 build_pcre() {
 
     LIBNAME=$1
-    DISTDIR=`pwd`/dist-$LIBNAME
     PLATFORM=$2
+	ARCH=$3
+	
+    DISTDIR=`pwd`/dist-$LIBNAME-$ARCH
 
-    echo "Building binary for iPhone $LIBNAME $PLATFORM to $DISTDIR"
+    echo "Building binary for iPhone $LIBNAME $ARCH $PLATFORM to $DISTDIR"
 
     echo Removing ${TARGET}
     /bin/rm -rf ${TARGET}
     echo Extracting ${TARGET}
     tar zxf ${TARGET}.tar.gz
 
-    case $LIBNAME in
-	device)  ARCH="armv6"; HOST="--host=arm-apple-darwin";;
-	*)       ARCH="i386"; HOST="";;
-    esac
+	case $ARCH in
+		armv6)  HOST="--host=arm-apple-darwin";;
+		armv7)  HOST="--host=arm-apple-darwin";;
+		*)       HOST="";;
+	esac
+	
+
+#    case $LIBNAME in
+#	device)  ARCH="armv7"; HOST="--host=arm-apple-darwin";;
+#	*)       ARCH="i386"; HOST="";;
+#    esac
 
 # Compile a version for the device...
 
@@ -55,6 +64,8 @@ build_pcre() {
 
     make
 
+	##read -p "Continue ..."
+
 	echo "DESTINATION DIR: $DISTDIR"
     mkdir ${DISTDIR}
     mkdir ${DISTDIR}/lib
@@ -73,8 +84,9 @@ build_pcre() {
 
 
 
-build_pcre "device" "iPhoneOS"
-##build_pcre "simulator" "iPhoneSimulator"
+build_pcre "device" "iPhoneOS" "armv6" "--host=arm-apple-darwin"
+build_pcre "device" "iPhoneOS" "armv7" "--host=arm-apple-darwin"
+build_pcre "simulator" "iPhoneSimulator" "i386" ""
 
 ### Then, combine them into one..
 
@@ -86,7 +98,7 @@ mkdir dist
 
 for i in pcre pcrecpp pcreposix
 do
-    lipo -create dist-device/lib/lib$i.a dist-simulator/lib/lib$i.a \
+    lipo -create dist-device-armv7/lib/lib$i.a dist-device-armv6/lib/lib$i.a dist-simulator-i386/lib/lib$i.a \
 	-o dist/lib/lib$i.a
 done
 
