@@ -133,11 +133,11 @@
         NSDictionary *dict=(NSDictionary *)response;
         if (dict!=nil)
         {
-            user=[[dict objectForKey:@"user"] retain];
-            machine=[[dict objectForKey:@"computer"] retain];
-            app=[[dict objectForKey:@"application"] retain];
-            appVersion=[[dict objectForKey:@"version"] retain];
-            uid=[[dict objectForKey:@"uid"] retain];
+            self.user=[dict objectForKey:@"user"];
+            self.machine=[dict objectForKey:@"computer"];
+            self.app=[dict objectForKey:@"application"];
+            self.appVersion=[dict objectForKey:@"version"];
+            self.uid=[dict objectForKey:@"uid"];
             
             BOOL hasOsc=[[dict objectForKey:@"osc"] boolValue];
             if (hasOsc)

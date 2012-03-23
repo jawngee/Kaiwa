@@ -13,7 +13,7 @@
 #import "HTTPConnection.h"
 #import "VVOSC.h"
 
-
+@class KaiwaDispatcher;
 @class KaiwaConnection;
 @class KaiwaFriend;
 @class KaiwaHTTPServer;
@@ -27,13 +27,13 @@
  Called when a friendly service has been found.
  @param newFriend An instance of KaiwaFriend of the newly found friend.
  */
--(void)foundFriend:(KaiwaFriend *)newFriend;
+-(void)kaiwaDispatcher:(KaiwaDispatcher *)dispatcher foundFriend:(KaiwaFriend *)newFriend;
 
 /**
  Called when a friendly service has been lost to the ether.
  @param newFriend The instance of KaiwaFriend that has been lost.
  */
--(void)lostFriend:(KaiwaFriend *)oldFriend;
+-(void)kaiwaDispatcher:(KaiwaDispatcher *)dispatcher lostFriend:(KaiwaFriend *)oldFriend;
 
 @optional
 
@@ -41,7 +41,7 @@
  Called to add to the info dictionary when two friends meet
  @param infoDict The information dictionary
  */
--(void)populateInfo:(NSMutableDictionary *)infoDict;
+-(void)kaiwaDispatcher:(KaiwaDispatcher *)dispatcher populateInfo:(NSMutableDictionary *)infoDict;
 
 @end
 

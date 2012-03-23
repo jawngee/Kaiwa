@@ -138,7 +138,7 @@ static NSMutableArray *recentNonces;
 		
 		responseDataSizes = [[NSMutableArray alloc] initWithCapacity:5];
 		
-		cookies=[NSDictionary dictionary];
+		cookies=[[NSDictionary dictionary] retain];
 		
 		uri=nil;
 		

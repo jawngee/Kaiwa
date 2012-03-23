@@ -181,7 +181,7 @@
 			[friends removeObject:friend];
 			
 			if (delegate!=nil)
-				[delegate lostFriend:friend];
+				[delegate kaiwaDispatcher:self lostFriend:friend];
 			
 			break;
 		}
@@ -198,7 +198,7 @@
 	[friends addObject:friend];
 	
 	if (delegate!=nil)
-		[delegate foundFriend:friend];
+		[delegate kaiwaDispatcher:self foundFriend:friend];
 }
 
 
@@ -365,8 +365,8 @@
 						(appVersion!=nil) ? appVersion : @"",@"version",
 						nil];
     
-    if ([((NSObject *)delegate) respondsToSelector:@selector(populateInfo:)])
-        [delegate populateInfo:dict];
+    if ([((NSObject *)delegate) respondsToSelector:@selector(kaiwaDispatcher:populateInfo:)])
+        [delegate kaiwaDispatcher:self populateInfo:dict];
 	
 	[convo.response setContentType:@"text/json"];
 	[convo.response write:[dict JSONRepresentation]];

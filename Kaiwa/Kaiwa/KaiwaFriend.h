@@ -54,14 +54,14 @@ typedef void(^AskBlock)(BOOL success, id response);
 
 @property (readonly) KaiwaDispatcher *dispatcher;	/**< The dispatcher */
 @property (readonly) NSNetService *service;			/**< The service */
-@property (readonly) NSString *url;					/**< The url of the friend */
-@property (readonly) NSString *host;				/**< The host */
-@property (readonly) NSInteger port;				/**< The port */
-@property (readonly) NSString *user;				/**< The user */
-@property (readonly) NSString *machine;				/**< The machine */
-@property (readonly) NSString *app;					/**< The name of the app */
-@property (readonly) NSString *appVersion;			/**< The current app version */
-@property (readonly) NSString *uid;					/**< The friend's UID */
+@property (retain, nonatomic) NSString *url;					/**< The url of the friend */
+@property (assign, nonatomic) NSString *host;				/**< The host */
+@property (assign, nonatomic) NSInteger port;				/**< The port */
+@property (retain, nonatomic) NSString *user;				/**< The user */
+@property (retain, nonatomic) NSString *machine;				/**< The machine */
+@property (retain, nonatomic) NSString *app;					/**< The name of the app */
+@property (retain, nonatomic) NSString *appVersion;			/**< The current app version */
+@property (retain, nonatomic) NSString *uid;					/**< The friend's UID */
 @property (readonly) OSCOutPort *outPort;			/**< The friend's OSC outport */
 
 

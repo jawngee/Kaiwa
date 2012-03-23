@@ -79,7 +79,6 @@
 		FCFA0B11133BD4EA00141766 /* pcre_scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0D133BD4EA00141766 /* pcre_scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B12133BD4EA00141766 /* pcre_stringpiece.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0E133BD4EA00141766 /* pcre_stringpiece.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA0B13133BD4EA00141766 /* pcre.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFA0B0F133BD4EA00141766 /* pcre.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCFA0B68133BD4FA00141766 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B63133BD4FA00141766 /* libpcre.a */; };
 		FCFA0B69133BD4FA00141766 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B64133BD4FA00141766 /* Security.framework */; };
 		FCFA0B6A133BD4FA00141766 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B65133BD4FA00141766 /* SystemConfiguration.framework */; };
 		FCFA0B6B133BD4FA00141766 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B66133BD4FA00141766 /* libcrypto.dylib */; };
@@ -142,6 +141,7 @@
 		FF2AA9411510ED5F0086CDC5 /* ASINSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2AA9301510ED5F0086CDC5 /* ASINSStringAdditions.h */; };
 		FF2AA9421510ED5F0086CDC5 /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2AA9311510ED5F0086CDC5 /* ASINSStringAdditions.m */; };
 		FF2AA9431510ED5F0086CDC5 /* ASIProgressDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2AA9321510ED5F0086CDC5 /* ASIProgressDelegate.h */; };
+		FF8473CC151BDEFE00CBD255 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFA0B63133BD4FA00141766 /* libpcre.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -293,8 +293,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF8473CC151BDEFE00CBD255 /* libpcre.a in Frameworks */,
 				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
-				FCFA0B68133BD4FA00141766 /* libpcre.a in Frameworks */,
 				FCFA0B69133BD4FA00141766 /* Security.framework in Frameworks */,
 				FCFA0B6A133BD4FA00141766 /* SystemConfiguration.framework in Frameworks */,
 				FCFA0B6B133BD4FA00141766 /* libcrypto.dylib in Frameworks */,
@@ -851,8 +851,14 @@
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /;
+				BUILD_STYLE = Debug;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
 				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = KaiwaFramework;
 			};
@@ -861,8 +867,14 @@
 		1DEB91AF08733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DSTROOT = /;
+				BUILD_STYLE = Release;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
 				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Kaiwa/pcre/lib/osx\"",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = KaiwaFramework;
 			};
